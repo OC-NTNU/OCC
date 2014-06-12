@@ -1,0 +1,578 @@
+T1	Increase 4 15	dissolution
+E1	Increase:T1 Theme:T2
+T2	Variable 19 24	CaCO3
+T3	Thing 44 63	ocean acidification
+T4	Change 90 96	affect
+E2	Change:T4 Theme:T5 Agent:T3
+T5	Variable 97 122	the ballast of aggregates
+T6	Cause 25 43	is one of the ways
+E3	Cause:T6 Agent:T3 Theme:E1
+T7	Decrease 126 136	diminution
+E4	Decrease:T7 Theme:T8
+T8	Variable 140 151	the ballast
+T9	Decrease 158 164	reduce
+E5	Decrease:T9 Theme:T10 Agent:E4
+T10	Variable 165 197	the settling speed of aggregates
+T11	Cause 199 211	resulting in
+E6	Cause:T11 Agent:E5 Theme:E7
+T12	Change 214 220	change
+E7	Change:T12 Theme:T13
+T13	Variable 224 255	the carbon flux to the deep sea
+T14	Decrease 273 278	lower
+E8	Decrease:T14 Theme:T15
+T15	Variable 279 345	amounts of more refractory organic matter reaching the ocean floor
+T16	Change 380 386	effect
+E9	Change:T16 Theme:T17
+T17	Variable 390 409	ocean acidification
+T18	Change 410 412	on
+E10	Change:T18 Theme:T19 Agent:E9
+T19	Variable 413 454	the ballast of sinking surface aggregates
+T20	Decrease 484 492	decrease
+E11	Decrease:T20 Theme:T21
+T21	Variable 496 498	pH
+T22	Increase 504 512	increase
+E12	Increase:T22 Theme:T23 Agent:E11
+T23	Variable 513 586	the dissolution of particulate inorganic carbon ballasting the aggregates
+T24	Decrease 601 609	reducing
+E13	Decrease:T24 Theme:T25
+T26	And 634 637	and
+E15	And:T26 Part:E13 Part2:E14
+T25	Variable 610 633	their settling velocity
+T27	Increase 638 648	increasing
+E14	Increase:T27 Theme:T28
+T28	Variable 649 696	their residence time in the upper twilight zone
+T29	Cause 588 600	consequently
+E16	Cause:T29 Agent:E12 Theme:E15
+T30	Decrease 990 997	smaller
+E17	Decrease:T30 Theme:T31
+T31	Thing 998 1008	aggregates
+#1	AnnotatorNotes E17	"decrease in size"
+T32	Change 1012 1018	change
+E18	Change:T32 Theme:T33
+T33	Variable 1036 1074	the settling velocity of the particles
+T34	Increase 1098 1104	higher
+E19	Increase:T34 Theme:T35
+T35	Variable 1105 1139	residence time in the water column
+T36	Cause 1088 1095	lead to
+E20	Cause:T36 Agent:E18 Theme:E19
+T37	Decrease 1237 1246	reduction
+E21	Decrease:T37 Theme:T38
+T38	Variable 1250 1281	the carbon flux to the deep-sea
+T39	RefExp 1204 1218	such an effect
+R1	Coref Expression:T39 Antecedent:E19	
+T40	Cause 1225 1234	result in
+E22	Cause:T40 Agent:T39 Theme:E21
+T41	Increase 1589 1600	dissolution
+E23	Increase:T41 Theme:T42
+T42	Variable 1604 1620	CO2 in the ocean
+T43	Cause 1621 1629	leads to
+E24	Cause:T43 Agent:E23 Theme:E25
+T44	Increase 1633 1641	increase
+E25	Increase:T44 Theme:E26
+T45	Variable 1645 1681	the concentrations of carbon dioxide
+T46	Variable 1683 1696	carbonic acid
+T47	Variable 1698 1711	hydrogen ions
+T48	And 1712 1715	and
+E26	And:T48 Part:T45 Part2:T46 Part3:T47 Part4:T49
+T49	Variable 1716 1732	bicarbonate ions
+T50	And 1734 1737	and
+E27	And:T50 Part:E25 Part2:E28
+T51	Decrease 1743 1751	decrease
+E28	Decrease:T51 Theme:T52
+T52	Variable 1755 1769	carbonate ions
+T53	Increase 1774 1782	increase
+E29	Increase:T53 Theme:T54
+T54	Variable 1786 1799	hydrogen ions
+T55	Decrease 1833 1841	decrease
+E30	Decrease:T55 Theme:T56
+T56	Variable 1845 1847	pH
+T57	Cause 1821 1830	result in
+E31	Cause:T57 Agent:E29 Theme:E30
+T58	Increase 1902 1910	increase
+E32	Increase:T58 Theme:T59
+T59	Variable 1859 1889	atmospheric CO2 concentrations
+T60	Change 1918 1924	effect
+E33	Change:T60 Theme:T61 Agent:T59
+T61	Variable 1928 1944	the carbon cycle
+#2	AnnotatorNotes T61	Assuming CC to be quantifiable in terms of efficiency
+T62	Change 2113 2120	changes
+E34	Change:T62 Theme:T63
+T63	Variable 2124 2132	ocean pH
+T64	Change 2302 2308	shifts
+E35	Change:T64 Theme:T65
+T65	Variable 2312 2350	marine biochemical cycling of elements
+#3	AnnotatorNotes E35	Question for the domain expert is whether "physiology" is quantifiable in some way
+T66	Thing 2450 2469	ocean acidification
+T67	Variable 2502 2548	biochemical cycling mediated by microorganisms
+T68	Change 2492 2498	shifts
+E36	Change:T68 Theme:T67
+T69	Cause 2474 2479	cause
+E37	Cause:T69 Agent:T66 Theme:E36
+T70	Change 2554 2560	shifts
+E38	Change:T70 Theme:E39
+T71	Variable 2564 2605	the biochemical cycling of organic carbon
+T72	Variable 2626 2654	transfer to the deeper ocean
+#4	AnnotatorNotes T72	"transfer rate of organic carbon to the deeper ocean"
+T73	And 2607 2610	and
+E39	And:T73 Part:T71 Part2:T72
+T74	RefExp 2681 2683	It
+R2	Coref Expression:T74 Antecedent:T71	
+T75	Correlate 2696 2703	related
+E40	Correlate:T75 Theme:T74 Co-theme:T76
+T76	Variable 2707 2737	atmospheric CO2 concentrations
+T77	Increase 2841 2851	increasing
+E41	Increase:T77 Theme:T78
+T78	Variable 2814 2837	Atmospheric CO2 content
+T79	Increase 3248 3267	shifts to such high
+E42	Increase:T79 Theme:T80
+#5	AnnotatorNotes E42	How would you guys handle this?
+T80	Variable 3268 3285	partial pressures
+T81	Increase 3328 3336	increase
+E43	Increase:T81 Theme:T82
+T82	Variable 3340 3354	the atmosphere
+#6	AnnotatorNotes T82	An ellipsis causes problems for the annotation here
+T83	Variable 3916 3957	The settling velocity of these aggregates
+T84	Variable 3973 3983	the amount
+T85	And 3984 3987	and
+E44	And:T85 Part:T84 Part2:T86
+T86	Variable 3988 4063	quality of organic matter that survives remineralization during the descent
+T87	Correlate 3963 3972	determine
+E45	Correlate:T87 Theme:T83 Co-theme:E44
+T88	RefExp 4076 4080	This
+R3	Coref Expression:T88 Antecedent:T83	
+T89	Correlate 4096 4106	determined
+E46	Correlate:T89 Theme:T88 Co-theme:T90
+T90	Variable 4110 4139	the ballast of the aggregates
+T91	Variable 4203 4220	POC:ballast ratio
+T92	Change 4231 4246	constant values
+E47	Change:T92 Theme:T91
+A1	Negated E47
+T93	Variable 4365 4382	the flux of these
+T94	Correlate 4387 4398	account for
+E48	Correlate:T94 Theme:T93 Co-theme:T95
+T95	Variable 4412 4440	the POC flux to the deep sea
+T96	Change 4292 4298	varies
+E49	Change:T96 Theme:T97
+T97	Variable 4281 4291	This ratio
+T98	Change 4695 4699	vary
+E50	Change:T98 Theme:T99
+A2	Negated E50
+T99	Variable 4634 4686	the transport efficiencies of the different ballasts
+T100	Change 4887 4893	affect
+E51	Change:T100 Theme:T101 Agent:T102
+T101	Variable 4894 4919	the ballast of aggregates
+T102	Thing 4837 4856	Ocean acidification
+T103	Cause 4928 4934	due to
+E52	Cause:T103 Agent:E53 Theme:E51
+T104	Increase 4939 4950	dissolution
+E53	Increase:T104 Theme:T105
+T105	Variable 4954 4959	CaCO3
+T106	Decrease 4972 4978	reduce
+E54	Decrease:T106 Theme:T107 Agent:T108
+T107	Variable 4979 5011	the settling speed of aggregates
+T108	RefExp 4961 4965	This
+R4	Coref Expression:T108 Antecedent:E51	
+T109	Cause 5016 5025	result in
+E55	Cause:T109 Agent:T108 Theme:E56
+T110	Change 5028 5034	change
+E56	Change:T110 Theme:T111
+T111	Variable 5038 5069	the carbon flux to the deep sea
+T112	Variable 5082 5150	amounts of less bioavailable organic matter reaching the ocean floor
+T113	Decrease 5076 5081	lower
+E57	Decrease:T113 Theme:T112 Agent:E56
+T114	Change 5416 5422	effect
+E58	Change:T114 Theme:T115
+T115	Thing 5426 5445	ocean acidification
+T116	Change 5446 5448	on
+E59	Change:T116 Theme:T117 Agent:E58
+T117	Variable 5449 5482	the ballast of surface aggregates
+#7	AnnotatorNotes E58	Semantically nonsensical, "change in the decrease of ocean ph" does not work
+T118	Decrease 5512 5520	decrease
+E60	Decrease:T118 Theme:T119
+T119	Variable 5524 5526	pH
+T120	Increase 5532 5540	increase
+E61	Increase:T120 Agent:E60 Theme:T121
+T121	Variable 5541 5614	the dissolution of particulate inorganic carbon ballasting the aggregates
+T122	Decrease 5629 5637	reducing
+E62	Decrease:T122 Theme:T123
+T123	Variable 5638 5661	their settling velocity
+T124	Increase 5666 5676	increasing
+E63	Increase:T124 Theme:T125
+T125	Variable 5677 5724	their residence time in the upper twilight zone
+T126	Cause 5616 5628	consequently
+E64	Cause:T126 Agent:E61 Theme:E65
+T127	And 5662 5665	and
+E65	And:T127 Part:E62 Part2:E63
+T128	Decrease 5755 5763	decrease
+E66	Decrease:T128 Theme:T129
+T129	Variable 5767 5784	settling velocity
+T130	Increase 5800 5804	high
+E67	Increase:T130 Theme:T132
+T131	Correlate 5792 5797	under
+E68	Correlate:T131 Theme:E66 Co-theme:E67
+T132	Variable 5805 5825	concentration of CO2
+T133	Decrease 12556 12564	decrease
+E69	Decrease:T133 Theme:T134
+T134	Variable 12568 12596	particulate inorganic carbon
+T135	Decrease 13074 13082	decrease
+E70	Decrease:T135 Theme:T136
+T136	Variable 13070 13073	PIC
+T137	Change 13115 13124	variation
+E71	Change:T137 Theme:T138
+T138	Variable 13128 13131	PIC
+T139	Decrease 13359 13363	loss
+E72	Decrease:T139 Theme:T140
+T140	Variable 13381 13416	the CaCO3 ballast in the aggregates
+T141	Decrease 13442 13450	decrease
+E73	Decrease:T141 Theme:T142
+T142	Variable 13454 13480	particulate organic carbon
+T143	Change 13792 13798	effect
+E74	Change:T143 Theme:E75
+T144	Variable 13807 13811	pCO2
+T145	And 13822 13825	and
+E75	And:T145 Part:T144 Part2:T146
+T146	Variable 13826 13834	pressure
+T147	Increase 13858 13864	higher
+E76	Increase:T147 Theme:T148
+T148	Variable 13865 13876	loss of POC
+T149	Decrease 14046 14054	decrease
+E77	Decrease:T149 Theme:T150 Agent:E79
+T150	Variable 14055 14074	the POC degradation
+T151	Decrease 14112 14117	lower
+E78	Decrease:T151 Theme:T152
+T152	Variable 14118 14129	loss of POC
+T153	Variable 14002 14006	pCO2
+T154	Variable 14011 14019	pressure
+T155	And 14007 14010	and
+E79	And:T155 Part:T153 Part2:T154
+T156	Change 14214 14223	variation
+E80	Change:T156 Theme:T157
+T157	Variable 14227 14240	particle size
+#8	AnnotatorNotes E80	Is this a static or dynamic event
+T158	Decrease 14712 14720	decrease
+E81	Decrease:T158 Theme:T159
+T159	Variable 14724 14743	aggregate abundance
+T160	Increase 14834 14843	increased
+E82	Increase:T160 Theme:T161
+T161	Variable 14847 14854	numbers
+#9	AnnotatorNotes T161	numbers of aggregates, that is 
+T162	Variable 14930 14938	Pressure
+T163	Change 14957 14963	effect
+E83	Change:T163 Theme:T162
+T164	Change 14964 14966	on
+E84	Change:T164 Theme:T165 Agent:E83
+T165	Variable 14967 15023	this number variation in 3 of the 4 largest size classes
+T166	Change 15158 15164	effect
+E85	Change:T166 Theme:E86
+T167	Variable 15117 15125	pressure
+T168	And 15126 15129	and
+E86	And:T168 Part:T167 Part2:T169
+T169	Variable 15130 15134	pCO2
+T170	Decrease 15354 15363	decreased
+E87	Decrease:T170 Theme:T171
+T171	Variable 15315 15348	the aggregate settling velocities
+T172	Decrease 15460 15468	decrease
+E88	Decrease:T172 Theme:T173
+T173	Variable 15472 15505	the ws of the larger size classes
+T174	Decrease 15666 15674	decrease
+E89	Decrease:T174 Theme:T175
+T175	Variable 15678 15699	larger particle sizes
+T176	Increase 15722 15730	increase
+E90	Increase:T176 Theme:T177
+T177	Variable 15734 15758	the smaller size classes
+T178	Change 15787 15793	effect
+E91	Change:T178 Theme:T181
+T179	Variable 15797 15834	the ws of the 8 smallest size classes
+T180	Change 15794 15796	on
+E92	Change:T180 Agent:E91 Theme:E93
+T181	Variable 15760 15768	Pressure
+T182	And 16033 16036	and
+E93	And:T182 Part:T179 Part2:T183
+T183	Variable 16037 16062	of the largest size class
+#10	AnnotatorNotes T183	"the ws of..."
+T184	Change 16116 16122	effect
+E94	Change:T184 Theme:T187
+T185	Change 16123 16125	on
+E95	Change:T185 Theme:T186 Agent:E94
+T186	Variable 16126 16264	the ws of the aggregates >104 microm (p = 0.04), >122 microm (p = 0.031), >280 microm (p = 0.033), >331 microm (p = 0.007) and >390 microm
+T187	Variable 16089 16097	The pCO2
+T188	Variable 16285 16293	pressure
+T189	And 16294 16297	and
+E96	And:T189 Part:T188 Part2:T190
+T190	Variable 16298 16302	pCO2
+T191	Change 16321 16327	effect
+E97	Change:T191 Theme:E96
+T192	Change 16328 16330	on
+E98	Change:T192 Theme:T193 Agent:E97
+T193	Variable 16331 16452	the ws of aggregates >63 microm (p = 0.018), >201 microm (p = 0.047), >237 microm (p = 0.047) and >280 microm (p = 0.008)
+T194	Change 16724 16733	influence
+E99	Change:T194 Theme:T195
+T195	Variable 16737 16757	hydrostatic pressure
+T196	Change 16758 16760	on
+E100	Change:T196 Theme:T197 Agent:E99
+T197	Variable 16761 16796	the dissolution of PIC in the ocean
+T198	Change 16874 16880	effect
+E101	Change:T198 Theme:T199
+T199	Variable 16884 16904	hydrostatic pressure
+T200	Change 16905 16907	on
+E102	Change:T200 Theme:E103 Agent:E101
+T201	Variable 16912 16948	dissolution-precipitation of calcite
+T202	And 16954 16957	and
+E103	And:T202 Part:T201 Part2:T203
+T203	Variable 16958 16967	aragonite
+T204	Increase 17003 17011	enhanced
+E104	Increase:T204 Theme:T205
+T205	Variable 17012 17044	dissolution of PIC in aggregates
+T206	Correlate 17045 17050	under
+E105	Correlate:T206 Theme:E104 Co-theme:E106
+T207	Increase 17051 17061	increasing
+E106	Increase:T207 Theme:T208
+T208	Variable 17062 17082	hydrostatic pressure
+T209	Increase 17088 17097	increased
+E107	Increase:T209 Theme:T210
+T210	Variable 17098 17113	PIC dissolution
+T211	Thing 17120 17140	acidified conditions
+#11	AnnotatorNotes T211	Assuming "acidified conditions" to mean "decrease in ph"
+T212	Correlate 17114 17119	under
+E108	Correlate:T212 Theme:E107 Co-theme:T211
+T213	Increase 17198 17207	increased
+E109	Increase:T213 Theme:T214
+T214	Variable 17208 17308	release of alkalinity in an earlier stage of the aggregate flux, at shallower depths than at present
+T215	Cause 17310 17316	due to
+E110	Cause:T215 Agent:E111 Theme:E109
+T216	Increase 17321 17332	dissolution
+E111	Increase:T216 Theme:T217
+T217	Variable 17336 17346	carbonates
+T218	Decrease 17364 17373	slow down
+E112	Decrease:T218 Theme:T219 Agent:T222
+T219	Variable 17374 17409	the vertical transfer of alkalinity
+#12	AnnotatorNotes E112	"decrease in speed"
+T220	Decrease 17423 17431	reducing
+E113	Decrease:T220 Theme:T221
+T221	Variable 17432 17463	a net source of atmospheric CO2
+T222	RefExp 17348 17359	This effect
+R5	Coref Expression:T222 Antecedent:E109	
+T223	Increase 17519 17525	larger
+E114	Increase:T223 Theme:T224
+T224	Variable 17483 17513	differences in POC degradation
+T225	Correlate 17526 17531	under
+E115	Correlate:T225 Theme:T224 Co-theme:T226
+T226	Variable 17546 17566	atmospheric pressure
+T227	Variable 17595 17642	the degradation of POC within the twilight zone
+T228	Decrease 17647 17654	reduced
+E116	Decrease:T228 Theme:T227
+T229	Increase 17661 17669	enhanced
+E117	Increase:T229 Theme:T230
+T230	Variable 17670 17690	hydrostatic pressure
+T231	Correlate 17655 17660	under
+E118	Correlate:T231 Theme:E116 Co-theme:E117
+T232	Increase 17761 17769	enhanced
+E119	Increase:T232 Theme:T233
+T233	Variable 17770 17790	hydrostatic pressure
+T234	Decrease 17695 17705	inhibition
+E120	Decrease:T234 Theme:T235
+#13	AnnotatorNotes E120	"decrease in activity"?
+T235	Thing 17709 17754	the bacterial community of surface aggregates
+T236	Correlate 17755 17760	under
+E121	Correlate:T236 Theme:E120 Co-theme:E119
+T237	Increase 17992 18003	intensified
+E122	Increase:T237 Theme:T238
+T238	Variable 17965 17987	the degradation of POC
+T242	Increase 18063 18077	more acidified
+E125	Increase:T242 Theme:T243
+T243	Variable 18078 18091	future oceans
+T244	Increase 18097 18105	increase
+E126	Increase:T244 Theme:T245 Agent:E125
+T245	Variable 18106 18173	the rate of dissolution of organic matter in the upper water column
+T246	Increase 18186 18194	increase
+E127	Increase:T246 Theme:T248 Agent:T247
+T247	RefExp 18175 18179	This
+R6	Coref Expression:T247 Antecedent:E126	
+T248	Variable 18195 18223	the pCO2 of the upper layers
+T249	Decrease 18286 18293	slowing
+E128	Decrease:T249 Theme:T250
+T250	Variable 18294 18323	the uptake of atmospheric CO2
+T251	Increase 18537 18546	increased
+E129	Increase:T251 Theme:E130
+T252	Variable 18547 18551	pCO2
+T253	And 18552 18555	and
+E130	And:T253 Part:T252 Part2:T254
+T254	Variable 18556 18564	pressure
+T255	Increase 18575 18581	higher
+E131	Increase:T255 Theme:T256
+T256	Variable 18582 18606	loss of particle numbers
+T257	Increase 18783 18791	increase
+E132	Increase:T257 Theme:T258
+T258	Variable 18795 18830	the 280 and 331 microm size classes
+T259	Increase 18884 18890	higher
+E133	Increase:T259 Theme:T260
+T260	Variable 18891 18937	rates of inorganic carbon dissolution observed
+T261	Change 19042 19047	alter
+E134	Change:T261 Theme:T262
+T262	Variable 19048 19070	the size of aggregates
+T263	Increase 19106 19114	increase
+E135	Increase:T263 Theme:T264
+T264	Variable 19118 19130	mineral load
+T265	Cause 19137 19144	lead to
+E136	Cause:T265 Agent:E135 Theme:E138
+T266	Decrease 19170 19179	reduction
+E137	Decrease:T266 Theme:T267
+T267	Variable 19183 19205	size of the aggregates
+T268	Thing 19145 19161	a disaggregation
+T269	And 19163 19167	with
+E138	And:T269 Part:T268 Part2:E137
+T270	Decrease 19271 19280	reduction
+E139	Decrease:T270 Theme:T271
+T271	Variable 19284 19291	ballast
+T272	Change 19359 19367	constant
+E140	Change:T272 Theme:T273
+A3	Negated E140
+T273	Variable 19302 19349	the overall alumino-silicate load of the system
+T274	Increase 19644 19650	larger
+E141	Increase:T274 Theme:T276
+T275	Increase 19655 19669	faster sinking
+E142	Increase:T275 Theme:T276
+T276	Variable 19670 19680	aggregates
+T277	Increase 19565 19575	stimulated
+E143	Increase:T277 Theme:T278
+T278	Thing 19576 19627	aggregation processes in phytoplanktonic aggregates
+T279	Increase 19547 19555	presence
+E144	Increase:T279 Theme:T280
+#14	AnnotatorNotes E144	Precondition
+T280	Variable 19559 19564	CaCO3
+T281	Decrease 19686 19690	loss
+E145	Decrease:T281 Theme:T282
+T282	Variable 19694 19704	carbonates
+T283	Increase 19726 19734	enhanced
+E146	Increase:T283 Theme:T284
+T284	Variable 19735 19749	disaggregation
+T285	Cause 19716 19725	result in
+E147	Cause:T285 Agent:E145 Theme:E146
+T286	Decrease 19850 19859	reduction
+E148	Decrease:T286 Theme:T287
+T287	Variable 19863 19880	settling velocity
+T288	Decrease 19979 19987	decrease
+E149	Decrease:T288 Theme:T289
+T289	Variable 19991 19996	CaCO3
+T290	Thing 18740 18759	This disaggregation
+T291	Cause 18760 18771	resulted in
+E150	Cause:T291 Agent:T290 Theme:E132
+T292	Thing 18832 18859	This disaggregation process
+T293	Cause 18870 18879	effect of
+E151	Cause:T293 Agent:E133 Theme:T292
+T294	Thing 19232 19248	a disaggregation
+T295	Cause 19249 19266	as consequence of
+E152	Cause:T295 Agent:E139 Theme:T294
+T296	Decrease 20001 20015	disaggregation
+E153	Decrease:T296 Theme:T297
+T297	Thing 20019 20036	larger aggregates
+T298	Decrease 20113 20127	disaggregation
+E154	Decrease:T298 Theme:T299
+T299	Thing 20131 20147	larger particles
+T300	Increase 20057 20066	increased
+E155	Increase:T300 Theme:T301
+T301	Variable 20038 20056	These size classes
+T302	Cause 20102 20108	due to
+E156	Cause:T302 Agent:E154 Theme:E155
+T303	RefExp 20164 20183	this disaggregation
+T304	Correlate 20191 20201	related to
+E157	Correlate:T304 Theme:T303 Co-theme:E158
+T305	Decrease 20206 20210	loss
+E158	Decrease:T305 Theme:T306
+T306	Variable 20214 20227	CaCO3 ballast
+R7	Coref Expression:T303 Antecedent:E154	
+T307	Decrease 20258 20267	reduction
+E159	Decrease:T307 Theme:T308
+T308	Variable 20271 20288	settling velocity
+T309	Cause 20246 20253	explain
+E160	Cause:T309 Agent:E158 Theme:E159
+T310	Decrease 20295 20303	decrease
+E161	Decrease:T310 Theme:T311
+T311	Variable 20307 20328	the settling velocity
+T312	Decrease 20348 20352	slow
+E162	Decrease:T312 Theme:T313
+T313	Variable 20353 20387	the flux of matter to the deep-sea
+T314	Cause 20335 20347	consequently
+E163	Cause:T314 Agent:E161 Theme:E162
+T315	Correlate 20446 20456	related to
+E164	Correlate:T315 Theme:T316 Co-theme:E165
+T316	Variable 20396 20433	the settling velocity of an aggregate
+T317	Variable 20457 20467	the amount
+T318	And 20468 20471	and
+E165	And:T318 Part:T317 Part2:T319
+T319	Variable 20472 20545	quality of organic matter that will resist degradation during the descent
+T320	Decrease 20565 20573	decrease
+E166	Decrease:T320 Theme:T321
+T321	Variable 20577 20595	the settling speed
+T322	Increase 20612 20620	enhanced
+E167	Increase:T322 Theme:T323
+T323	Variable 20621 20715	residence times during which aggregates could be colonized by barophilic bacteria and degraded
+T324	Cause 20602 20611	result in
+E168	Cause:T324 Agent:E166 Theme:E167
+T325	Variable 21295 21318	the pH of deeper waters
+T326	RefExp 21272 21282	This ratio
+T327	Variable 21165 21270	the ratio between the production and vertical export of POC and the production and vertical export of PIC
+R8	Coref Expression:T326 Antecedent:T327	
+T328	Correlate 21288 21294	affect
+E169	Correlate:T328 Theme:T326 Co-theme:T325
+T329	Variable 21401 21415	the rain ratio
+T330	Change 21424 21432	affected
+E170	Change:T330 Theme:T329
+T331	Decrease 21549 21556	reduced
+E171	Decrease:T331 Theme:T332
+T332	Variable 21514 21540	the vertical export of PIC
+T333	Thing 21576 21601	dissolution of carbonates
+T334	Decrease 21566 21575	shallower
+E172	Decrease:T334 Theme:T333
+#15	AnnotatorNotes E172	"decrease in depth"
+T335	Cause 21557 21563	due to
+E173	Cause:T335 Theme:E171 Agent:E172
+T336	Increase 21639 21647	elevated
+E174	Increase:T336 Theme:T337
+T337	Variable 21648 21666	degradation of POC
+T338	Decrease 21689 21698	reduction
+E175	Decrease:T338 Theme:T339
+T339	Variable 21702 21719	settling velocity
+T340	Cause 21678 21688	consequent
+E176	Cause:T340 Agent:E174 Theme:E175
+T341	Cause 21720 21726	due to
+E177	Cause:T341 Agent:E178 Theme:E175
+T342	Decrease 21727 21731	loss
+E178	Decrease:T342 Theme:T343
+T343	Variable 21735 21742	ballast
+T344	Decrease 21823 21828	lower
+E179	Decrease:T344 Theme:T345
+T345	Variable 21829 21861	amounts of labile organic carbon
+T346	Change 22050 22057	effects
+E180	Change:T346 Theme:E181
+T347	Variable 22061 22069	the size
+T348	And 22070 22073	and
+E181	And:T348 Part:T347 Part2:T349
+T349	Variable 22074 22109	settling velocity of the aggregates
+T350	Change 22255 22261	change
+E182	Change:T350 Theme:T351
+T351	Variable 22262 22307	the ballast composition of sinking aggregates
+T352	Change 22313 22319	change
+E183	Change:T352 Theme:T353
+T353	Variable 22323 22344	aggregate composition
+T354	Decrease 22418 22425	smaller
+E184	Decrease:T354 Theme:T355
+T355	Thing 22426 22436	aggregates
+T356	Cause 22437 22445	leads to
+E185	Cause:T356 Agent:E184 Theme:E186
+T357	Increase 22448 22454	higher
+E186	Increase:T357 Theme:T358
+T358	Variable 22455 22507	residence time of the aggregates in the water column
+T359	RefExp 22568 22582	such an effect
+R9	Coref Expression:T359 Antecedent:E186	
+T360	Cause 22589 22598	result in
+E187	Cause:T360 Agent:T359 Theme:E188
+T361	Decrease 22601 22610	reduction
+E188	Decrease:T361 Theme:T362
+T362	Variable 22614 22645	the carbon flux to the deep-sea
+T363	Increase 23079 23087	increase
+E189	Increase:T363 Theme:T364
+T364	Variable 23067 23078	temperature
+T365	Decrease 23092 23096	drop
+E190	Decrease:T365 Theme:T366
+T366	Variable 23100 23102	pH

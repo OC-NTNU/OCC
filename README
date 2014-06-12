@@ -1,0 +1,72 @@
+==============================================================================
+Ocean-Certain Corpus (OCC)
+==============================================================================
+
+Version 1.0
+
+Erwin Marsi (emarsi@idi.ntnu.no)
+Elias Aamot
+Sirin Öztürk
+
+Norwegian University of Science and Technology (NTNU)
+Dept. of Computer and Information Science
+http://www.idi.ntnu.no/
+
+
+TODO:
+* corpus description
+* corpus construction procedure
+* copright/license info
+
+
+------------------------------------------------------------------------------
+Filename conventions
+------------------------------------------------------------------------------
+
+Filenames follow the pattern 
+
+    <DOI_PREFIX>#<DOI_SUFFIX>(#<TAG>)*.<EXTENSION>
+    
+The first two parts connected by a forward slash constitute a DOI (see
+http://en.wikipedia.org/wiki/Digital_object_identifier) that can be used to
+find the online version of the source document using the URL
+http://dx.doi.org/<DOI_PREFIX>/<DOI_SUFFIX>.
+
+Filename tags denote:
+
+    #full    = full article text
+    #abs     = article abstract
+
+    #brat    = annotated with Brat
+    #corenlp = annotated with Stanford CoreNLP
+
+
+File extensions denote:
+
+    .ann = Brat stand-off annotation
+    .bib = citation info in Bibtex format
+    .txt = plain text
+    .soa = stand-off annotation (labeled text spans)
+    .xml = markup for article source or linguistic annotation
+
+So for example
+
+    10.1371#journal.pone.0079890#full#brat#corenlp.xml
+    
+is the Stanford CoreNLP annotation for those sentences annotated with Brat
+from the full text of the article with DOI 10.1371/journal.pone.0079890.
+
+------------------------------------------------------------------------------
+Directory structure
+------------------------------------------------------------------------------
+
+OCC/data/src  = XML source and Bibtex files for articles
+OCC/data/brat = Brat text and annotation files
+OCC/data/soa  = plain text and stand-off annotations
+
+Within these directories, subdirectories indicate development data (pilot) or
+annotators (ea, so).
+
+The brat dir can be directly copied to, or symlinked under, the DATA_DIR as
+defined in Brat's config.py file.
+

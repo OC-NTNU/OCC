@@ -1,0 +1,463 @@
+T2	Variable 37 57	iron (Fe) limitation
+T3	Change 26 33	effects
+E2	Change:T3 Theme:T2 Co-theme:T1
+#1	AnnotatorNotes E2	Is this a viable interpretation of "effect of"?
+T4	Change 218 225	effects
+E3	Change:T4 Theme:E4
+#2	AnnotatorNotes E3	As above: Is the interpretation reasonable?
+T5	Variable 229 232	CO2
+T6	And 233 236	and
+E4	And:T6 Part:T5 Part2:T7
+T7	Variable 237 252	Fe availability
+T8	Change 253 255	on
+E5	Change:T8 Theme:T9 Agent:E3
+T9	Variable 256 289	natural phytoplankton assemblages
+T10	Decrease 770 780	limitation
+E6	Decrease:T10 Theme:T11
+T11	Variable 767 769	Fe
+T12	Increase 782 791	increased
+E7	Increase:T12 Theme:T13
+#3	AnnotatorNotes E7	Here there is a problem with modeling "FE enrichment/limitation" as a condition
+T13	Variable 792 796	pCO2
+T15	Change 804 813	influence
+E9	Change:T15 Theme:T16 Agent:E7
+A1	Negated E9
+T16	Variable 817 827	C fixation
+T17	Variable 842 844	Fe
+T18	Increase 845 855	enrichment
+E10	Increase:T18 Theme:T17
+T19	Variable 857 875	primary production
+T20	Increase 876 885	increased
+E11	Increase:T20 Theme:T19
+T22	Correlate 886 890	with
+E13	Correlate:T22 Co-theme:E11 Theme:E14
+T23	Increase 891 901	increasing
+E14	Increase:T23 Theme:T24
+T24	Variable 902 914	pCO2 levels.
+#4	AnnotatorNotes E13	(A & B) <~~> C is a non-sensical statement, but using this approach,, one can model the precondition if there were a cause instead of a correlation. However, the "with" clearly states correlation
+T25	Change 935 942	changes
+E15	Change:T25 Theme:T26
+T26	Variable 946 958	productivity
+T27	Variable 965 967	Fe
+T28	Increase 968 976	enriched
+E16	Increase:T28 Theme:T27
+#5	AnnotatorNotes E15	I don't see how "CO2-dependent" can be modelled.
+T29	Correlate 959 964	under
+E17	Correlate:T29 Theme:E15 Co-theme:E16
+T32	Increase 1389 1397	increase
+E20	Increase:T32 Theme:E21 Agent:T30
+T33	Variable 1398 1418	primary productivity
+T34	And 1419 1422	and
+E21	And:T34 Part:T33 Part2:T35
+T35	Variable 1423 1480	the abundance of heavily silicified, fast sinking diatoms
+T36	Increase 1533 1544	stimulation
+E22	Increase:T36 Theme:T38
+T37	Cause 1520 1530	leading to
+E23	Cause:T37 Theme:E22 Agent:E20
+T38	Variable 1552 1567	biological pump
+T39	Increase 2443 2449	growth
+E24	Increase:T39 Theme:T40
+T40	Variable 2453 2469	SO phytoplankton
+T41	Cause 2482 2490	enhanced
+E25	Cause:T41 Theme:E24 Agent:E26
+T42	Variable 2510 2512	Fe
+T43	Increase 2498 2506	addition
+E26	Increase:T43 Theme:T42
+T44	Decrease 2632 2640	limiting
+E27	Decrease:T44 Theme:T45
+T45	Variable 2641 2658	Fe concentrations
+T46	Cause 2659 2666	lead to
+E28	Cause:T46 Theme:E29 Agent:E27
+T47	Decrease 2667 2676	decreased
+E29	Decrease:T47 Theme:E30
+T48	Variable 2677 2703	photochemical efficiencies
+T49	And 2704 2707	and
+E30	And:T49 Part:T48 Part2:T50
+T50	Variable 2708 2728	photosynthetic rates
+T51	Change 3368 3375	changes
+E31	Change:T51 Theme:T52
+T52	Variable 3379 3399	primary productivity
+T53	Decrease 3764 3770	reduce
+E32	Decrease:T53 Theme:T54 Agent:T55
+T54	Variable 3771 3789	Fe bioavailability
+T56	Variable 7957 7974	desferrioxamine B
+T57	Increase 7992 7997	added
+E34	Increase:T57 Theme:T56
+T58	Decrease 8018 8024	reduce
+E35	Decrease:T58 Theme:T59
+T59	Variable 8029 8044	bioavailable Fe
+T60	Increase 19130 19136	higher
+E36	Increase:T60 Theme:T61
+T61	Variable 19061 19103	Relative electron transfer rates from PSII
+T62	Increase 19143 19151	enriched
+E37	Increase:T62 Theme:T63
+T63	Variable 19140 19142	Fe
+T64	Correlate 19137 19139	in
+E38	Correlate:T64 Theme:E36 Co-theme:E37
+T65	Variable 19527 19529	Fe
+T66	Decrease 19530 19540	limitation
+E39	Decrease:T66 Theme:T65
+T67	Decrease 19546 19555	decreased
+E40	Decrease:T67 Theme:T68
+T68	Variable 19542 19545	NPQ
+T69	Increase 19603 19607	high
+E41	Increase:T69 Theme:T70
+T70	Variable 19608 19612	pCO2
+T71	Correlate 19521 19526	Under
+E42	Correlate:T71 Theme:E40 Co-theme:E39
+T73	Increase 19839 19847	enriched
+E43	Increase:T73 Theme:T74
+T74	Variable 19836 19838	Fe
+T75	Increase 19816 19822	higher
+E44	Increase:T75 Theme:T76
+T76	Variable 19725 19786	ratios of Chl a to POC of the final phytoplankton assemblages
+T77	Correlate 19833 19835	in
+E45	Correlate:T77 Theme:E44 Co-theme:E43
+T78	Variable 19992 20008	Chl a:POC ratios
+T79	Decrease 20021 20030	decreased
+E46	Decrease:T79 Theme:T78
+T80	Increase 20050 20060	increasing
+E47	Increase:T80 Theme:T81
+T81	Variable 20061 20072	pCO2 levels
+T82	Correlate 20045 20049	with
+E48	Correlate:T82 Theme:E46 Co-theme:E47
+T83	Variable 20154 20181	carbon-normalized Fe uptake
+T84	Increase 20235 20241	higher
+E49	Increase:T84 Theme:T83
+T85	Decrease 20248 20256	depleted
+E50	Decrease:T85 Theme:T86
+T86	Variable 20245 20247	Fe
+T87	Correlate 20242 20244	in
+E51	Correlate:T87 Theme:E49 Co-theme:E50
+T88	Increase 20609 20617	increase
+E52	Increase:T88 Theme:T89 Agent:E53
+T89	Variable 20621 20652	C-specific primary productivity
+T90	Change 20599 20608	dependent
+E53	Change:T90 Theme:T91
+#8	AnnotatorNotes E53	Hard to read the directionality of this dependence
+T91	Variable 20595 20598	CO2
+T92	Increase 20548 20556	enriched
+E54	Increase:T92 Theme:T93
+T93	Variable 20545 20547	Fe
+T95	Increase 20695 20704	increased
+E56	Increase:T95 Theme:T96
+T96	Variable 20674 20694	Primary productivity
+T97	Correlate 20805 20807	at
+E57	Correlate:T97 Co-theme:E58 Theme:E56
+T98	Increase 20808 20812	high
+E58	Increase:T98 Theme:T99
+T99	Variable 20813 20817	pCO2
+T100	Change 21265 21274	dependent
+E59	Change:T100 Theme:T101
+T101	Variable 21261 21264	CO2
+T102	Change 21275 21282	changes
+E60	Change:T102 Theme:T103 Co-theme:E59
+T103	Variable 21286 21306	primary productivity
+T104	Increase 21757 21763	rising
+E61	Increase:T104 Theme:T105
+T105	Variable 21764 21767	CO2
+T106	Increase 21742 21751	increased
+E62	Increase:T106 Theme:T107
+T107	Variable 21707 21741	Chaetoceros cf. simplex abundances
+T108	Correlate 21752 21756	with
+E63	Correlate:T108 Theme:E62 Co-theme:E61
+T109	Decrease 22514 22523	decreased
+E64	Decrease:T109 Theme:T110
+T110	Variable 22486 22513	dissolved Fe concentrations
+T111	Increase 23561 23569	increase
+E65	Increase:T111 Theme:T112 Agent:E66
+T112	Variable 23573 23593	primary productivity
+T113	Change 23551 23560	dependent
+E66	Change:T113 Theme:T114
+T114	Variable 23547 23550	CO2
+T115	Variable 23600 23602	Fe
+T116	Increase 23603 23611	enriched
+E67	Increase:T116 Theme:T115
+T118	Increase 23839 23847	increase
+E69	Increase:T118 Theme:T119
+T119	Variable 23851 23856	rETRs
+T120	Decrease 23802 23810	decrease
+E70	Decrease:T120 Theme:T121
+T121	Variable 23814 23830	Chl a:POC ratios
+T122	And 23831 23834	and
+E71	And:T122 Part:E70 Part2:E69
+T123	Increase 23862 23872	increasing
+E72	Increase:T123 Theme:T124
+T124	Variable 23873 23877	pCO2
+T125	Correlate 23857 23861	with
+E73	Correlate:T125 Theme:E71 Co-theme:E72
+T126	Increase 23990 24000	increasing
+E74	Increase:T126 Theme:T127
+T127	Variable 24001 24004	CO2
+T128	Variable 23928 23972	ETRmax in Fe-sufficient Chaetoceros muelleri
+T129	Increase 23976 23984	increase
+E75	Increase:T129 Theme:T128
+T130	Correlate 23985 23989	with
+E76	Correlate:T130 Theme:E75 Co-theme:E74
+T132	Variable 24196 24200	pCO2
+T133	Increase 24191 24195	high
+E78	Increase:T133 Theme:T132
+T134	Increase 24205 24213	enriched
+E79	Increase:T134 Theme:T135
+T135	Variable 24202 24204	Fe
+T136	Change 24176 24184	affected
+E80	Change:T136 Theme:T137
+T137	Variable 24164 24167	NPQ
+A3	Negated E80
+T139	Increase 25517 25526	increases
+E82	Increase:T139 Theme:T140
+T140	Variable 25514 25516	pH
+T141	Increase 25555 25563	drawdown
+E83	Increase:T141 Theme:T142
+T142	Variable 25567 25570	CO2
+T143	Cause 25527 25533	due to
+E84	Cause:T143 Agent:E85 Theme:E82
+T144	And 25551 25554	and
+E85	And:T144 Part:E86 Part2:E83
+T145	Increase 25542 25550	build-up
+E86	Increase:T145 Theme:T146
+#10	AnnotatorNotes E83	Interpreting drawdown as pulling down CO2 from the atmosphere into the oceans, thus increasing co2 there
+T146	Variable 25534 25541	biomass
+T147	Increase 25701 25705	high
+E87	Increase:T147 Theme:T148
+T148	Variable 25706 25708	pH
+T149	Correlate 25820 25830	unaffected
+E88	Correlate:T149 Theme:E89 Co-theme:T150
+A4	Negated E88
+T150	Variable 25834 25838	pCO2
+T151	Variable 25767 25773	growth
+T152	Variable 25778 25814	rETRs of Pseudo-nitzschia subcurvata
+T153	And 25774 25777	and
+E89	And:T153 Part:T151 Part2:T152
+T154	Increase 26014 26023	increased
+E90	Increase:T154 Theme:T155
+T155	Variable 26024 26028	pCO2
+T156	Increase 26146 26154	enhanced
+E91	Increase:T156 Theme:T157
+T157	Variable 26155 26160	rETRs
+T158	Increase 26166 26176	increasing
+E92	Increase:T158 Theme:T159
+T159	Variable 26177 26181	pCO2
+T160	Correlate 26161 26165	with
+E93	Correlate:T160 Theme:E91 Co-theme:E92
+T161	Increase 26251 26260	increased
+E94	Increase:T161 Theme:T162
+T162	Variable 26265 26288	photosynthetic activity
+T163	Increase 26295 26303	elevated
+E95	Increase:T163 Theme:T164
+T164	Variable 26304 26308	pCO2
+T165	Correlate 26289 26294	under
+E96	Correlate:T165 Theme:E94 Co-theme:E95
+T167	Variable 26393 26434	the relative abundance of Chaetoceros sp.
+T168	Increase 26435 26444	increased
+E98	Increase:T168 Theme:T167
+T169	Cause 26378 26383	Under
+E99	Cause:T169 Theme:E98 Agent:T72
+T170	Increase 26597 26606	increased
+E100	Increase:T170 Theme:T171
+T171	Variable 26607 26611	pCO2
+T172	Increase 26727 26737	increasing
+E101	Increase:T172 Theme:T173
+T173	Variable 26738 26742	pCO2
+T174	Variable 26692 26704	productivity
+T175	Increase 26713 26723	stimulated
+E102	Increase:T175 Theme:T174 Agent:E101
+A5	Negated E102
+T176	Variable 26922 26940	primary production
+T177	Correlate 26905 26918	insensitivity
+E103	Correlate:T177 Theme:T176 Co-theme:T178
+A6	Negated E103
+T178	Thing 26944 26946	OA
+T179	Increase 27036 27044	elevated
+E104	Increase:T179 Theme:T181
+T180	Increase 27064 27073	increased
+E105	Increase:T180 Theme:T185 Agent:E104
+T181	Variable 27045 27049	pCO2
+T182	Decrease 27024 27034	limitation
+E106	Decrease:T182 Theme:T183
+T183	Variable 27021 27023	Fe
+T185	Variable 27074 27079	rETRs
+T187	Decrease 27084 27093	decreased
+E109	Decrease:T187 Theme:T188 Agent:E104
+T188	Variable 27094 27097	NPQ
+T186	Increase 27631 27640	Increased
+E108	Increase:T186 Theme:T189
+T189	Variable 27641 27645	pCO2
+T190	Decrease 27668 27676	decrease
+E110	Decrease:T190 Theme:T191 Agent:E108
+T191	Variable 27677 27693	photorespiration
+T192	Cause 27765 27772	lead to
+E111	Cause:T192 Theme:E112 Agent:E110
+T193	Decrease 27775 27783	decrease
+E112	Decrease:T193 Theme:T194
+T194	Variable 27787 27806	cellular ATP demand
+T195	Increase 27826 27834	increase
+E113	Increase:T195 Theme:T196
+T196	Variable 27838 27843	rETRs
+T197	Increase 27867 27871	high
+E114	Increase:T197 Theme:T198
+T198	Variable 27872 27883	pCO2 levels
+T199	Variable 27847 27849	Fe
+T200	Decrease 27850 27857	limited
+E115	Decrease:T200 Theme:T199
+T202	Variable 27935 27944	LET rates
+T203	Increase 27928 27934	higher
+E117	Increase:T203 Theme:T202
+T204	Correlate 27918 27927	linked to
+E118	Correlate:T204 Theme:E113 Co-theme:E117
+#11	AnnotatorNotes E118	Not sure if this should be correlation, cause or nothing at all
+T205	Increase 27988 27994	higher
+E119	Increase:T205 Theme:T206
+T206	Variable 27995 27998	LET
+T207	Increase 28015 28023	enhanced
+E120	Increase:T207 Theme:T208
+T208	Variable 28024 28056	CO2 fixation in the Calvin cycle
+T209	Cause 28000 28010	enabled by
+E121	Cause:T209 Agent:E120 Theme:E119
+T210	Decrease 28416 28423	decline
+E122	Decrease:T210 Theme:T211
+T211	Variable 28427 28445	Fe bioavailability
+T212	Correlate 28446 28450	with
+E123	Correlate:T212 Theme:E122 Co-theme:E124
+T213	Decrease 28451 28461	decreasing
+E124	Decrease:T213 Theme:T214
+T214	Variable 28462 28464	pH
+T215	Increase 28524 28532	greatest
+E125	Increase:T215 Theme:T216
+T216	Variable 28533 28542	Fe stress
+T217	Correlate 28543 28548	under
+E126	Correlate:T217 Theme:E127 Co-theme:E125
+T218	Increase 28549 28553	high
+E127	Increase:T218 Theme:T219
+T219	Variable 28554 28558	pCO2
+T220	Decrease 28715 28723	decrease
+E128	Decrease:T220 Theme:T221
+T221	Variable 28724 28739	Fe availability
+T223	Variable 28963 28984	bioavailability of Fe
+T224	Decrease 29008 29015	reduced
+E130	Decrease:T224 Theme:T223
+T225	Decrease 29062 29069	reduced
+E131	Decrease:T225 Theme:T226
+T226	Variable 29017 29035	Fe bioavailability
+T227	Correlate 29070 29074	with
+E132	Correlate:T227 Theme:E131 Co-theme:E133
+T228	Increase 29075 29085	increasing
+E133	Increase:T228 Theme:T229
+T229	Variable 29086 29090	pCO2
+T230	Decrease 31215 31223	declined
+E134	Decrease:T230 Theme:T231
+T231	Variable 31184 31214	proportion of Pseudo-nitzschia
+T232	Increase 31238 31248	increasing
+E135	Increase:T232 Theme:T233
+T233	Variable 31249 31253	pCO2
+T234	Correlate 31233 31237	with
+E136	Correlate:T234 Theme:E134 Co-theme:E135
+T237	Variable 31575 31587	growth rates
+T239	Change 31597 31605	affected
+E139	Change:T239 Theme:T237 Agent:T238
+A8	Negated E139
+T240	Increase 31726 31735	increased
+E140	Increase:T240 Theme:T241
+T241	Variable 31736 31747	pCO2 levels
+T243	Decrease 31810 31825	negative effect
+E142	Decrease:T243 Theme:T244 Agent:T242
+T244	Variable 31833 31857	abundances of this genus
+T246	Change 32724 32731	effects
+E144	Change:T246 Theme:T247 Agent:T245
+T247	Variable 32741 32759	primary production
+T248	Increase 32960 32969	increased
+E145	Increase:T248 Theme:T249
+T249	Variable 32970 32974	pCO2
+T251	Increase 32981 32988	replete
+E147	Increase:T251 Theme:T252
+T252	Variable 32978 32980	Fe
+T253	Increase 32910 32921	stimulation
+E148	Increase:T253 Theme:T254
+T254	Variable 32929 32944	biological pump
+T255	Cause 32945 32959	as a result of
+E149	Cause:T255 Theme:E148 Agent:E145
+T256	Increase 33007 33017	enrichment
+E150	Increase:T256 Theme:T257
+T257	Variable 33004 33006	Fe
+T258	Increase 33022 33032	increasing
+E151	Increase:T258 Theme:T259
+T259	Variable 33033 33045	pCO2 levels,
+T260	Increase 33297 33305	enhanced
+E152	Increase:T260 Theme:T261
+T261	Variable 33306 33324	primary production
+T262	And 33326 33341	in concert with
+E153	And:T262 Part:E152 Part2:E154
+T263	Increase 33354 33360	higher
+E154	Increase:T263 Theme:T264
+T264	Variable 33361 33380	export efficiencies
+T265	Cause 33388 33395	lead to
+E155	Cause:T265 Agent:E153 Theme:E156
+T266	Increase 33398 33406	stronger
+E156	Increase:T266 Theme:T267
+T267	Variable 33407 33438	downward flux of organic matter
+T268	Correlate 19600 19602	at
+E157	Correlate:T268 Theme:E40 Co-theme:E41
+T1	Thing 62 81	Ocean Acidification
+T271	Change 497 504	effects
+E158	Change:T271 Theme:E159 Agent:T269
+T272	Variable 508 533	photosynthetic efficiency
+T273	Variable 599 626	non-photochemical quenching
+T274	And 634 637	and
+E159	And:T274 Part:T272 Part2:T273 Part3:T275
+T275	Variable 638 671	relative electron transport rates
+T269	Thing 467 480	Fe treatments
+T14	Decrease 1144 1152	depleted
+E1	Decrease:T14 Theme:T21
+T21	Variable 1141 1143	Fe
+T30	Thing 1363 1382	Ocean Acidification
+T31	Decrease 1602 1612	limitation
+E8	Decrease:T31 Theme:T270
+T270	Variable 1599 1601	Fe
+T276	Variable 1642 1659	CO2 fertilization
+T277	Decrease 1619 1627	restrict
+E12	Decrease:T277 Theme:T276 Agent:E8
+#6	AnnotatorNotes T52	---> Phytoplankton assemblages is not a variable
+T278	Increase 1816 1827	contributes
+E18	Increase:T278 Theme:T279
+T279	Variable 1849 1891	oceanic sequestration of anthropogenic CO2
+T280	Increase 2868 2874	blooms
+E19	Increase:T280 Theme:T281
+T281	Variable 2854 2867	phytoplankton
+T55	Thing 3736 3755	ocean acidification
+T282	Cause 8010 8017	thereby
+E33	Cause:T282 Agent:E34 Theme:E35
+T72	Thing 26384 26386	OA
+T94	Decrease 27263 27272	decreased
+E55	Decrease:T94 Theme:T117
+T117	Variable 27273 27300	need for energy dissipation
+T131	Cause 27301 27306	under
+E68	Cause:T131 Agent:T138 Theme:E81
+T138	Thing 27307 27309	OA
+T166	Increase 27197 27204	greater
+E77	Increase:T166 Theme:T184
+T184	Variable 27205 27251	electron sink associated with the Calvin cycle
+T283	And 27252 27255	and
+E81	And:T283 Part:E77 Part2:E55
+T201	Increase 28089 28096	greater
+E97	Increase:T201 Theme:T284
+T284	Variable 28097 28121	need for photoprotection
+T285	Variable 28128 28130	Fe
+T286	Decrease 28131 28141	limitation
+E107	Decrease:T286 Theme:T285
+T287	Variable 28477 28479	Fe
+T288	Decrease 28480 28488	depleted
+E116	Decrease:T288 Theme:T287
+T222	Decrease 28900 28907	limited
+E129	Decrease:T222 Theme:T289
+T289	Variable 28897 28899	Fe
+T235	Variable 31314 31330	its growth rates
+T236	Decrease 31360 31365	lower
+E137	Decrease:T236 Theme:T235
+T238	Thing 31609 31611	OA
+T290	Variable 31625 31627	Fe
+T291	Decrease 31628 31635	deplete
+E138	Decrease:T291 Theme:T290
+T292	Increase 31641 31648	replete
+E160	Increase:T292 Theme:T290
+T242	Thing 31797 31799	OA
+T245	Thing 32735 32737	OA

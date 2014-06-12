@@ -1,0 +1,18 @@
+T3	Variable 50 116	carbon concentration between the ocean surface and the deep waters
+T1	Change 36 46	difference
+E1	Change:T1 Theme:T3
+T5	Decrease 738 746	decrease
+E3	Decrease:T5 Theme:T10
+T6	Increase 752 762	increasing
+E4	Increase:T6 Theme:E5
+T7	Variable 763 780	mixed-layer depth
+T8	Variable 785 796	temperature
+T9	And 781 784	and
+E5	And:T9 Part:T7 Part2:T8
+T10	Variable 699 724	the carbon:nutrient ratio
+T11	Variable 868 879	temperature
+T12	Variable 884 906	atmospheric CO2 conten
+T13	Feedback 840 859	a positive feedback
+E6	Feedback:T13 Theme:T11 Co-theme:T12
+T14	Correlate 747 751	with
+E7	Correlate:T14 Co-theme2:E4 Theme:E3

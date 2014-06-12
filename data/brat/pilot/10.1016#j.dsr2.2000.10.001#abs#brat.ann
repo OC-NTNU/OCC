@@ -1,0 +1,37 @@
+T6	Increase 912 920	addition
+E4	Increase:T6 Theme:T7
+T7	Variable 904 911	Fe(III)
+T8	Cause 950 954	gave
+E5	Cause:T8 Theme:E8 Agent:E4
+T9	Variable 962 982	Fe(II) concentration
+T11	Variable 994 1022	growth rate of phytoplankton
+T12	Increase 955 961	higher
+E7	Increase:T12 Theme:T9
+T13	And 983 986	and
+E8	And:T13 Part:E7 Part2:E1
+T1	Increase 987 993	higher
+E1	Increase:T1 Theme:T11
+T2	Change 849 876	had a substantial effect on
+E2	Change:T2 Theme:T3 Agent:E10
+T3	Variable 877 902	phytoplankton growth rate
+T4	Variable 833 837	iron
+T5	Variable 1580 1584	iron
+T10	Variable 1539 1563	the phytoplankton growth
+T14	Variable 1503 1534	the photoreduction of iron(III)
+T15	And 1535 1538	and
+E3	And:T15 Part:T14 Part2:T10
+T16	Cause 1568 1576	affected
+E6	Cause:T16 Theme:E3 Agent:E12
+T17	Increase 1365 1373	addition
+E9	Increase:T17 Theme:T18
+T18	Variable 1360 1364	FeGA
+#1	AnnotatorNotes E2	Interpretation: change in iron causes change in growth rate
+#2	AnnotatorNotes T4	Alternative analysis: "iron enrichment" as a variable
+T19	Increase 838 848	enrichment
+E10	Increase:T19 Theme:T4
+T20	Change 1386 1393	changes
+E11	Change:T20 Agent:E9 Theme:T21
+T21	Variable 1394 1450	the harmful effect of UV on the phytoplankton population
+#3	AnnotatorNotes T21	Questionable: Isn't this too abstract for a variable!?
+T22	Increase 1585 1595	enrichment
+E12	Increase:T22 Theme:T5

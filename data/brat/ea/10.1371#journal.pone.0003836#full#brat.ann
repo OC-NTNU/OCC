@@ -1,0 +1,470 @@
+T1	Variable 0 40	Chlorophyll biomass in the surface ocean
+T2	Change 44 53	regulated
+E1	Change:T2 Theme:T1
+T3	Change 147 156	regulates
+E2	Change:T3 Theme:E3 Agent:E1
+T4	Variable 157 188	the rates of primary production
+T5	And 189 192	and
+E3	And:T5 Part:T4 Part2:T6
+T6	Variable 193 235	export of organic carbon to the deep ocean
+T7	Change 667 676	variation
+E4	Change:T7 Theme:T8
+T8	Variable 680 695	log chlorophyll
+#1	AnnotatorNotes E4	There are strong correlations alluded to here, but I think they are too hard to get
+T9	Change 737 745	regulate
+E5	Change:T9 Theme:T10
+T10	Variable 746 753	biomass
+#2	AnnotatorNotes E5	The change in "light and nitrate" are too implicit to annotate
+T11	Change 834 843	variation
+E6	Change:T11 Theme:T12
+T12	Variable 847 862	log chlorophyll
+T13	Change 968 977	variation
+E7	Change:T13 Theme:T14
+T14	Variable 981 1006	chlorophyll concentration
+T15	Change 1231 1238	changes
+E8	Change:T15 Theme:E9 Agent:T76
+T16	Variable 1242 1253	temperature
+T17	Variable 1279 1289	irradiance
+T18	And 1291 1294	and
+E9	And:T18 Part:T16 Part2:T19 Part3:T17 Part4:T20
+T19	Thing 1255 1277	nutrient distributions
+#3	AnnotatorNotes T19	Not really a variable, but annotated to get the conjunction right
+T20	Thing 1295 1308	ocean physics
+#4	AnnotatorNotes T20	Not a variable, but annotated as iti s a part of a conjunction with variables
+T21	Correlate 1648 1659	determinant
+E10	Correlate:T21 Co-theme:E11 Theme:T22
+#5	AnnotatorNotes E10	"determinant" is defined as something that changes something else if it changes, quantitatively
+T22	Variable 1613 1634	phytoplankton biomass
+T23	Variable 1667 1694	rates of primary production
+T24	And 1695 1698	and
+E11	And:T24 Part:T23 Part2:T25
+T25	Variable 1699 1740	export of carbon out of the surface ocean
+T26	Variable 1782 1803	phytoplankton biomass
+T27	Change 1834 1842	changing
+E12	Change:T27 Theme:T26
+T28	Change 2182 2189	changes
+E13	Change:T28 Theme:E14 Agent:E15
+T29	Variable 2212 2223	temperature
+T30	Variable 2225 2246	nutrient availability
+T31	And 2248 2251	and
+E14	And:T31 Part:T29 Part2:T30 Part3:T32
+T32	Thing 2252 2269	ocean circulation
+T33	Change 2171 2178	respond
+E15	Change:T33 Theme:T34
+#7	AnnotatorNotes E15	"Response of X" seems like a common way to say how X changes in this literature
+T34	Variable 2140 2165	phytoplankton chlorophyll
+T35	Change 2418 2426	response
+E16	Change:T35 Theme:T36
+T36	Variable 2430 2458	phytoplankton standing stock
+T38	Variable 3092 3113	availability of light
+T37	Variable 3148 3166	limiting nutrients
+T39	And 3114 3117	and
+E17	And:T39 Part:T38 Part2:T37
+T40	Change 3009 3024	growth response
+E18	Change:T40 Theme:T41
+#6	AnnotatorNotes E18	"change in growth"
+T41	Thing 3028 3084	several biogeochemically defined groups of phytoplankton
+T42	Change 3085 3087	to
+E19	Change:T42 Theme:T38 Agent:E18
+#8	AnnotatorNotes E19	Is this a strech?
+T43	Change 3333 3340	changes
+E20	Change:T43 Theme:E21
+T44	Variable 3344 3369	phytoplankton growth rate
+T45	Variable 3397 3416	chlorophyll biomass
+T46	Thing 3371 3392	community composition
+T47	And 3393 3396	and
+E21	And:T47 Part:T44 Part2:T46 Part3:T45
+T48	Variable 4123 4130	biomass
+T49	Change 4112 4119	Effects
+E22	Change:T49 Theme:T48
+T50	Variable 4836 4857	phytoplankton biomass
+T51	Correlate 4858 4874	as a function of
+E23	Correlate:T51 Theme:T50 Co-theme:E24
+T52	Variable 4875 4886	temperature
+T53	Variable 4888 4897	nutrients
+T54	Variable 4899 4910	zooplankton
+T55	Variable 4916 4927	water depth
+T56	And 4912 4915	and
+E24	And:T56 Part:T52 Part2:T53 Part3:T54 Part4:T55
+T57	Increase 5169 5177	blooming
+E25	Increase:T57 Theme:T58
+T58	Variable 5181 5202	phytoplankton biomass
+T59	Correlate 5224 5240	as a function of
+E26	Correlate:T59 Theme:E25 Co-theme:E27
+T60	Increase 5288 5298	increasing
+E27	Increase:T60 Theme:T61
+T61	Variable 5303 5353	average irradiance in a high-nutrient water column
+T62	Change 5652 5660	regulate
+E28	Change:T62 Theme:T63
+T63	Variable 5661 5696	phytoplankton biomass in the oceans
+T64	Change 5754 5760	shifts
+E29	Change:T64 Theme:E30
+T65	Variable 5819 5851	total chlorophyll concentrations
+T66	Variable 5893 5947	community compensation irradiance for the spring bloom
+T67	And 5885 5888	and
+E30	And:T67 Part:T65 Part2:T66
+T68	Change 6104 6111	changes
+E31	Change:T68 Theme:E32
+T69	Variable 6115 6145	mean chlorophyll concentration
+T70	And 6146 6149	and
+E32	And:T70 Part:T69 Part2:T71
+T71	Variable 6150 6168	primary production
+T72	Thing 6040 6054	climate change
+T73	Or 6055 6061	and/or
+E33	Or:T73 Part:T72 Part2:T74
+#9	AnnotatorNotes E33	AND/OR is represented logically as "or"
+T74	Thing 6062 6083	climatic oscillations
+T75	Cause 6088 6103	responsible for
+E34	Cause:T75 Agent:E33 Theme:E31
+T76	Thing 1200 1214	climate change
+T77	Thing 1858 1872	climate change
+T78	Cause 1843 1857	in response to
+E35	Cause:T78 Agent:T77 Theme:E12
+T79	Thing 2302 2316	climate change
+T80	Change 2322 2327	alter
+E36	Change:T80 Agent:T79 Theme:T81
+T81	Variable 2328 2372	the ocean's capacity to act as a carbon sink
+T82	Thing 2486 2500	climate change
+T83	Cause 2483 2485	to
+E37	Cause:T83 Agent:T82 Theme:E16
+T84	Thing 286 300	climate change
+T85	Variable 259 272	phytoplankton
+T86	Change 273 282	responses
+E38	Change:T86 Theme:T85
+T87	Cause 283 285	to
+E39	Cause:T87 Theme:E38 Agent:T84
+T88	Correlate 6746 6758	determinants
+E40	Correlate:T88 Theme:T89 Co-theme:E41
+T89	Variable 6776 6802	chlorophyll standing stock
+T90	Variable 6818 6848	variables that are mechanistic
+T91	And 6904 6907	and
+E41	And:T91 Part:T90 Part2:T92
+T92	Variable 6908 6977	proxies for many unavailable data that vary regionally and temporally
+T93	Change 13985 13993	variance
+E42	Change:T93 Theme:T94
+T94	Variable 13997 14012	log chlorophyll
+T95	Change 14069 14077	affected
+E43	Change:T95 Theme:T96
+T96	Variable 14050 14065	log chlorophyll
+T97	Change 15333 15344	variability
+E44	Change:T97 Theme:T98
+T98	Variable 15348 15363	log chlorophyll
+T99	Cause 15466 15475	regulated
+E45	Cause:T99 Theme:T100 Agent:E46
+#10	AnnotatorNotes E45	Treating "regulated" a cause between changes
+T100	Variable 15429 15454	Chlorophyll concentration
+T101	Variable 15479 15504	the availability of light
+T102	Variable 15506 15515	nutrients
+T103	Variable 15521 15546	the effect of temperature
+#11	AnnotatorNotes T103	Or only temperature?
+T104	And 15517 15520	and
+E46	And:T104 Part:T101 Part2:T102 Part3:T103
+T105	Cause 15682 15691	influence
+E47	Cause:T105 Agent:T106 Theme:T107
+T106	Variable 15645 15668	Sea-surface temperature
+T107	Variable 15695 15724	log chlorophyll concentration
+T108	Decrease 15961 15971	decreasing
+E48	Decrease:T108 Theme:T109
+T109	Variable 15893 15904	chlorophyll
+T110	Increase 15988 15996	increase
+E49	Increase:T110 Theme:T111
+T111	Variable 15975 15987	temperatures
+T112	Correlate 15972 15974	as
+E50	Correlate:T112 Theme:E48 Co-theme:E49
+T113	Change 16074 16082	variance
+E51	Change:T113 Theme:T114
+T114	Variable 16086 16101	log chlorophyll
+T115	Variable 16043 16046	SST
+T116	Correlate 16051 16058	account
+E52	Correlate:T116 Theme:E51 Co-theme:T115
+T117	And 16142 16145	and
+E53	And:T117 Part:T118 Part2:T119
+T118	Variable 16126 16141	mean irradiance
+T119	Variable 16146 16153	nitrate
+T120	Change 16277 16288	variability
+E54	Change:T120 Theme:T121
+T121	Variable 16292 16303	temperature
+T122	Correlate 16307 16317	correlated
+E55	Correlate:T122 Theme:E54 Co-theme:E56
+T123	Change 16323 16332	variation
+E56	Change:T123 Theme:E57
+T124	And 16342 16345	and
+E57	And:T124 Part:T125 Part2:T126
+T125	Variable 16336 16341	light
+T126	Variable 16346 16355	nutrients
+T127	Increase 16633 16639	higher
+E58	Increase:T127 Theme:T128
+T128	Variable 16640 16665	concentrations of biomass
+T129	Change 16948 16958	deviations
+E59	Change:T129 Theme:T130
+T130	Variable 16964 16984	mean log chlorophyll
+T131	Correlate 16936 16947	account for
+E60	Correlate:T131 Theme:E61 Co-theme:E59
+T132	Variable 16898 16903	light
+T133	Variable 16916 16925	nutrients
+T134	And 16912 16915	and
+E61	And:T134 Part:T132 Part2:T133
+T135	Change 17162 17169	changes
+E62	Change:T135 Theme:T136
+T136	Variable 17173 17178	light
+T137	Decrease 17147 17150	low
+E63	Decrease:T137 Theme:T138
+T138	Variable 17151 17160	nutrients
+T139	Increase 17131 17135	high
+E64	Increase:T139 Theme:T140
+T140	Variable 17136 17141	light
+T141	Cause 17179 17186	lead to
+E65	Cause:T141 Agent:E62 Theme:E66
+T142	Change 17204 17211	changes
+E66	Change:T142 Theme:T143
+#12	AnnotatorNotes E66	Is this negated?
+T143	Variable 17215 17230	log chlorophyll
+T144	Change 17238 17245	changes
+E67	Change:T144 Theme:T145
+T145	Variable 17249 17258	nutrients
+T146	Change 17279 17286	changes
+E68	Change:T146 Theme:T147
+T147	Variable 17290 17305	log chlorophyll
+T148	Cause 17259 17266	lead to
+E69	Cause:T148 Agent:E67 Theme:E68
+T149	Increase 17609 17617	increase
+E70	Increase:T149 Theme:T150
+T150	Variable 17621 17662	the explained variance in log chlorophyll
+T151	Increase 17777 17786	increases
+E71	Increase:T151 Theme:T152
+T152	Variable 17790 17801	chlorophyll
+T153	Change 18207 18216	variation
+E72	Change:T153 Theme:T154
+T154	Variable 18220 18231	chlorophyll
+T155	Change 18498 18507	variation
+E73	Change:T155 Theme:T156
+T156	Variable 18511 18536	chlorophyll concentration
+T157	Change 18568 18576	altering
+E74	Change:T157 Theme:E75 Agent:T159
+T158	Variable 18577 18592	the temperature
+T159	Thing 18550 18564	Climate change
+T160	And 18593 18596	and
+E75	And:T160 Part:T158 Part2:T161
+T161	Variable 18597 18613	pH of the oceans
+T162	Change 20022 20029	changes
+E76	Change:T162 Theme:T163
+T163	Variable 20033 20047	standing stock
+T164	Increase 20132 20139	promote
+E77	Increase:T164 Theme:T165
+T165	Variable 20140 20146	growth
+T166	Correlate 20375 20382	predict
+E78	Correlate:T166 Theme:T167 Co-theme:E79
+T167	Variable 20383 20408	chlorophyll concentration
+T168	Variable 20414 20419	light
+T169	And 20420 20423	and
+E79	And:T169 Part:T168 Part2:T170
+T170	Variable 20424 20433	nutrients
+T171	Correlate 20512 20521	dependent
+E80	Correlate:T171 Co-theme:T173 Theme:E81
+T172	Variable 20525 20537	growth rates
+T173	Variable 20491 20501	loss rates
+T174	Or 20538 20540	or
+E81	Or:T174 Part:T172 Part2:T175
+T175	Variable 20541 20566	chlorophyll concentration
+T176	Change 20599 20608	regulated
+E82	Change:T176 Theme:T177
+T177	Variable 20576 20583	biomass
+#13	AnnotatorNotes E82	Should probably be "cause", but having an incomplete cause seems senseless
+T178	Cause 20749 20758	regulated
+E83	Cause:T178 Theme:T179 Agent:T180
+T179	Variable 20738 20745	biomass
+T180	Variable 20762 20787	availability of resources
+T181	Change 20936 20942	effect
+E84	Change:T181 Theme:E85
+T182	Variable 20946 20964	average irradiance
+T183	And 20965 20968	and
+E85	And:T183 Part:T182 Part2:T184
+T184	Variable 20969 20990	nitrate concentration
+T185	Variable 20994 21019	chlorophyll concentration
+T186	Change 20991 20993	on
+E86	Change:T186 Agent:E84 Theme:T185
+T187	Change 21189 21195	effect
+E87	Change:T187 Theme:T188
+T188	Variable 21196 21217	resource availability
+T189	Change 21230 21232	on
+E88	Change:T189 Theme:T190 Agent:E87
+T190	Variable 21233 21244	growth rate
+T191	Change 21276 21283	effects
+E89	Change:T191 Theme:T192
+T192	Variable 21287 21296	resources
+T193	Change 21297 21299	on
+E90	Change:T193 Theme:T194 Agent:E89
+T194	Variable 21300 21312	growth rates
+T195	Decrease 21648 21651	low
+E91	Decrease:T195 Theme:T196
+T196	Variable 21652 21674	nitrate concentrations
+T197	Decrease 21634 21637	low
+E92	Decrease:T197 Theme:T198
+T198	Variable 21638 21643	E/MLD
+T199	Decrease 21679 21682	low
+E93	Decrease:T199 Theme:T200
+T200	Variable 21683 21705	nitrate concentrations
+T201	Increase 21709 21717	increase
+E94	Increase:T201 Theme:T202
+T202	Variable 21721 21731	irradiance
+T203	Change 21747 21753	effect
+E95	Change:T203 Theme:T204
+T204	Variable 21757 21768	chlorophyll
+T205	Increase 21777 21783	higher
+E96	Increase:T205 Theme:T206
+T206	Variable 21784 21806	nitrate concentrations
+T207	Increase 22041 22047	higher
+E97	Increase:T207 Theme:T208
+T208	Variable 22053 22073	observed chlorophyll
+T209	Change 22211 22220	unchanged
+E98	Change:T209 Theme:T210
+A1	Negated E98
+T210	Variable 22157 22195	the predictive power of the full model
+#14	AnnotatorNotes T210	Clearly quantitative, clearly useless
+T211	Variable 22537 22540	SST
+T212	Variable 22573 22588	log chlorophyll
+T213	Correlate 22560 22569	predictor
+E99	Correlate:T213 Theme:T211 Co-theme:T212
+T214	Variable 22650 22673	Sea-surface temperature
+T215	Change 22674 22681	affects
+E100	Change:T215 Agent:T214 Theme:T216
+T216	Variable 22682 22702	photosynthetic rates
+T217	Correlate 22717 22727	correlated
+E101	Correlate:T217 Theme:T214 Co-theme:T218
+T218	Variable 22733 22736	MLD
+T219	Correlate 22749 22755	linked
+E102	Correlate:T219 Theme:T214 Co-theme:E103
+T220	Variable 22759 22780	nutrient availability
+T221	And 22792 22795	and
+E103	And:T221 Part:T220 Part2:T222
+T222	Variable 22796 22857	temporal changes in irradiance, nutrients, and stratification
+T223	Correlate 22939 22951	relationship
+E104	Correlate:T223 Theme:T224 Co-theme:T225
+T224	Variable 22960 22971	growth rate
+T225	Variable 22976 22987	temperature
+T226	Variable 23201 23212	temperature
+T227	Change 23231 23237	effect
+E105	Change:T227 Theme:T226
+A2	Negated E105
+T228	Change 23241 23251	regulating
+E106	Change:T228 Theme:T229 Agent:E105
+T229	Variable 23252 23259	biomass
+T230	Decrease 23437 23444	decline
+E107	Decrease:T230 Theme:T231
+T231	Variable 23419 23436	surface nutrients
+T232	Correlate 23445 23449	with
+E108	Correlate:T232 Theme:E107 Co-theme:E109
+T233	Increase 23450 23460	increasing
+E109	Increase:T233 Theme:T234
+T234	Variable 23461 23472	temperature
+T235	Variable 23861 23870	nutrients
+T236	Variable 23875 23878	SST
+T237	Correlate 23883 23893	correlated
+E110	Correlate:T237 Theme:T235 Co-theme:T236
+T238	Variable 23991 24002	chlorophyll
+T239	Change 24003 24011	response
+E111	Change:T239 Theme:T238
+T240	Decrease 24357 24365	decrease
+E112	Decrease:T240 Theme:T241
+T241	Variable 24369 24380	chlorophyll
+T244	Change 24428 24434	change
+E114	Change:T244 Theme:T245
+T245	Variable 24438 24500	the balance between phytoplankton growth and losses by grazing
+T242	Increase 24631 24640	increases
+E113	Increase:T242 Theme:T243
+T243	Variable 24619 24630	temperature
+T246	Increase 24555 24564	increases
+E115	Increase:T246 Theme:T247
+T247	Variable 24583 24615	the growth rate of phytoplankton
+T248	Correlate 24616 24618	as
+E116	Correlate:T248 Theme:E115 Co-theme:E113
+T249	Variable 24502 24541	The growth rate of herbivorous protists
+T250	And 24542 24545	and
+E117	And:T250 Part:T249 Part2:T251
+T251	Variable 24546 24554	copepods
+T252	Increase 24709 24718	increased
+E118	Increase:T252 Theme:T253
+T253	Variable 24719 24735	grazing pressure
+T254	Change 24766 24772	effect
+E119	Change:T254 Theme:E120
+T255	Variable 24776 24782	growth
+T256	And 24783 24786	and
+E120	And:T256 Part:T255 Part2:T257
+T257	Variable 24787 24797	loss terms
+T258	Change 24798 24800	on
+E121	Change:T258 Agent:E119 Theme:T259
+T259	Variable 24801 24808	biomass
+T260	Decrease 24831 24839	decrease
+E122	Decrease:T260 Theme:T261
+T261	Variable 24843 24862	chlorophyll biomass
+T262	Cause 24880 24889	caused by
+E123	Cause:T262 Theme:E122 Agent:E124
+T263	Increase 24906 24914	increase
+E124	Increase:T263 Theme:T264
+T264	Variable 24918 24954	growth of predators relative to prey
+T265	Correlate 25212 25224	determinants
+E125	Correlate:T265 Theme:E126 Co-theme:E127
+T266	And 25184 25187	and
+E126	And:T266 Part:T267 Part2:T268 Part3:T269
+T267	Variable 25166 25171	Light
+T268	Variable 25173 25182	nutrients
+T269	Variable 25188 25199	temperature
+T270	And 25254 25257	and
+E127	And:T270 Part:T271 Part2:T272
+T271	Variable 25228 25253	phytoplankton growth rate
+T272	Variable 25258 25265	biomass
+T273	Correlate 25838 25845	respond
+E128	Correlate:T273 Theme:T275 Co-theme:E129
+T274	Variable 25858 25881	average resource levels
+T275	Variable 25824 25837	phytoplankton
+T276	And 25883 25894	but also to
+E129	And:T276 Part:T274 Part2:E130
+T277	Variable 25895 25951	the amplitude and frequency of variability in irradiance
+T278	And 25952 25955	and
+E130	And:T278 Part:T277 Part2:T279
+T279	Variable 25956 26007	nutrients that changes with vertical stratification
+T280	Change 26050 26059	variation
+E131	Change:T280 Theme:T281
+T281	Variable 26063 26072	resources
+T282	Change 26330 26335	trend
+E132	Change:T282 Theme:T283
+T283	Variable 26339 26354	log chlorophyll
+T284	Increase 26373 26382	increases
+E133	Increase:T284 Theme:T283
+T285	Increase 26889 26893	grow
+E134	Increase:T285 Theme:T286
+T286	Variable 26875 26888	Phytoplankton
+T287	Change 27017 27027	regulation
+E135	Change:T287 Theme:T288
+T288	Variable 27031 27056	chlorophyll concentration
+T289	Change 28102 28111	variation
+E136	Change:T289 Theme:T290
+T290	Variable 28115 28130	log chlorophyll
+T291	Change 28235 28244	variation
+E137	Change:T291 Theme:T292
+T292	Variable 28248 28263	log chlorophyll
+T293	Change 28459 28467	affected
+E138	Change:T293 Theme:T294 Agent:E139
+T294	Variable 28448 28455	biomass
+T295	Change 28471 28478	changes
+E139	Change:T295 Theme:E140
+T296	Variable 28482 28487	light
+T297	Or 28488 28490	or
+E140	Or:T297 Part:T296 Part2:T298
+T298	Variable 28491 28504	macronutrient
+T299	Change 28804 28810	change
+E141	Change:T299 Theme:T300
+T300	Variable 28811 28846	many of the environmental variables
+T301	Change 29049 29056	changes
+E142	Change:T301 Theme:T302
+T302	Variable 29060 29084	chlorophyll distribution
+T303	Change 29090 29097	changes
+E143	Change:T303 Theme:E144
+T304	Variable 29101 29116	mean irradiance
+T305	Variable 29118 29141	nutrient concentrations
+T306	And 29143 29146	and
+E144	And:T306 Part:T304 Part2:T305 Part3:T307
+T307	Variable 29147 29158	temperature
+T308	Correlate 29085 29089	with
+E145	Correlate:T308 Theme:E142 Co-theme:E143
+E146	Increase:T246 Theme:E117

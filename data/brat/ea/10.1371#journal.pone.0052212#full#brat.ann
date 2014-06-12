@@ -1,0 +1,1034 @@
+T1	Increase 1011 1020	increases
+E1	Increase:T1 Theme:T2
+T2	Variable 1024 1042	biomass production
+T3	Cause 1043 1048	under
+E2	Cause:T3 Theme:E1 Agent:T4
+T4	Thing 1049 1051	OA
+T5	Cause 1063 1069	caused
+E3	Cause:T5 Agent:E4 Theme:E1
+T6	Increase 1073 1083	stimulated
+E4	Increase:T6 Theme:E5
+T7	Variable 1084 1113	production of glycoconjugates
+T8	And 1114 1117	and
+E5	And:T8 Part:T7 Part2:T9
+T9	Variable 1118 1124	lipids
+T10	Decrease 1139 1146	lowered
+E6	Decrease:T10 Theme:T11
+T11	Variable 1147 1160	calcification
+T12	Cause 1161 1166	under
+E7	Cause:T12 Theme:E6 Agent:T13
+T13	Thing 1167 1169	OA
+T14	Decrease 1191 1199	impaired
+E8	Decrease:T14 Theme:E10
+T15	Cause 1177 1187	attributed
+E9	Cause:T15 Agent:E8 Theme:E6
+T16	And 1220 1223	and
+E10	And:T16 Part:T17 Part2:T18
+T17	Thing 1200 1219	signal-transduction
+T18	Thing 1224 1237	ion-transport
+T19	Correlate 1825 1830	under
+E11	Correlate:T19 Theme:E12 Co-theme:T23
+T20	Change 1804 1811	equally
+E12	Change:T20 Theme:T21
+T21	Variable 1812 1824	OA-sensitive
+T22	Change 1831 1835	both
+E13	Change:T22 Theme:T23
+T23	Variable 1836 1853	light intensities
+T24	Change 1859 1866	effects
+E14	Change:T24 Theme:T25
+A1	Negated E12
+A2	Negated E11
+#1	AnnotatorNotes E11	This is quite an abstraction from the text, with the negation propagated from "equally". Semantically it should be correct, but perhaps it is not a good example.
+T25	Variable 1870 1887	carbon metabolism
+T28	Change 1921 1930	modulated
+E16	Change:T28 Theme:T29 Agent:E14
+T29	Variable 1934 1952	light availability
+T36	Cause 2181 2188	provoke
+E20	Cause:T36 Theme:E21 Agent:T26
+T37	Change 2216 2225	responses
+E21	Change:T37 Theme:T38
+T38	Variable 2197 2215	cell-physiological
+T30	Cause 2361 2368	causing
+E17	Cause:T30 Theme:E18 Agent:E26
+T31	Increase 2394 2400	higher
+E18	Increase:T31 Theme:E19
+T32	Variable 2402 2405	CO2
+T33	And 2407 2410	and
+E19	And:T33 Part:T32 Part2:T41
+T39	Increase 2330 2339	formation
+E23	Increase:T39 Theme:T40
+T40	Variable 2343 2356	carbonic acid
+T41	Variable 2411 2418	acidity
+T42	Cause 2320 2329	resulting
+E24	Cause:T42 Agent:E25 Theme:E23
+T34	Increase 2262 2273	dissolution
+E25	Increase:T34 Theme:T43
+T43	Variable 2277 2291	carbon dioxide
+#2	AnnotatorNotes E25	This is a problematic structure: But my interpretation says that when something dissolves in the oceans, then there is less of that in the air, but more of it in the oceans. However, I'm not sure if that is what's wanted by this?
+T44	And 2312 2315	and
+E26	And:T44 Part:E25 Part2:E23
+T45	Thing 2479 2481	OA
+T46	Change 2507 2513	affect
+E27	Change:T46 Agent:T45 Theme:E28
+T47	Variable 2514 2533	metabolic processes
+T48	And 2534 2537	and
+E28	And:T48 Part:T47 Part2:T49
+T49	Variable 2549 2591	calcification in numerous marine organisms
+T50	Increase 3127 3135	enhances
+E29	Increase:T50 Theme:T51
+T51	Variable 3136 3148	their export
+T52	Increase 3088 3096	ballasts
+E30	Increase:T52 Theme:T53
+T53	Variable 3097 3122	organic matter aggregates
+T54	And 3123 3126	and
+E31	And:T54 Part:E30 Part2:E29
+T55	Change 3167 3178	influencing
+E32	Change:T55 Theme:T56 Agent:E31
+T56	Variable 3183 3218	oceans capacity to sequester carbon
+T57	Increase 2759 2768	formation
+E33	Increase:T57 Theme:T58
+T58	Variable 2772 2798	particulate organic carbon
+T59	Increase 4017 4026	increased
+E34	Increase:T59 Theme:T60
+T60	Variable 4040 4057	production of POC
+T61	Or 4027 4029	or
+E35	Or:T61 Part:E34 Part2:E36
+T62	Change 4030 4039	unaltered
+E36	Change:T62 Theme:T60
+A3	Negated E36
+T63	Correlate 4058 4072	accompanied by
+E37	Correlate:T63 Theme:E35 Co-theme:E39
+T64	Decrease 4075 4082	reduced
+E38	Decrease:T64 Theme:T67
+T65	Or 4083 4085	or
+E39	Or:T65 Part:E38 Part2:E40
+T66	Change 4086 4095	unaltered
+E40	Change:T66 Theme:T67
+A4	Negated E40
+T67	Variable 4096 4110	PIC production
+T68	Decrease 4137 4146	decreased
+E41	Decrease:T68 Theme:T69
+T69	Variable 4147 4160	PIC:POC ratio
+T70	Cause 4122 4131	reflected
+E42	Cause:T70 Theme:E41
+#5	AnnotatorNotes E42	What to do here? The cause here is the correlation. So the rule you want to extract is "INCREASE(poc) & DECREASE(pic) CAUSE DECREASE(pic:poc ratio)
+T75	Decrease 5878 5881	low
+E45	Decrease:T75 Theme:T77
+T76	Increase 5886 5890	high
+E46	Increase:T76 Theme:T77
+T77	Variable 5891 5908	light intensities
+T74	Thing 6049 6051	OA
+T79	Change 6108 6116	constant
+E47	Change:T79 Theme:T80
+A5	Negated E47
+T80	Variable 6069 6107	production of total particulate carbon
+T81	Decrease 6011 6015	from
+E48	Decrease:T81 Theme:T83
+T82	Increase 6020 6027	towards
+E49	Increase:T82 Theme:T84
+T83	Variable 6016 6019	PIC
+T84	Variable 6028 6042	POC production
+T85	Thing 6249 6270	elemental composition
+T86	Variable 6275 6291	production rates
+T87	And 6271 6274	and
+E50	And:T87 Part:T85 Part2:T86
+T88	Change 6310 6320	unaffected
+E51	Change:T88 Agent:T89 Theme:E50
+A7	Negated E51
+T89	Variable 6324 6326	OA
+T90	Decrease 6548 6551	low
+E52	Decrease:T90 Theme:T91
+T91	Variable 6552 6557	light
+T92	Variable 6492 6498	energy
+T93	Change 6499 6511	availability
+E53	Change:T93 Theme:T92
+T94	Variable 6452 6464	OA-responses
+T95	Change 6479 6488	modulated
+E54	Change:T95 Theme:T94 Agent:E53
+T96	Thing 6944 6946	OA
+T99	Increase 6985 6993	enhanced
+E56	Increase:T99 Theme:T100 Agent:T96
+T100	Variable 6994 7020	cellular energy efficiency
+T101	Increase 7132 7141	increased
+E57	Increase:T101 Theme:T102
+T102	Variable 7142 7149	acidity
+T103	Cause 7150 7155	under
+E58	Cause:T103 Theme:E57 Agent:T104
+T104	Thing 7156 7158	OA
+T105	Change 7159 7166	affects
+E59	Change:T105 Theme:T106 Agent:E57
+T106	Variable 7167 7186	membrane potentials
+T108	Increase 9313 9323	stimulated
+E61	Increase:T108 Agent:T109 Theme:T112
+T109	Thing 9327 9329	OA
+T112	Variable 9250 9308	expression of genes of the pentose phosphate pathway (PPP)
+T113	Thing 8999 9001	OA
+T114	Increase 8982 8992	stimulated
+E62	Increase:T114 Theme:T115
+T115	Variable 8913 8965	Expression of genes of the primary carbon metabolism
+T116	Decrease 9537 9546	decreased
+E63	Decrease:T116 Theme:T117
+T117	Variable 9547 9569	activity of glycolysis
+T118	Increase 9467 9476	induction
+E64	Increase:T118 Theme:T119
+T119	Thing 9480 9519	trehalosephosphate synthase/phosphatase
+T120	Cause 9520 9534	points towards
+E65	Cause:T120 Agent:E64 Theme:E63
+T121	Increase 9689 9702	up-regulation
+E66	Increase:T121 Theme:T122
+T122	Thing 9706 9778	several other regulatory enzymes involved in GL ([26], [27]) and the PPP
+T124	Cause 9792 9797	under
+E67	Cause:T124 Theme:E66 Agent:T35
+T125	Change 9810 9817	altered
+E69	Change:T125 Theme:T126 Agent:E66
+T126	Variable 9818 9857	fluxes of carbon through the metabolism
+T127	Increase 10023 10031	generate
+E70	Increase:T127 Theme:T128
+T128	Thing 10032 10036	NADH
+T129	Increase 10287 10295	increase
+E71	Increase:T129 Theme:T130
+T130	Variable 10300 10328	relative activity of the PPP
+T131	Change 10341 10349	redirect
+E72	Change:T131 Theme:T132
+T132	Variable 10354 10377	metabolic carbon fluxes
+T134	Cause 10261 10266	Under
+E73	Cause:T134 Theme:E74 Agent:T71
+T135	And 10329 10332	and
+E74	And:T135 Part:E71 Part2:E72
+T136	Increase 10443 10455	up-regulated
+E76	Increase:T136 Theme:T139
+T137	Cause 10456 10470	in response to
+E77	Cause:T137 Theme:E76 Agent:T72
+T139	Thing 10379 10437	Numerous genes involved in the turnover of polysaccharides
+T140	Increase 10777 10784	induced
+E79	Increase:T140 Theme:T143
+T142	Cause 10785 10790	under
+E81	Cause:T142 Theme:E79 Agent:T73
+T143	Thing 10744 10772	Lipid-synthesizing machinery
+T144	Increase 11045 11049	high
+E82	Increase:T144 Theme:T145
+T145	Variable 11050 11055	light
+T146	Increase 11008 11012	high
+E83	Increase:T146 Theme:T147
+T147	Variable 11013 11037	photosynthate production
+T148	Correlate 10991 11007	in situations of
+E84	Correlate:T148 Theme:E83 Co-theme:E82
+#8	AnnotatorNotes E84	This is clearly an approximation of the knowledge that truly is contained in the text
+T149	Thing 11076 11078	OA
+T150	Cause 11070 11075	under
+E85	Cause:T150 Theme:E83 Agent:T149
+T151	Increase 11100 11109	induction
+E86	Increase:T151 Theme:T152
+T152	Thing 11113 11128	lipid synthesis
+T153	And 11129 11142	together with
+E87	And:T153 Part:E86 Part2:E88
+T154	Increase 11156 11169	up-regulation
+E88	Increase:T154 Theme:T155
+T155	Thing 11173 11180	the PPP
+T156	Increase 11191 11200	increased
+E89	Increase:T156 Theme:T157
+T157	Variable 11201 11234	accumulation of storage compounds
+T158	Cause 11181 11190	advocates
+E90	Cause:T158 Agent:E87 Theme:E89
+#9	AnnotatorNotes E90	Or "increased" directly as cause?
+T160	Increase 11280 11289	increased
+E92	Increase:T160 Theme:T161
+T161	Variable 11290 11300	POC quotas
+#10	AnnotatorNotes E92	Should "in line with" combine this with the rest of the sentence in some way?
+T162	Increase 11346 11359	up-regulation
+E93	Increase:T162 Theme:E94
+T163	Thing 11363 11407	fucoxanthin-chlorophyll a/c binding proteins
+T164	And 11485 11488	and
+E94	And:T164 Part:T163 Part2:T165
+T165	Thing 11489 11529	genes related to carotenoid biosynthesis
+T166	Increase 11627 11633	higher
+E95	Increase:T166 Theme:T167
+T167	Variable 11634 11671	turnover of light-harvesting antennae
+T168	Increase 11676 11687	intensified
+E96	Increase:T168 Theme:T169
+T169	Variable 11688 11708	xanthophyll cycling.
+T170	RefExp 11709 11719	The latter
+R1	Coref Expression:T170 Antecedent:E96	
+T171	Decrease 11730 11739	dissipate
+E97	Decrease:T171 Agent:T170 Theme:E22
+T172	Variable 11740 11759	excess light energy
+T174	Variable 11764 11782	reductive pressure
+T175	Decrease 11843 11853	downscales
+E99	Decrease:T175 Theme:T176
+T176	Variable 11854 11870	light harvesting
+T178	Cause 11871 11876	under
+E101	Cause:T178 Theme:E99 Agent:T97
+T180	Cause 12098 12103	under
+E103	Cause:T180 Theme:E104 Agent:T98
+T181	Increase 12067 12078	intensified
+E104	Increase:T181 Theme:T182
+T182	Variable 12079 12097	energy dissipation
+T183	Variable 12181 12208	dissipation of light energy
+T184	Increase 12172 12180	Enhanced
+E105	Increase:T184 Theme:T183
+T185	Cause 12209 12214	under
+E106	Cause:T185 Theme:E105 Agent:T107
+T187	Increase 12252 12261	increased
+E108	Increase:T187 Theme:T188
+T188	Variable 12262 12279	production of POC
+T189	Increase 12296 12305	increased
+E109	Increase:T189 Theme:T190
+T190	Variable 12306 12348	expression of lipid synthesizing machinery
+T191	Decrease 12397 12407	counteract
+E110	Decrease:T191 Theme:T192 Agent:E111
+T192	Variable 12412 12433	accumulation of NADPH
+#13	AnnotatorNotes E110	Meta-information deficiency: The sentence implies that is in fact not the case, I think?
+T193	And 12285 12295	as well as
+E111	And:T193 Part:E108 Part2:E109
+T194	Decrease 12439 12454	down-regulation
+E112	Decrease:T194 Theme:T195
+T195	Variable 12458 12474	light harvesting
+T196	Decrease 12507 12516	decreased
+E113	Decrease:T196 Theme:T197
+T197	Variable 12517 12542	cellular demand for NADPH
+T198	Cause 12543 12549	due to
+E114	Cause:T198 Agent:E115 Theme:E113
+T199	Increase 12550 12563	up-regulation
+E115	Increase:T199 Theme:T200
+T200	Thing 12593 12597	PPP.
+T202	Cause 12625 12631	causes
+E117	Cause:T202 Theme:E118 Agent:T110
+T203	Change 12634 12649	reconstellation
+E118	Change:T203 Theme:T204
+T204	Variable 12653 12676	metabolic flux networks
+#14	AnnotatorNotes T204	Probably not a quantitative variable
+T205	Change 12719 12726	affects
+E119	Change:T205 Theme:E120 Agent:E118
+T206	Variable 12727 12754	the redox-equilibria of NAD
+T207	And 12755 12758	and
+E120	And:T207 Part:T206 Part2:T208
+T208	Variable 12759 12763	NADP
+T209	Increase 13057 13067	increasing
+E121	Increase:T209 Theme:E122
+T210	Variable 13072 13107	concentrations of carbon precursors
+T211	And 13108 13111	and
+E122	And:T211 Part:T210 Part2:T212
+T212	Variable 13112 13117	NADPH
+T214	Cause 13004 13011	affects
+E124	Cause:T214 Theme:E121 Agent:T111
+T215	Increase 13249 13257	increase
+E125	Increase:T215 Theme:T216
+T216	Variable 13261 13275	POC production
+T217	Cause 13276 13281	under
+E126	Cause:T217 Theme:E125 Agent:T123
+T219	Thing 13304 13339	Genes related to cellular signaling
+T220	Increase 13615 13627	up-regulated
+E128	Increase:T220 Theme:T219
+T225	Cause 14110 14117	induced
+E132	Cause:T225 Theme:E133 Agent:T133
+T226	Increase 14118 14131	up-regulation
+E133	Increase:T226 Theme:T227
+T227	Thing 14135 14166	diverse cellular ion exchangers
+T228	Thing 14358 14385	distinct HCO3- transporters
+T229	Change 14391 14400	regulated
+E134	Change:T229 Theme:T228
+T230	Cause 14401 14415	in response to
+E135	Cause:T230 Theme:E134 Agent:T138
+T232	Increase 14430 14442	up-regulated
+E137	Increase:T232 Theme:T233 Agent:T138
+T233	Thing 14420 14423	two
+T234	Decrease 14556 14570	down-regulated
+E138	Decrease:T234 Theme:T235 Agent:T138
+T235	Thing 14472 14551	one HCO3- transporter with an interspersed Ca2+-binding EF-hand motif (GJ14380)
+#15	AnnotatorNotes T235	Where is the boundaries of this?
+T236	Change 15016 15024	affected
+E139	Change:T236 Theme:E141 Agent:T141
+T238	And 14977 14987	as well as
+E141	And:T238 Part:T239 Part2:T240
+T239	Variable 14945 14976	expression of HCO3-transporters
+T240	Variable 14988 15002	PIC:POC ratios
+T241	Decrease 15739 15747	impaired
+E142	Decrease:T241 Theme:T242
+T242	Variable 15748 15761	calcification
+T243	Cause 15803 15808	under
+E143	Cause:T243 Theme:E142 Agent:T159
+T253	Decrease 16365 16373	impaired
+E151	Decrease:T253 Theme:T254 Agent:E156
+T254	Variable 16374 16388	PIC production
+T255	Cause 16428 16433	under
+E152	Cause:T255 Theme:E151 Agent:T173
+T259	Change 16226 16237	Fluctuating
+E155	Change:T259 Theme:E159
+T260	Or 16238 16240	or
+E156	Or:T260 Part:E155 Part2:E157
+T261	Change 16241 16247	offset
+E157	Change:T261 Theme:E159
+T263	Variable 16249 16253	Ca2+
+T264	Or 16255 16257	or
+E159	Or:T264 Part:T263 Part2:T265
+T265	Variable 16259 16261	H+
+#18	AnnotatorNotes E155	This OR structure is an abomination 
+T266	Increase 17388 17401	up-regulation
+E160	Increase:T266 Theme:E161
+T267	Thing 17405 17444	cytoplasmic fructose-2,6-bisphosphatase
+T268	Thing 17459 17496	plastidic fructose-1,6-bisphosphatase
+T269	And 17455 17458	and
+E161	And:T269 Part:T267 Part2:T268
+T271	Decrease 17524 17527	low
+E163	Decrease:T271 Theme:T272
+T272	Variable 17528 17533	light
+T273	Thing 17546 17566	Malate dehydrogenase
+T274	Thing 17581 17644	cytoplasmic pyrophosphate-dependent fructose-1,6-bisphosphatase
+T275	And 17577 17580	and
+E164	And:T275 Part:T273 Part2:T274
+T276	Decrease 17666 17680	down-regulated
+E165	Decrease:T276 Theme:E164
+T277	Cause 17681 17695	in response to
+E166	Cause:T277 Theme:E165 Agent:T278
+T278	Thing 17696 17698	OA
+T280	Decrease 17705 17708	low
+E169	Decrease:T280 Theme:T281
+T281	Variable 17709 17715	light.
+T282	Decrease 17882 17897	down-regulation
+E170	Decrease:T282 Theme:T283
+T283	Thing 17901 17935	NAD-dependent malate dehydrogenase
+T284	Cause 17936 17950	in response to
+E171	Cause:T284 Theme:E170 Agent:T285
+T285	Thing 17951 17953	OA
+T286	Decrease 17972 17975	low
+E173	Decrease:T286 Theme:T287
+T287	Variable 17976 17981	light
+T289	Decrease 17993 18000	reduced
+E175	Decrease:T289 Theme:T290
+T290	Variable 18001 18082	shuttling of reduction equivalents between cytoplasm and the mitochondrial matrix
+#21	AnnotatorNotes T290	So specific as to be useless?
+T291	Cause 17983 17992	indicates
+E176	Cause:T291 Agent:E170 Theme:E175
+#22	AnnotatorNotes E176	I interpret "indicates" as "suggested causality" ("seems to cause")
+T292	Cause 18096 18106	attributed
+E177	Cause:T292 Agent:E178 Theme:T295
+T293	Increase 18110 18118	elevated
+E178	Increase:T293 Theme:T294
+T294	Variable 18120 18123	CO2
+T295	RefExp 18084 18088	This
+#23	AnnotatorNotes T295	Not too sure about which element is the antecedent. Probably resolution requires domain knowledge. Is it improtant to get the chain antecedents right?
+R2	Coref Expression:T295 Antecedent:E175	
+T296	Increase 18426 18438	up-regulated
+E179	Increase:T296 Theme:T299
+T298	Thing 18445 18448	OA.
+T299	Thing 18220 18252	Genes related to light reactions
+T300	Increase 18466 18478	more intense
+E182	Increase:T300 Theme:T301
+T301	Thing 18479 18498	xanthophyll cycling
+T302	Cause 18525 18539	in response to
+E183	Cause:T302 Theme:E182 Agent:T303
+T303	Thing 18540 18542	OA
+T305	Decrease 18561 18564	low
+E186	Decrease:T305 Theme:T306
+T306	Variable 18565 18570	light
+T307	Increase 18740 18752	up-regulated
+E187	Increase:T307 Theme:T308
+T308	Thing 18682 18712	one distinct HCO3- transporter
+T309	Increase 19094 19107	up-regulation
+E188	Increase:T309 Theme:E189
+T310	And 19163 19166	and
+E189	And:T310 Part:T311 Part2:T312
+T311	Thing 19113 19152	cytoplasmic fructose-2,6-bisphosphatase
+T312	Thing 19167 19226	a number of organellar transporters for primary metabolites
+T313	Decrease 19725 19728	low
+E190	Decrease:T313 Theme:T314
+T314	Variable 19702 19721	energy availability
+T315	Thing 19742 19744	OA
+T318	Change 19753 19761	regulate
+E194	Change:T318 Theme:E195 Agent:T315
+T319	Variable 19766 19794	allocation of organic carbon
+#26	AnnotatorNotes T319	Maybe not quantifiable
+T320	And 19795 19804	and hence
+E195	And:T320 Part:T319 Part2:T321
+T321	Variable 19805 19823	organelle activity
+#27	AnnotatorNotes T321	Not quantifiable?
+T322	Decrease 19825 19832	Reduced
+E196	Decrease:T322 Theme:T323
+T323	Variable 19833 19873	expression of respiration-relevant genes
+T324	Cause 19886 19891	under
+E197	Cause:T324 Agent:E198 Theme:E196
+T325	Decrease 19892 19895	low
+E198	Decrease:T325 Theme:T326
+T326	Variable 19896 19901	light
+T327	Increase 19911 19921	stimulated
+E199	Increase:T327 Theme:T328
+T328	Variable 19922 19952	synthesis of storage compounds
+T330	Thing 19963 19965	OA
+T331	Increase 20011 20022	stimulation
+E202	Increase:T331 Theme:T332
+T332	Variable 20026 20040	POC production
+T333	Cause 19981 19988	explain
+E203	Cause:T333 Agent:E204 Theme:E202
+T334	And 19903 19906	and
+E204	And:T334 Part:E196 Part2:E199
+T336	Variable 20099 20119	xanthophyll-cycling,
+T337	Thing 20088 20090	OA
+T340	Decrease 20137 20140	low
+E209	Decrease:T340 Theme:T341
+T341	Variable 20141 20146	light
+T342	Increase 20203 20212	increased
+E210	Increase:T342 Theme:T343
+T343	Variable 20213 20225	PPP activity
+T344	Increase 20178 20185	surplus
+E211	Increase:T344 Theme:T345
+T345	Variable 20172 20177	NADPH
+T346	Cause 20186 20202	originating from
+E212	Cause:T346 Agent:E210 Theme:E211
+T347	Cause 20155 20167	explained by
+E213	Cause:T347 Agent:E211 Theme:E60
+T348	RefExp 20234 20246	this surplus
+R3	Coref Expression:T348 Antecedent:E211	
+T350	Variable 20278 20283	light
+T351	Decrease 20274 20277	low
+E215	Decrease:T351 Theme:T350
+T352	Increase 20400 20404	high
+E216	Increase:T352 Theme:T353
+T353	Variable 20377 20396	energy availability
+T354	Increase 20412 20419	enhance
+E217	Increase:T354 Theme:T355
+T355	Variable 20420 20473	fluxes of metabolites and energy between compartments
+T356	Cause 20474 20476	by
+E218	Cause:T356 Agent:E219 Theme:E217
+T357	Increase 20477 20490	up-regulating
+E219	Increase:T357 Theme:T358
+T358	Thing 20491 20517	corresponding transporters
+T362	Increase 21141 21154	up-regulation
+E223	Increase:T362 Theme:E225
+T364	And 21211 21221	as well as
+E225	And:T364 Part:T363 Part2:T365
+T365	Thing 21222 21240	glycolytic enzymes
+T363	Thing 21158 21200	trehalose-6-phosphate synthase/phosphatase
+T366	Increase 21381 21393	up-regulated
+E224	Increase:T366 Theme:T367
+T367	Thing 21353 21369	Genes of the PPP
+T368	Decrease 21486 21501	Down-regulation
+E226	Decrease:T368 Theme:E227
+T369	Thing 21519 21556	plastidic fructose-1,6-bisphosphatase
+T370	Thing 21568 21597	plastidic phosphoribulokinase
+T371	And 21608 21611	and
+E227	And:T371 Part:T369 Part2:T370 Part3:T372
+T372	Thing 21616 21698	functionally different forms of cytosolic glyceraldehyde-3-phosphate dehydrogenase
+T373	Decrease 21903 21918	Down-regulation
+E228	Decrease:T373 Theme:T374
+T374	Thing 21922 21951	plastidic phosphoribulokinase
+T376	Thing 22089 22091	OA
+T360	Thing 21131 21133	OA
+#30	AnnotatorNotes T9	production of lipids
+#31	AnnotatorNotes E8	"reduced speed/efficiency"
+T26	Thing 2164 2166	OA
+#32	AnnotatorNotes T47	"...in numerous marine..."
+T27	Cause 8993 8998	under
+E15	Cause:T27 Theme:E62 Agent:T113
+#3	AnnotatorNotes E64	"increases activity in"
+#6	AnnotatorNotes E66	"increase in activity"
+T35	Thing 9798 9800	OA
+#33	AnnotatorNotes T126	Reading as "degrees of fluctuation"
+T71	Thing 10267 10269	OA
+#7	AnnotatorNotes E72	DE: Does this imply a qunatitative change?
+T72	Thing 10471 10473	OA
+T73	Thing 10791 10793	OA
+T78	And 11760 11763	and
+E22	And:T78 Part:T172 Part2:T174
+T97	Thing 11877 11879	OA
+T98	Thing 12104 12106	OA
+T107	Thing 12215 12217	OA
+T110	Thing 12622 12624	OA
+T111	Thing 13001 13003	OA
+#11	AnnotatorNotes T212	"concentrations of"
+T123	Thing 13282 13284	OA
+T133	Thing 14107 14109	OA
+T138	Thing 14416 14418	OA
+T141	Thing 15028 15030	OA
+T159	Thing 15809 15811	OA
+T173	Thing 16434 16436	OA
+T177	Cause 18439 18444	under
+E43	Cause:T177 Agent:T298 Theme:E179
+T179	Cause 19953 19959	caused
+E44	Cause:T179 Agent:T330 Theme:E199
+T186	Cause 20091 20098	induced
+E55	Cause:T186 Agent:T337 Theme:E60
+T201	Increase 20078 20087	Increased
+E60	Increase:T201 Theme:T336
+T213	Cause 21134 21140	caused
+E68	Cause:T213 Agent:T360 Theme:E223
+T218	Cause 22083 22088	under
+E75	Cause:T218 Agent:T376 Theme:E228
+T221	Change 188 198	regulation
+E78	Change:T221 Theme:T222
+T222	Variable 202 229	the biological carbon pumps
+T224	Increase 22097 22110	up-regulation
+E91	Increase:T224 Theme:T231
+T231	Variable 22114 22136	lactate dehydrogenases
+T237	Increase 22151 22161	stimulates
+E98	Increase:T237 Theme:T244 Agent:T245
+T244	Thing 22167 22189	fermentative reactions
+T245	Thing 22148 22150	OA
+T246	Decrease 22298 22312	down-regulated
+E100	Decrease:T246 Theme:T247
+T247	Thing 22220 22280	The NADPH-producing glyceraldehyde-3-phosphate dehydrogenase
+T248	Thing 22406 22408	OA
+T249	Change 22409 22419	influences
+E102	Change:T249 Theme:T250 Agent:T248
+T250	Variable 22420 22470	the redox-balance between plastids and the cytosol
+T251	Decrease 22481 22496	down-regulation
+E107	Decrease:T251 Theme:T252
+T252	Thing 22500 22516	callose synthase
+T256	Increase 22531 22544	up-regulation
+E116	Increase:T256 Theme:T257
+T257	Thing 22548 22575	glucan beta-1,3-glucosidase
+T258	Cause 22586 22591	under
+E123	Cause:T258 Theme:E127 Agent:T262
+T262	Thing 22592 22594	OA
+T279	And 22527 22530	and
+E127	And:T279 Part:E107 Part2:E116
+T288	Decrease 22605 22612	lowered
+E129	Decrease:T288 Theme:T297
+T297	Variable 22613 22620	buildup
+T304	Increase 22625 22633	enhanced
+E130	Increase:T304 Theme:T316
+T316	Variable 22634 22677	degradation of chrysolaminaran-like glucans
+T317	Thing 22679 22681	OA
+T329	Increase 22687 22697	stimulated
+E131	Increase:T329 Agent:T317 Theme:T335
+T335	Thing 22698 22745	genes involved in catabolism of lipid compounds
+T338	Increase 22988 22997	increased
+E136	Increase:T338 Theme:T339
+T339	Variable 22998 23036	degradation of lipid storage compounds
+T349	Cause 23042 23047	under
+E140	Cause:T349 Agent:T359 Theme:E136
+T359	Thing 23048 23050	OA
+T361	Variable 23090 23113	cellular POC production
+T375	Change 23083 23089	affect
+E144	Change:T375 Theme:T361 Agent:T377
+A6	Negated E144
+T377	Thing 23058 23060	OA
+T378	Increase 23401 23413	stimulations
+E145	Increase:T378 Theme:T379
+T379	Variable 23417 23440	cellular POC production
+T380	Decrease 23481 23496	down-regulation
+E146	Decrease:T380 Theme:T381
+T381	Thing 23500 23538	genes related to chlorophyll synthesis
+T382	Cause 23747 23761	in response to
+E147	Cause:T382 Agent:T383 Theme:E146
+T383	Thing 23762 23764	OA
+T384	Decrease 23827 23835	decrease
+E148	Decrease:T384 Theme:T385
+T385	Variable 23836 23854	reductive pressure
+T386	Decrease 23918 23925	lowered
+E149	Decrease:T386 Theme:T387
+T387	Variable 23926 23942	Chl a:POC ratios
+T388	Increase 23954 23963	increased
+E150	Increase:T388 Theme:T389
+T389	Variable 23964 23981	energy-efficiency
+T390	Cause 23991 23996	under
+E153	Cause:T390 Agent:T391 Theme:E154
+T391	Thing 23997 23999	OA
+T392	And 23944 23948	i.e.
+E154	And:T392 Part:E149 Part2:E150
+T393	Decrease 24044 24050	reduce
+E158	Decrease:T393 Theme:T394
+T394	Variable 24051 24077	plastidic NADPH production
+T395	Thing 24118 24121	PPP
+T396	Increase 24122 24132	activation
+E167	Increase:T396 Theme:T395
+T397	Cause 24110 24117	induced
+E168	Cause:T397 Agent:T398 Theme:E167
+T398	Thing 24107 24109	OA
+T399	Change 24265 24272	altered
+E172	Change:T399 Theme:E180
+T401	Variable 24215 24247	carbon fluxes between GL and PPP
+T400	Change 24196 24211	reconstellation
+E174	Change:T400 Theme:T401
+#12	AnnotatorNotes E174	This is possibly not a quantitative change
+T402	And 24284 24287	and
+E180	And:T402 Part:T403 Part2:T404
+T403	Variable 24273 24283	pool sizes
+T404	Variable 24288 24320	redox equilibria of NAD and NADP
+#16	AnnotatorNotes T404	How do we handle this with a conjunction?
+T405	Cause 24252 24264	consequently
+E181	Cause:T405 Agent:E174 Theme:E172
+T406	Increase 24422 24432	increasing
+E184	Increase:T406 Theme:T407
+T407	Variable 24433 24464	catabolism of storage compounds
+T408	Decrease 24517 24525	lowering
+E185	Decrease:T408 Theme:E191
+T409	Variable 24526 24558	the rate of photosynthetic light
+T410	And 24559 24562	and
+E191	And:T410 Part:T409 Part2:T411
+T411	Variable 24563 24577	dark reactions
+T412	Change 24615 24624	stability
+E192	Change:T412 Theme:T413
+A8	Negated E192
+T413	Variable 24628 24642	POC production
+T414	Cause 24658 24663	under
+E193	Cause:T414 Agent:T415 Theme:E192
+T415	Thing 24664 24666	OA
+T416	Variable 24673 24713	Genes involved in plasmalemmal signaling
+T417	Increase 24870 24882	up-regulated
+E200	Increase:T417 Theme:T416
+T418	Cause 24883 24888	under
+E201	Cause:T418 Agent:T419 Theme:E200
+T419	Thing 24889 24891	OA
+T420	Increase 25076 25089	up-regulation
+E205	Increase:T420 Theme:T421
+T421	Thing 25093 25107	ion exchangers
+T422	Decrease 25308 25322	down-regulated
+E206	Decrease:T422 Theme:T425
+T423	Cause 25323 25337	in response to
+E207	Cause:T423 Agent:T424 Theme:E206
+T424	Thing 25338 25340	OA
+T425	Thing 25238 25287	The HCO3- transporter with the Ca2+ binding motif
+T426	Change 25407 25419	differential
+E208	Change:T426 Theme:T427
+T427	Thing 25420 25446	expression of transporters
+T428	Variable 25480 25498	membrane gradients
+T429	Change 25472 25479	altered
+E214	Change:T429 Theme:T428
+#17	AnnotatorNotes T428	http://en.wikipedia.org/wiki/Membrane_potential
+T430	Cause 25455 25464	triggered
+E220	Cause:T430 Agent:E214 Theme:E208
+T431	Cause 25499 25504	under
+E221	Cause:T431 Agent:T432 Theme:E214
+T432	Thing 25505 25507	OA
+T433	Decrease 25543 25553	diminished
+E222	Decrease:T433 Theme:T434
+T434	Variable 25554 25567	calcification
+T435	Increase 25568 25576	benefits
+E229	Increase:T435 Theme:T436 Agent:E222
+T436	Variable 25577 25607	biomass buildup in the diplont
+T437	Increase 25750 25761	stimulation
+E230	Increase:T437 Theme:T438
+A9	Negated E230
+T438	Variable 25765 25779	POC production
+T439	Cause 25780 25785	under
+E231	Cause:T439 Agent:T440 Theme:E230
+T440	Thing 25786 25788	OA
+T441	Decrease 26002 26005	low
+E232	Decrease:T441 Theme:T443
+T442	Increase 26009 26013	high
+E233	Increase:T442 Theme:T443
+T443	Variable 26014 26026	light levels
+T444	Change 26051 26060	responded
+E234	Change:T444 Theme:T445 Agent:T446
+T445	Thing 26028 26050	These subsets of genes
+T446	Thing 26064 26066	OA
+T447	Decrease 26291 26294	low
+E235	Decrease:T447 Theme:T448
+T448	Variable 26295 26300	light
+T449	Change 26341 26351	regulation
+E236	Change:T449 Theme:T450
+T450	Thing 26355 26364	491 genes
+T451	Cause 26313 26321	response
+E237	Cause:T451 Agent:T452 Theme:E236
+T452	Thing 26310 26312	OA
+T453	Decrease 26104 26107	low
+E238	Decrease:T453 Theme:T454
+T454	Variable 26108 26113	light
+T455	Increase 26127 26131	high
+E239	Increase:T455 Theme:T456
+T456	Variable 26132 26137	light
+T457	Variable 26238 26243	light
+T458	Change 26244 26253	dependent
+E240	Change:T458 Theme:T457
+T459	Decrease 26777 26780	low
+E241	Decrease:T459 Theme:T460
+T460	Variable 26757 26772	light intensity
+T461	Increase 26730 26742	up-regulated
+E242	Increase:T461 Theme:E244
+T462	Cause 26743 26748	under
+E243	Cause:T462 Agent:T463 Theme:E242
+T463	Thing 26749 26751	OA
+T464	Thing 26560 26585	three carbonic anhydrases
+T465	And 26613 26623	as well as
+E244	And:T465 Part:T464 Part2:E245
+T466	Thing 26624 26676	cytoplasmic glyceraldehyde-3-phosphate dehydrogenase
+T467	And 26687 26690	and
+E245	And:T467 Part:T466 Part2:T468
+T468	Thing 26691 26714	a lactate dehydrogenase
+T469	Decrease 26921 26935	down-regulated
+E246	Decrease:T469 Theme:E247
+T470	Thing 26782 26832	A putative cytoplasmic fructose-2,6-bisphosphatase
+T471	And 26843 26846	and
+E247	And:T471 Part:T470 Part2:T472
+T472	Thing 26847 26899	a plastidic glyceraldehyde-3-phosphate dehydrogenase
+T473	Decrease 27305 27308	low
+E248	Decrease:T473 Theme:T474
+T474	Variable 27309 27314	light
+T475	Increase 27340 27344	high
+E249	Increase:T475 Theme:T476
+T476	Variable 27345 27350	light
+T477	Increase 27387 27397	additional
+E250	Increase:T477 Theme:T478
+T478	Variable 27398 27422	expression of 1356 genes
+T479	Thing 27377 27379	OA
+T480	Cause 27380 27386	caused
+E251	Cause:T480 Agent:T479 Theme:E250
+T481	Change 27520 27529	regulated
+E252	Change:T481 Theme:T482
+T482	Thing 27530 27535	genes
+T483	Decrease 27643 27658	down-regulation
+E253	Decrease:T483 Theme:T484
+T484	Variable 27662 27696	glycerol-3-phosphate dehydrogenase
+T485	Decrease 27732 27741	decreased
+E254	Decrease:T485 Theme:T486
+T486	Variable 27742 27862	activity of the glycerol-3-phosphate-shuttle system that conveys cytosolic NADH into the mitochondrial respiratory chain
+T487	Correlate 27721 27731	indicating
+E255	Correlate:T487 Theme:E253 Co-theme:E254
+T488	Increase 27943 27947	high
+E256	Increase:T488 Theme:T489
+T489	Variable 27948 27953	light
+T490	Increase 27975 27988	up-regulation
+E257	Increase:T490 Theme:T491
+T491	Thing 27992 28041	two isoforms of phosphoenolpyruvate carboxykinase
+T492	Decrease 28065 28080	down-regulation
+E258	Decrease:T492 Theme:T493
+T493	Thing 28084 28104	pyruvate carboxylase
+T494	Change 28331 28340	regulated
+E259	Change:T494 Theme:T495
+T495	Thing 28271 28313	several genes of the amino acid metabolism
+T496	Increase 28348 28352	high
+E260	Increase:T496 Theme:T497
+T497	Variable 28353 28358	light
+T498	Thing 28368 28370	OA
+T499	Cause 28371 28379	response
+E261	Cause:T499 Agent:T498 Theme:E259
+T500	Thing 28416 28455	genes related to fatty acid degradation
+T501	Increase 28587 28599	up-regulated
+E262	Increase:T501 Theme:T500
+T502	Cause 28600 28605	under
+E263	Cause:T502 Agent:T503 Theme:E262
+T503	Thing 28606 28608	OA
+T504	Variable 28623 28685	expression of the glyoxylate pathway enzymes malate synthase G
+T505	And 28696 28699	and
+E264	And:T505 Part:T504 Part2:T506
+T506	Variable 28700 28716	isocitrate lyase
+T507	Increase 28745 28754	increased
+E265	Increase:T507 Theme:E264
+T508	Increase 28892 28901	increased
+E266	Increase:T508 Theme:T509
+T509	Variable 28902 28953	utilization of lipid compounds in the haploid stage
+T510	Increase 29057 29069	up-regulated
+E267	Increase:T510 Theme:T511
+T511	Thing 28996 29026	two beta-1,3-glucan hydrolases
+T512	Variable 29105 29148	degradation of chrysolaminaran-like glucans
+#20	AnnotatorNotes E255	"Indicate" in natural language does not correspond entirely to correlation, but I assume it is close enough
+T514	Thing 29094 29096	OA
+T515	Cause 29097 29104	induced
+E268	Cause:T515 Agent:T514 Theme:E269
+T513	Increase 29085 29093	enhanced
+E269	Increase:T513 Theme:T512
+T516	Correlate 29071 29081	indicating
+E270	Correlate:T516 Theme:E267 Co-theme:E269
+T517	Decrease 29263 29277	down-regulated
+E271	Decrease:T517 Theme:E272
+T518	And 29218 29221	and
+E272	And:T518 Part:T519 Part2:T520
+T519	Thing 29177 29207	uroporphyrinogen decarboxylase
+T520	Thing 29222 29247	violaxanthin de-epoxidase
+T521	Decrease 29291 29306	down-regulation
+E273	Decrease:T521 Theme:T522
+T522	Variable 29310 29363	two vacuolar pyrophosphate-dependent H+-translocators
+T523	Thing 29384 29386	OA
+T524	Cause 29387 29394	induced
+E274	Cause:T524 Agent:T523 Theme:E273
+T525	Increase 29575 29582	tighter
+E275	Increase:T525 Theme:T526
+T526	Variable 29583 29628	regulation of carbon fluxes and redox-balance
+T527	Decrease 29560 29566	scarce
+E276	Decrease:T527 Theme:T528
+T528	Variable 29567 29573	energy
+T529	Decrease 29684 29690	reduce
+E277	Decrease:T529 Theme:T530
+T530	Variable 29691 29743	the photosynthetic pressure of reduction equivalents
+T531	Increase 29761 29770	intensify
+E278	Increase:T531 Theme:T532
+T532	Variable 29771 29812	the breakdown of lipids and carbohydrates
+T533	Change 30453 30463	regulation
+E279	Change:T533 Theme:T534
+T534	Thing 30467 30541	26 genes (19^ and 7v) that could be sorted into the categories of interest
+T535	Increase 30594 30606	up-regulated
+E280	Increase:T535 Theme:E281
+T536	Thing 30607 30645	a putative glucan beta-1,3-glucosidase
+T537	And 30656 30659	and
+E281	And:T537 Part:T536 Part2:T538
+T538	Thing 30660 30688	a generic beta-galactosidase
+T539	Increase 30700 30713	Up-regulation
+E282	Increase:T539 Theme:E283
+T540	Thing 30717 30758	the PPP-enzyme 6-phosphoglucono-lactonase
+T541	And 30769 30772	and
+E283	And:T541 Part:T540 Part2:T542
+T542	Thing 30773 30832	a 3-oxoacyl-(ACP) synthase involved in fatty acid synthesis
+T543	Increase 30984 30997	up-regulation
+E284	Increase:T543 Theme:E286
+T544	Thing 30973 30975	OA
+T545	Cause 30976 30983	induced
+E285	Cause:T545 Agent:T544 Theme:E284
+T546	Thing 31001 31007	a PIPK
+T547	Thing 31019 31041	a sphingosine-1-kinase
+T548	And 31053 31056	and
+E286	And:T548 Part:T546 Part2:T547 Part3:T549
+T549	Thing 31057 31075	downstream kinases
+T550	Increase 31175 31188	up-regulation
+E287	Increase:T550 Theme:T551
+T551	Thing 31192 31261	a hyperpolarization-activated, cyclic nucleotide-gated K+/Na+ channel
+T552	Decrease 31283 31298	down-regulation
+E288	Decrease:T552 Theme:T553
+T553	Thing 31302 31330	a voltage-gated Ca2+ channel
+T554	Decrease 31429 31443	down-regulated
+E289	Decrease:T554 Theme:T555
+T555	Thing 31342 31408	The putative HCO3- transporter with the Ca2+-binding EF-hand motif
+T556	Cause 31444 31458	in response to
+E290	Cause:T556 Agent:T557 Theme:E289
+T557	Thing 31459 31461	OA
+T558	Change 31511 31519	regulate
+E291	Change:T558 Theme:T559
+T559	Thing 31520 31536	~1200-1400 genes
+T560	Cause 31537 31551	in response to
+E292	Cause:T560 Agent:T561 Theme:E291
+T561	Thing 31552 31554	OA
+T562	Increase 31940 31944	high
+E293	Increase:T562 Theme:T563
+T563	Variable 31945 31962	light intensities
+T564	Increase 32342 32346	high
+E294	Increase:T564 Theme:T565
+T565	Variable 32347 32362	light intensity
+T566	Change 32529 32538	regulated
+E295	Change:T566 Theme:T567
+T567	Thing 32478 32508	a very limited number of genes
+T568	Cause 32539 32553	in response to
+E296	Cause:T568 Theme:E295 Agent:E297
+T569	And 32563 32566	and
+E297	And:T569 Part:T570 Part2:T571
+T570	Thing 32560 32562	OA
+T571	Variable 32567 32572	light
+T572	Increase 32705 32709	high
+E298	Increase:T572 Theme:T573
+T573	Variable 32710 32727	light-intensities
+T574	Thing 32698 32700	OA
+T575	And 32701 32704	and
+E299	And:T575 Part:T574 Part2:E298
+T576	Cause 32728 32734	invoke
+E300	Cause:T576 Agent:E299 Theme:E301
+T577	Change 32735 32745	regulation
+E301	Change:T577 Theme:T578
+T578	Thing 32749 32840	different genes, which are, however, involved in the same pathways of the carbon metabolism
+T579	Change 33091 33099	adjusted
+E302	Change:T579 Theme:T580
+T580	Variable 33035 33083	the activity of the same physiological processes
+T581	Increase 33413 33417	high
+E303	Increase:T581 Theme:T582
+T582	Variable 33418 33423	light
+T583	Correlate 33536 33547	insensitive
+E304	Correlate:T583 Theme:T584 Co-theme:T585
+A10	Negated E304
+T584	Variable 33502 33531	Ci acquisition in the diplont
+T585	Thing 33551 33553	OA
+T586	Change 33693 33703	regulation
+E305	Change:T586 Theme:T587
+T587	Thing 33707 33738	uptake machinery in the diplont
+T588	Change 33821 33831	alteration
+E306	Change:T588 Theme:T589
+T589	Variable 33835 33849	Ci acquisition
+T590	Correlate 33919 33932	insensitivity
+E307	Correlate:T590 Theme:T591 Co-theme:E308
+A11	Negated E307
+T591	Thing 33916 33918	OA
+T592	Variable 33936 33947	HCO3- usage
+T593	And 33948 33951	and
+E308	And:T593 Part:T592 Part2:T594
+T594	Variable 33952 33967	uptake affinity
+T595	Variable 34228 34245	uptake affinities
+T596	Decrease 34251 34260	decreased
+E309	Decrease:T596 Theme:T595
+T597	Change 34273 34280	altered
+E310	Change:T597 Theme:T598
+T598	Variable 34281 34293	CCM activity
+T599	Cause 34294 34299	under
+E311	Cause:T599 Agent:T600 Theme:E310
+T600	Thing 34300 34302	OA
+T601	Correlate 34262 34272	indicating
+E312	Correlate:T601 Theme:E309 Co-theme:E310
+T602	Decrease 34378 34392	down-regulated
+E313	Decrease:T602 Theme:T603
+T603	Thing 34339 34374	a plastid-targeted HCO3-transporter
+T604	Cause 34393 34398	under
+E314	Cause:T604 Agent:T605 Theme:E313
+T605	Thing 34399 34401	OA
+T606	Change 34434 34444	regulation
+E315	Change:T606 Theme:T607 Agent:E316
+T607	Thing 34448 34508	four distinct carbonic anhydrases of the beta and delta-type
+T608	Change 34424 34433	dependent
+E316	Change:T608 Theme:T609
+T609	Variable 34417 34423	energy
+T610	Thing 35147 35149	OA
+T611	Change 35150 35158	affected
+E317	Change:T611 Agent:T610 Theme:E318
+T612	Variable 35159 35216	expression of genes involved in central carbon metabolism
+T613	And 35254 35264	as well as
+E318	And:T613 Part:T612 Part2:T614
+T614	Variable 35265 35281	light physiology
+T615	RefExp 35323 35327	This
+R4	Coref Expression:T615 Antecedent:E317	
+T616	Cause 35328 35336	leads to
+E319	Cause:T616 Agent:T615 Theme:E320
+T617	Change 35337 35344	altered
+E320	Change:T617 Theme:E321
+T618	Variable 35345 35361	fluxes of carbon
+T619	Variable 35366 35403	energy within and across compartments
+T620	And 35362 35365	and
+E321	And:T620 Part:T618 Part2:T619
+T621	Change 35418 35425	effects
+E322	Change:T621 Theme:E323
+T622	And 35432 35435	and
+E323	And:T622 Part:T623 Part2:T624
+T623	Thing 35429 35431	OA
+T624	Variable 35436 35441	light
+T625	Change 35442 35444	on
+E324	Change:T625 Theme:T626 Agent:E322
+T626	Variable 35445 35457	these fluxes
+T627	Change 35479 35499	feedback-interaction
+E325	Change:T627 Theme:T628
+T628	Variable 35505 35541	the redox equilibria of NAD and NADP
+T629	Cause 35458 35472	originate from
+E326	Cause:T629 Agent:E325 Theme:E322
+T630	Thing 35654 35656	OA
+T631	Change 35657 35664	affects
+E327	Change:T631 Agent:T630 Theme:T632
+T632	Variable 35665 35685	cellular redox-state
+T633	Change 35990 36000	Regulation
+E328	Change:T633 Theme:T634
+T634	RefExp 36004 36019	these processes
+T635	Thing 35870 35900	signal-transduction mechanisms
+T636	Variable 35905 35915	ion fluxes
+T637	And 35901 35904	and
+E329	And:T637 Part:T635 Part2:T636
+R5	Coref Expression:T634 Antecedent:E329	
+T638	Change 36035 36042	altered
+E330	Change:T638 Theme:E331
+T639	Variable 36043 36060	signal-processing
+T640	And 36061 36064	and
+E331	And:T640 Part:T639 Part2:T641
+T641	Variable 36065 36090	offset membrane gradients
+T642	Cause 36091 36096	under
+E332	Cause:T642 Agent:T643 Theme:E330
+T643	Thing 36097 36099	OA
+T644	Change 36126 36136	modulation
+E333	Change:T644 Theme:T645 Agent:E334
+T645	Variable 36119 36125	energy
+T646	Thing 36146 36148	OA
+T647	Change 36149 36158	responses
+E334	Change:T647 Theme:T646
+A12	Negated E333
+T648	Thing 36325 36327	OA
+T649	Change 36344 36351	affects
+E335	Change:T649 Agent:T648 Theme:E336
+T650	Variable 36352 36370	cellular signaling
+T651	And 36371 36374	and
+E336	And:T651 Part:T650 Part2:T652
+T652	Variable 36375 36385	ion fluxes
+T653	RefExp 36398 36413	these processes
+R6	Coref Expression:T653 Antecedent:E329	
+T654	Correlate 36418 36429	independent
+E337	Correlate:T654 Theme:T653 Co-theme:T655
+A13	Negated E337
+T655	Variable 36433 36446	energy supply

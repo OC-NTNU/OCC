@@ -1,0 +1,25 @@
+T1	Increase 35 41	rising
+E1	Increase:T1 Theme:T2
+T2	Variable 42 75	atmospheric CO2 partial pressures
+T3	Variable 0 19	Ocean acidification
+T4	Decrease 98 104	reduce
+E2	Decrease:T4 Theme:T5 Agent:T3
+T5	Variable 105 138	calcification by marine organisms
+T6	Increase 470 479	increased
+E3	Increase:T6 Theme:E4 Agent:E5
+T7	Variable 488 509	CO2 partial pressures
+T8	Variable 362 375	calcification
+T9	Variable 380 451	net primary production in the coccolithophore species Emiliania huxleyi
+T10	And 376 379	and
+E4	And:T10 Part:T9 Part2:T8
+T17	Cause 23 31	response
+E8	Cause:T17 Theme:T3 Agent:E1
+T11	Increase 483 487	high
+E5	Increase:T11 Theme:T7
+T12	Increase 656 664	increase
+E6	Increase:T12 Theme:T13
+T13	Variable 668 690	average coccolith mass
+T14	Increase 796 802	rising
+E7	Increase:T14 Theme:T15
+T15	Variable 803 836	atmospheric CO2 partial pressures
+#1	AnnotatorNotes T3	Role is not a change event, but suggests change in Ph
