@@ -23,6 +23,7 @@ makedirs(annot_dir)
 for txt_fname in glob('data/sent/*.txt'):
     root =  annot_dir + '/' + splitext(basename(txt_fname))[0] + '#brat_' + annotator
     symlink('../../sent/' + basename(txt_fname), root + '.txt')
+    open(root + '.ann', 'w')
 
 
 
