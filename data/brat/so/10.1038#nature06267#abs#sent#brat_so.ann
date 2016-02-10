@@ -1,0 +1,37 @@
+T1	Increase 0 8	Enhanced
+E1	Increase:T1 Theme:T2
+T2	Variable 9 38	biological carbon consumption
+T3	Decrease 213 222	reduction
+E2	Decrease:T3 Theme:E3
+T4	And 238 241	and
+E3	And:T4 Part:T5 Part2:T6
+T5	Variable 226 237	seawater pH
+T6	Variable 242 262	carbonate saturation
+T7	Decrease 336 344	decrease
+E4	Decrease:T7 Theme:T8
+T8	Variable 316 330	upper-ocean pH
+T10	Increase 293 297	rise
+E6	Increase:T10 Theme:T11
+T11	Variable 267 280	CO2 emissions
+T12	Decrease 756 767	consumption
+E7	Decrease:T12 Theme:T13
+T13	Variable 729 755	dissolved inorganic carbon
+T14	Decrease 936 944	consumed
+E8	Decrease:T14 Theme:T16
+T16	Variable 960 986	dissolved inorganic carbon
+T17	Increase 990 999	increased
+E10	Increase:T17 Theme:T18
+T18	Variable 1000 1021	CO2 partial pressures
+T19	Correlate 987 989	at
+E11	Correlate:T19 Theme:E8 Co-theme:E10
+T20	Increase 1142 1151	increased
+E12	Increase:T20 Theme:T21
+T21	Variable 1093 1141	The stoichiometry of carbon to nitrogen drawdown
+T22	Decrease 1286 1297	consumption
+E13	Decrease:T22 Theme:T25
+T23	Correlate 1302 1317	associated with
+E14	Correlate:T23 Theme:E13 Co-theme:E15
+T24	Increase 1318 1324	higher
+E15	Increase:T24 Theme:T26
+T25	Variable 1272 1285	excess carbon
+T26	Variable 1325 1396	loss of organic carbon from the upper layer of the stratified mesocosms

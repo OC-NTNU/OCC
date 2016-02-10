@@ -1,0 +1,36 @@
+T1	Decrease 44 50	uptake
+E1	Decrease:T1 Theme:T2
+T2	Variable 25 43	Southern Ocean CO2
+T8	Increase 365 375	stimulated
+E4	Increase:T8 Agent:T10 Theme:T9
+T9	Variable 376 396	algal photosynthesis
+T10	Variable 302 353	a larger iron supply to the region in glacial times
+T11	Cause 398 408	leading to
+E5	Cause:T11 Theme:E6 Agent:E4
+T12	Decrease 409 414	lower
+E6	Decrease:T12 Theme:T13
+T13	Variable 415 449	concentrations of atmospheric CO 2
+T14	Variable 488 531	artificial iron fertilization of the oceans
+T15	Increase 538 546	increase
+E7	Increase:T15 Theme:T16 Agent:T14
+T16	Variable 547 574	future carbon sequestration
+T17	Decrease 705 711	uptake
+E8	Decrease:T17 Theme:T18
+T18	Variable 715 731	atmospheric CO 2
+T19	Variable 736 769	uptake ratios of silica to carbon
+T20	And 732 735	and
+E9	And:T20 Part:E8 Part2:T19
+T21	Cause 801 814	influenced by
+E10	Cause:T21 Agent:E11 Theme:E9
+T22	Increase 825 834	increases
+E11	Increase:T22 Theme:T23
+T23	Variable 838 856	iron concentration
+T24	Change 1107 1114	changes
+E12	Change:T24 Theme:T25
+T25	Variable 1091 1106	atmospheric CO2
+T26	Change 1291 1297	change
+E13	Change:T26 Theme:T27
+T27	Variable 1266 1290	glacial-interglacial CO2
+T28	Increase 1466 1475	additions
+E14	Increase:T28 Theme:T29
+T29	Variable 1479 1505	iron to the Southern Ocean

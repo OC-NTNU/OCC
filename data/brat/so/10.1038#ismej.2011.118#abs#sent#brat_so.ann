@@ -1,0 +1,32 @@
+T1	Decrease 107 113	uptake
+E1	Decrease:T1 Theme:T2
+T2	Variable 94 106	DMSP-sulphur
+T3	Decrease 263 270	reduced
+E2	Decrease:T3 Theme:T4
+T4	Variable 271 278	sulphur
+T5	Cause 253 262	source of
+E3	Cause:T5 Agent:T6 Theme:E2
+T6	Variable 175 247	heterotrophic bacteria in dimethylsulphoniopropionate (DMSP) utilisation
+T7	Decrease 608 614	uptake
+E4	Decrease:T7 Theme:T8
+T8	Variable 618 630	DMSP-sulphur
+T9	Increase 1148 1156	enhanced
+E5	Increase:T9 Theme:T10
+T10	Variable 1087 1129	the relative contribution of Synechococcus
+T11	Cause 1165 1172	because
+E6	Cause:T11 Theme:E5 Agent:E7
+T12	Increase 1180 1190	inhibition
+E7	Increase:T12 Theme:T13
+A1	Negated E7
+T13	Variable 1194 1216	heterotrophic bacteria
+T14	Increase 1255 1263	increase
+E8	Increase:T14 Theme:T15
+T15	Variable 1267 1332	the proportion of Synechococcus cells actively taking up 35S-DMSP
+T16	Correlate 1466 1484	no clear responses
+E9	Correlate:T16 Theme:T18 Co-theme:T17
+A2	Negated E9
+T17	Variable 1488 1493	light
+T18	Variable 1438 1448	3H-leucine
+T19	Decrease 1828 1834	uptake
+E10	Decrease:T19 Theme:T20
+T20	Variable 1823 1827	DMSP

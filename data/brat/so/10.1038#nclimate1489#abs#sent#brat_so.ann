@@ -1,0 +1,37 @@
+T1	Change 0 7	Changes
+E1	Change:T1 Theme:T2
+T2	Variable 11 49	pH at the exterior surface of plankton
+T3	Decrease 144 152	decrease
+E2	Decrease:T3 Theme:T4
+T4	Variable 156 172	bulk-seawater pH
+T5	Decrease 234 238	drop
+E3	Decrease:T5 Theme:T6
+T6	Variable 222 228	the pH
+T7	Increase 321 327	growth
+E4	Increase:T7 Theme:T8
+T8	Variable 331 339	plankton
+T9	Increase 565 574	increases
+E5	Increase:T9 Theme:E6
+T10	And 556 559	and
+E6	And:T10 Part:T12 Part2:T11
+T11	Variable 560 564	size
+T12	Variable 528 555	organism metabolic activity
+T13	Increase 598 606	increase
+E7	Increase:T13 Theme:T14
+T14	Variable 576 592	These deviations
+T15	Variable 624 659	the buffering capacity of sea water
+T16	Decrease 660 669	decreases
+E8	Decrease:T16 Theme:T15
+T17	Correlate 670 674	with
+E9	Correlate:T17 Theme:E8 Co-theme:E10
+T18	Decrease 675 684	decreased
+E10	Decrease:T18 Theme:T19
+T19	Variable 685 687	pH
+T20	Variable 695 713	metabolic activity
+T21	Increase 714 723	increases
+E11	Increase:T21 Theme:T20
+T22	Correlate 724 728	with
+E12	Correlate:T22 Theme:E11 Co-theme:E13
+T23	Increase 729 735	raised
+E13	Increase:T23 Theme:T24
+T24	Variable 736 757	seawater temperatures

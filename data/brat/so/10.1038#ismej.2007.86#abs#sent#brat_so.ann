@@ -1,0 +1,33 @@
+T1	Positive_Correlate 534 552	positively coupled
+E1	Positive_Correlate:T1 Theme:T8 Co-theme:T9
+T2	Decrease 902 908	uptake
+E2	Decrease:T2 Theme:T10
+T3	Negative_Correlate 1230 1250	negative correlation
+E3	Negative_Correlate:T3 Theme:T11 Co-theme:T12
+T4	Positive_Correlate 1336 1353	positive coupling
+E4	Positive_Correlate:T4 Theme:T11 Co-theme:T12
+T5	Correlate 1368 1383	correlated with
+E5	Correlate:T5 Theme:E10 Co-theme:T13
+T6	Correlate 1431 1438	related
+E6	Correlate:T6 Theme:T14 Co-theme:T15
+T7	Correlate 1490 1513	showed any relationship
+E7	Correlate:T7 Theme:E8 Co-theme:E9
+A1	Negated E7
+T8	Variable 356 392	bacterioplankton carbon demand (BCD)
+T9	Variable 397 420	growth efficiency (BGE)
+T10	Variable 893 901	nutrient
+T11	Variable 1259 1262	BCD
+T12	Variable 1267 1270	BGE
+T13	Variable 1384 1406	long-term DOC lability
+T14	Variable 1416 1419	BCD
+T15	Variable 1442 1468	ambient DOC concentrations
+T16	Variable 1478 1481	BCD
+T17	Variable 1486 1489	BGE
+T18	Or 1482 1485	nor
+E8	Or:T18 Part:T16 Part2:T17
+T19	Variable 1519 1550	ambient nutrient concentrations
+T20	Variable 1554 1585	nutrient uptake stoichiometries
+T21	Or 1551 1553	or
+E9	Or:T21 Part:T19 Part2:T20
+T22	And 1263 1266	and
+E10	And:T22 Part:T11 Part2:T12

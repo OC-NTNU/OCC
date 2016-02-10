@@ -1,0 +1,29 @@
+T1	Increase 783 791	produced
+E1	Increase:T1 Theme:T6
+T2	Increase 652 662	production
+E2	Increase:T2 Theme:T5
+T3	Increase 8 18	production
+E3	Increase:T3 Theme:T4
+T4	Variable 22 29	methane
+T5	Variable 644 651	methane
+T6	Variable 772 779	methane
+T7	Decrease 841 854	decomposition
+E4	Decrease:T7 Theme:T8
+T8	Variable 823 840	methylphosphonate
+T9	Decrease 903 916	decomposition
+E5	Decrease:T9 Theme:T10
+T10	Variable 885 902	Methylphosphonate
+T11	Increase 935 945	production
+E6	Increase:T11 Theme:T12
+T12	Variable 927 934	methane
+T13	And 918 921	and
+E7	And:T13 Part:E5 Part2:E6
+T14	Variable 966 1012	the activity of nitrogen-fixing microorganisms
+T15	Increase 954 962	enhanced
+E8	Increase:T15 Agent:T14 Theme:E7
+T16	Increase 1053 1063	production
+E9	Increase:T16 Theme:T21
+T17	Change 1089 1096	changes
+E10	Change:T17 Theme:T18
+T18	Variable 1100 1127	water-column stratification
+T21	Variable 1038 1052	marine methane

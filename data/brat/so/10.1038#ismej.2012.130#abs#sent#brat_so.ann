@@ -1,0 +1,13 @@
+T1	Decrease 32 38	uptake
+E1	Decrease:T1 Theme:T2
+T2	Variable 13 31	microbial methanol
+T3	Decrease 842 848	uptake
+E2	Decrease:T3 Theme:T4
+T4	Variable 852 860	methanol
+T6	Correlate 1603 1615	correlations
+E4	Correlate:T6 Theme:T7 Co-theme:E5
+T7	Variable 1645 1671	methanol uptake into cells
+T8	Variable 1681 1709	chlorophyll a concentrations
+T9	And 1710 1713	and
+E5	And:T9 Part:T10 Part2:T8
+T10	Variable 1714 1738	methanol oxidation rates

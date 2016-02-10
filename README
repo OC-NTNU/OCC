@@ -2,7 +2,7 @@
 Ocean-Certain Corpus (OCC)
 ==============================================================================
 
-Version 1.0
+Version 2.0
 
 Erwin Marsi (emarsi@idi.ntnu.no)
 Elias Aamot
@@ -12,11 +12,28 @@ Norwegian University of Science and Technology (NTNU)
 Dept. of Computer and Information Science
 http://www.idi.ntnu.no/
 
+Copyright: Norwegian University of Science and Technology, 2014-2016
 
-TODO:
-* corpus description
-* corpus construction procedure
-* copright/license info
+
+------------------------------------------------------------------------------
+Copyright
+------------------------------------------------------------------------------
+
+The text material in this corpus consists of either abstracts or full
+text of scientific publications. Abstracts are generally considered to
+be exempt of copyright claims. All full text articles are from Open
+Access publications released under a Creative Commons Attribution (CC
+BY) license. Brat annotations are similarly released under a Creative
+Commons Attribution (CC BY) license
+(http://creativecommons.org/licenses/by/3.0/).
+
+
+------------------------------------------------------------------------------
+Corpus description
+------------------------------------------------------------------------------
+
+*** TODO ***
+
 
 
 ------------------------------------------------------------------------------
@@ -34,39 +51,79 @@ http://dx.doi.org/<DOI_PREFIX>/<DOI_SUFFIX>.
 
 Filename tags denote:
 
-    #full    = full article text
-    #abs     = article abstract
-
-    #brat    = annotated with Brat
-    #corenlp = annotated with Stanford CoreNLP
+    #full         = full article text
+    #abs          = article abstract
+    #sent         = selected sentences (one per line) extracted from xml source  
+    #brat_XX      = annotated with Brat by annotator XX
+    #scnlp_vX.Y.Z = annotated with Stanford CoreNLP, version X.Y.Z 
 
 
 File extensions denote:
 
+    .txt = plain text, UTF-8 character encoding
+    .xml = XML markup for publication source or linguistic annotation
+    .soa = stand-off annotation (labeled text spans)
     .ann = Brat stand-off annotation
     .bib = citation info in Bibtex format
-    .txt = plain text
-    .soa = stand-off annotation (labeled text spans)
-    .xml = markup for article source or linguistic annotation
 
 So for example
 
-    10.1371#journal.pone.0079890#full#brat#corenlp.xml
+    10.1371#journal.pone.0079890#full#sent#scnlp_v3.4.1.xml
     
-is the Stanford CoreNLP annotation for those sentences annotated with Brat
-from the full text of the article with DOI 10.1371/journal.pone.0079890.
+is the Stanford CoreNLP (version 3.4.1) annotation for selected
+sentences from the full text of the article with DOI
+10.1371/journal.pone.0079890.
 
 ------------------------------------------------------------------------------
 Directory structure
 ------------------------------------------------------------------------------
 
-OCC/data/src  = XML source and Bibtex files for articles
-OCC/data/brat = Brat text and annotation files
-OCC/data/soa  = plain text and stand-off annotations
+    data/bib     = Bibtex files
+    data/brat    = Brat text and annotation
+    data.brat/XX = annotations by annotator XX
+    data/scnlp   = Stanford CoreNLP annotation
+    data/sent    = text from soa as one sentence per line
+    data/soa     = stand-off annotation and corresponding text
+    data/xml     = XML source
 
-Within these directories, subdirectories indicate development data (pilot) or
-annotators (ea, so).
+------------------------------------------------------------------------------
+Notes
+------------------------------------------------------------------------------
 
-The brat dir can be directly copied to, or symlinked under, the DATA_DIR as
-defined in Brat's config.py file.
+- The brat dir can be directly copied to, or symlinked under, the
+  DATA_DIR as defined in Brat's config.py file.
 
+- The *.txt files in the brat directory are symlinks from *.txt files
+  in the data/sent directory
+
+- Abstracts from the pilot were obtained through copy & paste from the
+  PDF file, so these have no XML source files.
+
+- Conversion from xml to stand-off annotation was done using the
+  nxml2txt script.
+
+- Sentence splitting for the other abstracts and full texts was done
+  with Stanford CoreNLP.
+
+- Some abstracts lack any Brat annotation. This is not an error. It simply
+  means no relevant events are present.
+
+- The "methods" sections of full text articles has so far not been
+  annotated, because these seem to contain hardly any general events.
+
+
+------------------------------------------------------------------------------
+Credits
+------------------------------------------------------------------------------
+
+- Financial aid from the European Commission (OCEAN-CERTAIN,
+  FP7-ENV-2013-6.1-1; no: 603773) is gratefully acknowledged.
+
+- Entity and relation annotations created using Brat annotation tool
+  http://brat.nlplab.org/ 
+
+- Linguistic annotations by Stanford CoreNLP tools
+  http://nlp.stanford.edu/software/corenlp.shtml
+
+- Conversion to stand-off annotation by nxml2txt
+  https://github.com/spyysalo/nxml2tx

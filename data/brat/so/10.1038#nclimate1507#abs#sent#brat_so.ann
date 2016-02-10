@@ -1,0 +1,60 @@
+T1	Increase 0 6	Rising
+E1	Increase:T1 Theme:T4
+T2	Increase 15 24	increased
+E2	Increase:T2 Theme:T5
+T3	Decrease 56 62	reduce
+E3	Decrease:T3 Agent:E4 Theme:T6
+T4	Variable 7 10	CO2
+T5	Variable 25 39	light exposure
+T6	Variable 63 90	marine primary productivity
+T7	And 11 14	and
+E4	And:T7 Part:E1 Part2:E2
+T8	Increase 163 169	Rising
+E5	Increase:T8 Theme:T9
+T9	Variable 170 206	CO2 levels in oceanic surface waters
+T10	Increase 277 288	stimulatory
+E6	Increase:T10 Theme:T11 Agent:E5
+T11	Variable 292 317	marine primary production
+T12	Increase 359 367	increase
+E7	Increase:T12 Theme:E8
+T13	And 380 383	and
+E8	And:T13 Part:T14 Part2:T15
+T14	Variable 376 379	CO2
+T15	Variable 384 398	light exposure
+T17	And 433 436	and
+E10	And:T17 Part:E11 Part2:T18
+T18	Variable 418 432	photosynthesis
+T19	Increase 437 443	growth
+E11	Increase:T19 Theme:T20
+T20	Variable 447 471	marine primary producers
+T16	Cause 410 417	impacts
+E9	Cause:T16 Theme:E10 Agent:E7
+T21	Decrease 619 628	decreased
+E12	Decrease:T21 Theme:T22 Agent:T25
+T22	Variable 629 647	primary production
+T23	Increase 652 661	increased
+E13	Increase:T23 Theme:T24 Agent:T25
+T24	Variable 662 737	light stress at light intensities representative of the upper surface layer
+T25	Variable 489 545	CO2 concentrations projected for the end of this century
+T26	Correlate 1186 1203	inversely related
+E14	Correlate:T26 Theme:T27 Co-theme:T28
+T27	Variable 1140 1180	growth rates in the high-CO2-grown cells
+T28	Variable 1207 1219	light levels
+T29	Decrease 1234 1241	reduced
+E15	Decrease:T29 Theme:T30
+T30	Variable 1242 1286	thresholds at which light becomes inhibitory
+T31	Increase 1361 1370	increased
+E16	Increase:T31 Theme:T32
+T32	Variable 1371 1393	mean light intensities
+T33	Increase 1415 1421	rising
+E17	Increase:T33 Theme:T34
+T34	Variable 1422 1432	CO2 levels
+T35	Cause 1443 1448	cause
+E18	Cause:T35 Agent:E19 Theme:E20
+T36	RefExp 1434 1438	this
+R1	Coref Expression:T36 Antecedent:E16	
+T37	And 1395 1414	In combination with
+E19	And:T37 Part:E17 Part2:T36
+T38	Decrease 1462 1469	decline
+E20	Decrease:T38 Theme:T39
+T39	Variable 1473 1498	marine primary production

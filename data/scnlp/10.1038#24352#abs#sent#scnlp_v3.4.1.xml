@@ -1,0 +1,4891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1" line="1">
+        <tokens>
+          <token id="1">
+            <word>Iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>acquisition</word>
+            <lemma>acquisition</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>photosynthetic</word>
+            <lemma>photosynthetic</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>marine</word>
+            <lemma>marine</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>phytoplankton</word>
+            <lemma>phytoplankton</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>ingested</word>
+            <lemma>ingest</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>bacteria</word>
+            <lemma>bacterium</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (JJ Iron) (NN acquisition)) (PP (IN by) (NP (NP (JJ photosynthetic) (JJ marine) (NN phytoplankton)) (PP (IN from) (S (VP (VBN ingested) (NP (NNS bacteria))))))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="3">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="4">photosynthetic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="5">marine</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">by</governor>
+            <dependent idx="6">phytoplankton</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="7">from</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="7">from</governor>
+            <dependent idx="8">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">ingested</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="4">photosynthetic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="5">marine</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="6">phytoplankton</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="8">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">ingested</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="4">photosynthetic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="5">marine</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="6">phytoplankton</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="6">phytoplankton</governor>
+            <dependent idx="8">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">ingested</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2" line="2">
+        <tokens>
+          <token id="1">
+            <word>Iron</word>
+            <lemma>Iron</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>unique</word>
+            <lemma>unique</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>among</word>
+            <lemma>among</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>biologically</word>
+            <lemma>biologically</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>essential</word>
+            <lemma>essential</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>trace</word>
+            <lemma>trace</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>metals</word>
+            <lemma>metal</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>having</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>higher</word>
+            <lemma>higher</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="13">
+            <word>particulate</word>
+            <lemma>particulate</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>dissolved</word>
+            <lemma>dissolve</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>concentration</word>
+            <lemma>concentration</lemma>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>ocean</word>
+            <lemma>ocean</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>surface</word>
+            <lemma>surface</lemma>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>waters</word>
+            <lemma>water</lemma>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Iron)) (VP (VBZ is) (ADJP (JJ unique) (PP (IN among) (NP (ADJP (RB biologically) (JJ essential)) (NN trace) (NNS metals)))) (PP (IN in) (S (VP (VBG having) (NP (ADJP (DT a) (JJR higher)) (ADJP (JJ particulate) (PP (IN than) (NP (NP (VBN dissolved) (NN concentration)) (PP (IN in) (NP (NN ocean)))))) (NN surface) (NNS waters)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">unique</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unique</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unique</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">unique</governor>
+            <dependent idx="4">among</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">essential</governor>
+            <dependent idx="5">biologically</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">metals</governor>
+            <dependent idx="6">essential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">metals</governor>
+            <dependent idx="7">trace</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">among</governor>
+            <dependent idx="8">metals</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">unique</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="9">in</governor>
+            <dependent idx="10">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">higher</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="12">higher</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="13">particulate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">particulate</governor>
+            <dependent idx="14">than</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">concentration</governor>
+            <dependent idx="15">dissolved</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">than</governor>
+            <dependent idx="16">concentration</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">concentration</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">in</governor>
+            <dependent idx="18">ocean</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">waters</governor>
+            <dependent idx="19">surface</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">having</governor>
+            <dependent idx="20">waters</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">unique</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unique</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unique</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">essential</governor>
+            <dependent idx="5">biologically</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">metals</governor>
+            <dependent idx="6">essential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">metals</governor>
+            <dependent idx="7">trace</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="3">unique</governor>
+            <dependent idx="8">metals</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="3">unique</governor>
+            <dependent idx="10">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">higher</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="12">higher</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="13">particulate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">concentration</governor>
+            <dependent idx="15">dissolved</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="13">particulate</governor>
+            <dependent idx="16">concentration</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">concentration</governor>
+            <dependent idx="18">ocean</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">waters</governor>
+            <dependent idx="19">surface</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">having</governor>
+            <dependent idx="20">waters</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">unique</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unique</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unique</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">essential</governor>
+            <dependent idx="5">biologically</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">metals</governor>
+            <dependent idx="6">essential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">metals</governor>
+            <dependent idx="7">trace</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="3">unique</governor>
+            <dependent idx="8">metals</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="3">unique</governor>
+            <dependent idx="10">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">higher</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="12">higher</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">waters</governor>
+            <dependent idx="13">particulate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">concentration</governor>
+            <dependent idx="15">dissolved</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="13">particulate</governor>
+            <dependent idx="16">concentration</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">concentration</governor>
+            <dependent idx="18">ocean</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">waters</governor>
+            <dependent idx="19">surface</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">having</governor>
+            <dependent idx="20">waters</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3" line="3">
+        <tokens>
+          <token id="1">
+            <word>Uptake</word>
+            <lemma>uptake</lemma>
+            <CharacterOffsetBegin>221</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>dissolved</word>
+            <lemma>dissolve</lemma>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>246</CharacterOffsetBegin>
+            <CharacterOffsetEnd>248</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="6">
+            <word>generally</word>
+            <lemma>generally</lemma>
+            <CharacterOffsetBegin>249</CharacterOffsetBegin>
+            <CharacterOffsetEnd>258</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>considered</word>
+            <lemma>consider</lemma>
+            <CharacterOffsetBegin>259</CharacterOffsetBegin>
+            <CharacterOffsetEnd>269</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>272</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>273</CharacterOffsetBegin>
+            <CharacterOffsetEnd>275</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>279</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>norm</word>
+            <lemma>norm</lemma>
+            <CharacterOffsetBegin>280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>288</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>phytoplankton</word>
+            <lemma>phytoplankton</lemma>
+            <CharacterOffsetBegin>289</CharacterOffsetBegin>
+            <CharacterOffsetEnd>302</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>302</CharacterOffsetBegin>
+            <CharacterOffsetEnd>303</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>304</CharacterOffsetBegin>
+            <CharacterOffsetEnd>306</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>even</word>
+            <lemma>even</lemma>
+            <CharacterOffsetBegin>307</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>315</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>smallest</word>
+            <lemma>smallest</lemma>
+            <CharacterOffsetBegin>316</CharacterOffsetBegin>
+            <CharacterOffsetEnd>324</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="19">
+            <word>iron-bearing</word>
+            <lemma>iron-bearing</lemma>
+            <CharacterOffsetBegin>325</CharacterOffsetBegin>
+            <CharacterOffsetEnd>337</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>particles</word>
+            <lemma>particle</lemma>
+            <CharacterOffsetBegin>338</CharacterOffsetBegin>
+            <CharacterOffsetEnd>347</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>348</CharacterOffsetBegin>
+            <CharacterOffsetEnd>351</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="22">
+            <word>unavailable</word>
+            <lemma>unavailable</lemma>
+            <CharacterOffsetBegin>352</CharacterOffsetBegin>
+            <CharacterOffsetEnd>363</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>364</CharacterOffsetBegin>
+            <CharacterOffsetEnd>367</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>transport</word>
+            <lemma>transport</lemma>
+            <CharacterOffsetBegin>368</CharacterOffsetBegin>
+            <CharacterOffsetEnd>377</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>into</word>
+            <lemma>into</lemma>
+            <CharacterOffsetBegin>378</CharacterOffsetBegin>
+            <CharacterOffsetEnd>382</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="26">
+            <word>cells</word>
+            <lemma>cell</lemma>
+            <CharacterOffsetBegin>383</CharacterOffsetBegin>
+            <CharacterOffsetEnd>388</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="27">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>388</CharacterOffsetBegin>
+            <CharacterOffsetEnd>389</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="28">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>389</CharacterOffsetBegin>
+            <CharacterOffsetEnd>390</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN Uptake)) (PP (IN of) (NP (VBN dissolved) (NN iron)))) (VP (VBZ is) (ADVP (RB generally)) (VP (VBN considered) (S (VP (TO to) (VP (VB be) (NP (NP (DT the) (NN norm)) (PP (IN for) (NP (NN phytoplankton))))))) (, ,) (SBAR (IN as) (RB even) (S (NP (DT the) (JJS smallest) (JJ iron-bearing) (NNS particles)) (VP (VBP are) (ADJP (JJ unavailable) (PP (IN for) (NP (NN transport)))) (PP (IN into) (NP (NNS cells)))))) (, ,))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">considered</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="1">Uptake</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Uptake</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">iron</governor>
+            <dependent idx="3">dissolved</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">considered</governor>
+            <dependent idx="6">generally</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">norm</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">norm</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">norm</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">considered</governor>
+            <dependent idx="11">norm</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">norm</governor>
+            <dependent idx="12">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">for</governor>
+            <dependent idx="13">phytoplankton</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="16">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">particles</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="18">smallest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="19">iron-bearing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="20">particles</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="21">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">considered</governor>
+            <dependent idx="22">unavailable</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="23">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">for</governor>
+            <dependent idx="24">transport</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="25">into</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">into</governor>
+            <dependent idx="26">cells</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">considered</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="1">Uptake</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">iron</governor>
+            <dependent idx="3">dissolved</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Uptake</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">considered</governor>
+            <dependent idx="6">generally</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">norm</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">norm</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">norm</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">considered</governor>
+            <dependent idx="11">norm</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="11">norm</governor>
+            <dependent idx="13">phytoplankton</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="16">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">particles</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="18">smallest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="19">iron-bearing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="20">particles</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="21">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">considered</governor>
+            <dependent idx="22">unavailable</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="24">transport</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="26">cells</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">considered</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="1">Uptake</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">iron</governor>
+            <dependent idx="3">dissolved</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Uptake</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">considered</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">considered</governor>
+            <dependent idx="6">generally</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">norm</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">norm</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">norm</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">considered</governor>
+            <dependent idx="11">norm</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="11">norm</governor>
+            <dependent idx="13">phytoplankton</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="16">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">particles</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="18">smallest</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">particles</governor>
+            <dependent idx="19">iron-bearing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="20">particles</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="21">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">considered</governor>
+            <dependent idx="22">unavailable</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="24">transport</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="22">unavailable</governor>
+            <dependent idx="26">cells</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4" line="4">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>391</CharacterOffsetBegin>
+            <CharacterOffsetEnd>394</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>395</CharacterOffsetBegin>
+            <CharacterOffsetEnd>398</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>oceanic</word>
+            <lemma>oceanic</lemma>
+            <CharacterOffsetBegin>399</CharacterOffsetBegin>
+            <CharacterOffsetEnd>406</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>dissolved</word>
+            <lemma>dissolve</lemma>
+            <CharacterOffsetBegin>407</CharacterOffsetBegin>
+            <CharacterOffsetEnd>416</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>fraction</word>
+            <lemma>fraction</lemma>
+            <CharacterOffsetBegin>417</CharacterOffsetBegin>
+            <CharacterOffsetEnd>425</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>426</CharacterOffsetBegin>
+            <CharacterOffsetEnd>428</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="7">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>429</CharacterOffsetBegin>
+            <CharacterOffsetEnd>431</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>small</word>
+            <lemma>small</lemma>
+            <CharacterOffsetBegin>432</CharacterOffsetBegin>
+            <CharacterOffsetEnd>437</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>437</CharacterOffsetBegin>
+            <CharacterOffsetEnd>438</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>439</CharacterOffsetBegin>
+            <CharacterOffsetEnd>442</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>443</CharacterOffsetBegin>
+            <CharacterOffsetEnd>446</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>particulate</word>
+            <lemma>particulate</lemma>
+            <CharacterOffsetBegin>447</CharacterOffsetBegin>
+            <CharacterOffsetEnd>458</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>fraction</word>
+            <lemma>fraction</lemma>
+            <CharacterOffsetBegin>459</CharacterOffsetBegin>
+            <CharacterOffsetEnd>467</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>468</CharacterOffsetBegin>
+            <CharacterOffsetEnd>470</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>inert</word>
+            <lemma>inert</lemma>
+            <CharacterOffsetBegin>471</CharacterOffsetBegin>
+            <CharacterOffsetEnd>476</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>476</CharacterOffsetBegin>
+            <CharacterOffsetEnd>477</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>478</CharacterOffsetBegin>
+            <CharacterOffsetEnd>482</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>phytoplankton</word>
+            <lemma>phytoplankton</lemma>
+            <CharacterOffsetBegin>483</CharacterOffsetBegin>
+            <CharacterOffsetEnd>496</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>production</word>
+            <lemma>production</lemma>
+            <CharacterOffsetBegin>497</CharacterOffsetBegin>
+            <CharacterOffsetEnd>507</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>508</CharacterOffsetBegin>
+            <CharacterOffsetEnd>510</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="21">
+            <word>limited</word>
+            <lemma>limit</lemma>
+            <CharacterOffsetBegin>511</CharacterOffsetBegin>
+            <CharacterOffsetEnd>518</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="22">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>519</CharacterOffsetBegin>
+            <CharacterOffsetEnd>521</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>522</CharacterOffsetBegin>
+            <CharacterOffsetEnd>523</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="24">
+            <word>dearth</word>
+            <lemma>dearth</lemma>
+            <CharacterOffsetBegin>524</CharacterOffsetBegin>
+            <CharacterOffsetEnd>530</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>531</CharacterOffsetBegin>
+            <CharacterOffsetEnd>533</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="26">
+            <word>available</word>
+            <lemma>available</lemma>
+            <CharacterOffsetBegin>534</CharacterOffsetBegin>
+            <CharacterOffsetEnd>543</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="27">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>544</CharacterOffsetBegin>
+            <CharacterOffsetEnd>548</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="28">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>549</CharacterOffsetBegin>
+            <CharacterOffsetEnd>551</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="29">
+            <word>some</word>
+            <lemma>some</lemma>
+            <CharacterOffsetBegin>552</CharacterOffsetBegin>
+            <CharacterOffsetEnd>556</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="30">
+            <word>regions</word>
+            <lemma>region</lemma>
+            <CharacterOffsetBegin>557</CharacterOffsetBegin>
+            <CharacterOffsetEnd>564</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="31">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>564</CharacterOffsetBegin>
+            <CharacterOffsetEnd>565</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (NP (DT the) (JJ oceanic)) (VP (VBN dissolved) (NP (NN fraction)))) (VP (VBZ is) (NP (NP (ADJP (RB so) (JJ small))) (, ,) (CC and) (NP (NP (DT the) (JJ particulate) (NN fraction)) (ADJP (RB so) (JJ inert))) (, ,)) (SBAR (IN that) (S (NP (NN phytoplankton) (NN production)) (VP (VBZ is) (VP (VBN limited) (PP (IN by) (NP (NP (DT a) (NN dearth)) (PP (IN of) (NP (NP (JJ available) (NN iron)) (PP (IN in) (NP (DT some) (NNS regions)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">small</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">small</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">small</governor>
+            <dependent idx="3">oceanic</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="4">dissolved</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">dissolved</governor>
+            <dependent idx="5">fraction</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">small</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">small</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">small</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">fraction</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="12">particulate</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">small</governor>
+            <dependent idx="13">fraction</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">inert</governor>
+            <dependent idx="14">so</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="15">inert</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">limited</governor>
+            <dependent idx="17">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">production</governor>
+            <dependent idx="18">phytoplankton</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="19">production</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">small</governor>
+            <dependent idx="21">limited</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">limited</governor>
+            <dependent idx="22">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">dearth</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">by</governor>
+            <dependent idx="24">dearth</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="24">dearth</governor>
+            <dependent idx="25">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">iron</governor>
+            <dependent idx="26">available</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">of</governor>
+            <dependent idx="27">iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="27">iron</governor>
+            <dependent idx="28">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">regions</governor>
+            <dependent idx="29">some</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="28">in</governor>
+            <dependent idx="30">regions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">small</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">small</governor>
+            <dependent idx="3">oceanic</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="4">dissolved</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">dissolved</governor>
+            <dependent idx="5">fraction</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">small</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">small</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">fraction</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="12">particulate</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">small</governor>
+            <dependent idx="13">fraction</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">inert</governor>
+            <dependent idx="14">so</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="15">inert</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">limited</governor>
+            <dependent idx="17">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">production</governor>
+            <dependent idx="18">phytoplankton</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="19">production</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">small</governor>
+            <dependent idx="21">limited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">dearth</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="21">limited</governor>
+            <dependent idx="24">dearth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">iron</governor>
+            <dependent idx="26">available</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">dearth</governor>
+            <dependent idx="27">iron</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">regions</governor>
+            <dependent idx="29">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="27">iron</governor>
+            <dependent idx="30">regions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">small</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">small</governor>
+            <dependent idx="3">oceanic</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="3">oceanic</governor>
+            <dependent idx="4">dissolved</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">dissolved</governor>
+            <dependent idx="5">fraction</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">small</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">small</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">fraction</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="12">particulate</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">small</governor>
+            <dependent idx="13">fraction</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">inert</governor>
+            <dependent idx="14">so</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">fraction</governor>
+            <dependent idx="15">inert</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">limited</governor>
+            <dependent idx="17">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">production</governor>
+            <dependent idx="18">phytoplankton</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="19">production</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="21">limited</governor>
+            <dependent idx="20">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">small</governor>
+            <dependent idx="21">limited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">dearth</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="21">limited</governor>
+            <dependent idx="24">dearth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">iron</governor>
+            <dependent idx="26">available</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">dearth</governor>
+            <dependent idx="27">iron</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">regions</governor>
+            <dependent idx="29">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="27">iron</governor>
+            <dependent idx="30">regions</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="5" line="5">
+        <tokens>
+          <token id="1">
+            <word>Here</word>
+            <lemma>here</lemma>
+            <CharacterOffsetBegin>566</CharacterOffsetBegin>
+            <CharacterOffsetEnd>570</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>we</word>
+            <lemma>we</lemma>
+            <CharacterOffsetBegin>571</CharacterOffsetBegin>
+            <CharacterOffsetEnd>573</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>use</word>
+            <lemma>use</lemma>
+            <CharacterOffsetBegin>574</CharacterOffsetBegin>
+            <CharacterOffsetEnd>577</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>incubation</word>
+            <lemma>incubation</lemma>
+            <CharacterOffsetBegin>578</CharacterOffsetBegin>
+            <CharacterOffsetEnd>588</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>experiments</word>
+            <lemma>experiment</lemma>
+            <CharacterOffsetBegin>589</CharacterOffsetBegin>
+            <CharacterOffsetEnd>600</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>601</CharacterOffsetBegin>
+            <CharacterOffsetEnd>603</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>show</word>
+            <lemma>show</lemma>
+            <CharacterOffsetBegin>604</CharacterOffsetBegin>
+            <CharacterOffsetEnd>608</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>609</CharacterOffsetBegin>
+            <CharacterOffsetEnd>613</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Ochromonas</word>
+            <lemma>Ochromonas</lemma>
+            <CharacterOffsetBegin>614</CharacterOffsetBegin>
+            <CharacterOffsetEnd>624</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>sp.</word>
+            <lemma>sp.</lemma>
+            <CharacterOffsetBegin>625</CharacterOffsetBegin>
+            <CharacterOffsetEnd>628</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>628</CharacterOffsetBegin>
+            <CharacterOffsetEnd>629</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>630</CharacterOffsetBegin>
+            <CharacterOffsetEnd>631</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>common</word>
+            <lemma>common</lemma>
+            <CharacterOffsetBegin>632</CharacterOffsetBegin>
+            <CharacterOffsetEnd>638</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>photosynthetic</word>
+            <lemma>photosynthetic</lemma>
+            <CharacterOffsetBegin>639</CharacterOffsetBegin>
+            <CharacterOffsetEnd>653</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>flagellate</word>
+            <lemma>flagellate</lemma>
+            <CharacterOffsetBegin>654</CharacterOffsetBegin>
+            <CharacterOffsetEnd>664</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>665</CharacterOffsetBegin>
+            <CharacterOffsetEnd>669</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>670</CharacterOffsetBegin>
+            <CharacterOffsetEnd>673</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>Pacific</word>
+            <lemma>Pacific</lemma>
+            <CharacterOffsetBegin>674</CharacterOffsetBegin>
+            <CharacterOffsetEnd>681</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>Ocean</word>
+            <lemma>Ocean</lemma>
+            <CharacterOffsetBegin>682</CharacterOffsetBegin>
+            <CharacterOffsetEnd>687</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>687</CharacterOffsetBegin>
+            <CharacterOffsetEnd>688</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="21">
+            <word>can</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>689</CharacterOffsetBegin>
+            <CharacterOffsetEnd>692</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="22">
+            <word>obtain</word>
+            <lemma>obtain</lemma>
+            <CharacterOffsetBegin>693</CharacterOffsetBegin>
+            <CharacterOffsetEnd>699</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>700</CharacterOffsetBegin>
+            <CharacterOffsetEnd>704</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>directly</word>
+            <lemma>directly</lemma>
+            <CharacterOffsetBegin>705</CharacterOffsetBegin>
+            <CharacterOffsetEnd>713</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="25">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>714</CharacterOffsetBegin>
+            <CharacterOffsetEnd>716</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="26">
+            <word>particulate</word>
+            <lemma>particulate</lemma>
+            <CharacterOffsetBegin>717</CharacterOffsetBegin>
+            <CharacterOffsetEnd>728</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="27">
+            <word>form</word>
+            <lemma>form</lemma>
+            <CharacterOffsetBegin>729</CharacterOffsetBegin>
+            <CharacterOffsetEnd>733</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="28">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>733</CharacterOffsetBegin>
+            <CharacterOffsetEnd>734</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="29">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>735</CharacterOffsetBegin>
+            <CharacterOffsetEnd>737</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="30">
+            <word>ingesting</word>
+            <lemma>ingest</lemma>
+            <CharacterOffsetBegin>738</CharacterOffsetBegin>
+            <CharacterOffsetEnd>747</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="31">
+            <word>bacteria</word>
+            <lemma>bacterium</lemma>
+            <CharacterOffsetBegin>748</CharacterOffsetBegin>
+            <CharacterOffsetEnd>756</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="32">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>756</CharacterOffsetBegin>
+            <CharacterOffsetEnd>757</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Here)) (NP (PRP we)) (VP (VBP use) (S (NP (NN incubation) (NNS experiments)) (VP (TO to) (VP (VB show) (SBAR (IN that) (S (NP (NP (NNP Ochromonas) (NNP sp.)) (, ,) (NP (NP (DT a) (JJ common) (JJ photosynthetic) (NN flagellate)) (PP (IN from) (NP (DT the) (NNP Pacific) (NNP Ocean)))) (, ,)) (VP (MD can) (VP (VB obtain) (NP (NN iron)) (ADVP (RB directly)) (PP (IN in) (NP (JJ particulate) (NN form))) (, ,) (PP (IN by) (NP (VBG ingesting) (NNS bacteria))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">use</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">use</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">use</governor>
+            <dependent idx="2">we</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">experiments</governor>
+            <dependent idx="4">incubation</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">use</governor>
+            <dependent idx="5">experiments</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">show</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">use</governor>
+            <dependent idx="7">show</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">obtain</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">sp.</governor>
+            <dependent idx="9">Ochromonas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="10">sp.</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="13">common</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="14">photosynthetic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">sp.</governor>
+            <dependent idx="15">flagellate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="16">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="18">Pacific</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">from</governor>
+            <dependent idx="19">Ocean</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">obtain</governor>
+            <dependent idx="21">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">show</governor>
+            <dependent idx="22">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="23">iron</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">obtain</governor>
+            <dependent idx="24">directly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">obtain</governor>
+            <dependent idx="25">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">form</governor>
+            <dependent idx="26">particulate</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">in</governor>
+            <dependent idx="27">form</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">obtain</governor>
+            <dependent idx="29">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">bacteria</governor>
+            <dependent idx="30">ingesting</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="29">by</governor>
+            <dependent idx="31">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">use</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">use</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">use</governor>
+            <dependent idx="2">we</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">experiments</governor>
+            <dependent idx="4">incubation</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">use</governor>
+            <dependent idx="5">experiments</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">show</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">use</governor>
+            <dependent idx="7">show</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">obtain</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">sp.</governor>
+            <dependent idx="9">Ochromonas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="10">sp.</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="13">common</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="14">photosynthetic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">sp.</governor>
+            <dependent idx="15">flagellate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="18">Pacific</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="19">Ocean</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">obtain</governor>
+            <dependent idx="21">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">show</governor>
+            <dependent idx="22">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="23">iron</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">obtain</governor>
+            <dependent idx="24">directly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">form</governor>
+            <dependent idx="26">particulate</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="22">obtain</governor>
+            <dependent idx="27">form</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">bacteria</governor>
+            <dependent idx="30">ingesting</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="22">obtain</governor>
+            <dependent idx="31">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">use</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">use</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">use</governor>
+            <dependent idx="2">we</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">experiments</governor>
+            <dependent idx="4">incubation</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">use</governor>
+            <dependent idx="5">experiments</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">show</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">use</governor>
+            <dependent idx="7">show</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">obtain</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">sp.</governor>
+            <dependent idx="9">Ochromonas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="10">sp.</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="13">common</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="14">photosynthetic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">sp.</governor>
+            <dependent idx="15">flagellate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Ocean</governor>
+            <dependent idx="18">Pacific</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">flagellate</governor>
+            <dependent idx="19">Ocean</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">obtain</governor>
+            <dependent idx="21">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">show</governor>
+            <dependent idx="22">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">obtain</governor>
+            <dependent idx="23">iron</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">obtain</governor>
+            <dependent idx="24">directly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="27">form</governor>
+            <dependent idx="26">particulate</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="22">obtain</governor>
+            <dependent idx="27">form</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">bacteria</governor>
+            <dependent idx="30">ingesting</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="22">obtain</governor>
+            <dependent idx="31">bacteria</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="6" line="6">
+        <tokens>
+          <token id="1">
+            <word>Iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>758</CharacterOffsetBegin>
+            <CharacterOffsetEnd>762</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>acquisition</word>
+            <lemma>acquisition</lemma>
+            <CharacterOffsetBegin>763</CharacterOffsetBegin>
+            <CharacterOffsetEnd>774</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>775</CharacterOffsetBegin>
+            <CharacterOffsetEnd>777</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>highly</word>
+            <lemma>highly</lemma>
+            <CharacterOffsetBegin>778</CharacterOffsetBegin>
+            <CharacterOffsetEnd>784</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>efficient</word>
+            <lemma>efficient</lemma>
+            <CharacterOffsetBegin>785</CharacterOffsetBegin>
+            <CharacterOffsetEnd>794</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>794</CharacterOffsetBegin>
+            <CharacterOffsetEnd>795</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="7">
+            <word>Ochromonas</word>
+            <lemma>Ochromonas</lemma>
+            <CharacterOffsetBegin>796</CharacterOffsetBegin>
+            <CharacterOffsetEnd>806</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>assimilates</word>
+            <lemma>assimilate</lemma>
+            <CharacterOffsetBegin>807</CharacterOffsetBegin>
+            <CharacterOffsetEnd>818</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>819</CharacterOffsetBegin>
+            <CharacterOffsetEnd>821</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>821</CharacterOffsetBegin>
+            <CharacterOffsetEnd>822</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>823</CharacterOffsetBegin>
+            <CharacterOffsetEnd>825</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>826</CharacterOffsetBegin>
+            <CharacterOffsetEnd>829</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>ingested</word>
+            <lemma>ingest</lemma>
+            <CharacterOffsetBegin>830</CharacterOffsetBegin>
+            <CharacterOffsetEnd>838</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>ration</word>
+            <lemma>ration</lemma>
+            <CharacterOffsetBegin>839</CharacterOffsetBegin>
+            <CharacterOffsetEnd>845</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>845</CharacterOffsetBegin>
+            <CharacterOffsetEnd>846</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>acquiring</word>
+            <lemma>acquire</lemma>
+            <CharacterOffsetBegin>847</CharacterOffsetBegin>
+            <CharacterOffsetEnd>856</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>857</CharacterOffsetBegin>
+            <CharacterOffsetEnd>858</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>high</word>
+            <lemma>high</lemma>
+            <CharacterOffsetBegin>859</CharacterOffsetBegin>
+            <CharacterOffsetEnd>863</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>intracellular</word>
+            <lemma>intracellular</lemma>
+            <CharacterOffsetBegin>864</CharacterOffsetBegin>
+            <CharacterOffsetEnd>877</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>878</CharacterOffsetBegin>
+            <CharacterOffsetEnd>882</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>concentration</word>
+            <lemma>concentration</lemma>
+            <CharacterOffsetBegin>883</CharacterOffsetBegin>
+            <CharacterOffsetEnd>896</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>897</CharacterOffsetBegin>
+            <CharacterOffsetEnd>900</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="23">
+            <word>maintaining</word>
+            <lemma>maintain</lemma>
+            <CharacterOffsetBegin>901</CharacterOffsetBegin>
+            <CharacterOffsetEnd>912</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="24">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>913</CharacterOffsetBegin>
+            <CharacterOffsetEnd>914</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="25">
+            <word>significantly</word>
+            <lemma>significantly</lemma>
+            <CharacterOffsetBegin>915</CharacterOffsetBegin>
+            <CharacterOffsetEnd>928</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="26">
+            <word>faster</word>
+            <lemma>faster</lemma>
+            <CharacterOffsetBegin>929</CharacterOffsetBegin>
+            <CharacterOffsetEnd>935</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="27">
+            <word>growth</word>
+            <lemma>growth</lemma>
+            <CharacterOffsetBegin>936</CharacterOffsetBegin>
+            <CharacterOffsetEnd>942</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="28">
+            <word>rate</word>
+            <lemma>rate</lemma>
+            <CharacterOffsetBegin>943</CharacterOffsetBegin>
+            <CharacterOffsetEnd>947</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="29">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>948</CharacterOffsetBegin>
+            <CharacterOffsetEnd>952</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="30">
+            <word>when</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>953</CharacterOffsetBegin>
+            <CharacterOffsetEnd>957</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="31">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>958</CharacterOffsetBegin>
+            <CharacterOffsetEnd>962</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="32">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>963</CharacterOffsetBegin>
+            <CharacterOffsetEnd>965</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="33">
+            <word>provided</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>966</CharacterOffsetBegin>
+            <CharacterOffsetEnd>974</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="34">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>975</CharacterOffsetBegin>
+            <CharacterOffsetEnd>977</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="35">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>978</CharacterOffsetBegin>
+            <CharacterOffsetEnd>981</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="36">
+            <word>dissolved</word>
+            <lemma>dissolve</lemma>
+            <CharacterOffsetBegin>982</CharacterOffsetBegin>
+            <CharacterOffsetEnd>991</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="37">
+            <word>phase</word>
+            <lemma>phase</lemma>
+            <CharacterOffsetBegin>992</CharacterOffsetBegin>
+            <CharacterOffsetEnd>997</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>997</CharacterOffsetBegin>
+            <CharacterOffsetEnd>998</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (JJ Iron) (NN acquisition)) (VP (VBZ is) (ADJP (RB highly) (JJ efficient)))) (: ;) (S (NP (NNP Ochromonas)) (VP (VBZ assimilates) (NP (NP (CD 30) (NN %)) (PP (IN of) (NP (NP (DT the)) (VP (VBN ingested) (NP (NN ration)) (, ,) (S (VP (VP (VBG acquiring) (NP (DT a) (JJ high) (JJ intracellular) (NN iron) (NN concentration))) (CC and) (VP (VBG maintaining) (NP (DT a) (ADJP (RB significantly) (JJR faster)) (NN growth) (NN rate)) (PP (IN than) (SBAR (WHADVP (WRB when)) (S (NP (NN iron)) (VP (VBZ is) (VP (VBN provided) (PP (IN in) (NP (DT the) (VBN dissolved) (NN phase))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">efficient</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">efficient</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">efficient</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">efficient</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="7">Ochromonas</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">efficient</governor>
+            <dependent idx="8">assimilates</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">%</governor>
+            <dependent idx="9">30</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">%</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">the</governor>
+            <dependent idx="13">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">ingested</governor>
+            <dependent idx="14">ration</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ingested</governor>
+            <dependent idx="16">acquiring</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">concentration</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="18">high</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="19">intracellular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">concentration</governor>
+            <dependent idx="20">iron</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="21">concentration</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="22">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="23">maintaining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">rate</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="26">faster</governor>
+            <dependent idx="25">significantly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">rate</governor>
+            <dependent idx="26">faster</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="28">rate</governor>
+            <dependent idx="27">growth</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="28">rate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="29">than</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="33">provided</governor>
+            <dependent idx="30">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="31">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="32">is</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="29">than</governor>
+            <dependent idx="33">provided</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="33">provided</governor>
+            <dependent idx="34">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">phase</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">phase</governor>
+            <dependent idx="36">dissolved</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="34">in</governor>
+            <dependent idx="37">phase</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">efficient</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">efficient</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">efficient</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">efficient</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="7">Ochromonas</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">efficient</governor>
+            <dependent idx="8">assimilates</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">%</governor>
+            <dependent idx="9">30</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">%</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">the</governor>
+            <dependent idx="13">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">ingested</governor>
+            <dependent idx="14">ration</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ingested</governor>
+            <dependent idx="16">acquiring</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">concentration</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="18">high</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="19">intracellular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">concentration</governor>
+            <dependent idx="20">iron</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="21">concentration</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="23">maintaining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">rate</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="26">faster</governor>
+            <dependent idx="25">significantly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">rate</governor>
+            <dependent idx="26">faster</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="28">rate</governor>
+            <dependent idx="27">growth</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="28">rate</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="33">provided</governor>
+            <dependent idx="30">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="31">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="32">is</dependent>
+          </dep>
+          <dep type="prepc_than">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="33">provided</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">phase</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">phase</governor>
+            <dependent idx="36">dissolved</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="33">provided</governor>
+            <dependent idx="37">phase</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">efficient</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">acquisition</governor>
+            <dependent idx="1">Iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">efficient</governor>
+            <dependent idx="2">acquisition</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">efficient</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">efficient</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="7">Ochromonas</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">efficient</governor>
+            <dependent idx="8">assimilates</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">%</governor>
+            <dependent idx="9">30</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">assimilates</governor>
+            <dependent idx="10">%</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">%</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">the</governor>
+            <dependent idx="13">ingested</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">ingested</governor>
+            <dependent idx="14">ration</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ingested</governor>
+            <dependent idx="16">acquiring</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">concentration</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="18">high</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">concentration</governor>
+            <dependent idx="19">intracellular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">concentration</governor>
+            <dependent idx="20">iron</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="21">concentration</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">ingested</governor>
+            <dependent idx="23">maintaining</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">acquiring</governor>
+            <dependent idx="23">maintaining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">rate</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="26">faster</governor>
+            <dependent idx="25">significantly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">rate</governor>
+            <dependent idx="26">faster</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="28">rate</governor>
+            <dependent idx="27">growth</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="28">rate</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="33">provided</governor>
+            <dependent idx="30">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="31">iron</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="33">provided</governor>
+            <dependent idx="32">is</dependent>
+          </dep>
+          <dep type="prepc_than">
+            <governor idx="23">maintaining</governor>
+            <dependent idx="33">provided</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">phase</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">phase</governor>
+            <dependent idx="36">dissolved</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="33">provided</governor>
+            <dependent idx="37">phase</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="7" line="7">
+        <tokens>
+          <token id="1">
+            <word>Phytoplankton</word>
+            <lemma>Phytoplankton</lemma>
+            <CharacterOffsetBegin>999</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1012</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>capable</word>
+            <lemma>capable</lemma>
+            <CharacterOffsetBegin>1013</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1020</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1021</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1023</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>such</word>
+            <lemma>such</lemma>
+            <CharacterOffsetBegin>1024</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1028</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>phagotrophy</word>
+            <lemma>phagotrophy</lemma>
+            <CharacterOffsetBegin>1029</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1040</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>1041</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1042</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="7">
+            <word>so-called</word>
+            <lemma>so-called</lemma>
+            <CharacterOffsetBegin>1042</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1051</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>mixotrophic</word>
+            <lemma>mixotrophic</lemma>
+            <CharacterOffsetBegin>1052</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1063</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>species</word>
+            <lemma>species</lemma>
+            <CharacterOffsetBegin>1064</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1071</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>1071</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1072</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="11">
+            <word>may</word>
+            <lemma>may</lemma>
+            <CharacterOffsetBegin>1073</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1076</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="12">
+            <word>thus</word>
+            <lemma>thus</lemma>
+            <CharacterOffsetBegin>1077</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1081</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>1082</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1084</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>able</word>
+            <lemma>able</lemma>
+            <CharacterOffsetBegin>1085</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1089</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>1090</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1092</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>assimilate</word>
+            <lemma>assimilate</lemma>
+            <CharacterOffsetBegin>1093</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1103</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="17">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>1104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>1109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1111</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>both</word>
+            <lemma>both</lemma>
+            <CharacterOffsetBegin>1112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1116</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>particulate</word>
+            <lemma>particulate</lemma>
+            <CharacterOffsetBegin>1117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1128</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>1129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1132</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="22">
+            <word>dissolved</word>
+            <lemma>dissolve</lemma>
+            <CharacterOffsetBegin>1133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1142</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="23">
+            <word>forms</word>
+            <lemma>form</lemma>
+            <CharacterOffsetBegin>1143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1148</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>1149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1151</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="25">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1155</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="26">
+            <word>ocean</word>
+            <lemma>ocean</lemma>
+            <CharacterOffsetBegin>1156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1161</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1162</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Phytoplankton)) (ADJP (JJ capable) (PP (IN of) (NP (NP (JJ such) (NN phagotrophy)) (PRN (-LRB- -LRB-) (NP (JJ so-called) (JJ mixotrophic) (NNS species)) (-RRB- -RRB-)))))) (VP (MD may) (ADVP (RB thus)) (VP (VB be) (ADJP (JJ able) (S (VP (TO to) (VP (VB assimilate) (NP (NN iron)) (PP (PP (IN in) (CC both) (NP (UCP (ADJP (JJ particulate)) (CC and) (VP (VBD dissolved))) (NNS forms))) (PP (IN in) (NP (DT the) (NN ocean)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">able</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">able</governor>
+            <dependent idx="1">Phytoplankton</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Phytoplankton</governor>
+            <dependent idx="2">capable</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">capable</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="4">such</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">phagotrophy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="7">so-called</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="8">mixotrophic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="9">species</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">able</governor>
+            <dependent idx="11">may</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">able</governor>
+            <dependent idx="12">thus</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">able</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">able</governor>
+            <dependent idx="16">assimilate</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">in</governor>
+            <dependent idx="19">both</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">forms</governor>
+            <dependent idx="20">particulate</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="20">particulate</governor>
+            <dependent idx="21">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="20">particulate</governor>
+            <dependent idx="22">dissolved</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="18">in</governor>
+            <dependent idx="23">forms</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">in</governor>
+            <dependent idx="24">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">ocean</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="24">in</governor>
+            <dependent idx="26">ocean</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">able</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">able</governor>
+            <dependent idx="1">Phytoplankton</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Phytoplankton</governor>
+            <dependent idx="2">capable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="4">such</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">capable</governor>
+            <dependent idx="5">phagotrophy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="7">so-called</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="8">mixotrophic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="9">species</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">able</governor>
+            <dependent idx="11">may</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">able</governor>
+            <dependent idx="12">thus</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">able</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">able</governor>
+            <dependent idx="16">assimilate</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">in</governor>
+            <dependent idx="19">both</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">forms</governor>
+            <dependent idx="20">particulate</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="20">particulate</governor>
+            <dependent idx="22">dissolved</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="18">in</governor>
+            <dependent idx="23">forms</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">ocean</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">in</governor>
+            <dependent idx="26">ocean</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">able</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">able</governor>
+            <dependent idx="1">Phytoplankton</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">Phytoplankton</governor>
+            <dependent idx="2">capable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="4">such</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">capable</governor>
+            <dependent idx="5">phagotrophy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="7">so-called</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">species</governor>
+            <dependent idx="8">mixotrophic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">phagotrophy</governor>
+            <dependent idx="9">species</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">able</governor>
+            <dependent idx="11">may</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">able</governor>
+            <dependent idx="12">thus</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">able</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">able</governor>
+            <dependent idx="16">assimilate</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">assimilate</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">in</governor>
+            <dependent idx="19">both</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">forms</governor>
+            <dependent idx="20">particulate</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="20">particulate</governor>
+            <dependent idx="22">dissolved</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">forms</governor>
+            <dependent idx="22">dissolved</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="18">in</governor>
+            <dependent idx="23">forms</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">ocean</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">in</governor>
+            <dependent idx="26">ocean</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="8" line="8">
+        <tokens>
+          <token id="1">
+            <word>Moreover</word>
+            <lemma>moreover</lemma>
+            <CharacterOffsetBegin>1163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1171</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1172</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>when</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>1173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1177</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="4">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>1178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1182</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>availability</word>
+            <lemma>availability</lemma>
+            <CharacterOffsetBegin>1183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1195</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>1196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1198</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="7">
+            <word>limited</word>
+            <lemma>limit</lemma>
+            <CharacterOffsetBegin>1199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1206</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>1206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1207</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1211</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>1212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1216</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>`</word>
+            <lemma>`</lemma>
+            <CharacterOffsetBegin>1217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1218</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="12">
+            <word>cost</word>
+            <lemma>cost</lemma>
+            <CharacterOffsetBegin>1218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1222</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>'</word>
+            <lemma>'</lemma>
+            <CharacterOffsetBegin>1222</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1223</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1226</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>growth</word>
+            <lemma>growth</lemma>
+            <CharacterOffsetBegin>1227</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1233</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>1234</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1236</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="17">
+            <word>diminished</word>
+            <lemma>diminish</lemma>
+            <CharacterOffsetBegin>1237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1247</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="18">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>1248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1255</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>Ochromonas</word>
+            <lemma>Ochromonas</lemma>
+            <CharacterOffsetBegin>1256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1266</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>derives</word>
+            <lemma>derive</lemma>
+            <CharacterOffsetBegin>1267</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1274</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="21">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>1275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1276</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>greater</word>
+            <lemma>greater</lemma>
+            <CharacterOffsetBegin>1277</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1284</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="23">
+            <word>fraction</word>
+            <lemma>fraction</lemma>
+            <CharacterOffsetBegin>1285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1293</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1294</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1296</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="25">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>1297</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1300</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="26">
+            <word>energy</word>
+            <lemma>energy</lemma>
+            <CharacterOffsetBegin>1301</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1307</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="27">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>1308</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1312</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="28">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1313</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1316</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="29">
+            <word>bacteria</word>
+            <lemma>bacterium</lemma>
+            <CharacterOffsetBegin>1317</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1325</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="30">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1325</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1326</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Moreover)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NN iron) (NN availability)) (VP (VBZ is) (ADJP (VBN limited))))) (, ,) (NP (NP (DT the) (NN iron) (`` `) (NN cost) ('' ')) (PP (IN of) (NP (NN growth)))) (VP (VBZ is) (VP (VBN diminished) (SBAR (IN because) (S (NP (NNP Ochromonas)) (VP (VBZ derives) (NP (NP (DT a) (JJR greater) (NN fraction)) (PP (IN of) (NP (PRP$ its) (NN energy)))) (PP (IN from) (NP (DT the) (NNS bacteria)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">diminished</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">diminished</governor>
+            <dependent idx="1">Moreover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">limited</governor>
+            <dependent idx="3">when</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">availability</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="5">availability</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="7">limited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">cost</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">cost</governor>
+            <dependent idx="10">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="12">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">cost</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="15">growth</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">derives</governor>
+            <dependent idx="18">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">derives</governor>
+            <dependent idx="19">Ochromonas</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="20">derives</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">fraction</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">fraction</governor>
+            <dependent idx="22">greater</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">derives</governor>
+            <dependent idx="23">fraction</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">fraction</governor>
+            <dependent idx="24">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="26">energy</governor>
+            <dependent idx="25">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="24">of</governor>
+            <dependent idx="26">energy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">derives</governor>
+            <dependent idx="27">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">bacteria</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">from</governor>
+            <dependent idx="29">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">diminished</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">diminished</governor>
+            <dependent idx="1">Moreover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">limited</governor>
+            <dependent idx="3">when</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">availability</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="5">availability</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="7">limited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">cost</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">cost</governor>
+            <dependent idx="10">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="12">cost</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">cost</governor>
+            <dependent idx="15">growth</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">derives</governor>
+            <dependent idx="18">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">derives</governor>
+            <dependent idx="19">Ochromonas</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="20">derives</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">fraction</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">fraction</governor>
+            <dependent idx="22">greater</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">derives</governor>
+            <dependent idx="23">fraction</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="26">energy</governor>
+            <dependent idx="25">its</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="23">fraction</governor>
+            <dependent idx="26">energy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">bacteria</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="20">derives</governor>
+            <dependent idx="29">bacteria</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">diminished</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">diminished</governor>
+            <dependent idx="1">Moreover</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">limited</governor>
+            <dependent idx="3">when</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">availability</governor>
+            <dependent idx="4">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="5">availability</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">limited</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="7">limited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">cost</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">cost</governor>
+            <dependent idx="10">iron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="12">cost</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">cost</governor>
+            <dependent idx="15">growth</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">diminished</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">derives</governor>
+            <dependent idx="18">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">derives</governor>
+            <dependent idx="19">Ochromonas</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="17">diminished</governor>
+            <dependent idx="20">derives</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">fraction</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">fraction</governor>
+            <dependent idx="22">greater</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">derives</governor>
+            <dependent idx="23">fraction</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="26">energy</governor>
+            <dependent idx="25">its</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="23">fraction</governor>
+            <dependent idx="26">energy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">bacteria</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="20">derives</governor>
+            <dependent idx="29">bacteria</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="9" line="9">
+        <tokens>
+          <token id="1">
+            <word>Analysis</word>
+            <lemma>analysis</lemma>
+            <CharacterOffsetBegin>1327</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1335</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1336</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1338</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>standing</word>
+            <lemma>standing</lemma>
+            <CharacterOffsetBegin>1339</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1347</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>stocks</word>
+            <lemma>stock</lemma>
+            <CharacterOffsetBegin>1348</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1354</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>1355</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1358</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>clearance</word>
+            <lemma>clearance</lemma>
+            <CharacterOffsetBegin>1359</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1368</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>rates</word>
+            <lemma>rate</lemma>
+            <CharacterOffsetBegin>1369</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1374</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1375</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1377</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>plankton</word>
+            <lemma>plankton</lemma>
+            <CharacterOffsetBegin>1378</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1386</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>1387</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1389</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1390</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1393</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>equatorial</word>
+            <lemma>equatorial</lemma>
+            <CharacterOffsetBegin>1394</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1404</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>Pacific</word>
+            <lemma>Pacific</lemma>
+            <CharacterOffsetBegin>1405</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1412</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>shows</word>
+            <lemma>show</lemma>
+            <CharacterOffsetBegin>1413</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1418</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="15">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>1419</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1423</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1424</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1427</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>1428</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1432</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>flux</word>
+            <lemma>flux</lemma>
+            <CharacterOffsetBegin>1433</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1437</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>through</word>
+            <lemma>through</lemma>
+            <CharacterOffsetBegin>1438</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1445</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>mixotrophic</word>
+            <lemma>mixotrophic</lemma>
+            <CharacterOffsetBegin>1446</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1457</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>flagellates</word>
+            <lemma>flagellate</lemma>
+            <CharacterOffsetBegin>1458</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1469</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>can</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>1470</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1473</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="23">
+            <word>amount</word>
+            <lemma>amount</lemma>
+            <CharacterOffsetBegin>1474</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1480</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="24">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>1481</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1483</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="25">
+            <word>35-58</word>
+            <lemma>35-58</lemma>
+            <CharacterOffsetBegin>1484</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1489</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="26">
+            <word>%</word>
+            <lemma>%</lemma>
+            <CharacterOffsetBegin>1489</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1490</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="27">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1491</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1493</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="28">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1494</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1497</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="29">
+            <word>total</word>
+            <lemma>total</lemma>
+            <CharacterOffsetBegin>1498</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1503</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="30">
+            <word>Fe</word>
+            <lemma>Fe</lemma>
+            <CharacterOffsetBegin>1504</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1506</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="31">
+            <word>uptake</word>
+            <lemma>uptake</lemma>
+            <CharacterOffsetBegin>1507</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1513</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="32">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>1514</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1516</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="33">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1517</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1520</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="34">
+            <word>entire</word>
+            <lemma>entire</lemma>
+            <CharacterOffsetBegin>1521</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1527</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="35">
+            <word>autotrophic</word>
+            <lemma>autotrophic</lemma>
+            <CharacterOffsetBegin>1528</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1539</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="36">
+            <word>community</word>
+            <lemma>community</lemma>
+            <CharacterOffsetBegin>1540</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1549</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="37">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1549</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1550</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN Analysis)) (PP (IN of) (NP (NP (NN standing) (NNS stocks) (CC and) (NN clearance) (NNS rates)) (PP (IN of) (NP (NP (NN plankton)) (PP (IN in) (NP (DT the) (JJ equatorial) (NNP Pacific)))))))) (VP (VBZ shows) (SBAR (IN that) (S (NP (NP (DT the) (NN iron) (NN flux)) (PP (IN through) (NP (JJ mixotrophic) (NNS flagellates)))) (VP (MD can) (VP (VB amount) (PP (TO to) (NP (NP (CD 35-58) (NN %)) (PP (IN of) (NP (DT the) (JJ total) (NNP Fe) (NN uptake))))) (PP (IN by) (NP (DT the) (JJ entire) (JJ autotrophic) (NN community)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">shows</governor>
+            <dependent idx="1">Analysis</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Analysis</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">stocks</governor>
+            <dependent idx="3">standing</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="4">stocks</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">stocks</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">rates</governor>
+            <dependent idx="6">clearance</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">stocks</governor>
+            <dependent idx="7">rates</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">stocks</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">plankton</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">plankton</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="12">equatorial</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="13">Pacific</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">amount</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">flux</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">flux</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">amount</governor>
+            <dependent idx="18">flux</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">flux</governor>
+            <dependent idx="19">through</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">flagellates</governor>
+            <dependent idx="20">mixotrophic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">through</governor>
+            <dependent idx="21">flagellates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">amount</governor>
+            <dependent idx="22">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">shows</governor>
+            <dependent idx="23">amount</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">amount</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">%</governor>
+            <dependent idx="25">35-58</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="24">to</governor>
+            <dependent idx="26">%</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">%</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">uptake</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">uptake</governor>
+            <dependent idx="29">total</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">uptake</governor>
+            <dependent idx="30">Fe</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">of</governor>
+            <dependent idx="31">uptake</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">amount</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">community</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="34">entire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="35">autotrophic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="32">by</governor>
+            <dependent idx="36">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">shows</governor>
+            <dependent idx="1">Analysis</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">stocks</governor>
+            <dependent idx="3">standing</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Analysis</governor>
+            <dependent idx="4">stocks</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">rates</governor>
+            <dependent idx="6">clearance</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">stocks</governor>
+            <dependent idx="7">rates</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">stocks</governor>
+            <dependent idx="9">plankton</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="12">equatorial</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">plankton</governor>
+            <dependent idx="13">Pacific</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">amount</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">flux</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">flux</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">amount</governor>
+            <dependent idx="18">flux</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">flagellates</governor>
+            <dependent idx="20">mixotrophic</dependent>
+          </dep>
+          <dep type="prep_through">
+            <governor idx="18">flux</governor>
+            <dependent idx="21">flagellates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">amount</governor>
+            <dependent idx="22">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">shows</governor>
+            <dependent idx="23">amount</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">%</governor>
+            <dependent idx="25">35-58</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="23">amount</governor>
+            <dependent idx="26">%</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">uptake</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">uptake</governor>
+            <dependent idx="29">total</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">uptake</governor>
+            <dependent idx="30">Fe</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">%</governor>
+            <dependent idx="31">uptake</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">community</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="34">entire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="35">autotrophic</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="23">amount</governor>
+            <dependent idx="36">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">shows</governor>
+            <dependent idx="1">Analysis</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">stocks</governor>
+            <dependent idx="3">standing</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Analysis</governor>
+            <dependent idx="4">stocks</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">rates</governor>
+            <dependent idx="6">clearance</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Analysis</governor>
+            <dependent idx="7">rates</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">stocks</governor>
+            <dependent idx="7">rates</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">stocks</governor>
+            <dependent idx="9">plankton</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">Pacific</governor>
+            <dependent idx="12">equatorial</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">plankton</governor>
+            <dependent idx="13">Pacific</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">amount</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">flux</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">flux</governor>
+            <dependent idx="17">iron</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">amount</governor>
+            <dependent idx="18">flux</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">flagellates</governor>
+            <dependent idx="20">mixotrophic</dependent>
+          </dep>
+          <dep type="prep_through">
+            <governor idx="18">flux</governor>
+            <dependent idx="21">flagellates</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">amount</governor>
+            <dependent idx="22">can</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">shows</governor>
+            <dependent idx="23">amount</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">%</governor>
+            <dependent idx="25">35-58</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="23">amount</governor>
+            <dependent idx="26">%</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">uptake</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="31">uptake</governor>
+            <dependent idx="29">total</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">uptake</governor>
+            <dependent idx="30">Fe</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">%</governor>
+            <dependent idx="31">uptake</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">community</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="34">entire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="36">community</governor>
+            <dependent idx="35">autotrophic</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="23">amount</governor>
+            <dependent idx="36">community</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="10" line="10">
+        <tokens>
+          <token id="1">
+            <word>Our</word>
+            <lemma>we</lemma>
+            <CharacterOffsetBegin>1551</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1554</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>results</word>
+            <lemma>result</lemma>
+            <CharacterOffsetBegin>1555</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1562</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>suggest</word>
+            <lemma>suggest</lemma>
+            <CharacterOffsetBegin>1563</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1570</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>1571</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1575</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1576</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1579</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>phagotrophic</word>
+            <lemma>phagotrophic</lemma>
+            <CharacterOffsetBegin>1580</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1592</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>ingestion</word>
+            <lemma>ingestion</lemma>
+            <CharacterOffsetBegin>1593</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1602</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1603</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1605</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>bacteria</word>
+            <lemma>bacterium</lemma>
+            <CharacterOffsetBegin>1606</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1614</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>may</word>
+            <lemma>may</lemma>
+            <CharacterOffsetBegin>1615</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1618</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>1619</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1621</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>1622</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1624</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>effective</word>
+            <lemma>effective</lemma>
+            <CharacterOffsetBegin>1625</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1634</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>adaptive</word>
+            <lemma>adaptive</lemma>
+            <CharacterOffsetBegin>1635</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1643</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>strategy</word>
+            <lemma>strategy</lemma>
+            <CharacterOffsetBegin>1644</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1652</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>1653</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1656</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>photosynthetic</word>
+            <lemma>photosynthetic</lemma>
+            <CharacterOffsetBegin>1657</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1671</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>organisms</word>
+            <lemma>organism</lemma>
+            <CharacterOffsetBegin>1672</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1681</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>1682</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1684</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>obtain</word>
+            <lemma>obtain</lemma>
+            <CharacterOffsetBegin>1685</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1691</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="21">
+            <word>iron</word>
+            <lemma>iron</lemma>
+            <CharacterOffsetBegin>1692</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1696</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>1697</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1700</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>growth</word>
+            <lemma>growth</lemma>
+            <CharacterOffsetBegin>1701</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1707</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>1708</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1710</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="25">
+            <word>iron-limited</word>
+            <lemma>iron-limited</lemma>
+            <CharacterOffsetBegin>1711</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1723</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="26">
+            <word>regions</word>
+            <lemma>region</lemma>
+            <CharacterOffsetBegin>1724</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1731</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="27">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>1732</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1734</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="28">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>1735</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1738</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="29">
+            <word>sea</word>
+            <lemma>sea</lemma>
+            <CharacterOffsetBegin>1739</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1742</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="30">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>1742</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1743</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP$ Our) (NNS results)) (VP (VBP suggest) (SBAR (IN that) (S (NP (NP (DT the) (JJ phagotrophic) (NN ingestion)) (PP (IN of) (NP (NNS bacteria)))) (VP (MD may) (VP (VB be) (NP (NP (DT an) (JJ effective) (JJ adaptive) (NN strategy)) (PP (IN for) (NP (JJ photosynthetic) (NNS organisms))) (S (VP (TO to) (VP (VB obtain) (NP (NP (NN iron)) (PP (IN for) (NP (NN growth)))) (PP (IN in) (NP (NP (JJ iron-limited) (NNS regions)) (PP (IN of) (NP (DT the) (NN sea)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">suggest</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">results</governor>
+            <dependent idx="1">Our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">suggest</governor>
+            <dependent idx="2">results</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">strategy</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="6">phagotrophic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">strategy</governor>
+            <dependent idx="7">ingestion</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">strategy</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">strategy</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">strategy</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="13">effective</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="14">adaptive</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">suggest</governor>
+            <dependent idx="15">strategy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">strategy</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">organisms</governor>
+            <dependent idx="17">photosynthetic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="18">organisms</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">obtain</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="20">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">obtain</governor>
+            <dependent idx="21">iron</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">iron</governor>
+            <dependent idx="22">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">for</governor>
+            <dependent idx="23">growth</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">obtain</governor>
+            <dependent idx="24">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">regions</governor>
+            <dependent idx="25">iron-limited</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="24">in</governor>
+            <dependent idx="26">regions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">regions</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">sea</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">of</governor>
+            <dependent idx="29">sea</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">suggest</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">results</governor>
+            <dependent idx="1">Our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">suggest</governor>
+            <dependent idx="2">results</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">strategy</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="6">phagotrophic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">strategy</governor>
+            <dependent idx="7">ingestion</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">strategy</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">strategy</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">strategy</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="13">effective</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="14">adaptive</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">suggest</governor>
+            <dependent idx="15">strategy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">organisms</governor>
+            <dependent idx="17">photosynthetic</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">strategy</governor>
+            <dependent idx="18">organisms</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">obtain</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="20">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">obtain</governor>
+            <dependent idx="21">iron</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="21">iron</governor>
+            <dependent idx="23">growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">regions</governor>
+            <dependent idx="25">iron-limited</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">obtain</governor>
+            <dependent idx="26">regions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">sea</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">regions</governor>
+            <dependent idx="29">sea</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">suggest</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">results</governor>
+            <dependent idx="1">Our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">suggest</governor>
+            <dependent idx="2">results</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">strategy</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="6">phagotrophic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">strategy</governor>
+            <dependent idx="7">ingestion</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">ingestion</governor>
+            <dependent idx="9">bacteria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">strategy</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">strategy</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">strategy</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="13">effective</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="14">adaptive</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">suggest</governor>
+            <dependent idx="15">strategy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">organisms</governor>
+            <dependent idx="17">photosynthetic</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">strategy</governor>
+            <dependent idx="18">organisms</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">obtain</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">strategy</governor>
+            <dependent idx="20">obtain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">obtain</governor>
+            <dependent idx="21">iron</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="21">iron</governor>
+            <dependent idx="23">growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">regions</governor>
+            <dependent idx="25">iron-limited</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">obtain</governor>
+            <dependent idx="26">regions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">sea</governor>
+            <dependent idx="28">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">regions</governor>
+            <dependent idx="29">sea</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
