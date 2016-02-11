@@ -1,8 +1,8 @@
 T2	Variable 309 331	atmospheric CO2 levels
 T3	Cause 332 338	causes
 E2	Cause:T3 Theme:E3 Agent:E4
-T4	Change 351 358	changes
-E3	Change:T4 Theme:T5
+T4	Change 351 361	changes in
+E3	Change:T4 Theme:E19
 T5	Variable 362 378	surface ocean pH
 T9	Decrease 436 445	slow down
 E6	Decrease:T9 Theme:T10 Agent:T8
@@ -12,7 +12,7 @@ E8	Decrease:T12 Theme:T13
 T13	Variable 592 610	calcite production
 T14	Increase 614 623	increased
 E9	Increase:T14 Theme:T15
-T15	Variable 624 642	CO2 concentrations
+T15	Variable 624 723	CO2 concentrations in monospecific cultures of two dominant marine calcifying phytoplankton species
 T16	RefExp 792 796	This
 R2	Coref Expression:T16 Antecedent:E8	
 T17	Increase 819 828	increased
@@ -20,8 +20,7 @@ E10	Increase:T17 Theme:T18
 T18	Variable 829 891	proportion of malformed coccoliths and incomplete coccospheres
 T19	Correlate 611 613	at
 E11	Correlate:T19 Theme:E8 Co-theme:E9
-#1	AnnotatorNotes E11	Can correlation relation really be expressed by a preposition?
-T20	Correlate 801 812	accompanied
+T20	Correlate 797 815	was accompanied by
 E12	Correlate:T20 Theme:T16 Co-theme:E10
 #2	AnnotatorNotes T18	Cannot use "And" relation here because scope of "proportion" extends over both conjuncts.
 T21	Decrease 893 903	Diminished
@@ -30,9 +29,9 @@ T22	Variable 904 917	calcification
 T23	Decrease 927 936	reduction
 E14	Decrease:T23 Theme:T24
 T24	Variable 940 1003	the ratio of calcite precipitation to organic matter production
-T25	Cause 918 921	led
+T25	Cause 918 924	led to
 E15	Cause:T25 Agent:E13 Theme:E14
-T26	Increase 1195 1203	increase
+T26	Increase 1195 1206	increase in
 E16	Increase:T26 Theme:T27
 T27	Variable 1207 1237	atmospheric CO2 concentrations
 T29	Decrease 1252 1261	slow down
@@ -42,19 +41,29 @@ T8	RefExp 404 416	Such changes
 R1	Coref Expression:T8 Antecedent:E3	
 T11	RefExp 1384 1410	the response observed here
 R3	Coref Expression:T11 Antecedent:E18	
-T31	Variable 1459 1481	atmospheric CO2 levels
 T33	Variable 1361 1364	CO2
 T34	Increase 1352 1360	releases
 E7	Increase:T34 Theme:T33
-#4	AnnotatorNotes T5	"carbon chemistry" is not a quantitative variable because it is a too abstract concept (?)
 T1	Increase 1142 1150	elevated
 E1	Increase:T1 Theme:T6
 T6	Variable 1151 1161	CO2 levels
 #3	AnnotatorNotes T11	Interpretation of this reference requires rather deep understanding of the reasoning...
 T7	Increase 301 308	rise in
 E4	Increase:T7 Theme:T2
-T28	Decrease 1429 1455	act as a negative feedback
-E5	Decrease:T28 Theme:T31 Agent:T11
-#5	AnnotatorNotes E5	Even though the text is contains "negative feedback", it is no simple negative feedback relation established between two variables.
+T28	Negative_Feedback 1429 1458	act as a negative feedback on
+E5	Negative_Feedback:T28 Theme:T11 Co-theme:E20
 T35	Cause 1242 1251	therefore
 E17	Cause:T35 Agent:E16 Theme:E18
+T32	Variable 383 402	carbonate chemistry
+T36	And 379 382	and
+E19	And:T36 Part:T5 Part2:T32
+T31	I_Decrease 1459 1481	atmospheric CO2 levels
+E20	I_Decrease:T31 
+#1	AnnotatorNotes E20	decrease is impleid by negative feedback
+T37	Change 246 253	cycling
+E21	Change:T37 Theme:T38
+T38	Variable 232 245	marine carbon
+T39	Change 279 287	exchange
+E22	Change:T39 Theme:T40
+T40	Variable 258 278	ocean-atmosphere CO2
+#4	AnnotatorNotes T13	This is an increase in calcite, but we don't annotate nested changes.

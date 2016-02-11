@@ -1,5 +1,5 @@
 T3	Variable 50 116	carbon concentration between the ocean surface and the deep waters
-T1	Change 36 46	difference
+T1	Change 20 49	gives rise to a difference in
 E1	Change:T1 Theme:T3
 T5	Decrease 738 746	decrease
 E3	Decrease:T5 Theme:T10
@@ -10,9 +10,20 @@ T8	Variable 785 796	temperature
 T9	And 781 784	and
 E5	And:T9 Part:T7 Part2:T8
 T10	Variable 699 724	the carbon:nutrient ratio
-T11	Variable 868 879	temperature
-T12	Variable 884 906	atmospheric CO2 conten
-T13	Feedback 840 859	a positive feedback
-E6	Feedback:T13 Theme:T11 Co-theme:T12
+T13	Positive_Feedback 842 867	positive feedback between
+E6	Positive_Feedback:T13 Theme:E2 Co-theme:E8
 T14	Correlate 747 751	with
 E7	Correlate:T14 Co-theme2:E4 Theme:E3
+T2	I_Change 868 879	temperature
+E2	I_Change:T2 
+T4	I_Change 884 907	atmospheric CO2 content
+E8	I_Change:T4 
+T11	RefExp 952 965	This feedback
+R1	Coref Expression:T11 Antecedent:E6	
+T12	Change 1015 1024	cycles in
+E9	Change:T12 Theme:T15
+T15	Variable 1025 1058	the atmospheric CO2 concentration
+T16	Cause 975 989	contributed to
+E10	Cause:T16 Agent:T11 Theme:E9
+#1	AnnotatorNotes E6	Changes in themes are interpreted as implict. Also 'and' is semantically not a Combination (coordination) here.
+#2	AnnotatorNotes E9	'cycles' interpreted as recurring changes

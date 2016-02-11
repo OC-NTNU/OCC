@@ -5,27 +5,24 @@ T4	And 280 283	and
 E2	And:T4 Part2:T3 Part:T23
 T5	RefExp 354 358	This
 R1	Coref Expression:T5 Antecedent:E1	
-T6	Decrease 374 402	yield a negative feedback on
-E3	Decrease:T6 Theme:T7 Agent:T5
-T7	Variable 403 418	atmospheric CO2
+T6	Negative_Feedback 374 402	yield a negative feedback on
+E3	Negative_Feedback:T6 Co-theme:E16 Theme:T5
 #1	AnnotatorNotes E3	Not a feedback relation between two variables, but rather a complex event that causes a decrease in CO2. The "only if…" condition is essential, but so far there is no way to express that in the annotation.
-T8	Decrease 711 718	limited
+T8	Decrease 711 721	limited by
 E4	Decrease:T8 Theme:T9
 T9	Variable 685 706	bacterial growth rate
-T10	Variable 722 739	mineral nutrients
 T11	Variable 741 761	extra organic carbon
 T12	Increase 762 773	accumulated
 E5	Increase:T12 Theme:T11
 T13	Correlate 680 684	When
 E6	Correlate:T13 Theme:E5 Co-theme:E4
-#2	AnnotatorNotes E6	Can correlation be expressed through "when"?
-T14	Increase 844 852	addition
+T14	Increase 844 855	addition of
 E7	Increase:T14 Theme:T15
 T15	Variable 856 887	labile dissolved organic carbon
 T16	Decrease 888 895	reduced
 E8	Decrease:T16 Agent:E7 Theme:E15
 T17	Variable 896 930	phytoplankton biomass and activity
-#3	AnnotatorNotes T17	If we use "And" here, how do we distinguish between "(A B) and C" vs "A (B and C)" reading?
+#3	AnnotatorNotes T17	Cannot use And here, because activity is in the scope of phytoplankon.
 T18	Increase 1098 1102	more
 E9	Increase:T18 Theme:T19
 T19	Variable 1103 1117	organic carbon
@@ -40,7 +37,7 @@ T27	Increase 590 595	added
 E14	Increase:T27 Theme:T28
 T28	Variable 596 621	degradable organic carbon
 #5	AnnotatorNotes E1	"in a high CO2-world" is not a variable but a condition
-#6	AnnotatorNotes E4	X limits Y ==> Y decreases
+#6	AnnotatorNotes E4	X limits Y ==> Y decreases. How to deal with the agent here, which is not a change?
 T24	Variable 794 802	bacteria
 T25	Decrease 808 815	limited
 E12	Decrease:T25 Theme:T24
@@ -50,3 +47,13 @@ T2	Variable 940 990	the rate at which total organic carbon accumulated
 T29	And 931 934	and
 E15	And:T29 Part:T17 Part2:T2
 #7	AnnotatorNotes T2	increase as expressed by "accumulated" cannot be analysed with current scheme
+T7	I_Decrease 403 418	atmospheric CO2
+E16	I_Decrease:T7 
+T26	Variable 437 453	organic material
+T31	Increase 431 436	extra
+E17	Increase:T31 Theme:T26
+#2	AnnotatorNotes T11	'extra' is also a trigger for increase, but we don't annotate nested changes.
+T10	Increase 1265 1275	production
+E18	Increase:T10 Theme:T32
+T32	Variable 1251 1264	phytoplankton
+#8	AnnotatorNotes E16	Implicit decrease because of the negative correlation.

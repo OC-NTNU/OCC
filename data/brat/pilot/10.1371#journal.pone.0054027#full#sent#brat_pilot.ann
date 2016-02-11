@@ -7,21 +7,16 @@ T4	Variable 718 765	the potential POC export in the European Arctic
 T5	Change 904 910	varies
 E3	Change:T5 Theme:T6
 T6	Variable 877 903	the exported POC:PON ratio
-T7	Correlate 922 933	in relation
-E4	Correlate:T7 Co-theme:T8 Theme:E3
-T8	Variable 937 1035	nitrate-based new production over geographical scales that range from the Arctic to the subtropics
+T7	Correlate 922 936	in relation to
+E4	Correlate:T7 Theme:E3 Co-theme:E86
 T9	Increase 2801 2810	increased
-E5	Increase:T9 Theme:T10 Agent:T11
+E5	Increase:T9 Theme:T10
 T10	Variable 2811 2831	carbon sequestration
-T11	Variable 2757 2786	particulate organic C:N ratio
-T12	Correlate 2747 2756	dependent
-E6	Correlate:T12 Co-theme:T13 Theme:T11
-T13	Variable 2741 2746	depth
 T14	Increase 2923 2932	increased
 E7	Increase:T14 Theme:T15
 T15	Variable 2933 2948	atmospheric CO2
 T16	Increase 2965 2973	increase
-E8	Increase:T16 Theme:T17 Agent:E7
+E8	Increase:T16 Theme:T17
 T17	Variable 2974 3016	the spread of suboxic regions in the ocean
 T18	Change 3498 3504	varies
 E9	Change:T18 Theme:T19
@@ -33,8 +28,7 @@ T26	Variable 8661 8687	The exported POC:PON ratio
 T27	Increase 8688 8697	increased
 E13	Increase:T27 Theme:T26
 T28	Correlate 8698 8702	with
-E14	Correlate:T28 Co-theme:T29 Theme:E13
-T29	Variable 8703 8708	depth
+E14	Correlate:T28 Theme:E13 Co-theme:E101
 T30	Variable 8845 8871	The exported POC:PON ratio
 T31	Change 8890 8899	different
 E15	Change:T31 Theme:T30
@@ -44,7 +38,7 @@ T35	Variable 9933 9962	the differences among regions
 T36	Variable 10391 10401	POC export
 T37	Increase 10427 10433	higher
 E18	Increase:T37 Theme:T36
-T38	Change 11121 11131	variations
+T38	Change 11121 11134	variations in
 E19	Change:T38 Theme:T39
 T39	Variable 11135 11179	the stoichiometry of exported organic matter
 T40	Variable 11962 11975	POC:PON ratio
@@ -77,7 +71,7 @@ T56	Variable 12314 12318	flux
 T57	Decrease 12288 12297	depletion
 E30	Decrease:T57 Theme:T58
 T58	Variable 12279 12287	nitrogen
-T59	Decrease 12470 12479	depletion
+T59	Decrease 12470 12481	depletion o
 E31	Decrease:T59 Theme:T60
 T60	Variable 12483 12502	POC relative to PON
 T61	Increase 12554 12564	enrichment
@@ -86,21 +80,21 @@ T62	Variable 12648 12674	the exported POC:PON ratio
 T63	Change 12679 12687	constant
 E33	Change:T63 Theme:T62
 A1	Negated E33
-T64	Increase 13140 13150	enrichemnt
+T64	Increase 13140 13153	enrichemnt in
 E34	Increase:T64 Theme:T155
 T66	Increase 13383 13393	increasing
 E35	Increase:T66 Theme:T67
 T67	Variable 13394 13460	the nitrogen content of initially nitrogen-deprived organic matter
 T68	Variable 13648 13674	particulate organic matter
-T69	Decrease 13633 13644	degradation
+T69	Decrease 13633 13647	degradation of
 E36	Decrease:T69 Theme:T68
 T70	Decrease 13617 13628	dissolution
 E37	Decrease:T70 Theme:T68
-T71	Change 13939 13949	variations
+T71	Change 13939 13952	variations in
 E38	Change:T71 Theme:T72
-T72	Variable 13953 13987	carbon export integrated over time
+T72	Variable 13953 13966	carbon export
 T73	Negative_Correlate 14395 14416	negative relationship
-E39	Negative_Correlate:T73 Theme:T74 Co-theme:T129
+E39	Negative_Correlate:T73 Co-theme:E109 Theme:E110
 T75	Variable 14455 14471	exported POC:PON
 T76	Increase 14825 14831	higher
 E40	Increase:T76 Theme:T77
@@ -108,7 +102,7 @@ T77	Variable 14832 14872	carbon export per unit limiting nutrient
 T78	Increase 14740 14748	stronger
 E41	Increase:T78 Theme:T79
 T79	Variable 14749 14810	nitrogen recycling in nutrient-poor oligotrophic environments
-T80	Cause 14812 14821	resulting
+T80	Cause 14812 14824	resulting in
 E42	Cause:T80 Agent:E41 Theme:E40
 T81	Variable 14948 14993	nitrogen recycling under oligotrophic regions
 T82	Increase 14933 14947	More efficient
@@ -116,9 +110,6 @@ E43	Increase:T82 Theme:T81
 T83	Decrease 15296 15310	less efficient
 E44	Decrease:T83 Theme:T84
 T84	Variable 15274 15292	nitrogen recycling
-T85	Increase 15323 15330	favours
-E45	Increase:T85 Theme:T86 Agent:E44
-T86	Variable 15331 15371	export of the accumulated organic matter
 T87	Increase 15571 15581	increasing
 E46	Increase:T87 Theme:T88
 T88	Variable 15582 15608	proportion of PON over POC
@@ -146,40 +137,17 @@ T102	Change 824 832	constant
 E54	Change:T102 Theme:T103
 A3	Negated E54
 T103	Variable 833 847	POC:PON ratios
-T104	Change 1147 1157	variations
+T104	Change 1147 1160	variations in
 E55	Change:T104 Theme:T105
 T105	Variable 1161 1221	export stoichiometry among systems of different productivity
-T106	Increase 1630 1633	new
-E56	Increase:T106 Theme:T107
-T107	Variable 1634 1707	production based on allochthonous nutrients supplied to the surface layer
-T112	Cause 2122 2129	impacts
-E59	Cause:T112 Agent:E60 Theme:E58
-T113	Variable 2050 2056	carbon
-T114	And 2057 2060	and
-E60	And:T114 Part:T113 Part2:T115
-T115	Variable 2061 2086	growth-limiting nutrients
 T116	Change 2521 2529	constant
 E61	Change:T116 Theme:T117
 A4	Negated E61
 T117	Variable 2514 2517	C:N
-T118	Variable 3545 3565	export stoichiometry
-T119	Variable 3578 3622	the efficiency of the biological carbon pump
-T120	And 3566 3569	and
-E62	And:T120 Part:T118 Part2:T119
-T121	Correlate 3630 3637	reflect
-E63	Correlate:T121 Co-theme:T122 Theme:E62
-T122	Variable 3638 3724	nutrient availability or trophic state (oligo-, meso-, eutrophy) of pelagic ecosystems
-T123	Correlate 4210 4222	relationship
-E64	Correlate:T123 Theme:T124 Co-theme:T125
-T124	Variable 4231 4289	nitrate-based new production as a measure of trophic state
-T125	Variable 4294 4431	export stoichiometry over large geographical scale based on published data from other primarily nitrogen-limited parts of the World Ocean
 T22	Decrease 6021 6027	remove
 E11	Decrease:T22 Theme:T23
 T23	Variable 6028 6044	inorganic carbon
-T24	Change 11204 11211	impacts
-E12	Change:T24 Theme:T25
-T25	Variable 11212 11230	modelled POC expor
-T32	Cause 11180 11189	therefore
+T32	Cause 11180 11211	therefore significantly impacts
 E16	Cause:T32 Agent:E19 Theme:E12
 T33	Increase 12368 12374	larger
 E65	Increase:T33 Theme:T126
@@ -188,20 +156,15 @@ T127	Correlate 12326 12330	when
 E66	Correlate:T127 Co-theme:E65 Theme:E29
 T128	Decrease 14472 14482	decreasing
 E67	Decrease:T128 Theme:T75
-T74	Variable 14307 14353	the mean exported POC:PON ratio in each region
-T129	Variable 14357 14371	new production
 T130	Variable 16826 16875	Potential POC export in the European Arctic Ocean
 T131	Increase 16886 16892	higher
 E68	Increase:T131 Theme:T130
-T132	Correlate 16893 16897	when
+T132	Correlate 16893 16912	when accounting for
 E69	Correlate:T132 Theme:E68 Co-theme:E50
 T133	Variable 16987 17000	stoichiometry
 T134	Change 16978 16986	constant
 E71	Change:T134 Theme:T133
 A5	Negated E71
-T135	Variable 1721 1763	export of organic matter to the deep ocean
-T136	Correlate 1708 1720	approximates
-E70	Correlate:T136 Theme:E56 Co-theme:T135
 T137	Increase 8972 8978	higher
 E72	Increase:T137 Theme:T30
 T138	Increase 9217 9223	higher
@@ -231,7 +194,7 @@ T149	Decrease 2892 2907	overconsumption
 E78	Decrease:T149 Theme:T148
 T150	Cause 2911 2919	response
 E79	Cause:T150 Agent:E7 Theme:E78
-T151	Change 3767 3780	vertical flux
+T151	Change 3776 3783	flux of
 E80	Change:T151 Theme:E81
 T152	Variable 3784 3816	particulate organic carbon (POC)
 T153	Variable 3821 3835	nitrogen (PON)
@@ -245,3 +208,132 @@ T157	Change 17193 17201	constant
 E83	Change:T157 Theme:T158
 A2	Negated E83
 T158	Variable 17202 17215	stoichiometry
+T159	Variable 240 266	particulate organic carbon
+T160	Variable 277 285	nitrogen
+T161	And 273 276	and
+E84	And:T161 Part:T159 Part2:T160
+T162	Change 219 223	flux
+E85	Change:T162 Theme:E84
+#1	AnnotatorNotes E75	Tricky: in a wider context, it *is* changing, because of the "not to be met"...
+T8	I_Change 937 1035	nitrate-based new production over geographical scales that range from the Arctic to the subtropics
+E86	I_Change:T8 
+T163	Decrease 1582 1595	sequestration
+E87	Decrease:T163 Theme:T164
+T164	Variable 1575 1581	carbon
+T106	Variable 2311 2334	elemental stoichiometry
+T107	Change 2302 2310	constant
+E56	Change:T107 Theme:T106
+A7	Negated E56
+T112	Variable 2642 2648	carbon
+T113	Decrease 2649 2655	export
+E59	Decrease:T113 Theme:T112
+T114	Change 65 73	exported
+E60	Change:T114 Theme:E70
+T115	Variable 24 30	carbon
+T135	Variable 35 60	growth-limiting nutrients
+T136	And 31 34	and
+E70	And:T136 Part:T115 Part2:T135
+T165	Change 1296 1302	export
+E88	Change:T165 Theme:T166
+T166	Variable 1289 1295	carbon
+T167	Variable 1654 1677	allochthonous nutrients
+T168	Increase 1678 1689	supplied to
+E89	Increase:T168 Theme:T167
+T169	Change 1721 1730	export of
+E90	Change:T169 Theme:T170
+T170	Variable 1731 1745	organic matter
+T171	Change 1924 1929	cycle
+E91	Change:T171 Theme:T172
+T172	Variable 1917 1923	carbon
+T173	Increase 2013 2021	input of
+E92	Increase:T173 Theme:T174
+T174	Variable 2022 2035	new nutrients
+T11	Correlate 2949 2964	is suggested to
+E6	Correlate:T11 Theme:E78 Co-theme:E8
+T12	Variable 3046 3052	carbon
+T13	Change 3053 3061	exported
+E93	Change:T13 Theme:T12
+T175	Change 3145 3161	perturbations to
+E94	Change:T175 Theme:T176
+T176	Variable 3162 3183	the ocean environment
+T177	Change 3352 3360	exported
+E95	Change:T177 Theme:T178
+T178	Variable 3361 3364	C:N
+T118	Change 3893 3901	constant
+E62	Change:T118 Theme:T119
+A8	Negated E62
+T119	Variable 3902 3922	export stoichiometry
+T120	Change 6173 6179	fluxes
+E63	Change:T120 Theme:E64
+T121	Variable 6169 6172	PON
+T122	Variable 6161 6164	POC
+T123	And 6165 6168	and
+E64	And:T123 Part:T122 Part2:T121
+T124	Change 5788 5792	vary
+E96	Change:T124 Theme:T125
+T125	Variable 5715 5787	the temporal resolution and distribution of observations over the season
+T179	Change 5473 5479	fluxes
+E97	Change:T179 Theme:T180
+T180	Variable 5464 5472	particle
+T181	Increase 4717 4724	collect
+E98	Increase:T181 Theme:T182
+T182	Variable 4725 4751	sinking particulate matter
+T183	Variable 6272 6279	POC:PON
+T184	Change 6263 6271	Exported
+E99	Change:T184 Theme:T183
+T185	Variable 6770 6777	nitrate
+T186	Decrease 6778 6784	uptake
+E100	Decrease:T186 Theme:T185
+T29	I_Change 8703 8708	depth
+E101	I_Change:T29 
+T187	Change 9667 9675	exported
+E102	Change:T187 Theme:T188
+T188	Variable 9676 9690	organic matter
+T189	Change 9570 9578	exported
+E103	Change:T189 Theme:T190
+T190	Variable 9558 9565	Diatoms
+T191	Change 10696 10704	exported
+E104	Change:T191 Theme:T192
+T192	Variable 10705 10713	material
+T193	Change 11026 11034	constant
+E105	Change:T193 Theme:T194
+A9	Negated E105
+T194	Variable 11035 11044	C:N ratio
+T24	I_Change 11212 11231	modelled POC export
+E12	I_Change:T24 
+T195	Variable 11699 11702	PON
+T25	Change 11703 11707	flux
+E106	Change:T25 Theme:T195
+T196	Change 12845 12858	variations in
+E107	Change:T196 Theme:T197
+T197	Variable 12859 12966	the relative contribution of dominant phytoplankton taxa (diatoms and flagellates, see above) among regions
+T198	Increase 12983 12991	released
+E108	Increase:T198 Theme:T199
+T199	Variable 12968 12982	organic matter
+T129	I_Change 14357 14371	new production
+E109	I_Change:T129 
+T74	I_Change 14307 14353	the mean exported POC:PON ratio in each region
+E110	I_Change:T74 
+T200	Change 14633 14645	variation in
+E111	Change:T200 Theme:T201
+T201	Variable 14646 14662	exported POC:PON
+T85	Change 15331 15340	export of
+E45	Change:T85 Theme:T86
+T86	Variable 15342 15371	he accumulated organic matter
+T202	Correlate 15323 15330	favours
+E112	Correlate:T202 Theme:E44 Co-theme:E45
+T203	Change 15440 15448	exported
+E113	Change:T203 Theme:T204
+T204	Variable 15449 15475	particulate organic matter
+T205	Variable 15731 15745	new production
+T206	Increase 15749 15756	highest
+E114	Increase:T206 Theme:T205
+T207	Change 16651 16659	exported
+E115	Change:T207 Theme:T208
+T208	Variable 16660 16685	particulate organic matte
+T209	Change 16805 16811	export
+E116	Change:T209 Theme:T210
+T210	Variable 16801 16804	POC
+T211	Variable 17454 17457	POC
+T212	Change 17458 17464	export
+E117	Change:T212 Theme:T211

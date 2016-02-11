@@ -11,22 +11,17 @@ T13	And 983 986	and
 E8	And:T13 Part:E7 Part2:E1
 T1	Increase 987 993	higher
 E1	Increase:T1 Theme:T11
-T2	Change 849 876	had a substantial effect on
-E2	Change:T2 Theme:T3 Agent:E10
-T3	Variable 877 902	phytoplankton growth rate
+T2	Cause 849 876	had a substantial effect on
+E2	Cause:T2 Agent:E10 Theme:E13
 T4	Variable 833 837	iron
 T5	Variable 1580 1584	iron
-T10	Variable 1539 1563	the phytoplankton growth
-T14	Variable 1503 1534	the photoreduction of iron(III)
 T15	And 1535 1538	and
-E3	And:T15 Part:T14 Part2:T10
-T16	Cause 1568 1576	affected
+E3	And:T15 Part:E18 Part2:E17
+T16	Cause 1564 1579	are affected by
 E6	Cause:T16 Theme:E3 Agent:E12
 T17	Increase 1365 1373	addition
 E9	Increase:T17 Theme:T18
 T18	Variable 1360 1364	FeGA
-#1	AnnotatorNotes E2	Interpretation: change in iron causes change in growth rate
-#2	AnnotatorNotes T4	Alternative analysis: "iron enrichment" as a variable
 T19	Increase 838 848	enrichment
 E10	Increase:T19 Theme:T4
 T20	Change 1386 1393	changes
@@ -35,3 +30,28 @@ T21	Variable 1394 1450	the harmful effect of UV on the phytoplankton population
 #3	AnnotatorNotes T21	Questionable: Isn't this too abstract for a variable!?
 T22	Increase 1585 1595	enrichment
 E12	Increase:T22 Theme:T5
+T3	I_Change 877 903	phytoplankton growth rate.
+E13	I_Change:T3 
+T23	Variable 1269 1273	iron
+T24	Increase 1274 1285	enrichments
+E14	Increase:T24 Theme:T23
+T25	Increase 1249 1255	growth
+E15	Increase:T25 Theme:T26
+T26	Variable 1235 1248	Phytoplankton
+T14	I_Change 1503 1534	the photoreduction of iron(III)
+E18	I_Change:T14 
+T10	Increase 1557 1563	growth
+E17	Increase:T10 Theme:T28
+T28	Variable 1539 1556	the phytoplankton
+T30	Change 250 258	excreted
+E20	Change:T30 Theme:T29
+T29	Variable 236 249	organic acids
+#4	AnnotatorNotes E20	Like "export"/"import", the direction of change is relative, so use Change. Agent role can not be annotated because 'phytoplankton' is not a change.
+#1	AnnotatorNotes E13	Implied change: change in iron causes *change* in growth rate
+#2	AnnotatorNotes E7	'higher' interpreted as increase in this context
+#5	AnnotatorNotes T11	'growth rate of X' (not Increase) is different from 'growth of X' (= Increase)
+#6	AnnotatorNotes E2	Mark whole phrase as trigger, because "have effect (on)" is multi-word expression. We cannot leave out 'substantial'.
+#8	AnnotatorNotes E18	Implict change: 'photoreduction of iron' is a process of change without a clear Theme. Only annotated because it is involved in a causal relation.
+#9	AnnotatorNotes E6	Prepostion 'by' part of trigger, because it is not verbal particle but only part of passive construction.
+T27	Cause 1256 1268	responses to
+E16	Cause:T27 Theme:E15 Agent:E14

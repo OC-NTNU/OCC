@@ -1,9 +1,41 @@
 T2	Variable 74 108	concentrations in surface seawater
 #1	AnnotatorNotes T2	The reconstruction "concentrations of essential metals" would be hard to make...
-T1	Cause 43 50	results
+T1	Cause 43 53	results in
 E1	Cause:T1 Theme:E2 Agent:E3
 T4	Decrease 70 73	low
 E2	Decrease:T4 Theme:T2
 T3	Variable 21 42	some essential metals
-T5	Decrease 11 17	uptake
+T5	Decrease 11 20	uptake of
 E3	Decrease:T5 Theme:T3
+T6	Decrease 126 133	take up
+E4	Decrease:T6 Theme:T7
+T7	RefExp 134 154	these micronutrients
+R1	Coref Expression:T7 Antecedent:T3	
+T8	Increase 190 197	release
+E5	Increase:T8 Theme:T9
+T9	Variable 198 222	strong complexing agents
+T10	Change 257 263	modify
+E6	Change:T10 Theme:T11
+T11	Variable 264 299	the bioavailability of trace metals
+T12	Increase 304 311	promote
+E7	Increase:T12 Theme:T13
+T13	Variable 312 357	their rapid cycling in the upper water column
+T14	Decrease 372 391	low availability of
+E8	Decrease:T14 Theme:T15
+T15	Variable 392 403	some metals
+T16	I_Change 413 462	the rate of photosynthesis in parts of the oceans
+E9	I_Change:T16 
+T17	Cause 404 412	controls
+E10	Cause:T17 Agent:E8 Theme:E15
+T18	Decrease 490 499	uptake of
+E11	Decrease:T18 Theme:T19
+T19	Variable 500 532	major nutrients such as nitrogen
+T20	Change 471 485	transformation
+E12	Change:T20 Theme:T19
+T21	Decrease 110 122	To sequester
+E13	Decrease:T21 Theme:T7
+#2	AnnotatorNotes E13	Cannot use Or here, because a Combination cannot take a Theme role.
+T22	And 486 489	and
+E14	And:T22 Part:E12 Part2:E11
+T23	And 463 466	and
+E15	And:T23 Part:E14 Part2:E9

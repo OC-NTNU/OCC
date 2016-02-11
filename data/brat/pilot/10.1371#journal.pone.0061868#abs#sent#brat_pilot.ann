@@ -2,20 +2,19 @@ T1	Increase 27 33	rising
 E1	Increase:T1 Theme:T2
 T2	Variable 34 49	atmospheric CO2
 T4	Cause 20 23	due
-E2	Cause:T4 Agent:E1 Theme:T3
-T3	Variable 0 19	Ocean acidification
+E2	Cause:T4 Agent:E1 Theme:E22
 T5	Variable 751 788	cellular particulate inorganic carbon
 T6	Increase 746 750	more
 E3	Increase:T6 Theme:E9 Co-theme:E4
 T7	Increase 715 721	higher
 E4	Increase:T7 Theme:T8
-T8	Variable 722 725	CO2
+T8	Variable 722 735	CO2 condition
 T11	Increase 965 973	elevated
 E6	Increase:T11 Theme:T12
 T12	Variable 974 977	CO2
 T13	Decrease 1630 1645	down-regulation
 E7	Decrease:T13 Theme:T37
-T15	Decrease 2012 2019	decline
+T15	Decrease 2012 2022	decline in
 E8	Decrease:T15 Theme:T16
 T16	Variable 2023 2034	growth rate
 T10	Variable 941 951	cells grew
@@ -36,7 +35,7 @@ T24	Variable 1040 1052	coccospheres
 T25	Variable 1092 1102	coccoliths
 T26	And 1065 1068	and
 E13	And:T26 Part:E10 Part2:E11
-T27	Change 1215 1226	differences
+T27	Change 1212 1229	No differences in
 E14	Change:T27 Theme:E15
 A1	Negated E14
 T28	Variable 1230 1248	calcification rate
@@ -47,16 +46,15 @@ E15	Or:T31 Part:T28 Part2:T29 Part3:T30
 T32	Variable 1680 1683	CO2
 T14	Increase 1675 1679	high
 E16	Increase:T14 Theme:T32
-T33	Decrease 1708 1716	decrease
+T33	Decrease 1708 1719	decrease in
 E17	Decrease:T33 Theme:T34
 T34	Variable 1720 1731	growth rate
 T35	Correlate 959 964	under
 E18	Correlate:T35 Theme:E5 Co-theme:E6
 T36	Correlate 1013 1018	Under
 E19	Correlate:T36 Theme:E13 Co-theme:E12
-#1	AnnotatorNotes T3	acidification ==> decrease in Ph
 #2	AnnotatorNotes E4	Is "higher" a state or an event? Same for "more". Anyway, we like to extract the correlation: +CO2 <~~~> +CaCO3  
-#3	AnnotatorNotes T10	"cells grew" = "cell growth" ?
+#3	AnnotatorNotes T10	nested increase
 #4	AnnotatorNotes E10	X is larger ==> size of X increases. However, we don't want to annotate a "Thing"
 #5	AnnotatorNotes E19	Annotation of whole sentence is hairy...
 T37	Variable 1550 1622	four (histones H2A, H3, H4 and a chloroplastic 30S ribosomal protein S7)
@@ -66,3 +64,16 @@ E20	Correlate:T38 Theme:E7 Co-theme:E17
 #7	AnnotatorNotes T25	Although Cocolithes are not a quantity, they are counted as variables because the changing property (i.e size) is implied by  the predicate (i.e. "larger").
 T39	And 830 833	and
 E21	And:T39 Part:T17 Part2:T18
+T3	I_Increase 0 19	Ocean acidification
+E22	I_Increase:T3 
+T40	Increase 1176 1181	grown
+E23	Increase:T40 Theme:T41
+T41	Variable 1170 1175	cells
+T42	Change 1849 1858	unaltered
+E24	Change:T42 Theme:T43
+A2	Negated E24
+T43	Variable 1786 1839	proteins associated with many key metabolic processes
+T44	Change 253 260	varying
+E25	Change:T44 Theme:T45
+T45	Variable 261 284	calcification responses
+#1	AnnotatorNotes E25	??

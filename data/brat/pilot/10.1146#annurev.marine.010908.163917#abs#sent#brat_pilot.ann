@@ -4,3 +4,24 @@ T2	Variable 773 805	Global marine primary production
 T5	Variable 1014 1039	marine primary production
 T6	Change 1046 1050	vary
 E3	Change:T6 Theme:T5
+T8	I_Change 439 464	marine primary production
+E6	I_Change:T8 
+T9	Correlate 465 480	is sensitive to
+E7	Correlate:T9 Co-theme:E10 Theme:E6
+T10	Change 489 500	variability
+E8	Change:T10 Theme:T13
+T11	Change 505 511	change
+E9	Change:T11 Theme:T13
+T12	And 501 504	and
+E10	And:T12 Part:E8 Part2:E9
+T13	Variable 481 488	climate
+T14	Change 540 551	variability
+E11	Change:T14 Theme:T15
+T15	Variable 534 539	ocean
+T16	I_Change 698 716	primary production
+E12	I_Change:T16 
+T17	Change 760 771	variability
+E13	Change:T17 Theme:T18
+T18	Variable 754 759	ocean
+T19	Correlate 732 741	linked to
+E14	Correlate:T19 Theme:E12 Co-theme:E13

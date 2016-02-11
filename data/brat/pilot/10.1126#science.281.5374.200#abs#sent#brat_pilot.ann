@@ -1,23 +1,59 @@
-T4	Change 386 393	Changes
+T4	Change 386 396	Changes in
 E2	Change:T4 Theme:T5
 T5	Variable 397 441	the magnitude of total and export production
-T6	Variable 465 487	atmospheric CO2 levels
 T9	Cause 455 464	influence
-E5	Cause:T9 Agent:E2 Theme:T6
-T12	Change 1311 1318	changes
+E5	Cause:T9 Agent:E2 Theme:E11
+T12	Change 1311 1321	changes in
 E7	Change:T12 Theme:T13
 T13	Variable 1322 1365	radiative forcing on the hydrological cycle
 T16	Cause 1373 1383	influences
-E9	Cause:T16 Agent:E7 Theme:T1
+E9	Cause:T16 Agent:E7 Theme:E19
 T17	Cause 1420 1427	affects
-E10	Cause:T17 Agent:T1 Theme:E1
-T18	Variable 1428 1445	nitrogen fixation
-T1	Variable 1384 1405	the aeolian iron flux
-T2	Variable 1450 1482	primary production in the oceans
+E10	Cause:T17 Theme:E1 Agent:E19
 T3	And 1446 1449	and
-E1	And:T3 Part:T18 Part2:T2
+E1	And:T3 Part:E21 Part2:E20
 #1	AnnotatorNotes T13	Too abstract for a variable?
-#2	AnnotatorNotes T1	implicitly a change in iron
 T7	Change 0 7	Changes
 E3	Change:T7 Theme:T8
 T8	Variable 11 37	oceanic primary production
+T10	Change 49 56	changes
+E4	Change:T10 Theme:T11
+T11	Variable 60 103	the network of global biogeochemical cycles
+T14	Variable 226 232	carbon
+T15	Decrease 233 241	fixation
+E6	Decrease:T15 Theme:T14
+T19	Increase 275 287	formation of
+E8	Increase:T19 Theme:T20
+T20	Variable 288 327	45 gigatons of organic carbon per annum
+#3	AnnotatorNotes E6	can not handle agent here, because plankton is not a change
+T6	I_Change 465 487	atmospheric CO2 levels
+E11	I_Change:T6 
+T21	Variable 697 705	nutrient
+T22	Change 706 712	fluxes
+E12	Change:T22 Theme:T21
+T23	Variable 1143 1151	climatic
+T24	Change 1152 1163	variability
+E13	Change:T24 Theme:T23
+T25	I_Change 1095 1108	oceanic biota
+E14	I_Change:T25 
+T26	Cause 1109 1121	responded to
+E15	Cause:T26 Theme:E14 Agent:E13
+T27	Cause 1126 1134	affected
+E16	Cause:T27 Agent:E14 Theme:E13
+T28	I_Change 1208 1244	anthropogenically influenced changes
+E17	I_Change:T28 
+T29	Cause 1197 1207	respond to
+E18	Cause:T29 Agent:E17 Theme:E14
+T1	Change 1401 1405	flux
+E19	Change:T1 Theme:T30
+T30	Variable 1388 1400	aeolian iron
+T18	Variable 1428 1436	nitrogen
+T31	Decrease 1437 1445	fixation
+E20	Decrease:T31 Theme:T18
+T32	I_Change 1450 1468	primary production
+E21	I_Change:T32 
+T2	Cause 266 274	leads to
+E22	Cause:T2 Theme:E8 Agent:E6
+T33	Correlate 39 48	linked to
+E23	Correlate:T33 Theme:E3 Co-theme:E4
+#2	AnnotatorNotes E17	what is changing here exactly?
