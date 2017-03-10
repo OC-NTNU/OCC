@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">abs1</infon>
+  <document>
+    <id>10.1038#ismej.2013.199#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ismej.2013.199</infon>
+    <infon key="bibtex">
+ @article{Chow_2013, title={Top-down controls on bacterial community structure: microbial network analysis of bacteria, T4-like viruses and protists}, volume={8}, ISSN={1751-7370}, url={http://dx.doi.org/10.1038/ismej.2013.199}, DOI={10.1038/ismej.2013.199}, number={4}, journal={ISME J}, publisher={Nature Publishing Group}, author={Chow, Cheryl-Emiliane T and Kim, Diane Y and Sachdeva, Rohan and Caron, David A and Fuhrman, Jed A}, year={2013}, month={Nov}, pages={816–829}}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Top-down controls on bacterial community structure: microbial network analysis of bacteria, T4-like viruses and protists
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>121</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>121</offset>
+        <text>Characterizing ecological relationships between viruses, bacteria and protists in the ocean are critical to understanding ecosystem function, yet these relationships are infrequently investigated together.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>327</offset>
+        <text>We evaluated these relationships through microbial association network analysis of samples collected approximately monthly from March 2008 to January 2011 in the surface ocean (0-5 m) at the San Pedro Ocean Time series station.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>555</offset>
+        <text>Bacterial, T4-like myoviral and protistan communities were described by Automated Ribosomal Intergenic Spacer Analysis and terminal restriction fragment length polymorphism of the gene encoding the major capsid protein (g23) and 18S ribosomal DNA, respectively.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>817</offset>
+        <text>Concurrent shifts in community structure suggested similar timing of responses to environmental and biological parameters.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>940</offset>
+        <text>We linked T4-like myoviral, bacterial and protistan operational taxonomic units by local similarity correlations, which were then visualized as association networks.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1106</offset>
+        <text>Network links (correlations) potentially represent synergistic and antagonistic relationships such as viral lysis, grazing, competition or other interactions.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1265</offset>
+        <text>We found that virus-bacteria relationships were more cross-linked than protist-bacteria relationships, suggestive of increased taxonomic specificity in virus-bacteria relationships.
+</text>
+        <annotation id="T1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="9" offset="1382"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="53" offset="1392"/>
+          <text>taxonomic specificity in virus-bacteria relationships</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Increase"/>
+          <node refid="T2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1447</offset>
+        <text>We also found that 80% of bacterial-protist and 74% of bacterial-viral correlations were positive, with the latter suggesting that at monthly and seasonal timescales, viruses may be following their hosts more often than controlling host abundance.
+</text>
+        <annotation id="T3">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="12" offset="1518"/>
+          <text>correlations</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="9" offset="1473"/>
+          <text>bacterial</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="7" offset="1483"/>
+          <text>protist</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T3" role="Correlate"/>
+          <node refid="T4" role="Theme"/>
+          <node refid="T5" role="Co-theme"/>
+        </relation>
+        <relation id="#1">
+          <infon key="string">there is a second correlation here that i am unable to annotate</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#1</infon>
+          <node refid="E2" role="Annotation"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

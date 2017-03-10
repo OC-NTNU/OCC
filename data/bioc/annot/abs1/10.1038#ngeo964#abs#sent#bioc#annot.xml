@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">abs1</infon>
+  <document>
+    <id>10.1038#ngeo964#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ngeo964</infon>
+    <infon key="bibtex">
+ @article{Boyd_2010, title={The biogeochemical cycle of iron in the ocean}, volume={3}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/ngeo964}, DOI={10.1038/ngeo964}, number={10}, journal={Nature Geoscience}, publisher={Nature Publishing Group}, author={Boyd, P. W. and Ellwood, M. J.}, year={2010}, month={Sep}, pages={675–682}}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>The biogeochemical cycle of iron in the ocean
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>46</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>46</offset>
+        <text>Advances in iron biogeochemistry have transformed our understanding of the oceanic iron cycle over the past three decades: multiple sources of iron to the ocean were discovered, including dust, coastal and shallow sediments, sea ice and hydrothermal fluids.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>304</offset>
+        <text>This new iron is rapidly recycled in the upper ocean by a range of organisms; up to 50% of the total soluble iron pool is turned over weekly in this way in some ocean regions.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>480</offset>
+        <text>For example, bacteria dissolve particulate iron and at the same time release compounds -- iron-binding ligands -- that complex with iron and therefore help to keep it in solution.
+</text>
+        <annotation id="T1">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="8" offset="502"/>
+          <text>dissolve</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="7" offset="549"/>
+          <text>release</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="16" offset="511"/>
+          <text>particulate iron</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="20" offset="570"/>
+          <text>iron-binding ligands</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="8" offset="493"/>
+          <text>bacteria</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Decrease"/>
+          <node refid="T3" role="Theme"/>
+          <node refid="T5" role="Agent"/>
+        </relation>
+        <relation id="E2">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T4" role="Theme"/>
+          <node refid="T5" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>660</offset>
+        <text>Sinking particles, on the other hand, also scavenge iron from solution.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>732</offset>
+        <text>The balance between these supply and removal processes determines the concentration of dissolved iron in the ocean.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>848</offset>
+        <text>Whether this balance, and many other facets of the biogeochemical cycle, will change as the climate warms remains to be seen.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

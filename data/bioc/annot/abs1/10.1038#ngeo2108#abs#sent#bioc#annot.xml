@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">abs1</infon>
+  <document>
+    <id>10.1038#ngeo2108#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ngeo2108</infon>
+    <infon key="bibtex">
+ @article{Lenton_2014, title={Co-evolution of eukaryotes and ocean oxygenation in the Neoproterozoic era}, volume={7}, ISSN={1752-0908}, url={http://dx.doi.org/10.1038/ngeo2108}, DOI={10.1038/ngeo2108}, number={4}, journal={Nature Geoscience}, publisher={Nature Publishing Group}, author={Lenton, Timothy M. and Boyle, Richard A. and Poulton, Simon W. and Shields-Zhou, Graham A. and Butterfield, Nicholas J.}, year={2014}, month={Mar}, pages={257–265}}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Co-evolution of eukaryotes and ocean oxygenation in the Neoproterozoic era
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>75</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>75</offset>
+        <text>The Neoproterozoic era (about 1,000 to 542 million years ago) was a time of turbulent environmental change.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>183</offset>
+        <text>Large fluctuations in the carbon cycle were associated with at least two severe possible Snowball Earth glaciations.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>300</offset>
+        <text>There were also massive changes in the redox state of the oceans, culminating in the oxygenation of much of the deep oceans.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>425</offset>
+        <text>Amid this environmental change, increasingly complex life forms evolved.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>498</offset>
+        <text>The traditional view is that a rise in atmospheric oxygen concentrations led to the oxygenation of the ocean, thus triggering the evolution of animals.
+</text>
+        <annotation id="T3">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="6" offset="571"/>
+          <text>led to</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="4" offset="529"/>
+          <text>rise</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T16</infon>
+          <location length="33" offset="537"/>
+          <text>atmospheric oxygen concentrations</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T17</infon>
+          <location length="28" offset="578"/>
+          <text>the oxygenation of the ocean</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E3</infon>
+          <node refid="T3" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E4</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>650</offset>
+        <text>We argue instead that the evolution of increasingly complex eukaryotes, including the first animals, could have oxygenated the ocean without requiring an increase in atmospheric oxygen.
+</text>
+        <annotation id="T5">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="8" offset="804"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T18</infon>
+          <location length="18" offset="816"/>
+          <text>atmospheric oxygen</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E5</infon>
+          <node refid="T5" role="Increase"/>
+          <node refid="T18" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>836</offset>
+        <text>We propose that large eukaryotic particles sank quickly through the water column and reduced the consumption of oxygen in the surface waters.
+</text>
+        <annotation id="T6">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T6</infon>
+          <location length="7" offset="921"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T19</infon>
+          <location length="47" offset="929"/>
+          <text>the consumption of oxygen in the surface waters</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E6</infon>
+          <node refid="T6" role="Decrease"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>978</offset>
+        <text>Combined with the advent of benthic filter feeding, this shifted oxygen demand away from the surface to greater depths and into sediments, allowing oxygen to reach deeper waters.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">10</infon>
+        <offset>1157</offset>
+        <text>The decline in bottom-water anoxia would hinder the release of phosphorus from sediments, potentially triggering a potent positive feedback: phosphorus removal from the ocean reduced global productivity and ocean-wide oxygen demand, resulting in oxygenation of the deep ocean.
+</text>
+        <annotation id="T8">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T8</infon>
+          <location length="7" offset="1309"/>
+          <text>removal</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T9</infon>
+          <location length="7" offset="1161"/>
+          <text>decline</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T10</infon>
+          <location length="7" offset="1209"/>
+          <text>release</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T12</infon>
+          <location length="7" offset="1332"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T14</infon>
+          <location length="12" offset="1390"/>
+          <text>resulting in</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T20</infon>
+          <location length="19" offset="1172"/>
+          <text>bottom-water anoxia</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T21</infon>
+          <location length="25" offset="1220"/>
+          <text>phosphorus from sediments</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T23</infon>
+          <location length="10" offset="1298"/>
+          <text>phosphorus</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T24</infon>
+          <location length="19" offset="1340"/>
+          <text>global productivity</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T25</infon>
+          <location length="24" offset="1364"/>
+          <text>ocean-wide oxygen demand</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T26</infon>
+          <location length="3" offset="1360"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T31</infon>
+          <location length="29" offset="1403"/>
+          <text>oxygenation of the deep ocean</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E8</infon>
+          <node refid="T8" role="Decrease"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E9</infon>
+          <node refid="T9" role="Decrease"/>
+          <node refid="T20" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E10</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E12</infon>
+          <node refid="T12" role="Decrease"/>
+          <node refid="E16" role="Theme"/>
+          <node refid="E8" role="Agent"/>
+        </relation>
+        <relation id="E14">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E14</infon>
+          <node refid="T14" role="Cause"/>
+          <node refid="T31" role="Theme"/>
+          <node refid="E12" role="Agent"/>
+        </relation>
+        <relation id="E16">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E16</infon>
+          <node refid="T26" role="And"/>
+          <node refid="T24" role="Part"/>
+          <node refid="T25" role="Part2"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">11</infon>
+        <offset>1434</offset>
+        <text>That, in turn, would have further reinforced eukaryote evolution, phosphorus removal and ocean oxygenation.
+</text>
+        <annotation id="T13">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T13</infon>
+          <location length="10" offset="1468"/>
+          <text>reinforced</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T27</infon>
+          <location length="19" offset="1479"/>
+          <text>eukaryote evolution</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T28</infon>
+          <location length="18" offset="1500"/>
+          <text>phosphorus removal</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T29</infon>
+          <location length="17" offset="1523"/>
+          <text>ocean oxygenation</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T30</infon>
+          <location length="3" offset="1519"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E13</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="E17" role="Theme"/>
+        </relation>
+        <relation id="E17">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E17</infon>
+          <node refid="T30" role="And"/>
+          <node refid="T27" role="Part"/>
+          <node refid="T28" role="Part2"/>
+          <node refid="T29" role="Part3"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

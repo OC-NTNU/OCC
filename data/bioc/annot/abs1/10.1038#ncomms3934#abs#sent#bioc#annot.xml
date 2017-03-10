@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">abs1</infon>
+  <document>
+    <id>10.1038#ncomms3934#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ncomms3934</infon>
+    <infon key="bibtex">
+ @article{Pe_uelas_2013, title={Human-induced nitrogen–phosphorus imbalances alter natural and managed ecosystems across the globe}, volume={4}, ISSN={2041-1723}, url={http://dx.doi.org/10.1038/ncomms3934}, DOI={10.1038/ncomms3934}, journal={Nature Communications}, publisher={Nature Publishing Group}, author={Peñuelas, Josep and Poulter, Benjamin and Sardans, Jordi and Ciais, Philippe and van der Velde, Marijn and Bopp, Laurent and Boucher, Olivier and Godderis, Yves and Hinsinger, Philippe and Llusia, Joan and et al.}, year={2013}, month={Dec}}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Human-induced nitrogen-phosphorus imbalances alter natural and managed ecosystems across the globe
+</text>
+        <annotation id="T11">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T11</infon>
+          <location length="26" offset="99"/>
+          <text>The availability of carbon</text>
+        </annotation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>99</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>99</offset>
+        <text>The availability of carbon from rising atmospheric carbon dioxide levels and of nitrogen from various human-induced inputs to ecosystems is continuously increasing; however, these increases are not paralleled by a similar increase in phosphorus inputs.
+</text>
+        <annotation id="T1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="10" offset="252"/>
+          <text>increasing</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="3" offset="172"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="17" offset="293"/>
+          <text>not paralleled by</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="8" offset="321"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T9</infon>
+          <location length="6" offset="131"/>
+          <text>rising</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T10</infon>
+          <location length="33" offset="138"/>
+          <text>atmospheric carbon dioxide levels</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T12</infon>
+          <location length="56" offset="179"/>
+          <text>nitrogen from various human-induced inputs to ecosystems</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T13</infon>
+          <location length="17" offset="333"/>
+          <text>phosphorus inputs</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Increase"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T2" role="And"/>
+          <node refid="T11" role="Part"/>
+          <node refid="T12" role="Part2"/>
+        </relation>
+        <relation id="E3">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E3</infon>
+          <node refid="T3" role="Correlate"/>
+          <node refid="E4" role="Theme"/>
+          <node refid="E1" role="Co-theme"/>
+        </relation>
+        <relation id="A1">
+          <infon key="type">Negated</infon>
+          <infon key="brat-type">attribute</infon>
+          <infon key="brat-id">A1</infon>
+          <node refid="E3" role=""/>
+        </relation>
+        <relation id="E4">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E4</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E9</infon>
+          <node refid="T9" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>352</offset>
+        <text>The inexorable change in the stoichiometry of carbon and nitrogen relative to phosphorus has no equivalent in Earth's history.
+</text>
+        <annotation id="T5">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="6" offset="367"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T14</infon>
+          <location length="40" offset="377"/>
+          <text>the stoichiometry of carbon and nitrogen</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E5</infon>
+          <node refid="T5" role="Change"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>479</offset>
+        <text>Here we report the profound and yet uncertain consequences of the human imprint on the phosphorus cycle and nitrogen:phosphorus stoichiometry for the structure, functioning and diversity of terrestrial and aquatic organisms and ecosystems.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>719</offset>
+        <text>A mass balance approach is used to show that limited phosphorus and nitrogen availability are likely to jointly reduce future carbon storage by natural ecosystems during this century.
+</text>
+        <annotation id="T6">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T6</infon>
+          <location length="6" offset="831"/>
+          <text>reduce</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T7</infon>
+          <location length="7" offset="764"/>
+          <text>limited</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T15</infon>
+          <location length="3" offset="783"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T16</infon>
+          <location length="10" offset="772"/>
+          <text>phosphorus</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T17</infon>
+          <location length="21" offset="787"/>
+          <text>nitrogen availability</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T18</infon>
+          <location length="63" offset="838"/>
+          <text>future carbon storage by natural ecosystems during this century</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E6</infon>
+          <node refid="T6" role="Decrease"/>
+          <node refid="T18" role="Theme"/>
+          <node refid="E7" role="Agent"/>
+        </relation>
+        <relation id="E7">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E7</infon>
+          <node refid="T7" role="Decrease"/>
+          <node refid="E10" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E10</infon>
+          <node refid="T15" role="And"/>
+          <node refid="T16" role="Part"/>
+          <node refid="T17" role="Part2"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>903</offset>
+        <text>Further, if phosphorus fertilizers cannot be made increasingly accessible, the crop yields projections of the Millennium Ecosystem Assessment imply an increase of the nutrient deficit in developing regions.
+</text>
+        <annotation id="T8">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T8</infon>
+          <location length="8" offset="1054"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T19</infon>
+          <location length="42" offset="1066"/>
+          <text>the nutrient deficit in developing regions</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E8</infon>
+          <node refid="T8" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

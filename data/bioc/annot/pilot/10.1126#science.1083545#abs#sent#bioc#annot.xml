@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">pilot</infon>
+  <document>
+    <id>10.1126#science.1083545#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/pilot/10.1126/science.1083545</infon>
+    <infon key="bibtex">
+@article{Morel_2003,
+	doi = {10.1126/science.1083545},
+	url = {http://dx.doi.org/10.1126/science.1083545},
+	year = 2003,
+	month = {May},
+	publisher = {American Association for the Advancement of Science (AAAS)},
+	volume = {300},
+	number = {5621},
+	pages = {944-947},
+	author = {F. M. M. Morel},
+	title = {The Biogeochemical Cycles of Trace Metals in the Oceans},
+	journal = {Science}
+}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Planktonic uptake of some essential metals results in extraordinarily low concentrations in surface seawater.
+</text>
+        <annotation id="T2">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="34" offset="74"/>
+          <text>concentrations in surface seawater</text>
+        </annotation>
+        <annotation id="T1">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="10" offset="43"/>
+          <text>results in</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="3" offset="70"/>
+          <text>low</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="21" offset="21"/>
+          <text>some essential metals</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="9" offset="11"/>
+          <text>uptake of</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T21</infon>
+          <location length="12" offset="110"/>
+          <text>To sequester</text>
+        </annotation>
+        <relation id="#1">
+          <infon key="string">The reconstruction "concentrations of essential metals" would be hard to make...</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#1</infon>
+          <node refid="T2" role="Annotation"/>
+        </relation>
+        <relation id="E1">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Cause"/>
+          <node refid="E2" role="Theme"/>
+          <node refid="E3" role="Agent"/>
+        </relation>
+        <relation id="E2">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T4" role="Decrease"/>
+          <node refid="T2" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E3</infon>
+          <node refid="T5" role="Decrease"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="R1">
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <infon key="brat-id">R1</infon>
+          <node refid="T7" role="Expression"/>
+          <node refid="T3" role="Antecedent"/>
+        </relation>
+        <relation id="E13">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E13</infon>
+          <node refid="T21" role="Decrease"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="#2">
+          <infon key="string">Cannot use Or here, because a Combination cannot take a Theme role.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#2</infon>
+          <node refid="E13" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>110</offset>
+        <text>To sequester or take up these micronutrients, various microorganisms apparently release strong complexing agents and catalyze redox reactions that modify the bioavailability of trace metals and promote their rapid cycling in the upper water column.
+</text>
+        <annotation id="T6">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T6</infon>
+          <location length="7" offset="126"/>
+          <text>take up</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T7</infon>
+          <location length="20" offset="134"/>
+          <text>these micronutrients</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T8</infon>
+          <location length="7" offset="190"/>
+          <text>release</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T9</infon>
+          <location length="24" offset="198"/>
+          <text>strong complexing agents</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T10</infon>
+          <location length="6" offset="257"/>
+          <text>modify</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T11</infon>
+          <location length="35" offset="264"/>
+          <text>the bioavailability of trace metals</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T12</infon>
+          <location length="7" offset="304"/>
+          <text>promote</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T13</infon>
+          <location length="45" offset="312"/>
+          <text>their rapid cycling in the upper water column</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E4</infon>
+          <node refid="T6" role="Decrease"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E5</infon>
+          <node refid="T8" role="Increase"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E6</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E7</infon>
+          <node refid="T12" role="Increase"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>359</offset>
+        <text>In turn, the low availability of some metals controls the rate of photosynthesis in parts of the oceans and the transformation and uptake of major nutrients such as nitrogen.
+</text>
+        <annotation id="T14">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T14</infon>
+          <location length="19" offset="372"/>
+          <text>low availability of</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T15</infon>
+          <location length="11" offset="392"/>
+          <text>some metals</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T16</infon>
+          <location length="49" offset="413"/>
+          <text>the rate of photosynthesis in parts of the oceans</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T17</infon>
+          <location length="8" offset="404"/>
+          <text>controls</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T18</infon>
+          <location length="9" offset="490"/>
+          <text>uptake of</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T19</infon>
+          <location length="32" offset="500"/>
+          <text>major nutrients such as nitrogen</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T20</infon>
+          <location length="14" offset="471"/>
+          <text>transformation</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T22</infon>
+          <location length="3" offset="486"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T23</infon>
+          <location length="3" offset="463"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E8</infon>
+          <node refid="T14" role="Decrease"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E9</infon>
+          <node refid="T16" role="I_Change"/>
+        </relation>
+        <relation id="E10">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E10</infon>
+          <node refid="T17" role="Cause"/>
+          <node refid="E8" role="Agent"/>
+          <node refid="E15" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E11</infon>
+          <node refid="T18" role="Decrease"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E12</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E14</infon>
+          <node refid="T22" role="And"/>
+          <node refid="E12" role="Part"/>
+          <node refid="E11" role="Part2"/>
+        </relation>
+        <relation id="E15">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E15</infon>
+          <node refid="T23" role="And"/>
+          <node refid="E14" role="Part"/>
+          <node refid="E9" role="Part2"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>534</offset>
+        <text>The extremely low concentrations of several essential metals are both the cause and the result of ultraefficient uptake systems in the plankton and of widespread replacement of metals by one another for various biochemical functions.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

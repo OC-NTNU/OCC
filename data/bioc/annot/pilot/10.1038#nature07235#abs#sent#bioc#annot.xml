@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">pilot</infon>
+  <document>
+    <id>10.1038#nature07235#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/pilot/10.1038/nature07235</infon>
+    <infon key="bibtex">
+ @article{Thingstad_2008, title={Counterintuitive carbon-to-nutrient coupling in an Arctic pelagic ecosystem}, volume={455}, ISSN={1476-4687}, url={http://dx.doi.org/10.1038/nature07235}, DOI={10.1038/nature07235}, number={7211}, journal={Nature}, publisher={Nature Publishing Group}, author={Thingstad, T. F. and Bellerby, R. G. J. and Bratbak, G. and Børsheim, K. Y. and Egge, J. K. and Heldal, M. and Larsen, A. and Neill, C. and Nejstgaard, J. and Norland, S. and et al.}, year={2008}, month={Aug}, pages={387–390}}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Predicting the ocean’s role in the global carbon cycle requires an understanding of the stoichiometric coupling between carbon and growth-limiting elements in biogeochemical processes.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>185</offset>
+        <text>A recent addition to such knowledge is that the carbon/nitrogen ratio of inorganic consumption and release of dissolved organic matter may increase in a high-CO2 world.
+</text>
+        <annotation id="T1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="8" offset="324"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="46" offset="233"/>
+          <text>carbon/nitrogen ratio of inorganic consumption</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="3" offset="280"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="4" offset="354"/>
+          <text>This</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T23</infon>
+          <location length="35" offset="284"/>
+          <text>release of dissolved organic matter</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Increase"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T4" role="And"/>
+          <node refid="T3" role="Part2"/>
+          <node refid="T23" role="Part"/>
+        </relation>
+        <relation id="R1">
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <infon key="brat-id">R1</infon>
+          <node refid="T5" role="Expression"/>
+          <node refid="E1" role="Antecedent"/>
+        </relation>
+        <relation id="#5">
+          <infon key="string">"in a high CO2-world" is not a variable but a condition</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#5</infon>
+          <node refid="E1" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>354</offset>
+        <text>This will, however, yield a negative feedback on atmospheric CO2 only if the extra organic material escapes mineralization within the photic zone.
+</text>
+        <annotation id="T6">
+          <infon key="type">Negative_Feedback</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T6</infon>
+          <location length="28" offset="374"/>
+          <text>yield a negative feedback on</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T7</infon>
+          <location length="15" offset="403"/>
+          <text>atmospheric CO2</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T26</infon>
+          <location length="16" offset="437"/>
+          <text>organic material</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T31</infon>
+          <location length="5" offset="431"/>
+          <text>extra</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="type">Negative_Feedback</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E3</infon>
+          <node refid="T6" role="Negative_Feedback"/>
+          <node refid="E16" role="Co-theme"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="#1">
+          <infon key="string">Not a feedback relation between two variables, but rather a complex event that causes a decrease in CO2. The "only if…" condition is essential, but so far there is no way to express that in the annotation.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#1</infon>
+          <node refid="E3" role="Annotation"/>
+        </relation>
+        <relation id="E16">
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E16</infon>
+          <node refid="T7" role="I_Decrease"/>
+        </relation>
+        <relation id="E17">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E17</infon>
+          <node refid="T31" role="Increase"/>
+          <node refid="T26" role="Theme"/>
+        </relation>
+        <relation id="#8">
+          <infon key="string">Implicit decrease because of the negative correlation.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#8</infon>
+          <node refid="E16" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>501</offset>
+        <text>Here we show, in the context of an Arctic pelagic ecosystem, how the fate and effects of added degradable organic carbon depend critically on the state of the microbial food web.
+</text>
+        <annotation id="T13">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T13</infon>
+          <location length="4" offset="680"/>
+          <text>When</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T27</infon>
+          <location length="5" offset="590"/>
+          <text>added</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T28</infon>
+          <location length="25" offset="596"/>
+          <text>degradable organic carbon</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E6</infon>
+          <node refid="T13" role="Correlate"/>
+          <node refid="E5" role="Theme"/>
+          <node refid="E4" role="Co-theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E14</infon>
+          <node refid="T27" role="Increase"/>
+          <node refid="T28" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>680</offset>
+        <text>When bacterial growth rate was limited by mineral nutrients, extra organic carbon accumulated in the system.
+</text>
+        <annotation id="T8">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T8</infon>
+          <location length="10" offset="711"/>
+          <text>limited by</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T9</infon>
+          <location length="21" offset="685"/>
+          <text>bacterial growth rate</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T11</infon>
+          <location length="20" offset="741"/>
+          <text>extra organic carbon</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T12</infon>
+          <location length="11" offset="762"/>
+          <text>accumulated</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T30</infon>
+          <location length="4" offset="789"/>
+          <text>When</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E4</infon>
+          <node refid="T8" role="Decrease"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E5</infon>
+          <node refid="T12" role="Increase"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="#6">
+          <infon key="string">X limits Y ==&gt; Y decreases. How to deal with the agent here, which is not a change?</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#6</infon>
+          <node refid="E4" role="Annotation"/>
+        </relation>
+        <relation id="E13">
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E13</infon>
+          <node refid="T30" role="Correlate"/>
+          <node refid="E8" role="Theme"/>
+          <node refid="E12" role="Co-theme"/>
+        </relation>
+        <relation id="#2">
+          <infon key="string">'extra' is also a trigger for increase, but we don't annotate nested changes.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#2</infon>
+          <node refid="T11" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>789</offset>
+        <text>When bacteria were limited by organic carbon, however, addition of labile dissolved organic carbon reduced phytoplankton biomass and activity and also the rate at which total organic carbon accumulated, explained as the result of stimulated bacterial competition for mineral nutrients.
+</text>
+        <annotation id="T14">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T14</infon>
+          <location length="11" offset="844"/>
+          <text>addition of</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T15</infon>
+          <location length="31" offset="856"/>
+          <text>labile dissolved organic carbon</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T16</infon>
+          <location length="7" offset="888"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T17</infon>
+          <location length="34" offset="896"/>
+          <text>phytoplankton biomass and activity</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T24</infon>
+          <location length="8" offset="794"/>
+          <text>bacteria</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T25</infon>
+          <location length="7" offset="808"/>
+          <text>limited</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="50" offset="940"/>
+          <text>the rate at which total organic carbon accumulated</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T29</infon>
+          <location length="3" offset="931"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E7</infon>
+          <node refid="T14" role="Increase"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E8</infon>
+          <node refid="T16" role="Decrease"/>
+          <node refid="E7" role="Agent"/>
+          <node refid="E15" role="Theme"/>
+        </relation>
+        <relation id="#3">
+          <infon key="string">Cannot use And here, because activity is in the scope of phytoplankon.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#3</infon>
+          <node refid="T17" role="Annotation"/>
+        </relation>
+        <relation id="E12">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E12</infon>
+          <node refid="T25" role="Decrease"/>
+          <node refid="T24" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E15</infon>
+          <node refid="T29" role="And"/>
+          <node refid="T17" role="Part"/>
+          <node refid="T2" role="Part2"/>
+        </relation>
+        <relation id="#7">
+          <infon key="string">increase as expressed by "accumulated" cannot be analysed with current scheme</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#7</infon>
+          <node refid="T2" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1075</offset>
+        <text>This counterintuitive ‘more organic carbon gives less organic carbon’ effect was particularly pronounced in diatom-dominated systems where the carbon/mineral nutrient ratio in phytoplankton production was high.
+</text>
+        <annotation id="T18">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T18</infon>
+          <location length="4" offset="1098"/>
+          <text>more</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T19</infon>
+          <location length="14" offset="1103"/>
+          <text>organic carbon</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T20</infon>
+          <location length="5" offset="1118"/>
+          <text>gives</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T21</infon>
+          <location length="4" offset="1124"/>
+          <text>less</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T22</infon>
+          <location length="14" offset="1129"/>
+          <text>organic carbon</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T10</infon>
+          <location length="10" offset="1265"/>
+          <text>production</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T32</infon>
+          <location length="13" offset="1251"/>
+          <text>phytoplankton</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E9</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E10</infon>
+          <node refid="T20" role="Cause"/>
+          <node refid="E9" role="Agent"/>
+          <node refid="E11" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E11</infon>
+          <node refid="T21" role="Decrease"/>
+          <node refid="T22" role="Theme"/>
+        </relation>
+        <relation id="#4">
+          <infon key="string">Is this a contradiction or a negative feedback?</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#4</infon>
+          <node refid="E10" role="Annotation"/>
+        </relation>
+        <relation id="E18">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E18</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T32" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1286</offset>
+        <text>Our results highlight how descriptions of present and future states of the oceanic carbon cycle require detailed understanding of the stoichiometric coupling between carbon and growth-limiting mineral nutrients in both autotrophic and heterotrophic processes.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

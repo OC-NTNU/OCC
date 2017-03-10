@@ -4,8 +4,9 @@ Ocean-Certain Corpus (OCC)
 
 Version 2.0
 
-Erwin Marsi (emarsi@idi.ntnu.no)
+Erwin Marsi (emarsi@ntnu.no)
 Elias Aamot
+Biswanath Barik
 Sirin Öztürk
 
 Norwegian University of Science and Technology (NTNU)
@@ -54,14 +55,14 @@ Filename tags denote:
     #full         = full article text
     #abs          = article abstract
     #sent         = selected sentences (one per line) extracted from xml source  
-    #brat_XX      = annotated with Brat by annotator XX
+    #brat         = annotated with Brat
     #scnlp_vX.Y.Z = annotated with Stanford CoreNLP, version X.Y.Z 
 
 
 File extensions denote:
 
     .txt = plain text, UTF-8 character encoding
-    .xml = XML markup for publication source or linguistic annotation
+    .xml = XML markup for publication source or linguistic annotation (CoreNLP or BioC)
     .soa = stand-off annotation (labeled text spans)
     .ann = Brat stand-off annotation
     .bib = citation info in Bibtex format
@@ -78,23 +79,31 @@ sentences from the full text of the article with DOI
 Directory structure
 ------------------------------------------------------------------------------
 
-    data/bib     = Bibtex files
-    data/brat    = Brat text and annotation
-    data.brat/XX = annotations by annotator XX
-    data/scnlp   = Stanford CoreNLP annotation
-    data/sent    = text from soa as one sentence per line
-    data/soa     = stand-off annotation and corresponding text
-    data/xml     = XML source
+The data directory has the follwowing subdirs:
+
+    data/xml          = XML source
+    data/soa          = stand-off annotation and corresponding text
+    data/sent         = text from soa as one sentence per line
+    data/brat         = Brat text and annotation
+    data/bioc/collect = text as collection in BioC format
+    data/bioc/annot   = text plus annotations as collection in BioC format
+    data/scnlp        = Stanford CoreNLP annotation
+    data/bib          = Bibtex files
+
+With the brat and bioc dirs, subdirs are used for different parts of the
+corpus:
+
+	pilot  = texts used for developing the initial annotation scheme
+	abs1   = abstracts of articles
+	full1  = full text articles
 
 ------------------------------------------------------------------------------
 Notes
 ------------------------------------------------------------------------------
 
 - The brat dir can be directly copied to, or symlinked under, the
-  DATA_DIR as defined in Brat's config.py file.
-
-- The *.txt files in the brat directory are symlinks from *.txt files
-  in the data/sent directory
+  DATA_DIR as defined in Brat's config.py file. This directory includes the
+  configuration files annotation.conf an visual.conf.
 
 - Abstracts from the pilot were obtained through copy & paste from the
   PDF file, so these have no XML source files.
@@ -126,4 +135,4 @@ Credits
   http://nlp.stanford.edu/software/corenlp.shtml
 
 - Conversion to stand-off annotation by nxml2txt
-  https://github.com/spyysalo/nxml2tx
+  https://github.com/spyysalo/nxml2txt

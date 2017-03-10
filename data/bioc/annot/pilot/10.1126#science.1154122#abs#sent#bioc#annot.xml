@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-10</date>
+  <key></key>
+  <infon key="part">pilot</infon>
+  <document>
+    <id>10.1126#science.1154122#abs#sent</id>
+    <infon key="source">http://dx.doi.org/data/brat/pilot/10.1126/science.1154122</infon>
+    <infon key="bibtex">
+@article{Iglesias_Rodriguez_2008,
+	doi = {10.1126/science.1154122},
+	url = {http://dx.doi.org/10.1126/science.1154122},
+	year = 2008,
+	month = {Apr},
+	publisher = {American Association for the Advancement of Science (AAAS)},
+	volume = {320},
+	number = {5874},
+	pages = {336-340},
+	author = {M. D. Iglesias-Rodriguez and P. R. Halloran and R. E. M. Rickaby and I. R. Hall and E. Colmenero-Hidalgo and J. R. Gittins and D. R. H. Green and T. Tyrrell and S. J. Gibbs and P. von Dassow and E. Rehm and E. V. Armbrust and K. P. Boessenkool},
+	title = {Phytoplankton Calcification in a High-CO2 World},
+	journal = {Science}
+}
+</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Ocean acidification in response to rising atmospheric CO2 partial pressures is widely expected to reduce calcification by marine organisms.
+</text>
+        <annotation id="T1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T1</infon>
+          <location length="6" offset="35"/>
+          <text>rising</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T2</infon>
+          <location length="33" offset="42"/>
+          <text>atmospheric CO2 partial pressures</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T4</infon>
+          <location length="6" offset="98"/>
+          <text>reduce</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T5</infon>
+          <location length="33" offset="105"/>
+          <text>calcification by marine organisms</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T17</infon>
+          <location length="14" offset="20"/>
+          <text>in response to</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T3</infon>
+          <location length="19" offset="0"/>
+          <text>Ocean acidification</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E1</infon>
+          <node refid="T1" role="Increase"/>
+          <node refid="T2" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E2</infon>
+          <node refid="T4" role="Decrease"/>
+          <node refid="T5" role="Theme"/>
+          <node refid="E9" role="Agent"/>
+        </relation>
+        <relation id="E8">
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E8</infon>
+          <node refid="T17" role="Cause"/>
+          <node refid="E1" role="Agent"/>
+          <node refid="E9" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E9</infon>
+          <node refid="T3" role="I_Increase"/>
+        </relation>
+        <relation id="#1">
+          <infon key="string">Implicit increase in acidity.</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#1</infon>
+          <node refid="E9" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>140</offset>
+        <text>From the mid-Mesozoic, coccolithophores have been major calcium carbonate producers in the world’s oceans, today accounting for about a third of the total marine CaCO3 production.
+</text>
+        <annotation id="T16">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T16</infon>
+          <location length="17" offset="196"/>
+          <text>calcium carbonate</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T18</infon>
+          <location length="9" offset="214"/>
+          <text>producers</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T19</infon>
+          <location length="22" offset="285"/>
+          <text>the total marine CaCO3</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T20</infon>
+          <location length="10" offset="308"/>
+          <text>production</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E10</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E11</infon>
+          <node refid="T20" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>320</offset>
+        <text>Here, we present laboratory evidence that calcification and net primary production in the coccolithophore species Emiliania huxleyi are significantly increased by high CO2 partial pressures.
+</text>
+        <annotation id="T6">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T6</infon>
+          <location length="12" offset="470"/>
+          <text>increased by</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T7</infon>
+          <location length="21" offset="488"/>
+          <text>CO2 partial pressures</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T10</infon>
+          <location length="3" offset="376"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T11</infon>
+          <location length="4" offset="483"/>
+          <text>high</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T8</infon>
+          <location length="13" offset="362"/>
+          <text>calcification</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T9</infon>
+          <location length="71" offset="380"/>
+          <text>net primary production in the coccolithophore species Emiliania huxleyi</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E3</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="E5" role="Agent"/>
+          <node refid="E4" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E4</infon>
+          <node refid="T10" role="And"/>
+          <node refid="T9" role="Part"/>
+          <node refid="T8" role="Part2"/>
+        </relation>
+        <relation id="E5">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E5</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="#2">
+          <infon key="string">'high' interpreted as 'increase' in this context</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="brat-id">#2</infon>
+          <node refid="E5" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>511</offset>
+        <text>Field evidence from the deep ocean is consistent with these laboratory conclusions, indicating that over the past 220 years there has been a 40% increase in average coccolith mass.
+</text>
+        <annotation id="T12">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T12</infon>
+          <location length="11" offset="656"/>
+          <text>increase in</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T13</infon>
+          <location length="22" offset="668"/>
+          <text>average coccolith mass</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E6</infon>
+          <node refid="T12" role="Increase"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>692</offset>
+        <text>Our findings show that coccolithophores are already responding and will probably continue to respond to rising atmospheric CO2 partial pressures, which has important implications for biogeochemical modeling of future oceans and climate.
+</text>
+        <annotation id="T14">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T14</infon>
+          <location length="6" offset="796"/>
+          <text>rising</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <infon key="brat-id">T15</infon>
+          <location length="33" offset="803"/>
+          <text>atmospheric CO2 partial pressures</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <infon key="brat-id">E7</infon>
+          <node refid="T14" role="Increase"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>
