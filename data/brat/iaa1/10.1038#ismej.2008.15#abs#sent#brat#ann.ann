@@ -1,0 +1,90 @@
+T1	Variable 70 78	nutrient
+T2	Increase 79 88	additions
+E1	Increase:T2 Theme:T1
+T3	Variable 743 751	nutrient
+T4	Increase 752 760	addition
+E2	Increase:T4 Theme:T3
+T5	Variable 870 878	nutrient
+T6	Variable 883 892	substrate
+T7	And 879 882	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Increase 893 903	enrichment
+E4	Increase:T8 Theme:E3
+T10	Variable 811 822	prokaryotic
+T11	Variable 834 839	viral
+T12	And 830 833	and
+E6	And:T12 Part:E24 Part2:E5
+#1	AnnotatorNotes E2	"absence of" actually signal there is no addition. Negated?
+T13	Variable 917 926	nutrients
+T14	Increase 905 916	Addition of
+E7	Increase:T14 Theme:T13
+T15	Variable 1009 1010	P
+T16	Increase 997 1008	Addition of
+E8	Increase:T16 Theme:T15
+T17	Increase 1038 1049	increase in
+E9	Increase:T17 Theme:E10
+T18	Variable 1050 1071	prokaryotic abundance
+T19	Variable 1073 1083	production
+T20	Variable 1088 1105	growth efficiency
+T21	And 1084 1087	and
+E10	And:T21 Part:T18 Part2:T19 Part3:T20
+T22	Cause 1011 1017	led to
+E11	Cause:T22 Agent:E8 Theme:E9
+T23	Decrease 1143 1153	limitation
+E12	Decrease:T23 Theme:T24
+T24	Variable 1141 1142	P
+T25	Variable 1179 1215	prokaryotic activity in P treatments
+T26	Increase 1170 1178	Enhanced
+E13	Increase:T26 Theme:T25
+T27	Variable 1299 1332	prokaryotic community composition
+T28	Change 1288 1298	Changes in
+E14	Change:T28 Theme:T27
+T29	Increase 1349 1358	additions
+E15	Increase:T29 Theme:T30
+T30	Variable 1340 1348	nutrient
+T31	Cause 1333 1339	due to
+E16	Cause:T31 Agent:E15 Theme:E14
+T32	Increase 1528 1538	enrichment
+E17	Increase:T32 Theme:T33
+T33	Variable 1519 1527	nutrient
+T34	Increase 1556 1568	increases in
+E18	Increase:T34 Theme:T35
+T35	Variable 1569 1594	their relative abundances
+T38	Increase 1780 1789	increased
+E20	Increase:T38 Theme:T39
+T39	Variable 1739 1779	Cells hybridizing for the latter cluster
+T41	Increase 1877 1886	additions
+E22	Increase:T41 Theme:T40
+T40	Variable 1868 1876	nutrient
+A2	Negated E22
+T42	Variable 1974 1982	nutrient
+T43	Increase 1983 1993	enrichment
+E21	Increase:T43 Theme:T42
+T9	Increase 840 853	proliferation
+E5	Increase:T9 Theme:T11
+T46	Increase 823 829	growth
+E24	Increase:T46 Theme:T10
+T47	Increase 1221 1231	stimulated
+E25	Increase:T47 Theme:E27 Agent:E13
+T48	Variable 1232 1247	viral abundance
+T50	And 1248 1251	and
+E27	And:T50 Part:T48 Part2:T49
+T49	Variable 1252 1286	viral-induced lyses of prokaryotes
+T44	Variable 2086 2097	prokaryotic
+T45	Increase 2098 2104	growth
+E23	Increase:T45 Theme:T44
+T51	Variable 2109 2114	viral
+T52	Increase 2115 2128	proliferation
+E26	Increase:T52 Theme:T51
+T53	And 2105 2108	and
+E28	And:T53 Part:E23 Part2:E26
+T54	Decrease 645 653	limiting
+E29	Decrease:T54 Theme:T55
+T55	Variable 631 640	phosphate
+T56	I_Increase 1400 1505	Prokaryotic populations hybridizing for the probes bacteria, beta-Proteobacteria and alpha-Proteobacteria
+E30	I_Increase:T56 
+T57	Cause 1506 1518	responded to
+E31	Cause:T57 Agent:E17 Theme:E30
+T36	Increase 2172 2184	regeneration
+E19	Increase:T36 Theme:T37
+T37	Variable 2163 2171	nutrient

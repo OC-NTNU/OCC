@@ -1,0 +1,56 @@
+T1	Change 60 68	exchange
+E1	Change:T1 Theme:T2
+T2	Variable 38 59	Arctic greenhouse-gas
+T3	Decrease 110 119	plummeted
+E2	Decrease:T3 Theme:T4
+T4	Variable 88 109	Arctic sea-ice extent
+T5	Change 257 263	change
+E3	Change:T5 Theme:T6
+T6	Variable 249 256	climate
+T7	Decrease 335 342	reduced
+E4	Decrease:T7 Theme:T8
+T8	Variable 343 376	sea-ice cover in the Arctic Ocean
+T9	Change 403 411	exchange
+E5	Change:T9 Theme:T10
+T10	Variable 399 402	CO2
+T11	Variable 413 420	Sea-ice
+T12	Decrease 421 428	decline
+E6	Decrease:T12 Theme:T11
+T13	Increase 451 461	increasing
+E7	Increase:T13 Theme:T14
+T14	Variable 462 496	air temperatures at high latitudes
+T15	Correlate 438 450	connected to
+E8	Correlate:T15 Theme:E6 Co-theme:E7
+T16	Change 557 567	exchange o
+E9	Change:T16 Theme:E10
+T17	Variable 569 572	CO2
+T18	Variable 577 584	methane
+T19	And 573 576	and
+E10	And:T19 Part:T17 Part2:T18
+T20	Decrease 717 728	diminishing
+E11	Decrease:T20 Theme:T21
+T21	Variable 729 743	sea-ice extent
+T22	Change 749 759	changes in
+E12	Change:T22 Theme:T23
+T23	Variable 761 832	he interaction of the marine and terrestrial Arctic with the atmosphere
+T24	Correlate 705 712	connect
+E13	Correlate:T24 Theme:E11 Co-theme:E12
+A1	Negated E13
+T25	Decrease 974 979	lower
+E14	Decrease:T25 Theme:T26
+T26	Variable 980 993	sea-ice cover
+T27	Change 1019 1027	exchange
+E15	Change:T27 Theme:T28
+T28	Variable 997 1018	Arctic greenhouse-gas
+T29	Cause 962 971	impact of
+E16	Cause:T29 Agent:E14 Theme:E15
+T30	Variable 20 34	sea-ice extent
+T31	Decrease 14 19	lower
+E17	Decrease:T31 Theme:T30
+T32	Cause 4 13	impact of
+E18	Cause:T32 Agent:E17 Theme:E1
+T33	Decrease 199 206	lows in
+E19	Decrease:T33 Theme:T34
+T34	Variable 207 220	sea-ice cover
+T35	Cause 319 334	implications of
+E20	Cause:T35 Agent:E4 Theme:E5

@@ -1,0 +1,81 @@
+T1	Variable 12 25	phytoplankton
+T2	Increase 26 31	bloom
+E1	Increase:T2 Theme:T1
+T3	Cause 60 73	stimulated by
+E2	Cause:T3 Theme:E1 Agent:E3
+T5	Change 93 103	Changes in
+E4	Change:T5 Theme:T6
+T6	Variable 104 135	iron supply to oceanic plankton
+T7	Change 228 236	altering
+E5	Change:T7 Theme:T8 Agent:E4
+T8	Variable 237 266	rates of carbon sequestration
+T9	Cause 151 179	have a significant effect on
+E6	Cause:T9 Theme:E7 Agent:E5
+T10	I_Change 180 224	concentrations of atmospheric carbon dioxide
+E7	I_Change:T10 
+T11	Increase 389 398	increased
+E8	Increase:T11 Theme:T12
+T12	Variable 399 410	iron supply
+T13	Increase 595 604	Increased
+E9	Increase:T13 Theme:T14
+T14	Variable 605 616	iron supply
+T15	Increase 624 632	elevated
+E10	Increase:T15 Theme:E11
+T16	Variable 633 654	phytoplankton biomass
+T17	Variable 659 700	rates of photosynthesis in surface waters
+T18	And 655 658	and
+E11	And:T18 Part:T16 Part2:T17
+T19	Cause 617 623	led to
+E12	Cause:T19 Agent:E9 Theme:E10
+T20	Decrease 718 729	drawdown of
+E13	Decrease:T20 Theme:E14
+T21	Variable 730 744	carbon dioxide
+T22	And 745 748	and
+E14	And:T22 Part:T21 Part2:T23
+T23	Variable 749 763	macronutrients
+T24	Increase 769 777	elevated
+E15	Increase:T24 Theme:T25
+T25	Variable 778 802	dimethyl sulphide levels
+T26	RefExp 818 831	This drawdown
+R1	Coref Expression:T26 Antecedent:E14	
+T27	Increase 854 870	proliferation of
+E16	Increase:T27 Theme:T28
+T28	Variable 871 884	diatom stocks
+T29	Cause 843 849	due to
+E17	Cause:T29 Agent:E16 Theme:T26
+T30	Increase 933 942	increased
+E18	Increase:T30 Theme:T31
+A1	Negated E18
+T31	Variable 890 924	downward export of biogenic carbon
+T32	Increase 1058 1063	added
+E19	Increase:T32 Theme:T33
+T33	Variable 1064 1068	iron
+T34	Increase 1136 1142	supply
+E20	Increase:T34 Theme:T35
+T35	Variable 1131 1135	iron
+T36	Cause 1143 1151	controls
+E21	Cause:T36 Theme:E22 Agent:E20
+T37	Variable 1152 1165	phytoplankton
+T38	And 1173 1176	and
+E22	And:T38 Part:E29 Part2:E30
+T40	Cause 360 371	response of
+E23	Cause:T40 Agent:E8 Theme:E24
+T41	I_Change 372 385	pelagic biota
+E24	I_Change:T41 
+T42	Increase 551 559	elevated
+E25	Increase:T42 Theme:T43
+T43	Variable 546 550	iron
+T44	Cause 702 709	causing
+E26	Cause:T44 Agent:E10 Theme:E27
+T45	And 765 768	and
+E27	And:T45 Part:E13 Part2:E15
+T4	Variable 74 78	iron
+T46	Increase 79 92	fertilization
+E3	Increase:T46 Theme:T4
+T47	Increase 459 472	fertilization
+E28	Increase:T47 Theme:T48
+T48	Variable 454 458	iron
+T49	Increase 1166 1172	growth
+E29	Increase:T49 Theme:T37
+T39	I_Change 1177 1198	community composition
+E30	I_Change:T39 

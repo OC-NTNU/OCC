@@ -1,0 +1,49 @@
+T1	Increase 44 58	aggregation of
+E1	Increase:T1 Theme:T2
+T2	Variable 59 83	Thalassiosira weissflogi
+T3	Increase 85 99	Aggregation of
+E2	Increase:T3 Theme:T4
+T4	Variable 100 105	algae
+T5	Variable 369 377	particle
+T6	Increase 378 389	aggregation
+E3	Increase:T6 Theme:T5
+T7	Increase 463 472	formation
+E4	Increase:T7 Theme:T8
+T8	Variable 459 462	TEP
+T9	Variable 477 490	phytoplankton
+T10	Increase 491 502	aggregation
+E5	Increase:T10 Theme:T9
+T11	Increase 700 709	formation
+E6	Increase:T11 Theme:T12
+T12	Variable 696 699	TEP
+T13	Variable 826 829	TEP
+T14	Increase 830 840	production
+E7	Increase:T14 Theme:T13
+T15	Variable 845 851	diatom
+T16	Increase 852 863	aggregation
+E8	Increase:T16 Theme:T15
+T17	Increase 914 923	aggregate
+E9	Increase:T17 Theme:T18
+T18	Variable 891 905	T. weissflogii
+A1	Negated E9
+T19	Increase 1239 1247	increase
+E10	Increase:T19 Theme:T20
+T20	Variable 1248 1267	aggregate formation
+T21	Increase 1344 1353	aggregate
+E11	Increase:T21 Theme:T22
+T22	Variable 1284 1335	photosynthetically inactivated T. weissflogii cells
+A2	Negated E11
+T23	Variable 1429 1432	TEP
+T24	Increase 1433 1443	production
+E12	Increase:T24 Theme:T23
+T25	Increase 1727 1736	increased
+E13	Increase:T25 Theme:E14
+T26	Variable 1737 1756	aggregate formation
+T27	Variable 1761 1777	particle sinking
+T28	And 1757 1760	and
+E14	And:T28 Part:T26 Part2:T27
+T29	Increase 1791 1798	enhance
+E15	Increase:T29 Theme:T30
+T30	Variable 1799 1836	the efficiency of the biological pump
+T31	Cause 1782 1786	thus
+E16	Cause:T31 Agent:E13 Theme:E15

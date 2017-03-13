@@ -1,0 +1,55 @@
+T1	Change 195 205	cycling of
+E1	Change:T1 Theme:T2
+T2	Variable 206 212	carbon
+T3	Change 465 476	transferred
+E2	Change:T3 Theme:T4
+T4	Variable 427 461	a similar amount of organic carbon
+T5	Decrease 670 678	limiting
+E3	Decrease:T5 Theme:T6
+T6	Variable 663 669	growth
+T7	Change 959 970	variability
+E4	Change:T7 Theme:T8
+T8	RefExp 955 958	its
+T9	Variable 906 924	ocean productivity
+R1	Coref Expression:T8 Antecedent:T9	
+T10	Variable 1014 1030	global ocean NPP
+T11	Change 1031 1038	changes
+E5	Change:T11 Theme:T10
+T12	Increase 1119 1130	increase in
+E6	Increase:T12 Theme:T13
+T13	Variable 1131 1134	NPP
+T14	Decrease 1208 1216	decrease
+E7	Decrease:T14 Theme:T13
+#1	AnnotatorNotes E7	Too much contextual interpretation?
+T15	Change 1269 1289	changes occurring in
+E8	Change:T15 Theme:T16
+T16	Variable 1290 1334	the expansive stratified low-latitude oceans
+T17	And 1184 1195	followed by
+E9	And:T17 Part:E6 Part2:E7
+T18	RefExp 1242 1254	These trends
+R2	Coref Expression:T18 Antecedent:E9	
+T19	Cause 1259 1268	driven by
+E10	Cause:T19 Agent:E8 Theme:T18
+T20	Variable 1373 1380	climate
+T21	Change 1381 1392	variability
+E11	Change:T21 Theme:T20
+T22	Correlate 1351 1361	coupled to
+E12	Correlate:T22 Theme:T18 Co-theme:E11
+T23	Change 1473 1483	changes in
+E13	Change:T23 Theme:E14
+T24	Variable 1484 1507	upper-ocean temperature
+T25	Variable 1512 1526	stratification
+T26	And 1508 1511	and
+E14	And:T26 Part:T24 Part2:T25
+T27	Variable 1578 1591	phytoplankton
+T28	Increase 1596 1597	t
+E15	Increase:T28 Theme:T27
+T29	Decrease 1613 1626	reductions in
+E16	Decrease:T29 Theme:T32
+T30	Variable 1719 1726	climate
+T31	Change 1727 1733	change
+E17	Change:T31 Theme:T30
+T32	Variable 1627 1645	ocean productivity
+T33	Change 1738 1743	alter
+E18	Change:T33 Theme:T34 Agent:E17
+T34	Variable 1744 1760	marine food webs

@@ -1,0 +1,54 @@
+T1	Variable 13 19	diatom
+T2	Increase 20 26	growth
+E1	Increase:T2 Theme:T1
+T3	Variable 114 134	phytoplankton growth
+T4	Decrease 138 148	limited by
+E2	Decrease:T4 Theme:T3 Agent:E3
+T5	I_Change 149 235	iron availability in the subarctic Pacific, and equatorial Pacific and Southern oceans
+E3	I_Change:T5 
+T6	Increase 818 827	blooms of
+E4	Increase:T6 Theme:T7
+T7	Variable 828 855	large chain-forming diatoms
+T8	Increase 761 772	addition of
+E5	Increase:T8 Theme:T9
+T9	Variable 773 777	iron
+T10	Cause 809 817	promotes
+E6	Cause:T10 Agent:E5 Theme:E4
+T11	Decrease 1040 1047	deplete
+E7	Decrease:T11 Theme:T12
+T12	Variable 1066 1078	silicic acid
+T15	Increase 1174 1180	Higher
+E9	Increase:T15 Theme:T16
+T16	Variable 1181 1254	Si:cell, Si:C and Si:pigment ratios in diatoms in the control incubations
+T18	Decrease 1273 1283	limitation
+E11	Decrease:T18 Theme:T17
+T17	Variable 1270 1271	o
+T19	Cause 1284 1292	leads to
+E10	Cause:T19 Agent:E11 Theme:E8
+T20	Variable 1403 1411	nutrient
+T21	Decrease 1412 1422	limitation
+E12	Decrease:T21 Theme:T20
+T22	Increase 1512 1527	accumulation of
+E13	Increase:T22 Theme:T23
+T23	Variable 1528 1541	biogenic opal
+T24	Variable 857 925	The silicic acid:nitrate (Si:N) uptake ratios in control incubations
+T25	Increase 949 955	higher
+E14	Increase:T25 Theme:T24
+T26	Variable 1106 1130	a secondary silicic acid
+T27	Decrease 1131 1141	limitation
+E15	Decrease:T27 Theme:T26
+T28	Decrease 5 12	limited
+E16	Decrease:T28 Theme:T29
+T29	Variable 0 4	Iron
+T30	Increase 36 42	uptake
+E17	Increase:T30 Theme:T31
+T31	Variable 31 35	Si:N
+T32	And 27 30	and
+E18	And:T32 Part:E1 Part2:E17
+T33	Decrease 667 674	limited
+E19	Decrease:T33 Theme:T34
+T34	Variable 662 666	iron
+T35	Cause 1095 1105	leading to
+E20	Cause:T35 Agent:E7 Theme:E15
+T13	I_Increase 1293 1339	more silicified, faster-sinking diatom biomass
+E8	I_Increase:T13 

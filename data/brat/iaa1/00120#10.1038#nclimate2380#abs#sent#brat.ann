@@ -1,0 +1,48 @@
+T1	Change 72 82	Changes in
+E1	Change:T1 Theme:T2
+T2	Variable 83 100	CaCO3 dissolution
+T3	I_Increase 108 127	ocean acidification
+E2	I_Increase:T3 
+T4	Cause 101 107	due to
+E3	Cause:T4 Agent:E2 Theme:E1
+T5	Change 164 174	changes in
+E4	Change:T5 Theme:T6
+T6	Variable 175 188	calcification
+T7	Increase 319 329	increasing
+E5	Increase:T7 Theme:T8
+T8	Variable 330 350	sediment dissolution
+T9	Cause 351 357	due to
+E6	Cause:T9 Agent:E7 Theme:E5
+T10	I_Increase 358 377	ocean acidification
+E7	I_Increase:T10 
+T11	Decrease 398 402	loss
+E8	Decrease:T11 Theme:T12
+T12	Variable 393 397	reef
+T13	Cause 383 392	result in
+E9	Cause:T13 Agent:E5 Theme:E8
+T14	Change 433 442	unchanged
+E10	Change:T14 Theme:T15
+A1	Negated E10
+T15	Variable 411 424	calcification
+T18	Change 587 597	changes in
+E12	Change:T18 Theme:T19
+T19	Variable 598 625	net ecosystem calcification
+T20	I_Increase 635 654	ocean acidification
+E13	I_Increase:T20 
+T21	Cause 626 634	owing to
+E14	Cause:T21 Agent:E13 Theme:E12
+T22	Increase 689 697	ncreased
+E15	Increase:T22 Theme:T23
+T23	Variable 698 709	dissolution
+T24	Cause 674 687	due mainly to
+E16	Cause:T24 Agent:E15 Theme:E12
+T25	Decrease 722 731	decreased
+E17	Decrease:T25 Theme:T26
+T26	Variable 735 736	c
+T27	Decrease 933 943	changes in
+E18	Decrease:T27 Theme:T28
+T28	Variable 944 962	seawater chemistry
+T29	I_Change 878 889	dissolution
+E19	I_Change:T29 
+T30	Cause 921 932	response to
+E20	Cause:T30 Agent:E18 Theme:E19

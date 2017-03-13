@@ -1,0 +1,46 @@
+T1	Decrease 0 10	Decline of
+E1	Decrease:T1 Theme:T2
+T2	Variable 11 31	the marine ecosystem
+T3	Decrease 44 56	reduction in
+E2	Decrease:T3 Theme:T4
+T4	Variable 57 93	the Atlantic overturning circulation
+T5	Cause 32 41	caused by
+E3	Cause:T5 Agent:E1 Theme:E2
+T6	Change 94 112	Reorganizations of
+E4	Change:T6 Theme:T7
+T7	Variable 113 160	the Atlantic meridional overturning circulation
+T8	I_Change 183 275	arge and abrupt climatic changes in the North Atlantic region during the last glacial period
+E5	I_Change:T8 
+T9	Correlate 166 181	associated with
+E6	Correlate:T9 Theme:E4 Co-theme:E5
+T10	Decrease 685 696	collapse of
+E7	Decrease:T10 Theme:T11
+T11	Variable 697 731	the North Atlantic plankton stocks
+T12	Change 612 625	disruption of
+E8	Change:T12 Theme:T13
+T13	Variable 627 673	he Atlantic meridional overturning circulation
+T14	Cause 674 682	leads to
+E9	Cause:T14 Agent:E8 Theme:E7
+T15	Decrease 933 944	declines by
+E10	Decrease:T15 Theme:T16
+T16	Variable 895 932	Globally integrated export production
+T17	Decrease 976 983	reduced
+E11	Decrease:T17 Theme:T18
+T18	Variable 984 1021	upwelling of nutrient-rich deep water
+T19	Decrease 1034 1046	depletion of
+E12	Decrease:T19 Theme:T20
+T20	Variable 1047 1082	upper ocean nutrient concentrations
+T21	And 1022 1025	and
+E13	And:T21 Part:E11 Part2:E12
+T22	Cause 967 975	owing to
+E14	Cause:T22 Agent:E13 Theme:E10
+T23	Change 1227 1237	changes in
+E15	Change:T23 Theme:T24
+T24	Variable 1238 1285	the Atlantic meridional overturning circulation
+T26	I_Change 1185 1210	global ocean productivity
+E17	I_Change:T26 
+T27	Variable 569 588	he marine ecosystem
+T28	Change 552 567	disturbances to
+E18	Change:T28 Theme:T27
+T25	Cause 1211 1226	is sensitive to
+E16	Cause:T25 Theme:E17 Agent:E15
