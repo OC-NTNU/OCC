@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <collection>
   <source>Ocean-Certain Corpus</source>
-  <date>2017-03-10</date>
+  <date>2017-03-13</date>
   <key></key>
   <infon key="part">pilot</infon>
   <document>
     <id>10.1016#j.dsr2.2000.10.001#abs#sent</id>
-    <infon key="source">http://dx.doi.org/data/brat/pilot/10.1016/j.dsr2.2000.10.001</infon>
     <infon key="bibtex">
 @article{_zt_rk_2004,
 	doi = {10.1016/j.dsr2.2000.10.001},
@@ -22,6 +21,7 @@
 	journal = {Deep Sea Research Part II: Topical Studies in Oceanography}
 }
 </infon>
+    <infon key="source">http://dx.doi.org/data/brat/pilot/10.1016/j.dsr2.2000.10.001</infon>
     <passage>
       <offset>0</offset>
       <infon key="type">body</infon>
@@ -31,31 +31,31 @@
         <text>Iron(III) photoreduction and the responses of phytoplankton under ultraviolet (UV) and photosynthetically available radiation (PAR) were investigated with the presence of hydroxycarboxylic acid (glucaric acid (GA), a model compound for organic acids excreted by phytoplankton).
 </text>
         <annotation id="T30">
+          <infon key="brat-id">T30</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T30</infon>
           <location length="8" offset="250"/>
           <text>excreted</text>
         </annotation>
         <annotation id="T29">
+          <infon key="brat-id">T29</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T29</infon>
           <location length="13" offset="236"/>
           <text>organic acids</text>
         </annotation>
         <relation id="E20">
+          <infon key="brat-id">E20</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E20</infon>
           <node refid="T30" role="Change"/>
           <node refid="T29" role="Theme"/>
         </relation>
         <relation id="#4">
-          <infon key="string">Like "export"/"import", the direction of change is relative, so use Change. Agent role can not be annotated because 'phytoplankton' is not a change.</infon>
+          <infon key="brat-id">#4</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#4</infon>
+          <infon key="string">Like "export"/"import", the direction of change is relative, so use Change. Agent role can not be annotated because 'phytoplankton' is not a change.</infon>
           <node refid="E20" role="Annotation"/>
         </relation>
       </sentence>
@@ -89,73 +89,73 @@
         <text>The results from the WIE show that iron enrichment had a substantial effect on phytoplankton growth rate.
 </text>
         <annotation id="T7">
+          <infon key="brat-id">T7</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T7</infon>
           <location length="7" offset="904"/>
           <text>Fe(III)</text>
         </annotation>
         <annotation id="T2">
+          <infon key="brat-id">T2</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T2</infon>
           <location length="27" offset="849"/>
           <text>had a substantial effect on</text>
         </annotation>
         <annotation id="T4">
+          <infon key="brat-id">T4</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T4</infon>
           <location length="4" offset="833"/>
           <text>iron</text>
         </annotation>
         <annotation id="T19">
+          <infon key="brat-id">T19</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T19</infon>
           <location length="10" offset="838"/>
           <text>enrichment</text>
         </annotation>
         <annotation id="T3">
+          <infon key="brat-id">T3</infon>
           <infon key="type">I_Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T3</infon>
           <location length="26" offset="877"/>
           <text>phytoplankton growth rate.</text>
         </annotation>
         <relation id="E2">
+          <infon key="brat-id">E2</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E2</infon>
           <node refid="T2" role="Cause"/>
           <node refid="E10" role="Agent"/>
           <node refid="E13" role="Theme"/>
         </relation>
         <relation id="E10">
+          <infon key="brat-id">E10</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E10</infon>
           <node refid="T19" role="Increase"/>
           <node refid="T4" role="Theme"/>
         </relation>
         <relation id="E13">
+          <infon key="brat-id">E13</infon>
           <infon key="type">I_Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E13</infon>
           <node refid="T3" role="I_Change"/>
         </relation>
         <relation id="#1">
-          <infon key="string">Implied change: change in iron causes *change* in growth rate</infon>
+          <infon key="brat-id">#1</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#1</infon>
+          <infon key="string">Implied change: change in iron causes *change* in growth rate</infon>
           <node refid="E13" role="Annotation"/>
         </relation>
         <relation id="#6">
-          <infon key="string">Mark whole phrase as trigger, because "have effect (on)" is multi-word expression. We cannot leave out 'substantial'.</infon>
+          <infon key="brat-id">#6</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#6</infon>
+          <infon key="string">Mark whole phrase as trigger, because "have effect (on)" is multi-word expression. We cannot leave out 'substantial'.</infon>
           <node refid="E2" role="Annotation"/>
         </relation>
       </sentence>
@@ -165,103 +165,103 @@
         <text>Fe(III) addition in the presence of GA (FeGA) gave higher Fe(II) concentration and higher growth rate of phytoplankton than those in controls.
 </text>
         <annotation id="T6">
+          <infon key="brat-id">T6</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T6</infon>
           <location length="8" offset="912"/>
           <text>addition</text>
         </annotation>
         <annotation id="T8">
+          <infon key="brat-id">T8</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T8</infon>
           <location length="4" offset="950"/>
           <text>gave</text>
         </annotation>
         <annotation id="T9">
+          <infon key="brat-id">T9</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T9</infon>
           <location length="20" offset="962"/>
           <text>Fe(II) concentration</text>
         </annotation>
         <annotation id="T11">
+          <infon key="brat-id">T11</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T11</infon>
           <location length="28" offset="994"/>
           <text>growth rate of phytoplankton</text>
         </annotation>
         <annotation id="T12">
+          <infon key="brat-id">T12</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T12</infon>
           <location length="6" offset="955"/>
           <text>higher</text>
         </annotation>
         <annotation id="T13">
+          <infon key="brat-id">T13</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T13</infon>
           <location length="3" offset="983"/>
           <text>and</text>
         </annotation>
         <annotation id="T1">
+          <infon key="brat-id">T1</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T1</infon>
           <location length="6" offset="987"/>
           <text>higher</text>
         </annotation>
         <relation id="E4">
+          <infon key="brat-id">E4</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E4</infon>
           <node refid="T6" role="Increase"/>
           <node refid="T7" role="Theme"/>
         </relation>
         <relation id="E5">
+          <infon key="brat-id">E5</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E5</infon>
           <node refid="T8" role="Cause"/>
           <node refid="E8" role="Theme"/>
           <node refid="E4" role="Agent"/>
         </relation>
         <relation id="E7">
+          <infon key="brat-id">E7</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E7</infon>
           <node refid="T12" role="Increase"/>
           <node refid="T9" role="Theme"/>
         </relation>
         <relation id="E8">
+          <infon key="brat-id">E8</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E8</infon>
           <node refid="T13" role="And"/>
           <node refid="E7" role="Part"/>
           <node refid="E1" role="Part2"/>
         </relation>
         <relation id="E1">
+          <infon key="brat-id">E1</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E1</infon>
           <node refid="T1" role="Increase"/>
           <node refid="T11" role="Theme"/>
         </relation>
         <relation id="#2">
-          <infon key="string">'higher' interpreted as increase in this context</infon>
+          <infon key="brat-id">#2</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#2</infon>
+          <infon key="string">'higher' interpreted as increase in this context</infon>
           <node refid="E7" role="Annotation"/>
         </relation>
         <relation id="#5">
-          <infon key="string">'growth rate of X' (not Increase) is different from 'growth of X' (= Increase)</infon>
+          <infon key="brat-id">#5</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#5</infon>
+          <infon key="string">'growth rate of X' (not Increase) is different from 'growth of X' (= Increase)</infon>
           <node refid="T11" role="Annotation"/>
         </relation>
       </sentence>
@@ -277,9 +277,9 @@
         <text>The presence of GA influenced iron photochemistry and iron availability to phytoplankton.
 </text>
         <annotation id="T26">
+          <infon key="brat-id">T26</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T26</infon>
           <location length="13" offset="1235"/>
           <text>Phytoplankton</text>
         </annotation>
@@ -290,51 +290,51 @@
         <text>Phytoplankton growth responses to iron enrichments in incubations under UV and PAR were completely dissimilar.
 </text>
         <annotation id="T23">
+          <infon key="brat-id">T23</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T23</infon>
           <location length="4" offset="1269"/>
           <text>iron</text>
         </annotation>
         <annotation id="T24">
+          <infon key="brat-id">T24</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T24</infon>
           <location length="11" offset="1274"/>
           <text>enrichments</text>
         </annotation>
         <annotation id="T25">
+          <infon key="brat-id">T25</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T25</infon>
           <location length="6" offset="1249"/>
           <text>growth</text>
         </annotation>
         <annotation id="T27">
+          <infon key="brat-id">T27</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T27</infon>
-          <location length="12" offset="1256"/>
-          <text>responses to</text>
+          <location length="9" offset="1256"/>
+          <text>responses</text>
         </annotation>
         <relation id="E14">
+          <infon key="brat-id">E14</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E14</infon>
           <node refid="T24" role="Increase"/>
           <node refid="T23" role="Theme"/>
         </relation>
         <relation id="E15">
+          <infon key="brat-id">E15</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E15</infon>
           <node refid="T25" role="Increase"/>
           <node refid="T26" role="Theme"/>
         </relation>
         <relation id="E16">
+          <infon key="brat-id">E16</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E16</infon>
           <node refid="T27" role="Cause"/>
           <node refid="E15" role="Theme"/>
           <node refid="E14" role="Agent"/>
@@ -346,53 +346,53 @@
         <text>It seems that FeGA addition prominently changes the harmful effect of UV on the phytoplankton population.
 </text>
         <annotation id="T17">
+          <infon key="brat-id">T17</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T17</infon>
           <location length="8" offset="1365"/>
           <text>addition</text>
         </annotation>
         <annotation id="T18">
+          <infon key="brat-id">T18</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T18</infon>
           <location length="4" offset="1360"/>
           <text>FeGA</text>
         </annotation>
         <annotation id="T20">
+          <infon key="brat-id">T20</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T20</infon>
           <location length="7" offset="1386"/>
           <text>changes</text>
         </annotation>
         <annotation id="T21">
+          <infon key="brat-id">T21</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T21</infon>
           <location length="56" offset="1394"/>
           <text>the harmful effect of UV on the phytoplankton population</text>
         </annotation>
         <relation id="E9">
+          <infon key="brat-id">E9</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E9</infon>
           <node refid="T17" role="Increase"/>
           <node refid="T18" role="Theme"/>
         </relation>
         <relation id="E11">
+          <infon key="brat-id">E11</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E11</infon>
           <node refid="T20" role="Change"/>
           <node refid="E9" role="Agent"/>
           <node refid="T21" role="Theme"/>
         </relation>
         <relation id="#3">
-          <infon key="string">Questionable: Isn't this too abstract for a variable!?</infon>
+          <infon key="brat-id">#3</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#3</infon>
+          <infon key="string">Questionable: Isn't this too abstract for a variable!?</infon>
           <node refid="T21" role="Annotation"/>
         </relation>
       </sentence>
@@ -402,102 +402,102 @@
         <text>This study provides preliminary information on how the photoreduction of iron(III) and the phytoplankton growth are affected by iron enrichment in the presence of hydroxycarboxylic acid.
 </text>
         <annotation id="T5">
+          <infon key="brat-id">T5</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T5</infon>
           <location length="4" offset="1580"/>
           <text>iron</text>
         </annotation>
         <annotation id="T15">
+          <infon key="brat-id">T15</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T15</infon>
           <location length="3" offset="1535"/>
           <text>and</text>
         </annotation>
         <annotation id="T16">
+          <infon key="brat-id">T16</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T16</infon>
-          <location length="15" offset="1564"/>
-          <text>are affected by</text>
+          <location length="8" offset="1568"/>
+          <text>affected</text>
         </annotation>
         <annotation id="T22">
+          <infon key="brat-id">T22</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T22</infon>
           <location length="10" offset="1585"/>
           <text>enrichment</text>
         </annotation>
         <annotation id="T14">
+          <infon key="brat-id">T14</infon>
           <infon key="type">I_Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T14</infon>
           <location length="31" offset="1503"/>
           <text>the photoreduction of iron(III)</text>
         </annotation>
         <annotation id="T10">
+          <infon key="brat-id">T10</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T10</infon>
           <location length="6" offset="1557"/>
           <text>growth</text>
         </annotation>
         <annotation id="T28">
+          <infon key="brat-id">T28</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T28</infon>
           <location length="17" offset="1539"/>
           <text>the phytoplankton</text>
         </annotation>
         <relation id="E3">
+          <infon key="brat-id">E3</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E3</infon>
           <node refid="T15" role="And"/>
           <node refid="E18" role="Part"/>
           <node refid="E17" role="Part2"/>
         </relation>
         <relation id="E6">
+          <infon key="brat-id">E6</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E6</infon>
           <node refid="T16" role="Cause"/>
           <node refid="E3" role="Theme"/>
           <node refid="E12" role="Agent"/>
         </relation>
         <relation id="E12">
+          <infon key="brat-id">E12</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E12</infon>
           <node refid="T22" role="Increase"/>
           <node refid="T5" role="Theme"/>
         </relation>
         <relation id="E18">
+          <infon key="brat-id">E18</infon>
           <infon key="type">I_Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E18</infon>
           <node refid="T14" role="I_Change"/>
         </relation>
         <relation id="E17">
+          <infon key="brat-id">E17</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E17</infon>
           <node refid="T10" role="Increase"/>
           <node refid="T28" role="Theme"/>
         </relation>
         <relation id="#8">
-          <infon key="string">Implict change: 'photoreduction of iron' is a process of change without a clear Theme. Only annotated because it is involved in a causal relation.</infon>
+          <infon key="brat-id">#8</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#8</infon>
+          <infon key="string">Implict change: 'photoreduction of iron' is a process of change without a clear Theme. Only annotated because it is involved in a causal relation.</infon>
           <node refid="E18" role="Annotation"/>
         </relation>
         <relation id="#9">
-          <infon key="string">Prepostion 'by' part of trigger, because it is not verbal particle but only part of passive construction.</infon>
+          <infon key="brat-id">#9</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#9</infon>
+          <infon key="string">Prepostion 'by' part of trigger, because it is not verbal particle but only part of passive construction.</infon>
           <node refid="E6" role="Annotation"/>
         </relation>
       </sentence>

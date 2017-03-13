@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <collection>
   <source>Ocean-Certain Corpus</source>
-  <date>2017-03-10</date>
+  <date>2017-03-13</date>
   <key></key>
   <infon key="part">abs1</infon>
   <document>
     <id>10.1038#ismej.2013.199#abs#sent</id>
-    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ismej.2013.199</infon>
     <infon key="bibtex">
  @article{Chow_2013, title={Top-down controls on bacterial community structure: microbial network analysis of bacteria, T4-like viruses and protists}, volume={8}, ISSN={1751-7370}, url={http://dx.doi.org/10.1038/ismej.2013.199}, DOI={10.1038/ismej.2013.199}, number={4}, journal={ISME J}, publisher={Nature Publishing Group}, author={Chow, Cheryl-Emiliane T and Kim, Diane Y and Sachdeva, Rohan and Caron, David A and Fuhrman, Jed A}, year={2013}, month={Nov}, pages={816–829}}
 </infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ismej.2013.199</infon>
     <passage>
       <offset>0</offset>
       <infon key="type">title</infon>
@@ -65,23 +65,23 @@
         <text>We found that virus-bacteria relationships were more cross-linked than protist-bacteria relationships, suggestive of increased taxonomic specificity in virus-bacteria relationships.
 </text>
         <annotation id="T1">
+          <infon key="brat-id">T1</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T1</infon>
           <location length="9" offset="1382"/>
           <text>increased</text>
         </annotation>
         <annotation id="T2">
+          <infon key="brat-id">T2</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T2</infon>
           <location length="53" offset="1392"/>
           <text>taxonomic specificity in virus-bacteria relationships</text>
         </annotation>
         <relation id="E1">
+          <infon key="brat-id">E1</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E1</infon>
           <node refid="T1" role="Increase"/>
           <node refid="T2" role="Theme"/>
         </relation>
@@ -92,39 +92,39 @@
         <text>We also found that 80% of bacterial-protist and 74% of bacterial-viral correlations were positive, with the latter suggesting that at monthly and seasonal timescales, viruses may be following their hosts more often than controlling host abundance.
 </text>
         <annotation id="T3">
+          <infon key="brat-id">T3</infon>
           <infon key="type">Correlate</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T3</infon>
           <location length="12" offset="1518"/>
           <text>correlations</text>
         </annotation>
         <annotation id="T4">
+          <infon key="brat-id">T4</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T4</infon>
           <location length="9" offset="1473"/>
           <text>bacterial</text>
         </annotation>
         <annotation id="T5">
+          <infon key="brat-id">T5</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T5</infon>
           <location length="7" offset="1483"/>
           <text>protist</text>
         </annotation>
         <relation id="E2">
+          <infon key="brat-id">E2</infon>
           <infon key="type">Correlate</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E2</infon>
           <node refid="T3" role="Correlate"/>
           <node refid="T4" role="Theme"/>
           <node refid="T5" role="Co-theme"/>
         </relation>
         <relation id="#1">
-          <infon key="string">there is a second correlation here that i am unable to annotate</infon>
+          <infon key="brat-id">#1</infon>
           <infon key="type">AnnotatorNotes</infon>
           <infon key="brat-type">note</infon>
-          <infon key="brat-id">#1</infon>
+          <infon key="string">there is a second correlation here that i am unable to annotate</infon>
           <node refid="E2" role="Annotation"/>
         </relation>
       </sentence>

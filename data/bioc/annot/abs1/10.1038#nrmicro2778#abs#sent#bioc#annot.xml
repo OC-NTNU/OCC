@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <collection>
   <source>Ocean-Certain Corpus</source>
-  <date>2017-03-10</date>
+  <date>2017-03-13</date>
   <key></key>
   <infon key="part">abs1</infon>
   <document>
     <id>10.1038#nrmicro2778#abs#sent</id>
-    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/nrmicro2778</infon>
     <infon key="bibtex">
  @article{Wright_2012, title={Microbial ecology of expanding oxygen minimum zones}, ISSN={1740-1534}, url={http://dx.doi.org/10.1038/nrmicro2778}, DOI={10.1038/nrmicro2778}, journal={Nature Reviews Microbiology}, publisher={Nature Publishing Group}, author={Wright, Jody J. and Konwar, Kishori M. and Hallam, Steven J.}, year={2012}, month={May}}
 </infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/nrmicro2778</infon>
     <passage>
       <offset>0</offset>
       <infon key="type">title</infon>
@@ -35,79 +35,79 @@
         <text>As oxygen levels decline, energy is increasingly diverted away from higher trophic levels into microbial metabolism, leading to loss of fixed nitrogen and to production of greenhouse gases, including nitrous oxide and methane.
 </text>
         <annotation id="T1">
+          <infon key="brat-id">T1</infon>
           <infon key="type">Decrease</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T1</infon>
           <location length="7" offset="156"/>
           <text>decline</text>
         </annotation>
         <annotation id="T2">
+          <infon key="brat-id">T2</infon>
           <infon key="type">Decrease</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T2</infon>
           <location length="4" offset="267"/>
           <text>loss</text>
         </annotation>
         <annotation id="T3">
+          <infon key="brat-id">T3</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T3</infon>
           <location length="10" offset="297"/>
           <text>production</text>
         </annotation>
         <annotation id="T4">
+          <infon key="brat-id">T4</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T4</infon>
           <location length="13" offset="142"/>
           <text>oxygen levels</text>
         </annotation>
         <annotation id="T5">
+          <infon key="brat-id">T5</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T5</infon>
           <location length="14" offset="275"/>
           <text>fixed nitrogen</text>
         </annotation>
         <annotation id="T6">
+          <infon key="brat-id">T6</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T6</infon>
           <location length="53" offset="311"/>
           <text>greenhouse gases, including nitrous oxide and methane</text>
         </annotation>
         <annotation id="T7">
+          <infon key="brat-id">T7</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T7</infon>
           <location length="3" offset="290"/>
           <text>and</text>
         </annotation>
         <relation id="E1">
+          <infon key="brat-id">E1</infon>
           <infon key="type">Decrease</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E1</infon>
           <node refid="T1" role="Decrease"/>
           <node refid="T4" role="Theme"/>
         </relation>
         <relation id="E2">
+          <infon key="brat-id">E2</infon>
           <infon key="type">Decrease</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E2</infon>
           <node refid="T2" role="Decrease"/>
           <node refid="T5" role="Theme"/>
         </relation>
         <relation id="E3">
+          <infon key="brat-id">E3</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E3</infon>
           <node refid="T3" role="Increase"/>
           <node refid="T6" role="Theme"/>
         </relation>
         <relation id="E4">
+          <infon key="brat-id">E4</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E4</infon>
           <node refid="T7" role="And"/>
           <node refid="E2" role="Part"/>
           <node refid="E3" role="Part2"/>

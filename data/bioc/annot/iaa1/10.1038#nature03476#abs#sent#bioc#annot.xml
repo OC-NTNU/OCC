@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-13</date>
+  <key></key>
+  <infon key="part">iaa1</infon>
+  <document>
+    <id>10.1038#nature03476#abs#sent</id>
+    <infon key="bibtex">
+ @article{Schmittner_2005, title={Decline of the marine ecosystem caused by a reduction in the Atlantic overturning circulation}, volume={434}, ISSN={1476-4679}, url={http://dx.doi.org/10.1038/nature03476}, DOI={10.1038/nature03476}, number={7033}, journal={Nature}, publisher={Springer Nature}, author={Schmittner, Andreas}, year={2005}, month={Mar}, pages={628–633}}
+</infon>
+    <infon key="source">http://dx.doi.org/data/brat/iaa1/10.1038/nature03476</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Decline of the marine ecosystem caused by a reduction in the Atlantic overturning circulation
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="0"/>
+          <text>Decline of</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="11"/>
+          <text>the marine ecosystem</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="44"/>
+          <text>reduction in</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="36" offset="57"/>
+          <text>the Atlantic overturning circulation</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="32"/>
+          <text>caused by</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="94"/>
+          <text>Reorganizations of</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T1" role="Decrease"/>
+          <node refid="T2" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="Decrease"/>
+          <node refid="T4" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Cause"/>
+          <node refid="E1" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>94</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>94</offset>
+        <text>Reorganizations of the Atlantic meridional overturning circulation were associated with large and abrupt climatic changes in the North Atlantic region during the last glacial period.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="47" offset="113"/>
+          <text>the Atlantic meridional overturning circulation</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="92" offset="183"/>
+          <text>arge and abrupt climatic changes in the North Atlantic region during the last glacial period</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="166"/>
+          <text>associated with</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="I_Change"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Correlate"/>
+          <node refid="E4" role="Theme"/>
+          <node refid="E5" role="Co-theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>277</offset>
+        <text>Projections with climate models suggest that similar reorganizations may also occur in response to anthropogenic global warming.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>406</offset>
+        <text>Here I use ensemble simulations with a coupled climate-ecosytem model of intermediate complexity to investigate the possible consequences of such disturbances to the marine ecosystem.
+</text>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="569"/>
+          <text>he marine ecosystem</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="552"/>
+          <text>disturbances to</text>
+        </annotation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="Change"/>
+          <node refid="T27" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>590</offset>
+        <text>In the simulations, a disruption of the Atlantic meridional overturning circulation leads to a collapse of the North Atlantic plankton stocks to less than half of their initial biomass, owing to rapid shoaling of winter mixed layers and their associated separation from the deep ocean nutrient reservoir.
+</text>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="685"/>
+          <text>collapse of</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="34" offset="697"/>
+          <text>the North Atlantic plankton stocks</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="612"/>
+          <text>disruption of</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="46" offset="627"/>
+          <text>he Atlantic meridional overturning circulation</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="674"/>
+          <text>leads to</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="37" offset="895"/>
+          <text>Globally integrated export production</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Decrease"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Cause"/>
+          <node refid="E8" role="Agent"/>
+          <node refid="E7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>895</offset>
+        <text>Globally integrated export production declines by more than 20 per cent owing to reduced upwelling of nutrient-rich deep water and gradual depletion of upper ocean nutrient concentrations.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="933"/>
+          <text>declines by</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="976"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="37" offset="984"/>
+          <text>upwelling of nutrient-rich deep water</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="1034"/>
+          <text>depletion of</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="35" offset="1047"/>
+          <text>upper ocean nutrient concentrations</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1022"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="967"/>
+          <text>owing to</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Decrease"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Decrease"/>
+          <node refid="T18" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="Decrease"/>
+          <node refid="T20" role="Theme"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T21" role="And"/>
+          <node refid="E11" role="Part"/>
+          <node refid="E12" role="Part2"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Cause"/>
+          <node refid="E13" role="Agent"/>
+          <node refid="E10" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1084</offset>
+        <text>These model results are consistent with the available high-resolution palaeorecord, and suggest that global ocean productivity is sensitive to changes in the Atlantic meridional overturning circulation.
+</text>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1227"/>
+          <text>changes in</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="47" offset="1238"/>
+          <text>the Atlantic meridional overturning circulation</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="25" offset="1185"/>
+          <text>global ocean productivity</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="1211"/>
+          <text>is sensitive to</text>
+        </annotation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T23" role="Change"/>
+          <node refid="T24" role="Theme"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="I_Change"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T25" role="Cause"/>
+          <node refid="E17" role="Theme"/>
+          <node refid="E15" role="Agent"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

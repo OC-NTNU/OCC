@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <collection>
   <source>Ocean-Certain Corpus</source>
-  <date>2017-03-10</date>
+  <date>2017-03-13</date>
   <key></key>
   <infon key="part">abs1</infon>
   <document>
     <id>10.1038#nature04161#abs#sent</id>
-    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/nature04161</infon>
     <infon key="bibtex">
  @article{Smetacek_2005, title={Polar ocean ecosystems in a changing world}, volume={437}, ISSN={1476-4679}, url={http://dx.doi.org/10.1038/nature04161}, DOI={10.1038/nature04161}, number={7057}, journal={Nature}, publisher={Nature Publishing Group}, author={Smetacek, Victor and Nicol, Stephen}, year={2005}, month={Sep}, pages={362–368}}
 </infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/nature04161</infon>
     <passage>
       <offset>0</offset>
       <infon key="type">title</infon>
@@ -41,66 +41,66 @@
         <text>Polar marine ecosystems are particularly sensitive to climate change because small temperature differences can have large effects on the extent and thickness of sea ice.
 </text>
         <annotation id="T1">
+          <infon key="brat-id">T1</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T1</infon>
           <location length="11" offset="370"/>
           <text>differences</text>
         </annotation>
         <annotation id="T2">
+          <infon key="brat-id">T2</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T2</infon>
           <location length="7" offset="397"/>
           <text>effects</text>
         </annotation>
         <annotation id="T3">
+          <infon key="brat-id">T3</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T3</infon>
           <location length="11" offset="358"/>
           <text>temperature</text>
         </annotation>
         <annotation id="T4">
+          <infon key="brat-id">T4</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T4</infon>
           <location length="3" offset="419"/>
           <text>and</text>
         </annotation>
         <annotation id="T5">
+          <infon key="brat-id">T5</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T5</infon>
           <location length="6" offset="412"/>
           <text>extent</text>
         </annotation>
         <annotation id="T6">
+          <infon key="brat-id">T6</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T6</infon>
           <location length="20" offset="423"/>
           <text>thickness of sea ice</text>
         </annotation>
         <relation id="E1">
+          <infon key="brat-id">E1</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E1</infon>
           <node refid="T1" role="Change"/>
           <node refid="T3" role="Theme"/>
         </relation>
         <relation id="E2">
+          <infon key="brat-id">E2</infon>
           <infon key="type">Cause</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E2</infon>
           <node refid="T2" role="Cause"/>
           <node refid="E3" role="Theme"/>
           <node refid="E1" role="Agent"/>
         </relation>
         <relation id="E3">
+          <infon key="brat-id">E3</infon>
           <infon key="type">And</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E3</infon>
           <node refid="T4" role="And"/>
           <node refid="T5" role="Part"/>
           <node refid="T6" role="Part2"/>

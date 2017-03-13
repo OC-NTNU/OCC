@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <collection>
   <source>Ocean-Certain Corpus</source>
-  <date>2017-03-10</date>
+  <date>2017-03-13</date>
   <key></key>
   <infon key="part">abs1</infon>
   <document>
     <id>10.1038#ismej.2011.152#abs#sent</id>
-    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ismej.2011.152</infon>
     <infon key="bibtex">
  @article{Moisander_2011, title={Analogous nutrient limitations in unicellular diazotrophs and Prochlorococcus in the South Pacific Ocean}, volume={6}, ISSN={1751-7370}, url={http://dx.doi.org/10.1038/ismej.2011.152}, DOI={10.1038/ismej.2011.152}, number={4}, journal={ISME J}, publisher={Nature Publishing Group}, author={Moisander, Pia H and Zhang, Ruifeng and Boyle, Edward A and Hewson, Ian and Montoya, Joseph P and Zehr, Jonathan P}, year={2011}, month={Nov}, pages={733–744}}
 </infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs1/10.1038/ismej.2011.152</infon>
     <passage>
       <offset>0</offset>
       <infon key="type">title</infon>
@@ -35,44 +35,44 @@
         <text>Based on change in abundances of nifH or 23S rRNA gene copies during nutrient-enrichment experiments, the factors limiting net growth of the unicellular diazotrophs UCYN-A (Group A), Crocosphaera watsonii, gamma-Proteobacterium 24774A11, and the non-diazotrophic picocyanobacterium Prochlorococcus, varied within the region.
 </text>
         <annotation id="T1">
+          <infon key="brat-id">T1</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T1</infon>
           <location length="6" offset="267"/>
           <text>change</text>
         </annotation>
         <annotation id="T9">
+          <infon key="brat-id">T9</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T9</infon>
           <location length="18" offset="277"/>
           <text>abundances of nifH</text>
         </annotation>
         <annotation id="T10">
+          <infon key="brat-id">T10</infon>
           <infon key="type">Or</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T10</infon>
           <location length="2" offset="296"/>
           <text>or</text>
         </annotation>
         <annotation id="T11">
+          <infon key="brat-id">T11</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T11</infon>
           <location length="20" offset="299"/>
           <text>23S rRNA gene copies</text>
         </annotation>
         <relation id="E1">
+          <infon key="brat-id">E1</infon>
           <infon key="type">Change</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E1</infon>
           <node refid="T1" role="Change"/>
           <node refid="E9" role="Theme"/>
         </relation>
         <relation id="E9">
+          <infon key="brat-id">E9</infon>
           <infon key="type">Or</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E9</infon>
           <node refid="T10" role="Or"/>
           <node refid="T9" role="Part"/>
           <node refid="T11" role="Part2"/>
@@ -102,45 +102,45 @@
         <text>The addition of N enhanced total phytoplankton biomass up to 5-fold, and the non-N2-fixing Synechococcus was among the groups that responded favorably to N addition.
 </text>
         <annotation id="T6">
+          <infon key="brat-id">T6</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T6</infon>
           <location length="8" offset="1073"/>
           <text>enhanced</text>
         </annotation>
         <annotation id="T7">
+          <infon key="brat-id">T7</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T7</infon>
           <location length="8" offset="1059"/>
           <text>addition</text>
         </annotation>
         <annotation id="T3">
+          <infon key="brat-id">T3</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T3</infon>
           <location length="1" offset="1071"/>
           <text>N</text>
         </annotation>
         <annotation id="T4">
+          <infon key="brat-id">T4</infon>
           <infon key="type">Variable</infon>
           <infon key="brat-type">text-bound</infon>
-          <infon key="brat-id">T4</infon>
           <location length="27" offset="1082"/>
           <text>total phytoplankton biomass</text>
         </annotation>
         <relation id="E6">
+          <infon key="brat-id">E6</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E6</infon>
           <node refid="T6" role="Increase"/>
           <node refid="T4" role="Theme"/>
           <node refid="E7" role="Agent"/>
         </relation>
         <relation id="E7">
+          <infon key="brat-id">E7</infon>
           <infon key="type">Increase</infon>
           <infon key="brat-type">event</infon>
-          <infon key="brat-id">E7</infon>
           <node refid="T7" role="Increase"/>
           <node refid="T3" role="Theme"/>
         </relation>

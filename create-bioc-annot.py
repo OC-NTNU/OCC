@@ -8,7 +8,7 @@ from os.path import basename, join
 from baleen2.bioc.brat import convert_brat_to_bioc
 
 
-for part in 'pilot', 'abs1', 'full1':
+for part in 'pilot', 'abs1', 'iaa1', 'full1':
     bioc_fnames = sorted(glob('data/bioc/collect/' + part + '/*.xml'))
     ann_fnames = sorted(glob('data/brat/' + part + '/*.ann'))
 
