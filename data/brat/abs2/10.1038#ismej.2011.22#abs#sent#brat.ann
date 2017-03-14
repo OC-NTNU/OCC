@@ -1,0 +1,22 @@
+T1	Variable 69 77	nutrient
+T2	Increase 78 88	enrichment
+E1	Increase:T2 Theme:T1
+T3	Variable 358 369	composition
+T4	Variable 374 382	function
+T5	And 370 373	and
+E2	And:T5 Part:T3 Part2:T4
+T6	Change 346 352	change
+E3	Change:T6 Theme:E2
+T7	Variable 532 540	nutrient
+T8	Increase 541 551	enrichment
+E4	Increase:T8 Theme:T7
+T9	Cause 522 528	caused
+E5	Cause:T9 Agent:E4 Theme:E6
+T10	I_Change 509 521	perturbation
+E6	I_Change:T10 
+T11	Variable 786 810	external nutrient supply
+T12	Change 772 782	variations
+E7	Change:T12 Theme:T11
+T13	Variable 899 928	many aspects of marsh ecology
+T14	Change 888 895	changes
+E8	Change:T14 Theme:T13

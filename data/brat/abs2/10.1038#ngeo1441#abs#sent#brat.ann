@@ -1,0 +1,46 @@
+T1	Variable 24 72	key phytoplankton species to ocean acidification
+T2	Change 9 18	evolution
+E1	Change:T2 Theme:T1
+T3	Variable 106 117	seawater pH
+T4	Decrease 98 102	drop
+E2	Decrease:T4 Theme:T3
+T5	Variable 160 218	marine waters with carbon dioxide from fossil fuel burning
+T6	Increase 146 156	enrichment
+E3	Increase:T6 Theme:T5
+T7	And 118 133	associated with
+E4	And:T7 Part:E3 Part2:E2 Part3:E5
+T8	I_Increase 73 92	Ocean acidification
+E5	I_Increase:T8 
+T9	I_Change 241 268	marine calcifying organisms
+E6	I_Change:T9 
+T10	Cause 234 240	impair
+E7	Cause:T10 Agent:E4 Theme:E6
+T11	Variable 443 464	concentrations of CO2
+T12	Increase 433 442	increased
+E8	Increase:T12 Theme:T11
+T13	I_Change 567 619	environmental alterations through adaptive evolution
+E9	I_Change:T13 
+T14	I_Increase 772 835	ocean acidification in two 500-generation selection experiments
+E10	I_Increase:T14 
+T15	Variable 708 745	the coccolithophore Emiliania huxleyi
+T16	Increase 750 756	evolve
+E11	Increase:T16 Theme:T15
+T17	Cause 760 768	response
+E12	Cause:T17 Agent:E11 Theme:E10
+T18	Variable 935 956	concentrations of CO2
+T19	Increase 925 934	increased
+E13	Increase:T19 Theme:T18
+T20	Variable 1114 1130	partial pressure
+T21	Increase 1104 1113	increased
+E14	Increase:T21 Theme:T20
+T22	Variable 1148 1160	growth rates
+T23	Increase 1141 1147	higher
+E15	Increase:T23 Theme:T22
+T24	Variable 1327 1341	CO2 conditions
+T25	Increase 1317 1326	increased
+E16	Increase:T25 Theme:T24
+T28	Variable 1259 1272	Calcification
+T29	Decrease 1305 1310	lower
+E18	Decrease:T29 Theme:T28
+T26	Increase 1378 1384	higher
+E17	Increase:T26 Theme:T28

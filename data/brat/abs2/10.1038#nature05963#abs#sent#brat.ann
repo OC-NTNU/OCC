@@ -1,0 +1,70 @@
+T1	Variable 12 34	the net dinitrogen gas
+T2	Change 35 39	flux
+E1	Change:T2 Theme:T1
+T3	Variable 80 88	nitrogen
+T4	Change 72 76	flux
+E2	Change:T4 Theme:T3
+T5	Variable 135 148	coastal ocean
+T6	Increase 153 162	increased
+E3	Increase:T6 Theme:T5
+T7	Variable 221 237	nitrogen loading
+T8	Increase 209 217	increase
+E4	Increase:T8 Theme:T7
+T9	Variable 251 261	population
+T10	Increase 262 268	growth
+E5	Increase:T10 Theme:T9
+T12	Variable 294 324	water and sewer infrastructure
+T13	Increase 284 293	expanding
+E7	Increase:T13 Theme:T12
+T14	I_Increase 270 282	urbanization
+E8	I_Increase:T14 
+T15	I_Change 326 348	fossil fuel combustion
+E6	I_Change:T15 
+T17	I_Change 353 385	synthetic fertilizer consumption
+E9	I_Change:T17 
+T18	And 349 352	and
+E10	And:T18 Part3:E7 Part4:E8 Part5:E5 Part2:E6 Part:E9
+T19	Cause 241 247	caused
+E11	Cause:T19 Agent:E10 Theme:E4
+T20	Variable 395 407	the nitrogen
+T21	Decrease 411 418	removed
+E12	Decrease:T21 Theme:T20
+T22	Variable 441 454	the sediments
+T23	Decrease 422 437	denitrification
+E13	Decrease:T23 Theme:T22
+T24	Variable 526 549	cultural eutrophication
+T25	Variable 554 590	nitrogen pollution of the open ocean
+T26	And 550 553	and
+E14	And:T26 Part:T24 Part2:T25
+T27	Decrease 508 517	reduction
+E15	Decrease:T27 Theme:E14
+T28	Variable 592 600	Nitrogen
+T29	Change 601 609	fixation
+E16	Change:T29 Theme:T28
+T30	Variable 786 816	heterotrophic marine sediments
+T31	Change 821 827	switch
+E17	Change:T31 Theme:T30
+T32	Variable 964 987	mean annual chlorophyll
+T33	Increase 988 998	production
+E18	Increase:T33 Theme:T32
+T34	Variable 1052 1070	primary production
+T35	Decrease 1040 1048	decrease
+E19	Decrease:T35 Theme:T34
+T36	Variable 1096 1136	organic matter deposition to the benthos
+T37	Decrease 1084 1092	decrease
+E20	Decrease:T37 Theme:T36
+T40	And 1137 1140	and
+E22	And:T40 Part2:E20 Part:E21
+T41	Cause 1075 1078	led
+E23	Cause:T41 Agent:E19 Theme:E22
+T42	Variable 1259 1267	nitrogen
+T43	Decrease 1252 1258	remove
+E24	Decrease:T43 Theme:T42
+T44	Variable 1300 1308	nitrogen
+T45	Change 1318 1326	exported
+E25	Change:T45 Theme:T44
+T46	Variable 1387 1465	the effect of anthropogenic nitrogen loading beyond the immediate coastal zone
+T47	Change 1381 1386	shift
+E26	Change:T47 Theme:T46
+T11	I_Change 1141 1196	the observed reversal of the net sediment nitrogen flux
+E21	I_Change:T11 

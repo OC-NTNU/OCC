@@ -1,0 +1,33 @@
+T1	Variable 20 28	nutrient
+T2	Decrease 29 33	poor
+E1	Decrease:T2 Theme:T1
+T3	Variable 382 390	nutrient
+T4	Decrease 391 395	poor
+E2	Decrease:T4 Theme:T3
+T5	Variable 1039 1053	organic carbon
+T6	Variable 1058 1072	nutrient input
+T7	And 1054 1057	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Change 1025 1035	variations
+E4	Change:T8 Theme:E3
+T9	I_Change 1089 1094	light
+E5	I_Change:T9 
+T10	Cause 1078 1085	limited
+E6	Cause:T10 Agent:E5 Theme:E4
+T11	Variable 1271 1294	coloured organic matter
+T12	Change 1261 1267	export
+E7	Change:T12 Theme:T11
+T13	Variable 1461 1487	terrestrial carbon cycling
+T14	Change 1450 1457	changes
+E8	Change:T14 Theme:T13
+T15	Variable 1565 1570	light
+T16	Variable 1571 1578	climate
+T17	Variable 1583 1604	productivity of lakes
+T18	And 1579 1582	and
+E9	And:T18 Part:T15 Part2:T16 Part3:T17
+T19	Change 1554 1561	changes
+E10	Change:T19 Theme:E9 Agent:E8
+T20	I_Change 1520 1540	most lake ecosystems
+E11	I_Change:T20 
+T21	Cause 1509 1516	effects
+E12	Cause:T21 Theme:E11 Agent:E10

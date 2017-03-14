@@ -1,0 +1,62 @@
+T1	Variable 26 45	large phytoplankton
+T2	Increase 46 52	blooms
+E1	Increase:T2 Theme:T1
+T3	I_Decrease 0 19	Agricultural runoff
+E2	I_Decrease:T3 
+T4	Cause 20 25	fuels
+E3	Cause:T4 Agent:E2 Theme:E1
+T5	Variable 171 180	nutrients
+T6	Change 161 167	supply
+E4	Change:T6 Theme:T5
+T7	Cause 143 153	controlled
+E5	Cause:T7 Agent:E4 Theme:E6
+T8	I_Change 86 139	Biological productivity in most of the world's oceans
+E6	I_Change:T8 
+T9	Variable 251 260	nutrients
+T10	Change 229 235	supply
+E7	Change:T10 Theme:T9
+T11	Decrease 240 247	removal
+E8	Decrease:T11 Theme:T9
+T12	Variable 336 356	phytoplankton growth
+T16	And 236 239	and
+E12	And:T16 Part:E7 Part2:E8
+T13	Decrease 329 335	limits
+E9	Decrease:T13 Theme:T12 Agent:T14
+T14	Variable 320 328	nutrient
+T15	Variable 383 395	productivity
+T17	Decrease 376 382	limits
+E10	Decrease:T17 Theme:T15 Agent:T18
+T18	Variable 367 375	nitrogen
+T19	Variable 486 494	nitrogen
+T20	Decrease 495 504	depletion
+E11	Decrease:T20 Theme:T19
+T21	Variable 558 620	biologically available forms of nitrogen from the water column
+T22	Decrease 550 557	removes
+E13	Decrease:T22 Theme:T21 Agent:E14
+T23	I_Decrease 524 549	microbial denitrification
+E14	I_Decrease:T23 
+T24	Variable 644 680	deficits relative to other nutrients
+T25	Increase 622 631	producing
+E15	Increase:T25 Theme:T24 Agent:E14
+T26	Variable 797 805	nitrogen
+T27	Increase 806 815	pollution
+E16	Increase:T27 Theme:T26
+T28	Variable 707 715	nitrogen
+T29	Decrease 716 725	deficient
+E17	Decrease:T29 Theme:T28
+T30	Variable 840 863	nutrient concentrations
+T31	Variable 868 880	productivity
+T32	And 864 867	and
+E18	And:T32 Part:T30 Part2:T31
+T33	Increase 835 839	high
+E19	Increase:T33 Theme:E18
+T34	Variable 941 954	phytoplankton
+T35	Increase 955 961	blooms
+E20	Increase:T35 Theme:T34
+T36	Cause 916 921	fuels
+E21	Cause:T36 Theme:E20 Agent:E22
+T37	I_Decrease 882 915	nitrogen-rich agricultural runoff
+E22	I_Decrease:T37 
+T38	Variable 1291 1299	nitrogen
+T39	Decrease 1300 1309	deficient
+E23	Decrease:T39 Theme:T38

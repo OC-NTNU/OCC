@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#srep07560#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Almeda_2014,
+	doi = {10.1038/srep07560},
+	url = {https://doi.org/10.1038%2Fsrep07560},
+	year = 2014,
+	month = {dec},
+	publisher = {Springer Nature},
+	volume = {4},
+	pages = {7560},
+	author = {Rodrigo Almeda and Tara L. Connelly and Edward J. Buskey},
+	title = {Novel insight into the role of heterotrophic dinoflagellates in the fate of crude oil in the sea},
+	journal = {Scientific Reports}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/srep07560</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Novel insight into the role of heterotrophic dinoflagellates in the fate of crude oil in the sea
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>97</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>97</offset>
+        <text>Although planktonic protozoans are likely to interact with dispersed crude oil after a spill, protozoan-mediated processes affecting crude oil pollution in the sea are still not well known.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>287</offset>
+        <text>Here, we present the first evidence of ingestion and defecation of physically or chemically dispersed crude oil droplets (1-86 mum in diameter) by heterotrophic dinoflagellates, major components of marine planktonic food webs.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>514</offset>
+        <text>At a crude oil concentration commonly found after an oil spill (1 muL L-1), the heterotrophic dinoflagellates Noctiluca scintillans and Gyrodinium spirale grew and ingested ~0.37 mug-oil mug-Cdino-1 d-1, which could represent ~17% to 100% of dispersed oil in surface waters when heterotrophic dinoflagellates are abundant or bloom.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="55" offset="590"/>
+          <text>the heterotrophic dinoflagellates Noctiluca scintillans</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="650"/>
+          <text>Gyrodinium spirale</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="646"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="669"/>
+          <text>grew</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="And"/>
+          <node refid="T1" role="Part"/>
+          <node refid="T2" role="Part2"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>846</offset>
+        <text>Egestion of faecal pellets containing crude oil by heterotrophic dinoflagellates could contribute to the sinking and flux of toxic petroleum hydrocarbons in coastal waters.
+</text>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="46" offset="971"/>
+          <text>toxic petroleum hydrocarbons in coastal waters</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="963"/>
+          <text>flux</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>1019</offset>
+        <text>Our study indicates that crude oil ingestion by heterotrophic dinoflagellates is a noteworthy route by which petroleum enters marine food webs and a previously overlooked biological process influencing the fate of crude oil in the sea after spills.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

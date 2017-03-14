@@ -1,0 +1,27 @@
+T1	Variable 272 280	nitrogen
+T2	Change 281 287	fixing
+E1	Change:T2 Theme:T1
+T3	Variable 418 442	marine nitrogen fixation
+T4	Increase 405 414	increases
+E2	Increase:T4 Theme:E3
+T7	Variable 478 496	methane production
+T9	Variable 523 540	methylphosphonate
+T10	Decrease 510 519	breakdown
+E6	Decrease:T10 Theme:T9
+T6	Variable 444 464	carbon sequestration
+T12	Variable 1198 1220	phosphonate production
+T13	Increase 1225 1233	increase
+E7	Increase:T13 Theme:T12
+T14	Variable 1361 1369	nitrogen
+T15	Change 1370 1378	fixation
+E8	Change:T15 Theme:T14
+T16	Variable 1405 1419	greenhouse-gas
+T17	Increase 1420 1430	production
+E9	Increase:T17 Theme:T16
+T18	Variable 1380 1386	carbon
+T19	Increase 1387 1400	sequestration
+E10	Increase:T19 Theme:T18
+T20	And 1401 1404	and
+E11	And:T20 Part:E8 Part2:E10 Part3:E9
+T5	And 465 468	and
+E3	And:T5 Part:T3 Part2:T6 Part3:T7

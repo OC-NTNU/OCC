@@ -1,0 +1,62 @@
+T1	Variable 0 8	Nutrient
+T2	Change 9 15	supply
+E1	Change:T2 Theme:T1
+T3	Variable 66 108	corals in a Caribbean coral reef ecosystem
+T4	Decrease 55 65	suppresses
+E2	Decrease:T4 Theme:T3 Agent:E1
+T5	I_Change 40 50	macroalgae
+E3	I_Change:T5 
+T6	Cause 28 39	facilitates
+E4	Cause:T6 Agent:E1 Theme:E3
+T8	Variable 147 152	coral
+T7	Increase 153 159	growth
+E5	Increase:T7 Theme:T8
+T11	Variable 164 172	nutrient
+T12	Decrease 173 182	excretion
+E8	Decrease:T12 Theme:T11
+T9	Variable 196 211	coral abundance
+T10	Decrease 212 220	declines
+E6	Decrease:T10 Theme:T9
+T13	Variable 271 281	macroalgae
+T14	Increase 258 267	increases
+E7	Increase:T14 Theme:T13
+T15	I_Decrease 222 237	these nutrients
+E9	I_Decrease:T15 
+T16	Cause 247 257	facilitate
+E10	Cause:T16 Agent:E9 Theme:E7
+T17	Cause 160 163	via
+E11	Cause:T17 Agent:E8 Theme:E5
+#1	AnnotatorNotes E9	refers to "excreated nutrients"
+T18	Variable 406 452	nitrogen to forereefs in the Florida Keys, USA
+T19	Increase 401 405	more
+E12	Increase:T19 Theme:T18
+T20	I_Change 368 382	fish excretion
+E13	I_Change:T20 
+T21	Cause 383 391	supplied
+E14	Cause:T21 Agent:E13 Theme:E12
+T22	Variable 757 765	Nutrient
+T23	Change 766 772	supply
+E15	Change:T23 Theme:T22
+T24	I_Change 823 845	juvenile coral density
+E16	I_Change:T24 
+T25	Negative_Correlate 806 817	correlation
+E17	Negative_Correlate:T25 Theme:E15 Co-theme:E16
+T26	Variable 988 993	coral
+T27	Decrease 994 998	loss
+E18	Decrease:T27 Theme:T26
+T28	Variable 951 956	coral
+T29	Change 957 965	recovery
+E19	Change:T29 Theme:T28 Agent:E18
+T30	I_Change 925 939	fish excretion
+E20	I_Change:T30 
+T31	Cause 944 950	hinder
+E21	Cause:T31 Agent:E20 Theme:E18
+T32	Variable 1020 1028	nutrient
+T33	Change 1029 1035	supply
+E22	Change:T33 Theme:T32
+T34	Variable 1092 1097	coral
+T35	Increase 1098 1106	dominant
+E23	Increase:T35 Theme:T34
+T36	Variable 1110 1115	coral
+T37	Decrease 1116 1127	depauperate
+E24	Decrease:T37 Theme:T36

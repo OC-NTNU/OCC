@@ -1,0 +1,71 @@
+T1	Variable 22 91	atmospheric CO2 in subtropical mode water of the North Atlantic Ocean
+T2	Increase 13 17	sink
+E1	Increase:T2 Theme:T1
+T3	Increase 247 253	uptake
+E2	Increase:T3 Theme:T4
+T4	Variable 257 280	CO2 from the atmosphere
+T5	Variable 291 335	CO2-laden surface waters into the deep ocean
+T6	Change 284 290	moving
+E3	Change:T6 Theme:T5
+T7	I_Change 143 200	deep water formation in the northern North Atlantic Ocean
+E4	I_Change:T7 
+T8	Cause 215 223	regulate
+E5	Cause:T8 Agent:E4 Theme:E3
+T9	Cause 281 283	by
+E6	Cause:T9 Agent:E3 Theme:E2
+T10	Variable 359 362	CO2
+T11	Increase 363 369	uptake
+E7	Increase:T11 Theme:T10
+T12	Variable 552 629	dissolved CO2 concentrations in subtropical mode waters of the North Atlantic
+T13	Increase 635 644	increased
+E8	Increase:T13 Theme:T12
+T14	Variable 732 747	atmospheric CO2
+T15	Increase 721 731	increasing
+E9	Increase:T15 Theme:T14
+T16	Correlate 704 715	equilibrium
+E10	Correlate:T16 Theme:E8 Co-theme:E9
+T17	Variable 924 927	CO2
+T18	Increase 914 920	uptake
+E11	Increase:T18 Theme:T17
+T21	RefExp 1064 1068	this
+T22	Increase 1069 1081	accumulation
+E13	Increase:T22 Theme:T21
+T23	Variable 788 789	C
+T24	Increase 770 775	extra
+E14	Increase:T24 Theme:T23
+T19	Variable 1113 1133	the mode water layer
+T20	Change 1105 1112	disturb
+E12	Change:T20 Theme:T19 Agent:E13
+T25	Variable 1147 1162	accumulated CO2
+T26	Increase 1138 1146	liberate
+E15	Increase:T26 Theme:T25 Agent:E13
+T27	And 1134 1137	and
+E16	And:T27 Part:E12 Part2:E15
+T28	Variable 1203 1210	climate
+T29	Change 1211 1222	variability
+E17	Change:T29 Theme:T28
+T30	I_Change 1241 1273	subtropical mode water formation
+E18	I_Change:T30 
+T31	Cause 1230 1240	influences
+E19	Cause:T31 Agent:E17 Theme:E18
+T32	Variable 1290 1320	the North Atlantic Oscillation
+T33	Change 1279 1286	changes
+E20	Change:T33 Theme:T32
+T34	And 1275 1278	and
+E21	And:T34 Part:E17 Part2:E20
+T35	Variable 1383 1426	CO2 accumulation in subtropical mode waters
+T36	Decrease 1376 1382	reduce
+E22	Decrease:T36 Theme:T35 Agent:E21
+T37	I_Change 1345 1363	deep winter mixing
+E23	I_Change:T37 
+T38	Cause 1322 1329	leading
+E24	Cause:T38 Agent:E20 Theme:E23
+T39	Variable 1465 1468	CO2
+T40	Increase 1469 1475	uptake
+E25	Increase:T40 Theme:T39
+T41	Variable 1588 1591	CO2
+T42	Increase 1592 1596	sink
+E26	Increase:T42 Theme:T41
+T43	Variable 1681 1699	oceanic CO2 uptake
+T44	Change 1666 1677	variability
+E27	Change:T44 Theme:T43

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#srep01277#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Feng_2013,
+	doi = {10.1038/srep01277},
+	url = {https://doi.org/10.1038%2Fsrep01277},
+	year = 2013,
+	month = {feb},
+	publisher = {Springer Nature},
+	volume = {3},
+	author = {Ming Feng and Michael J. McPhaden and Shang-Ping Xie and Jan Hafner},
+	title = {La Ni{\~{n}}a forces unprecedented Leeuwin Current warming in 2011},
+	journal = {Scientific Reports}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/srep01277</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>La Nina forces unprecedented Leeuwin Current warming in 2011
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>61</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>61</offset>
+        <text>Unprecedented warm sea surface temperature (SST) anomalies were observed off the west coast of Australia in February-March 2011.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="80"/>
+          <text>sea surface temperature</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="75"/>
+          <text>warm</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>190</offset>
+        <text>Peak SST during a 2-week period were 5degreesC warmer than normal, causing widespread coral bleaching and fish kills.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>308</offset>
+        <text>Understanding the climatic drivers of this extreme event, which we dub "Ningaloo Nino", is crucial for predicting similar events under the influence of global warming.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>476</offset>
+        <text>Here we use observational data and numerical models to demonstrate that the extreme warming was mostly driven by an unseasonable surge of the poleward-flowing Leeuwin Current in austral summer, which transported anomalously warm water southward along the coast.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="54" offset="614"/>
+          <text>the poleward-flowing Leeuwin Current in austral summer</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="605"/>
+          <text>surge</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="548"/>
+          <text>the extreme warming</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="579"/>
+          <text>driven</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="700"/>
+          <text>warm water</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="676"/>
+          <text>transported</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="I_Increase"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E3" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>738</offset>
+        <text>The unusual intensification of the Leeuwin Current was forced remotely by oceanic and atmospheric teleconnections associated with the extraordinary 2010-2011 La Nina.
+</text>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="769"/>
+          <text>the Leeuwin Current</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="750"/>
+          <text>intensification</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="28" offset="905"/>
+          <text>The amplitude of the warming</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>905</offset>
+        <text>The amplitude of the warming was boosted by both multi-decadal trends in the Pacific toward more La Nina-like conditions and intraseasonal variations in the Indian Ocean.
+</text>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="938"/>
+          <text>boosted</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Increase"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

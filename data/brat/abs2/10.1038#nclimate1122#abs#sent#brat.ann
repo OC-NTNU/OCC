@@ -1,0 +1,53 @@
+T1	Variable 59 88	carbon dioxide concentrations
+T2	Increase 50 58	elevated
+E1	Increase:T2 Theme:T1
+T3	Variable 151 192	atmospheric carbon dioxide concentrations
+T4	Increase 144 150	rising
+E2	Increase:T4 Theme:T3
+T5	I_Increase 117 136	ocean acidification
+E3	I_Increase:T5 
+T6	Cause 137 140	due
+E4	Cause:T6 Theme:E3 Agent:E2
+T7	Variable 415 417	pH
+T8	Decrease 418 426	declines
+E5	Decrease:T8 Theme:T7
+T9	Variable 467 508	atmospheric carbon dioxide concentrations
+T10	Increase 509 517	increase
+E6	Increase:T10 Theme:T9
+T11	Variable 663 674	coral reefs
+T12	Variable 676 686	seagrasses
+T13	Variable 691 700	sediments
+T14	And 687 690	and
+E7	And:T14 Part:T11 Part2:T12 Part3:T13
+T15	Change 710 722	acclimatized
+E8	Change:T15 Theme:E7
+T16	Decrease 726 729	low
+E9	Decrease:T16 Theme:T17
+T17	Variable 730 732	pH
+T18	Decrease 813 820	reduced
+E10	Decrease:T18 Theme:T19
+T19	Variable 821 823	pH
+T20	Variable 851 866	coral diversity
+T21	Decrease 837 847	reductions
+E11	Decrease:T21 Theme:T20
+T22	Variable 953 990	competitive interactions between taxa
+T23	Change 943 949	shifts
+E12	Change:T23 Theme:T22
+T24	Variable 1145 1167	rates of calcification
+T25	Decrease 1141 1144	low
+E13	Decrease:T25 Theme:T24
+T26	Variable 1382 1391	diversity
+T27	Variable 1393 1414	structural complexity
+T28	Variable 1419 1457	resilience of Indo-Pacific coral reefs
+T29	And 1415 1418	and
+E14	And:T29 Part:T26 Part2:T27 Part3:T28
+T30	Decrease 1374 1381	reduced
+E15	Decrease:T30 Theme:E14
+T31	I_Increase 1288 1307	ocean acidification
+E16	I_Increase:T31 
+T32	And 1309 1322	together with
+E17	And:T32 Part:E18 Part2:E16
+T33	I_Change 1323 1341	temperature stress
+E18	I_Change:T33 
+T34	Cause 1357 1361	lead
+E19	Cause:T34 Agent:E17 Theme:E15

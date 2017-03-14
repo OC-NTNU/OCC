@@ -1,0 +1,33 @@
+T1	Variable 0 13	Diatom carbon
+T2	Change 14 20	export
+E1	Change:T2 Theme:T1
+T3	Variable 33 41	silicate
+T4	Increase 42 51	upwelling
+E2	Increase:T4 Theme:T3
+T5	Cause 21 29	enhanced
+E3	Cause:T5 Theme:E1 Agent:T3
+T6	Variable 253 323	carbon sequestration in frontal regions of the northern North Atlantic
+T7	Increase 244 252	enhances
+E4	Increase:T7 Theme:T6
+T8	Variable 485 491	Diatom
+T9	Increase 492 498	growth
+E5	Increase:T9 Theme:T8
+T10	Variable 674 681	diatoms
+T11	Increase 713 718	bloom
+E6	Increase:T11 Theme:T10
+T12	Variable 748 754	diatom
+T13	Increase 755 761	blooms
+E7	Increase:T13 Theme:T12
+T14	Variable 863 873	the diatom
+T15	Increase 874 879	bloom
+E8	Increase:T15 Theme:T14
+T16	Increase 919 925	supply
+E9	Increase:T16 Theme:T17
+T17	Variable 929 941	new silicate
+T18	Variable 957 964	diatoms
+T19	Increase 965 971	thrive
+E10	Increase:T19 Theme:T18
+T20	I_Change 510 531	silicate availability
+E11	I_Change:T20 
+T21	Cause 499 506	depends
+E12	Cause:T21 Agent:E11 Theme:E5

@@ -1,0 +1,64 @@
+T1	Variable 0 14	Carbon dioxide
+T2	Increase 15 22	release
+E1	Increase:T2 Theme:T1
+T3	Variable 81 122	Atmospheric carbon dioxide concentrations
+T4	Decrease 142 147	lower
+E2	Decrease:T4 Theme:T3
+T5	Variable 327 398	carbon storage in a poorly ventilated deep ocean during glacial periods
+T6	Increase 319 326	greater
+E3	Increase:T6 Theme:T5
+T7	Variable 735 775	concentration of respired carbon dioxide
+T8	Increase 730 734	high
+E4	Increase:T8 Theme:T7
+T9	Variable 874 905	deep Southern Ocean ventilation
+T10	Increase 862 870	increase
+E5	Increase:T10 Theme:T9
+T11	Variable 1008 1052	ventilation in the abyssal subarctic Pacific
+T12	Increase 999 1007	improved
+E6	Increase:T12 Theme:T11
+T13	Change 1067 1077	transition
+E7	Change:T13 Theme:T11
+T14	RefExp 1097 1101	this
+R1	Coref Expression:T14 Antecedent:T11	
+T15	Change 1102 1108	change
+E8	Change:T15 Theme:T14
+T16	Increase 1131 1143	acceleration
+E9	Increase:T16 Theme:T17
+T17	Variable 1147 1264	export production from the surface waters above but only a small increase in atmospheric carbon dioxide concentration
+T18	Correlate 1113 1124	accompanied
+E10	Correlate:T18 Theme:E8 Co-theme:E9
+T19	RefExp 1284 1289	these
+R2	Coref Expression:T19 Antecedent:T11	
+T20	Change 1290 1297	changes
+E11	Change:T20 Theme:T19
+T22	Variable 1358 1400	deep water formation in the North Atlantic
+T21	Increase 1346 1354	increase
+E12	Increase:T21 Theme:T22
+T24	Variable 1416 1439	respired carbon dioxide
+T26	Variable 1489 1531	the supply of nutrients to the upper ocean
+T27	Increase 1479 1488	increased
+E15	Increase:T27 Theme:T26 Agent:E12
+T23	Increase 1408 1415	flushed
+E13	Increase:T23 Theme:T24 Agent:E12
+T25	And 1474 1478	also
+E14	And:T25 Part:E13 Part2:E15
+T28	Cause 1533 1540	leading
+E16	Cause:T28 Agent:E14 Theme:E17
+T29	Variable 1552 1594	carbon dioxide sequestration at mid-depths
+T30	Increase 1544 1551	greater
+E17	Increase:T30 Theme:T29
+T31	Cause 1599 1607	stalling
+E18	Cause:T31 Theme:E19 Agent:E14
+T32	Variable 1620 1661	atmospheric carbon dioxide concentrations
+T33	Increase 1612 1616	rise
+E19	Increase:T33 Theme:T32
+T34	And 1595 1598	and
+E20	And:T34 Part:E16 Part2:E18
+T35	Increase 1742 1750	flushing
+E21	Increase:T35 Theme:T36
+T36	Variable 1754 1777	respired carbon dioxide
+T37	Increase 1863 1871	released
+E22	Increase:T37 Theme:T36
+T38	Variable 1886 1917	vigorous deep water ventilation
+T39	Change 1918 1926	switched
+E23	Change:T39 Theme:T38

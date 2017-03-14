@@ -1,0 +1,51 @@
+T1	Variable 26 55	Phaeocystis antarctica blooms
+T2	Change 16 22	export
+E1	Change:T2 Theme:T1
+T3	Variable 156 184	carbon dioxide in the oceans
+T4	Change 139 152	sequestration
+E2	Change:T4 Theme:T3
+T5	Variable 232 245	carbon export
+T6	Change 221 228	changes
+E3	Change:T6 Theme:T5
+T7	Variable 270 277	climate
+T8	Increase 278 285	warming
+E4	Increase:T8 Theme:T7
+T9	Cause 246 252	forced
+E5	Cause:T9 Agent:E4 Theme:E3
+T10	Variable 287 336	Annual phytoplankton blooms in seasonal ice zones
+T11	Increase 348 358	productive
+E6	Increase:T11 Theme:T10
+T12	Variable 406 410	pCO2
+T13	Decrease 411 419	drawdown
+E7	Decrease:T13 Theme:T12
+T14	Cause 378 388	contribute
+E8	Cause:T14 Agent:E6 Theme:E7
+T15	Variable 531 563	production in the Southern Ocean
+T16	Change 524 530	export
+E9	Change:T16 Theme:T15
+T17	Variable 752 758	carbon
+T18	Increase 759 767	produced
+E10	Increase:T18 Theme:T17
+T21	Variable 963 969	carbon
+T22	Change 970 976	export
+E12	Change:T22 Theme:T21
+T23	Variable 1048 1054	Carbon
+T24	Change 1055 1068	sequestration
+E13	Change:T24 Theme:T23
+T25	Variable 1113 1119	carbon
+T26	Change 1120 1125	cycle
+E14	Change:T26 Theme:T25
+T27	Cause 1099 1108	influence
+E15	Cause:T27 Agent:E13 Theme:E14
+T30	Variable 1215 1259	the structure of the phytoplankton community
+T31	Change 1201 1211	alteration
+E17	Change:T31 Theme:T30
+T32	Cause 1190 1194	lead
+E18	Cause:T32 Theme:E17 Agent:E16
+T19	Variable 1074 1087	P. antarctica
+T20	Increase 1088 1094	blooms
+E11	Increase:T20 Theme:T19
+T33	Cause 1069 1073	from
+E19	Cause:T33 Theme:E13 Agent:E11
+T28	I_Change 1173 1189	climatic changes
+E16	I_Change:T28 

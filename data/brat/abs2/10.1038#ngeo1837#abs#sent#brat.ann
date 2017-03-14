@@ -1,0 +1,40 @@
+T1	Variable 19 36	open-ocean oxygen
+T2	Decrease 37 46	depletion
+E1	Decrease:T2 Theme:T1
+T3	Variable 328 371	significant amounts of carbon and nutrients
+T4	Change 316 324	transfer
+E2	Change:T4 Theme:T3
+T5	I_Decrease 279 297	vertical migration
+E3	I_Decrease:T5 
+T6	Cause 302 308	result
+E4	Cause:T6 Agent:E3 Theme:E2
+T7	Variable 772 787	migration depth
+T8	Increase 791 798	greater
+E5	Increase:T8 Theme:T7
+T9	Variable 805 837	subsurface oxygen concentrations
+T10	Increase 842 846	high
+E6	Increase:T10 Theme:T9
+T11	Cause 799 804	where
+E7	Cause:T11 Agent:E6 Theme:E5
+T12	Variable 858 873	seawater oxygen
+T13	Increase 874 887	concentration
+E8	Increase:T13 Theme:T12
+T14	Variable 1062 1068	oxygen
+T15	Decrease 1058 1061	low
+E9	Decrease:T15 Theme:T14
+T16	Variable 1178 1184	oxygen
+T17	Increase 1185 1196	consumption
+E10	Increase:T17 Theme:T16
+T18	I_Decrease 1251 1269	vertical migration
+E11	I_Decrease:T18 
+T19	Variable 1282 1288	oxygen
+T20	Decrease 1289 1298	depletion
+E12	Decrease:T20 Theme:T19
+T21	Cause 1270 1281	intensifies
+E13	Cause:T21 Agent:E11 Theme:E12
+T22	Variable 1378 1412	the extent of oxygen minimum zones
+T23	Change 1367 1374	changes
+E14	Change:T23 Theme:T22
+T24	Variable 1425 1465	the migratory depths of marine organisms
+T25	Change 1419 1424	alter
+E15	Change:T25 Theme:T24 Agent:E14

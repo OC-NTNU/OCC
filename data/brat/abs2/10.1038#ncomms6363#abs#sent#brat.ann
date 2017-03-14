@@ -1,0 +1,47 @@
+T1	Change 79 85	change
+E1	Change:T1 Theme:T2
+T2	Variable 71 78	climate
+T3	I_Increase 47 66	ocean acidification
+E2	I_Increase:T3 
+T4	And 67 70	and
+E3	And:T4 Part:E2 Part2:E1
+T5	I_Increase 0 29	Coccolithophore calcification
+E4	I_Increase:T5 
+T6	Cause 30 38	response
+E5	Cause:T6 Agent:E3 Theme:E4
+T7	Variable 86 114	Anthropogenic carbon dioxide
+T8	Increase 115 124	emissions
+E6	Increase:T8 Theme:T7
+T9	Variable 143 158	ocean chemistry
+T10	Change 159 166	changes
+E7	Change:T10 Theme:T9
+T11	Cause 129 136	forcing
+E8	Cause:T11 Agent:E6 Theme:E7
+T12	Cause 171 178	causing
+E9	Cause:T12 Theme:E10 Agent:E6
+T13	I_Increase 179 198	ocean acidification
+E10	I_Increase:T13 
+T14	Variable 375 382	calcite
+T15	Increase 383 393	production
+E11	Increase:T15 Theme:T14
+T16	Change 511 517	change
+E12	Change:T16 Theme:T17
+T17	Variable 503 510	climate
+T18	I_Change 475 499	ancient coccolithophores
+E13	I_Change:T18 
+T19	Cause 463 471	response
+E14	Cause:T19 Agent:E12 Theme:E13
+T20	Variable 710 723	environmental
+T21	Change 724 730	change
+E15	Change:T21 Theme:T20
+T22	Variable 755 774	calcification rates
+T23	Decrease 747 754	reduced
+E16	Decrease:T23 Theme:T22
+T24	Variable 926 945	coccolith thickness
+T25	Change 917 925	Changing
+E17	Change:T25 Theme:T24
+T26	Variable 957 964	calcite
+T27	Increase 965 975	production
+E18	Increase:T27 Theme:T26
+T28	Cause 950 956	affect
+E19	Cause:T28 Agent:E17 Theme:E18

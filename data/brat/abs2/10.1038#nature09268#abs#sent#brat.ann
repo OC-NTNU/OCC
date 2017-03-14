@@ -1,0 +1,35 @@
+T1	Variable 0 20	Global phytoplankton
+T2	Decrease 21 28	decline
+E1	Decrease:T2 Theme:T1
+T3	Variable 659 672	ocean regions
+T4	Decrease 630 638	declines
+E2	Decrease:T4 Theme:T3
+T5	Variable 722 748	the global median per year
+T6	Decrease 704 711	decline
+E3	Decrease:T6 Theme:T5
+T7	Variable 778 814	interannual to decadal phytoplankton
+T8	Change 815 827	fluctuations
+E4	Change:T8 Theme:T7
+T9	RefExp 862 867	These
+R1	Coref Expression:T9 Antecedent:T7	
+T10	Change 868 880	fluctuations
+E5	Change:T10 Theme:T9
+T11	Correlate 894 904	correlated
+E6	Correlate:T11 Theme:E5 Co-theme:E7
+T12	I_Change 910 937	basin-scale climate indices
+E7	I_Change:T12 
+T13	Variable 967 973	trends
+T14	Decrease 957 966	declining
+E8	Decrease:T14 Theme:T13
+T15	Increase 989 999	increasing
+E9	Increase:T15 Theme:T16
+T16	Variable 1000 1024	sea surface temperatures
+T17	Correlate 978 985	related
+E10	Correlate:T17 Theme:E8 Co-theme:E9
+T18	Variable 1043 1077	global phytoplankton concentration
+T19	Decrease 1082 1090	declined
+E11	Decrease:T19 Theme:T18
+T20	RefExp 1114 1118	this
+R2	Coref Expression:T20 Antecedent:T18	
+T21	Decrease 1119 1126	decline
+E12	Decrease:T21 Theme:T20

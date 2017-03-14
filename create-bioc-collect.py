@@ -16,7 +16,7 @@ for txt_fname in glob('data/brat/pilot/*abs*.txt'):
                                doc_infons={'bibtex': bib_entry})
 
 # other abstracts
-for part in 'abs1', 'iaa1':
+for part in 'abs1', 'iaa1', 'abs2':
     for txt_fname in glob('data/brat/' + part + '/*abs*.txt'):
         bioc_fname = join('data/bioc/collect/', part, basename(txt_fname).replace('#brat.txt', '#bioc.xml'))
         bib_fname = join('data', 'bib', '#'.join(basename(txt_fname).split('#')[:2]) + '.bib')

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ngeo639#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Dyhrman_2009,
+	doi = {10.1038/ngeo639},
+	url = {https://doi.org/10.1038%2Fngeo639},
+	year = 2009,
+	month = {sep},
+	publisher = {Springer Nature},
+	volume = {2},
+	number = {10},
+	pages = {696--699},
+	author = {Sonya T. Dyhrman and Claudia R. Benitez-Nelson and Elizabeth D. Orchard and Sheean T. Haley and Perry J. Pellechia},
+	title = {A microbial source of phosphonates in oligotrophic marine systems},
+	journal = {Nature Geoscience}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ngeo639</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>A microbial source of phosphonates in oligotrophic marine systems
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>66</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>66</offset>
+        <text>Phosphonates, compounds with a carbon-phosphorus bond, are a key component of the marine dissolved organic phosphorus pool.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>190</offset>
+        <text>These compounds serve as a phosphorus source for primary producers, including the nitrogen-fixing cyanobacteria Trichodesmium.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="272"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="281"/>
+          <text>fixing</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>317</offset>
+        <text>Phosphonates can therefore support marine primary production, as well as climate-driven increases in marine nitrogen fixation, carbon sequestration and possibly methane production, through the breakdown of methylphosphonate.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="418"/>
+          <text>marine nitrogen fixation</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="405"/>
+          <text>increases</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="478"/>
+          <text>methane production</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="523"/>
+          <text>methylphosphonate</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="510"/>
+          <text>breakdown</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="444"/>
+          <text>carbon sequestration</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="465"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="E3" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Decrease"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="And"/>
+          <node refid="T3" role="Part"/>
+          <node refid="T6" role="Part2"/>
+          <node refid="T7" role="Part3"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>542</offset>
+        <text>Despite their importance, the source of phosphonates to the open ocean has remained uncertain.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>637</offset>
+        <text>Here, we use solid-state nuclear magnetic resonance spectroscopy to screen for the presence of phosphonates in cultured strains of Trichodesmium erythraeum.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>794</offset>
+        <text>We show that phosphonates comprise an average of 10% of the cellular particulate phosphorus pool in this species.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>908</offset>
+        <text>We therefore suggest that these cyanobacteria produce phosphonates, and might be a significant source of these compounds in the ocean, particularly in nutrient-poor regions, where Trichodesmium blooms occur.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1116</offset>
+        <text>Given that Trichodesmium also thrives in a warm, carbon-dioxide-rich environment, phosphonate production may increase in the future.
+</text>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="1198"/>
+          <text>phosphonate production</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1225"/>
+          <text>increase</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">10</infon>
+        <offset>1249</offset>
+        <text>This, in turn, might select for a microbial community that can use phosphonate, and could have implications for nitrogen fixation, carbon sequestration and greenhouse-gas production.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1361"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1370"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="1405"/>
+          <text>greenhouse-gas</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1420"/>
+          <text>production</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1380"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="1387"/>
+          <text>sequestration</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1401"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Change"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Increase"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="Increase"/>
+          <node refid="T18" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="And"/>
+          <node refid="E8" role="Part"/>
+          <node refid="E10" role="Part2"/>
+          <node refid="E9" role="Part3"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

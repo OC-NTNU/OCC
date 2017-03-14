@@ -1,0 +1,63 @@
+T1	Variable 0 4	Iron
+T2	Decrease 5 15	deficiency
+E1	Decrease:T2 Theme:T1
+T5	Variable 779 802	these two cyanobacteria
+T6	Increase 815 819	grow
+E4	Increase:T6 Theme:T5
+T4	Increase 16 25	increases
+E3	Increase:T4 Theme:T3 Agent:E1
+T3	Variable 26 105	growth and nitrogen-fixation rates of phosphorus-deficient marine cyanobacteria
+T7	Variable 113 123	dinitrogen
+T8	Change 129 135	fixing
+E2	Change:T8 Theme:T7
+T9	Variable 207 221	carbon dioxide
+T10	Change 203 206	fix
+E5	Change:T10 Theme:T9
+T11	Increase 232 241	fertilize
+E6	Increase:T11 Theme:T12
+T12	Variable 273 285	new nitrogen
+T13	Variable 384 386	N2
+T14	Change 387 395	fixation
+E7	Change:T14 Theme:T13
+T15	Variable 401 421	their availabilities
+T16	Change 422 426	vary
+E8	Change:T16 Theme:T15
+T17	Variable 538 540	N2
+T18	Change 541 547	fixing
+E9	Change:T18 Theme:T17
+T19	Variable 647 664	N2-fixation rates
+T20	Increase 642 646	high
+E10	Increase:T20 Theme:T19
+T21	Variable 828 830	N2
+T22	Change 824 827	fix
+E11	Change:T22 Theme:T21
+T23	Variable 891 922	growth affinities relative to P
+T24	Increase 923 931	increase
+E12	Increase:T24 Theme:T23
+T25	Variable 938 985	minimum concentrations of P that support growth
+T26	Decrease 986 994	decrease
+E13	Decrease:T26 Theme:T25
+T27	Decrease 1070 1079	reduction
+E14	Decrease:T27 Theme:E15
+T28	Variable 1083 1093	cell sizes
+T29	Variable 1098 1114	elemental quotas
+T30	And 1094 1097	and
+E15	And:T30 Part:T28 Part2:T29
+#1	AnnotatorNotes E14	there may have a correnation signaled by "accompanied"
+T31	Variable 1132 1227	growth rates of these two biogeochemically critical cyanobacteria in low-P, low-Fe environments
+T32	Increase 1127 1131	high
+E16	Increase:T32 Theme:T31
+T33	Variable 1332 1341	Fe levels
+T34	Decrease 1328 1331	low
+E17	Decrease:T34 Theme:T33
+T36	Decrease 1356 1364	negative
+E19	Decrease:T36 Theme:T35
+T35	Variable 1376 1400	marine primary producers
+T37	Cause 1365 1372	effects
+E18	Cause:T37 Theme:E19 Agent:E17
+T38	Variable 1454 1456	N2
+T39	Change 1457 1463	fixing
+E20	Change:T39 Theme:T38
+T40	Variable 1514 1532	their supply ratio
+T41	Change 1504 1510	shifts
+E21	Change:T41 Theme:T40

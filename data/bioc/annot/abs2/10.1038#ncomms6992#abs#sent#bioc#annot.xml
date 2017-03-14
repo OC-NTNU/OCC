@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ncomms6992#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Jonsson_2015,
+	doi = {10.1038/ncomms6992},
+	url = {https://doi.org/10.1038%2Fncomms6992},
+	year = 2015,
+	month = {jan},
+	publisher = {Springer Nature},
+	volume = {6},
+	pages = {5992},
+	author = {Tomas Jonsson and Malin Setzer},
+	title = {A freshwater predator hit twice by the effects of warming across trophic levels},
+	journal = {Nature Communications}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ncomms6992</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>A freshwater predator hit twice by the effects of warming across trophic levels
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>80</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>80</offset>
+        <text>Many ecological responses to climate change have been documented.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="109"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="117"/>
+          <text>change</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>146</offset>
+        <text>However, due to indirect effects, some responses can be complex and difficult to predict.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>236</offset>
+        <text>For example, our understanding of effects on consumers involving responses on several trophic levels is limited.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>349</offset>
+        <text>Here, combining the knowledge of trophic interactions in the EU's fourth largest lake with long-term climate and catch data, we analyse potential drivers of change in this system's apex predator.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>545</offset>
+        <text>We show that warm winters correlate with later poor catches of great Arctic charr (Salvelinus umbla), and that in recent years predator-prey cycles involving this species have disappeared.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>734</offset>
+        <text>The likely mechanisms are trophic mismatches directly and indirectly affecting two stages of charr, the fry and the juveniles, respectively.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>875</offset>
+        <text>Our study illustrates how a long-lived consumer may be subjected to double jeopardy from the effects of warming across trophic levels, and that a food web approach can aid in disentangling the chain of mechanisms responsible.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="950"/>
+          <text>jeopardy</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="943"/>
+          <text>double</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="979"/>
+          <text>warming across trophic levels</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="968"/>
+          <text>effects</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="I_Increase"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Cause"/>
+          <node refid="E3" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

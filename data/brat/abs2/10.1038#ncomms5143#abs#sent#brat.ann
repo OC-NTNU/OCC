@@ -1,0 +1,39 @@
+T1	Variable 80 97	picophytoplankton
+T2	Change 70 76	export
+E1	Change:T2 Theme:T1
+T3	Variable 0 8	Silicate
+T4	Increase 9 19	deposition
+E2	Increase:T4 Theme:T3
+T5	Variable 44 57	cyanobacteria
+T6	Decrease 27 40	decomposition
+E3	Decrease:T6 Theme:T5
+T7	Cause 62 69	promote
+E4	Cause:T7 Agent:E2 Theme:E1
+T8	Variable 143 157	organic matter
+T9	Change 133 142	transport
+E5	Change:T9 Theme:T8 Agent:T10
+T10	Variable 116 132	Marine particles
+T11	Variable 209 223	organic matter
+T12	Increase 231 237	buried
+E6	Increase:T12 Theme:T11
+T13	Decrease 278 285	removal
+E7	Decrease:T13 Theme:T14
+T14	Variable 300 303	CO2
+T15	Variable 458 466	particle
+T16	Change 467 476	transport
+E8	Change:T16 Theme:T15
+T17	Variable 508 516	silicate
+T18	Increase 520 529	deposited
+E9	Increase:T18 Theme:T17
+T19	Decrease 589 600	decomposing
+E10	Decrease:T19 Theme:T20
+T20	Variable 601 618	picophytoplankton
+T21	Variable 638 640	Si
+T22	Increase 644 652	enriched
+E11	Increase:T22 Theme:T21
+T23	Variable 990 997	silicon
+T24	Change 998 1005	cycling
+E12	Change:T24 Theme:T23
+T25	Variable 1030 1075	export of picophytoplankton to the deep ocean
+T26	Increase 1022 1029	enhance
+E13	Increase:T26 Theme:T25

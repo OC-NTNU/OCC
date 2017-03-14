@@ -1,0 +1,28 @@
+T1	Variable 268 351	large amounts of macronutrients into the euphotic zone of eastern boundary currents
+T2	Increase 260 267	injects
+E1	Increase:T2 Theme:T1
+T3	Variable 457 461	Iron
+T4	Increase 462 470	addition
+E2	Increase:T4 Theme:T3
+T5	Variable 536 563	rates of biomass production
+T6	Increase 527 535	increase
+E3	Increase:T6 Theme:T5
+T7	Cause 518 523	shown
+E4	Cause:T7 Agent:E2 Theme:E3
+T8	Increase 818 822	high
+E5	Increase:T8 Theme:T9
+T9	Variable 823 845	concentrations of iron
+T10	Variable 915 970	the concentration of dissolvable iron in surface waters
+T11	Decrease 975 978	low
+E6	Decrease:T11 Theme:T10
+T12	Variable 1021 1031	river flow
+T13	Increase 1016 1020	high
+E7	Increase:T13 Theme:T12
+T14	Variable 1040 1057	offshore salinity
+T15	Decrease 1036 1039	low
+E8	Decrease:T15 Theme:T14
+T16	And 1032 1035	and
+E9	And:T16 Part:E7 Part2:E8
+T17	Variable 1321 1330	component
+T18	Change 1312 1320	variable
+E10	Change:T18 Theme:T17

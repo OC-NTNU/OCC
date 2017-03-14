@@ -1,0 +1,42 @@
+T12	Variable 515 527	Growth rates
+T13	Increase 543 549	higher
+E10	Increase:T13 Theme:T12
+#1	AnnotatorNotes T12	variable is fragmented
+T20	Variable 917 922	Cells
+T22	RefExp 960 964	they
+R1	Coref Expression:T22 Antecedent:T20	
+T23	Variable 1052 1074	coccolithophore growth
+#2	AnnotatorNotes T23	variable contains change indicator ('growth') in presence of change trigger ('change')
+T24	Variable 1076 1083	calcite
+T25	Variable 1088 1106	biomass production
+T26	And 1084 1087	and
+E14	And:T26 Part:T23 Part2:T24 Part3:T25
+T1	Variable 231 251	marine phytoplankton
+T2	Change 281 287	change
+E1	Change:T2 Theme:T1
+T3	Variable 438 449	Temperature
+T4	Change 450 460	adaptation
+E2	Change:T4 Theme:T3
+T5	Variable 650 677	Particulate inorganic (PIC)
+T7	And 678 681	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Increase 824 830	higher
+E4	Increase:T8 Theme:E3 Co-theme:E7
+T6	Variable 682 713	organic (POC) carbon production
+T9	I_Increase 846 853	warming
+E5	I_Increase:T9 
+T10	I_Increase 858 871	acidification
+E6	I_Increase:T10 
+T11	And 854 857	and
+E7	And:T11 Part:E5 Part2:E6
+T14	Increase 928 935	evolved
+E8	Increase:T14 Theme:T20
+T15	Variable 1023 1026	CO2
+T16	Increase 1014 1022	elevated
+E9	Increase:T16 Theme:T15
+T17	Variable 1108 1117	cell size
+T18	Variable 1122 1143	elemental composition
+T19	And 1118 1121	and
+E11	And:T19 Part:T17 Part2:T18 Part3:E14
+T21	Change 1041 1048	changes
+E12	Change:T21 Theme:E11

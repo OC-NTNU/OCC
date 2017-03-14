@@ -1,0 +1,38 @@
+T1	Decrease 346 350	loss
+E1	Decrease:T1 Theme:T2
+T2	Variable 354 371	multiyear sea ice
+T3	Increase 376 385	increased
+E2	Increase:T3 Theme:T4
+T4	Variable 386 438	particulate-rich river discharge in the Arctic Ocean
+T5	And 372 375	and
+E3	And:T5 Part:E1 Part2:E2
+T6	Variable 502 530	nutrient-rich saltier waters
+T7	Change 493 501	displace
+E4	Change:T7 Theme:T6 Agent:E13
+T8	Decrease 552 560	decrease
+E5	Decrease:T8 Theme:T9 Agent:E13
+T9	Variable 561 615	light penetration in areas affected by river discharge
+T12	And 548 551	and
+E8	And:T12 Part:E5 Part2:E4
+T13	Variable 1604 1618	Pacific waters
+T14	Change 1588 1600	displacement
+E9	Change:T14 Theme:T13
+T15	Variable 1650 1667	terrigenous input
+T16	Increase 1640 1649	increased
+E10	Increase:T16 Theme:T15
+T17	And 1636 1639	and
+E11	And:T17 Part:E10 Part2:E9
+T18	Variable 1728 1822	net summer primary production with a more heterotroph dominated eukaryotic microbial community
+T19	Decrease 1722 1727	lower
+E12	Decrease:T19 Theme:T18
+T20	Variable 460 483	volume of fresher water
+T21	Increase 452 459	greater
+E13	Increase:T21 Theme:T20
+T22	Cause 439 446	results
+E14	Cause:T22 Agent:E3 Theme:E13
+#1	AnnotatorNotes E8	"and" should have the agent role
+T10	Variable 1521 1542	heterotrophic Picozoa
+T11	Increase 1548 1552	more
+E6	Increase:T11 Theme:T10
+T23	Cause 1712 1718	result
+E7	Cause:T23 Agent:E11 Theme:E12

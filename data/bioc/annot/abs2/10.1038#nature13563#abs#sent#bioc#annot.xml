@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nature13563#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Lamborg_2014,
+	doi = {10.1038/nature13563},
+	url = {https://doi.org/10.1038%2Fnature13563},
+	year = 2014,
+	month = {aug},
+	publisher = {Springer Nature},
+	volume = {512},
+	number = {7512},
+	pages = {65--68},
+	author = {Carl H. Lamborg and Chad R. Hammerschmidt and Katlin L. Bowman and Gretchen J. Swarr and Kathleen M. Munson and Daniel C. Ohnemus and Phoebe J. Lam and Lars-Eric HeimbĂźrger and Micha J. A. Rijkenberg and Mak A. Saito},
+	title = {A global ocean inventory of anthropogenic mercury based on water column measurements},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nature13563</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>A global ocean inventory of anthropogenic mercury based on water column measurements
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>85</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>85</offset>
+        <text>Mercury is a toxic, bioaccumulating trace metal whose emissions to the environment have increased significantly as a result of anthropogenic activities such as mining and fossil fuel combustion.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="34" offset="133"/>
+          <text>whose emissions to the environment</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="173"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="66" offset="212"/>
+          <text>anthropogenic activities such as mining and fossil fuel combustion</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="202"/>
+          <text>result</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="#1">
+          <infon key="brat-id">#1</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="string">the reference of "whose" should be resolved</infon>
+          <node refid="T1" role="Annotation"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Increase"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>280</offset>
+        <text>Several recent models have estimated that these emissions have increased the oceanic mercury inventory by 36-1,313 million moles since the 1500s.
+</text>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="343"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="353"/>
+          <text>the oceanic mercury inventory</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="322"/>
+          <text>these emissions</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+          <node refid="E5" role="Agent"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="I_Increase"/>
+        </relation>
+        <relation id="#2">
+          <infon key="brat-id">#2</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="string">there reference "these" should be resolved</infon>
+          <node refid="E5" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>426</offset>
+        <text>Such predictions have remained largely untested owing to a lack of appropriate historical data and natural archives.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>543</offset>
+        <text>Here we report oceanographic measurements of total dissolved mercury and related parameters from several recent expeditions to the Atlantic, Pacific, Southern and Arctic oceans.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>721</offset>
+        <text>We find that deep North Atlantic waters and most intermediate waters are anomalously enriched in mercury relative to the deep waters of the South Atlantic, Southern and Pacific oceans, probably as a result of the incorporation of anthropogenic mercury.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>974</offset>
+        <text>We estimate the total amount of anthropogenic mercury present in the global ocean to be 290 +/- 80 million moles, with almost two-thirds residing in water shallower than a thousand metres.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1163</offset>
+        <text>Our findings suggest that anthropogenic perturbations to the global mercury cycle have led to an approximately 150 per cent increase in the amount of mercury in thermocline waters and have tripled the mercury content of surface waters compared to pre-anthropogenic conditions.
+</text>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="1220"/>
+          <text>the global mercury cycle</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="1203"/>
+          <text>perturbations</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="43" offset="1299"/>
+          <text>the amount of mercury in thermocline waters</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1287"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1250"/>
+          <text>led</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="78" offset="1360"/>
+          <text>the mercury content of surface waters compared to pre-anthropogenic conditions</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1352"/>
+          <text>tripled</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Change"/>
+          <node refid="T8" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Cause"/>
+          <node refid="E6" role="Agent"/>
+          <node refid="E7" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Increase"/>
+          <node refid="T13" role="Theme"/>
+          <node refid="E6" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1440</offset>
+        <text>This information may aid our understanding of the processes and the depths at which inorganic mercury species are converted into toxic methyl mercury and subsequently bioaccumulated in marine food webs.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="25" offset="1524"/>
+          <text>inorganic mercury species</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1554"/>
+          <text>converted</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

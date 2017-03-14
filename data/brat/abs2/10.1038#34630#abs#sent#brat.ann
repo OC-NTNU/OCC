@@ -1,0 +1,52 @@
+T1	Variable 0 8	Silicate
+T2	Change 9 19	regulation
+E1	Change:T2 Theme:T1
+T3	Variable 167 196	plant-nutrient concentrations
+T4	Increase 162 166	high
+E2	Increase:T4 Theme:T3
+T5	Variable 205 226	phytoplankton biomass
+T6	Variable 231 243	productivity
+T7	And 227 230	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Decrease 201 204	low
+E4	Decrease:T8 Theme:E3
+T9	Variable 276 283	nitrate
+T12	Increase 271 275	high
+E5	Increase:T12 Theme:T9
+T13	Variable 289 300	chlorophyll
+T14	Decrease 285 288	low
+E8	Decrease:T14 Theme:T13
+T17	Variable 962 970	nitrogen
+T18	Decrease 971 982	regenerated
+E10	Decrease:T18 Theme:T17
+T20	Cause 951 958	fuelled
+E12	Cause:T20 Agent:E10 Theme:E7
+T21	Variable 1474 1487	silicate HNLC
+T22	Decrease 1470 1473	low
+E13	Decrease:T22 Theme:T21
+T23	Variable 1414 1421	nitrate
+T24	Increase 1422 1428	uptake
+E14	Increase:T24 Theme:T23
+T25	Variable 1441 1467	silicate supply to diatoms
+T26	Increase 1432 1440	upwelled
+E15	Increase:T26 Theme:T25
+T27	Variable 1546 1568	iron-fertilized diatom
+T28	Increase 1569 1575	growth
+E16	Increase:T28 Theme:T27
+T29	Variable 1611 1620	iron HNLC
+T30	Decrease 1607 1610	low
+E17	Decrease:T30 Theme:T29
+T10	Variable 840 847	nitrate
+T11	Increase 848 854	uptake
+E6	Increase:T11 Theme:T10
+T15	I_Increase 913 941	the total primary production
+E7	I_Increase:T15 
+T16	Variable 1083 1093	production
+T19	Change 1076 1082	export
+E9	Change:T19 Theme:T16
+T31	Variable 1095 1109	the production
+T32	Change 1110 1118	exported
+E11	Change:T32 Theme:T31
+T34	Variable 1257 1271	new production
+T36	Increase 1272 1279	exceeds
+E19	Increase:T36 Theme:T34

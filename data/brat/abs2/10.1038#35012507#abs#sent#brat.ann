@@ -1,0 +1,40 @@
+T1	Variable 102 142	atmospheric carbon dioxide concentration
+T2	Decrease 98 101	low
+E1	Decrease:T2 Theme:T1
+T3	Variable 178 199	oceanic carbon uptake
+T4	Increase 168 177	increased
+E2	Increase:T4 Theme:T3
+T5	Correlate 152 162	associated
+E3	Correlate:T5 Theme:E1 Co-theme:E2
+T6	Variable 286 291	ocean
+T7	Increase 292 304	productivity
+E4	Increase:T7 Theme:T6
+T8	I_Change 331 346	nutrient levels
+E5	I_Change:T8 
+T9	Cause 317 327	influenced
+E6	Cause:T9 Agent:E4 Theme:E5
+T10	Variable 655 662	cadmium
+T11	Increase 645 651	uptake
+E7	Increase:T11 Theme:T10
+T12	Variable 697 707	phosphorus
+T13	Increase 687 693	uptake
+E8	Increase:T13 Theme:T12
+T16	Variable 617 625	particle
+T17	Increase 626 635	formation
+E10	Increase:T17 Theme:T16
+T21	Variable 1219 1226	sea ice
+T22	Increase 1227 1236	expansion
+E13	Increase:T22 Theme:T21
+T23	Variable 1275 1308	CO2 release by the Southern Ocean
+T24	Decrease 1267 1274	reduced
+E14	Decrease:T24 Theme:T23
+T25	Variable 1319 1342	glacial atmospheric CO2
+T26	Decrease 1313 1318	lower
+E15	Decrease:T26 Theme:T25
+T27	And 1309 1312	and
+E16	And:T27 Part:E14 Part2:E15
+T28	Cause 1242 1250	provides
+E17	Cause:T28 Agent:E13 Theme:E16
+T14	Increase 1054 1063	expansion
+E9	Increase:T14 Theme:T15
+T15	Variable 1067 1082	glacial sea ice

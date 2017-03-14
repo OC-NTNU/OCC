@@ -1,0 +1,38 @@
+T1	Variable 174 181	climate
+T2	Change 182 188	change
+E1	Change:T2 Theme:T1
+T3	Variable 207 217	ice masses
+T4	Decrease 197 206	shrinking
+E2	Decrease:T4 Theme:T3 Agent:E1
+T5	Variable 256 289	their physicochemical environment
+T6	Change 245 252	changes
+E3	Change:T6 Theme:T5
+#1	AnnotatorNotes T5	pronominal unit "there" should be resolved here 
+T7	Variable 325 424	structure and ecosystem functioning of hyporheic microbial communities in proglacial alpine streams
+T8	Change 315 321	shifts
+E4	Change:T8 Theme:T7
+T9	Variable 1233 1254	functional plasticity
+T10	Increase 1228 1232	high
+E5	Increase:T10 Theme:T9
+T13	Variable 1522 1530	glaciers
+T14	Decrease 1511 1518	retreat
+E8	Decrease:T14 Theme:T13
+T20	Change 112 118	shifts
+E14	Change:T20 Theme:T21
+T21	Variable 0 69	Bacterial structures and ecosystem functions in glaciated floodplains
+T22	I_Change 119 147	Glaciated alpine floodplains
+E15	I_Change:T22 
+T23	Cause 152 162	responding
+E16	Cause:T23 Agent:E2 Theme:E15
+T11	Variable 1553 1584	ecohydrological characteristics
+T12	Variable 1586 1611	lotic microbial structure
+T15	Variable 1616 1627	functioning
+T16	And 1612 1615	and
+E6	And:T16 Part:T12 Part2:T15
+T17	Change 1545 1552	altered
+E7	Change:T17 Theme:T11 Agent:E8
+T18	Change 1642 1648	change
+E9	Change:T18 Theme:E6 Agent:E7
+T19	Variable 1704 1735	The trajectory of these changes
+T24	Change 1741 1745	vary
+E10	Change:T24 Theme:T19

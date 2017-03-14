@@ -1,0 +1,52 @@
+T1	Variable 71 86	host metabolism
+T2	Variable 91 109	lysate composition
+T3	And 87 90	and
+E1	And:T3 Part:T1 Part2:T2
+T4	Change 64 70	alters
+E2	Change:T4 Theme:E1 Agent:E3
+T5	I_Change 0 63	Phage infection of an environmentally relevant marine bacterium
+E3	I_Change:T5 
+T6	Variable 191 221	biological species composition
+T7	Variable 226 248	system biogeochemistry
+T8	And 222 225	and
+E4	And:T8 Part:T6 Part2:T7
+T9	Change 182 190	altering
+E5	Change:T9 Theme:E4
+T11	Change 379 387	reshapes
+E6	Change:T11 Theme:T10
+T10	Variable 388 403	host metabolism
+T12	Change 445 455	alteration
+E7	Change:T12 Theme:T13
+T13	RefExp 440 444	this
+R1	Coref Expression:T13 Antecedent:T10	
+T14	Variable 500 511	viral lysis
+T15	Increase 481 489	released
+E8	Increase:T15 Theme:T14
+T16	Variable 306 325	metabolic resources
+T17	Increase 298 305	provide
+E9	Increase:T17 Theme:T16
+T18	Variable 843 849	carbon
+T19	Variable 854 862	nitrogen
+T20	And 850 853	and
+E10	And:T20 Part:T18 Part2:T19
+T21	Change 863 874	sequestered
+E11	Change:T21 Theme:E10
+T22	Variable 1064 1073	infection
+T23	Change 1074 1079	cycle
+E12	Change:T23 Theme:T22
+T24	Variable 1108 1139	71% of the detected metabolites
+T25	Increase 1159 1167	elevated
+E13	Increase:T25 Theme:T24
+T26	Variable 1273 1291	metabolic activity
+T27	Increase 1264 1272	elevated
+E14	Increase:T27 Theme:T26
+T28	Variable 1352 1375	extracellular compounds
+T29	Increase 1376 1384	increase
+E15	Increase:T29 Theme:T28
+T30	I_Change 1396 1401	lysis
+E16	I_Change:T30 
+T31	Cause 1385 1392	because
+E17	Cause:T31 Agent:E16 Theme:E15
+T33	Decrease 1503 1512	decreased
+E18	Decrease:T33 Theme:T32
+T32	Variable 1513 1573	concentrations in the lysate relative to uninfected controls

@@ -1,0 +1,40 @@
+T1	Variable 154 159	algae
+T2	Increase 140 150	production
+E1	Increase:T2 Theme:T1
+T3	I_Increase 70 113	Human inputs of nutrients to coastal waters
+E2	I_Increase:T3 
+T4	Cause 118 122	lead
+E3	Cause:T4 Agent:E2 Theme:E1
+T5	Variable 248 274	oxygen levels in the water
+T7	Variable 356 363	acidity
+T8	Increase 346 355	increases
+E5	Increase:T8 Theme:T7 Agent:E6
+T10	I_Decrease 196 240	Microbial consumption of this organic matter
+E7	I_Decrease:T10 
+T11	Variable 384 426	atmospheric carbon dioxide in ocean waters
+T12	Increase 369 380	dissolution
+E8	Increase:T12 Theme:T11
+T13	Variable 439 446	acidity
+T14	Increase 432 438	raises
+E9	Increase:T14 Theme:T13 Agent:E8
+T15	Variable 987 989	pH
+T16	Decrease 979 983	drop
+E10	Decrease:T16 Theme:T15
+T17	Variable 1134 1136	pH
+T18	Decrease 1126 1130	drop
+E11	Decrease:T18 Theme:T17
+T6	Decrease 241 247	lowers
+E4	Decrease:T6 Theme:T5 Agent:E7
+T9	Variable 289 307	the carbon dioxide
+T21	Increase 308 316	produced
+E6	Increase:T21 Theme:T9
+T19	Variable 1171 1242	the ability of these carbon dioxide-rich waters to buffer changes in pH
+T20	Decrease 1158 1167	reduction
+E12	Decrease:T20 Theme:T19
+T22	Cause 1101 1110	attribute
+E13	Cause:T22 Agent:E12 Theme:E11
+T23	Variable 1290 1349	the susceptibility of coastal waters to ocean acidification
+T24	Increase 1281 1289	increase
+E14	Increase:T24 Theme:T23 Agent:E15
+T25	I_Increase 1260 1274	eutrophication
+E15	I_Increase:T25 

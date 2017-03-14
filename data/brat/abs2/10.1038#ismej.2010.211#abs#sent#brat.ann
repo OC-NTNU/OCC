@@ -1,0 +1,40 @@
+T4	Variable 108 121	Phytoplankton
+T5	Increase 122 128	growth
+E4	Increase:T5 Theme:T4
+T6	I_Change 156 175	inorganic nutrients
+E5	I_Change:T6 
+T7	I_Change 180 202	organic growth factors
+E6	I_Change:T7 
+T8	And 176 179	and
+E7	And:T8 Part:E5 Part2:E6
+T19	Variable 772 776	pCO2
+T20	Increase 767 771	high
+E18	Increase:T20 Theme:T19
+T21	Decrease 1078 1092	downregulation
+E19	Decrease:T21 Theme:T22
+T22	Variable 1096 1127	carbon-concentrating mechanisms
+T23	Variable 1020 1047	pCO2/B12-replete conditions
+T24	Increase 1015 1019	high
+E20	Increase:T24 Theme:T23
+T1	Cause 136 143	limited
+E1	Cause:T1 Agent:E7 Theme:E4
+T2	Variable 618 623	cells
+T3	Increase 624 629	grown
+E2	Increase:T3 Theme:T2
+T9	Variable 739 744	cells
+T10	Increase 745 750	grown
+E3	Increase:T10 Theme:T9
+T12	Increase 1376 1382	growth
+E8	Increase:T12 Theme:T11
+T13	I_Change 1332 1335	CO2
+E9	I_Change:T13 
+T11	Variable 1449 1460	this diatom
+T14	Cause 1366 1375	influence
+E10	Cause:T14 Theme:E8 Agent:E13
+T15	Variable 1695 1700	ocean
+T16	Change 1686 1694	changing
+E11	Change:T16 Theme:T15
+T17	I_Change 1340 1351	vitamin B12
+E12	I_Change:T17 
+T18	And 1336 1339	and
+E13	And:T18 Part:E9 Part2:E12

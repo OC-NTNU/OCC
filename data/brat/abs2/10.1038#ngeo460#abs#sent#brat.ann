@@ -1,0 +1,77 @@
+T1	Variable 8 21	calcification
+T2	Decrease 0 7	Reduced
+E1	Decrease:T2 Theme:T1
+T3	Variable 85 99	carbon dioxide
+T4	Increase 109 121	accumulating
+E2	Increase:T4 Theme:T3
+T5	Variable 151 186	the concentration of carbonate ions
+T6	Variable 191 197	the pH
+T7	And 187 190	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Decrease 137 145	lowering
+E4	Decrease:T8 Theme:E3 Agent:E2
+T9	Variable 242 251	sea water
+T10	Increase 225 238	acidification
+E5	Increase:T10 Theme:T9
+T11	Cause 208 217	resulting
+E6	Cause:T11 Theme:E5 Agent:E2
+T12	Variable 311 339	carbonate ion concentrations
+T13	Decrease 301 310	decreased
+E7	Decrease:T13 Theme:T12
+T15	Cause 340 345	cause
+E9	Cause:T15 Agent:E7 Theme:E8
+T16	Variable 395 414	calcification rates
+T17	Decrease 387 394	reduced
+E10	Decrease:T17 Theme:T16
+T14	I_Change 346 378	many marine calcareous organisms
+E8	I_Change:T14 
+T18	Cause 382 386	show
+E11	Cause:T18 Agent:E8 Theme:E10
+T19	Variable 474 479	ocean
+T20	Increase 480 493	acidification
+E12	Increase:T20 Theme:T19
+T21	Variable 508 517	ecosystem
+T22	Change 518 524	shifts
+E13	Change:T22 Theme:T21
+T23	Cause 500 504	lead
+E14	Cause:T23 Agent:E12 Theme:E13
+T24	Variable 654 670	marine carbonate
+T25	Change 671 675	flux
+E15	Change:T25 Theme:T24
+T26	Variable 707 743	organic carbon to the ocean interior
+T27	Increase 694 703	transport
+E16	Increase:T27 Theme:T26
+T28	Variable 1065 1078	calcification
+T29	Decrease 1057 1064	reduced
+E17	Decrease:T29 Theme:T28
+T30	Variable 1096 1101	ocean
+T31	Increase 1102 1115	acidification
+E18	Increase:T31 Theme:T30
+T32	Variable 972 992	modern shell weights
+T33	Decrease 1004 1009	lower
+E19	Decrease:T33 Theme:T32
+T34	Variable 1152 1178	atmospheric carbon dioxide
+T35	Increase 1145 1151	higher
+E20	Increase:T35 Theme:T34
+T36	Variable 1187 1200	shell weights
+T37	Decrease 1183 1186	low
+E21	Decrease:T37 Theme:T36
+T38	Variable 1313 1326	calcification
+T39	Decrease 1305 1312	reduced
+E22	Decrease:T39 Theme:T38
+T40	Variable 1396 1425	the abundance of foraminifera
+T41	Decrease 1385 1392	decline
+E23	Decrease:T41 Theme:T40
+T42	I_Increase 1436 1449	acidification
+E24	I_Increase:T42 
+T43	Cause 1426 1432	caused
+E25	Cause:T43 Agent:E24 Theme:E23
+T44	I_Change 1468 1485	marine ecosystems
+E26	I_Change:T44 
+T45	Variable 1512 1538	atmospheric carbon dioxide
+T46	Increase 1502 1508	uptake
+E27	Increase:T46 Theme:T45
+T47	And 1486 1489	and
+E28	And:T47 Part:E26 Part2:E27
+T48	Cause 1456 1462	affect
+E29	Cause:T48 Agent:E23 Theme:E28

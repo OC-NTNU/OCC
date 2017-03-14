@@ -1,0 +1,28 @@
+T7	Variable 924 983	phytoplankton with low nitrogen to phosphorus uptake ratios
+T8	Increase 916 923	growing
+E5	Increase:T8 Theme:T7
+T14	Variable 1089 1149	phytoplankton with high nitrogen to phosphorus uptake ratios
+T15	Increase 1076 1088	slow-growing
+E10	Increase:T15 Theme:T14
+T19	Variable 1243 1260	nitrogen fixation
+T20	Increase 1284 1288	high
+E13	Increase:T20 Theme:T19
+T1	Variable 545 593	ratio of nitrogen to phosphorus in phytoplankton
+T2	Change 594 600	varies
+E1	Change:T2 Theme:T1
+T3	Decrease 984 990	reduce
+E2	Decrease:T3 Theme:T4
+T4	Variable 991 1037	the phosphorus available for nitrogen fixation
+T5	Variable 1186 1203	nitrogen fixation
+T6	Increase 1207 1215	promoted
+E3	Increase:T6 Theme:T5
+T9	Variable 1150 1167	nitrogen deficits
+T10	Increase 1172 1180	enhanced
+E4	Increase:T10 Theme:T9
+T11	Variable 1431 1457	the amount of new nitrogen
+T12	Increase 1458 1463	added
+E6	Increase:T12 Theme:T11
+T13	I_Change 1359 1421	the relative abundance of fast- and slow-growing phytoplankton
+E7	I_Change:T13 
+T16	Cause 1422 1430	controls
+E8	Cause:T16 Agent:E7 Theme:E6

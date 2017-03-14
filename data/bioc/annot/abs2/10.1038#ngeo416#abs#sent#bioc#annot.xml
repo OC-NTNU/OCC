@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ngeo416#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Goodwin_2009,
+	doi = {10.1038/ngeo416},
+	url = {https://doi.org/10.1038%2Fngeo416},
+	year = 2009,
+	month = {jan},
+	publisher = {Springer Nature},
+	volume = {2},
+	number = {2},
+	pages = {145--150},
+	author = {Philip Goodwin and Richard G. Williams and Andy Ridgwell and Michael J. Follows},
+	title = {Climate sensitivity to the carbon cycle modulated by past and future changes in ocean chemistry},
+	journal = {Nature Geoscience}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ngeo416</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Climate sensitivity to the carbon cycle modulated by past and future changes in ocean chemistry
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="80"/>
+          <text>ocean chemistry</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="69"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="39" offset="0"/>
+          <text>Climate sensitivity to the carbon cycle</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="40"/>
+          <text>modulated</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Change"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Cause"/>
+          <node refid="E1" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>96</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>96</offset>
+        <text>The carbon cycle has a central role in climate change.
+</text>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="100"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="107"/>
+          <text>cycle</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="135"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="143"/>
+          <text>change</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>151</offset>
+        <text>For example, during glacial-interglacial cycles, atmospheric carbon dioxide has altered radiative forcing and amplified temperature changes.
+</text>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="200"/>
+          <text>atmospheric carbon dioxide</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="231"/>
+          <text>altered</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="239"/>
+          <text>radiative forcing</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="271"/>
+          <text>temperature changes</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="261"/>
+          <text>amplified</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="257"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T11" role="Theme"/>
+          <node refid="T9" role="Agent"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+          <node refid="T9" role="Agent"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="And"/>
+          <node refid="E6" role="Part"/>
+          <node refid="E7" role="Part2"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>292</offset>
+        <text>However, it is unclear how sensitive the climate system has been to changes in carbon cycling in previous geological periods, or how this sensitivity may evolve in the future, following massive anthropogenic emissions.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="319"/>
+          <text>sensitive</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="360"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="430"/>
+          <text>sensitivity</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="446"/>
+          <text>evolve</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>511</offset>
+        <text>Here we develop an analytical relationship that links the variation of radiative forcing from changes in carbon dioxide concentrations with changes in air-sea carbon cycling on a millennial timescale.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="582"/>
+          <text>radiative forcing</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="569"/>
+          <text>variation</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="616"/>
+          <text>carbon dioxide concentrations</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="605"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="662"/>
+          <text>air-sea carbon cycling</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="651"/>
+          <text>changes</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Change"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>712</offset>
+        <text>We find that this relationship is affected by the ocean storage of carbon and its chemical partitioning in sea water.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>830</offset>
+        <text>Our analysis reveals that the radiative forcing of climate is more sensitive to carbon perturbations now than it has been over much of the preceding 400 million years.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>998</offset>
+        <text>This high sensitivity is likely to persist into the future as the oceans become more acidic and the bulk of the fossil-fuels inventory is transferred to the ocean and atmosphere.
+</text>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="38" offset="1094"/>
+          <text>the bulk of the fossil-fuels inventory</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="1136"/>
+          <text>transferred</text>
+        </annotation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Change"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

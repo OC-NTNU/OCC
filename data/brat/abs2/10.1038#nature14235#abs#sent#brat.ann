@@ -1,0 +1,47 @@
+T1	Variable 70 77	climate
+T2	Change 78 84	change
+E1	Change:T2 Theme:T1
+T3	Variable 46 63	coastal upwelling
+T4	Increase 0 15	Intensification
+E2	Increase:T4 Theme:T3
+T5	Variable 361 386	coastal upwelling regimes
+T6	Change 393 399	change
+E3	Change:T6 Theme:T5
+T7	Variable 484 515	land-ocean differential heating
+T8	Increase 475 483	enhanced
+E4	Increase:T8 Theme:T7
+T9	I_Increase 523 541	greenhouse warming
+E5	I_Increase:T9 
+T10	Cause 516 519	due
+E6	Cause:T10 Agent:E5 Theme:E4
+T11	Variable 573 590	coastal upwelling
+T12	Increase 563 572	intensify
+E7	Increase:T12 Theme:T11
+T13	Variable 608 624	alongshore winds
+T14	Increase 594 607	strengthening
+E8	Increase:T14 Theme:T13
+T16	Change 817 824	changes
+E9	Change:T16 Theme:T18
+T18	Variable 828 896	the timing, intensity and spatial heterogeneity of coastal upwelling
+T20	I_Increase 912 926	future warming
+E11	I_Increase:T20 
+T21	Cause 900 908	response
+E12	Cause:T21 Agent:E11 Theme:E9
+T15	Variable 1192 1242	upwelling intensity and duration at high latitudes
+T17	Increase 1180 1188	increase
+E10	Increase:T17 Theme:T15
+T19	Cause 1248 1254	result
+E13	Cause:T19 Theme:E14 Agent:E10
+T22	Decrease 1272 1281	reduction
+E14	Decrease:T22 Theme:T23
+T23	Variable 1285 1340	the existing latitudinal variation in coastal upwelling
+T24	Variable 1628 1635	climate
+T25	Change 1636 1642	change
+E15	Change:T25 Theme:T24
+T26	Variable 1736 1800	the intensity, timing and spatial structure of coastal upwelling
+T27	Change 1725 1732	changes
+E16	Change:T27 Theme:T26
+T28	I_Change 1815 1867	the geographical distribution of marine biodiversity
+E17	I_Change:T28 
+T29	Cause 1805 1814	influence
+E18	Cause:T29 Agent:E16 Theme:E17

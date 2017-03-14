@@ -1,0 +1,40 @@
+T1	Variable 49 56	climate
+T2	Change 57 63	change
+E1	Change:T2 Theme:T1
+T3	Variable 10 19	body size
+T4	Change 0 9	Shrinking
+E2	Change:T4 Theme:T3
+T5	Cause 37 45	response
+E3	Cause:T5 Agent:E1 Theme:E2
+T6	Variable 80 87	climate
+T7	Change 88 94	change
+E4	Change:T7 Theme:T6
+T8	I_Change 107 144	global ecology and ecosystem services
+E5	I_Change:T8 
+T9	Cause 100 106	affect
+E6	Cause:T9 Theme:E5 Agent:E4
+T10	Variable 268 275	climate
+T11	Change 276 282	change
+E7	Change:T11 Theme:T10
+T13	Decrease 239 246	smaller
+E8	Decrease:T13 Theme:T22
+T14	Cause 258 264	result
+E9	Cause:T14 Agent:E7 Theme:E8
+T15	Variable 345 352	climate
+T16	Change 353 359	change
+E10	Change:T16 Theme:T15
+T17	Variable 734 746	biodiversity
+T18	Decrease 726 730	loss
+E11	Decrease:T18 Theme:T17
+T19	Variable 801 814	organism size
+T20	Decrease 788 797	decreases
+E12	Decrease:T20 Theme:T19
+T21	Cause 766 772	result
+E13	Cause:T21 Agent:E12 Theme:E11
+T22	Variable 210 222	Many species
+#1	AnnotatorNotes E8	I cannot annotate "size of the many species" as the variable
+T12	Decrease 313 319	shrink
+E14	Decrease:T12 Theme:T23
+T23	Variable 292 298	others
+T24	Cause 323 331	response
+E15	Cause:T24 Agent:E10 Theme:E14

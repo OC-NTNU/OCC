@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ismej.2014.254#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Llorens_Mar_s_2015,
+	doi = {10.1038/ismej.2014.254},
+	url = {https://doi.org/10.1038%2Fismej.2014.254},
+	year = 2015,
+	month = {jan},
+	publisher = {Springer Nature},
+	volume = {9},
+	number = {7},
+	pages = {1648--1661},
+	author = {Tom{\`{a}}s Llorens-Mar{\`{e}}s and Shibu Yooseph and Johannes Goll and Jeff Hoffman and Maria Vila-Costa and Carles M Borrego and Chris L Dupont and Emilio O Casamayor},
+	title = {Connecting biodiversity and potential functional role in modern euxinic environments by microbial metagenomics},
+	journal = {The {ISME} Journal}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ismej.2014.254</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Connecting biodiversity and potential functional role in modern euxinic environments by microbial metagenomics
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>111</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>111</offset>
+        <text>Stratified sulfurous lakes are appropriate environments for studying the links between composition and functionality in microbial communities and are potentially modern analogs of anoxic conditions prevailing in the ancient ocean.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>342</offset>
+        <text>We explored these aspects in the Lake Banyoles karstic area (NE Spain) through metagenomics and in silico reconstruction of carbon, nitrogen and sulfur metabolic pathways that were tightly coupled through a few bacterial groups.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>571</offset>
+        <text>The potential for nitrogen fixation and denitrification was detected in both autotrophs and heterotrophs, with a major role for nitrogen and carbon fixations in Chlorobiaceae.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="589"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="598"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="46" offset="699"/>
+          <text>nitrogen and carbon fixations in Chlorobiaceae</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="611"/>
+          <text>denitrification</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="607"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="690"/>
+          <text>role</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Change"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="I_Decrease"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="And"/>
+          <node refid="E1" role="Part"/>
+          <node refid="E3" role="Part2"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>747</offset>
+        <text>Campylobacterales accounted for a large percentage of denitrification genes, while Gallionellales were putatively involved in denitrification, iron oxidation and carbon fixation and may have a major role in the biogeochemistry of the iron cycle.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="801"/>
+          <text>denitrification</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="817"/>
+          <text>genes</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="890"/>
+          <text>iron</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="895"/>
+          <text>oxidation</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="909"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="916"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="905"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="873"/>
+          <text>denitrification</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="993"/>
+          <text>Bacteroidales</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Decrease"/>
+          <node refid="T8" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="And"/>
+          <node refid="E10" role="Part"/>
+          <node refid="E7" role="Part2"/>
+          <node refid="E8" role="Part3"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="I_Decrease"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="I_Increase"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>993</offset>
+        <text>Bacteroidales were also abundant and showed potential for dissimilatory nitrate reduction to ammonium.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1065"/>
+          <text>nitrate</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1073"/>
+          <text>reduction</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1030"/>
+          <text>showed</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Decrease"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Cause"/>
+          <node refid="E12" role="Agent"/>
+          <node refid="E11" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1096</offset>
+        <text>The very low abundance of genes for nitrification, the minor presence of anammox genes, the high potential for nitrogen fixation and mineralization and the potential for chemotrophic CO2 fixation and CO oxidation all provide potential clues on the anoxic zones functioning.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1207"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1216"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="1266"/>
+          <text>chemotrophic CO2</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1283"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="1296"/>
+          <text>CO</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1299"/>
+          <text>oxidation</text>
+        </annotation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Increase"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1370</offset>
+        <text>We observed higher gene abundance of ammonia-oxidizing bacteria than ammonia-oxidizing archaea that may have a geochemical and evolutionary link related to the dominance of Fe in these environments.
+</text>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="1543"/>
+          <text>Fe</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1530"/>
+          <text>dominance</text>
+        </annotation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Increase"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1569</offset>
+        <text>Overall, these results offer a more detailed perspective on the microbial ecology of anoxic environments and may help to develop new geochemical proxies to infer biology and chemistry interactions in ancient ecosystems.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

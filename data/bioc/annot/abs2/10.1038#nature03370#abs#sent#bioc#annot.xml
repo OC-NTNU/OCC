@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nature03370#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Michael_Beman_2005,
+	doi = {10.1038/nature03370},
+	url = {https://doi.org/10.1038%2Fnature03370},
+	year = 2005,
+	month = {mar},
+	publisher = {Springer Nature},
+	volume = {434},
+	number = {7030},
+	pages = {211--214},
+	author = {J. Michael Beman and Kevin R. Arrigo and Pamela A. Matson},
+	title = {Agricultural runoff fuels large phytoplankton blooms in vulnerable areas of the ocean},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nature03370</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Agricultural runoff fuels large phytoplankton blooms in vulnerable areas of the ocean
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="26"/>
+          <text>large phytoplankton</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="46"/>
+          <text>blooms</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="0"/>
+          <text>Agricultural runoff</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="20"/>
+          <text>fuels</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="53" offset="86"/>
+          <text>Biological productivity in most of the world's oceans</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Decrease"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="I_Change"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>86</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>86</offset>
+        <text>Biological productivity in most of the world's oceans is controlled by the supply of nutrients to surface waters.
+</text>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="171"/>
+          <text>nutrients</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="161"/>
+          <text>supply</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="143"/>
+          <text>controlled</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E6" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>200</offset>
+        <text>The relative balance between supply and removal of nutrients--including nitrogen, iron and phosphorus--determines which nutrient limits phytoplankton growth.
+</text>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="251"/>
+          <text>nutrients</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="229"/>
+          <text>supply</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="240"/>
+          <text>removal</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="336"/>
+          <text>phytoplankton growth</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="236"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="329"/>
+          <text>limits</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="320"/>
+          <text>nutrient</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Decrease"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="And"/>
+          <node refid="E7" role="Part"/>
+          <node refid="E8" role="Part2"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Decrease"/>
+          <node refid="T12" role="Theme"/>
+          <node refid="T14" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>358</offset>
+        <text>Although nitrogen limits productivity in much of the ocean, large portions of the tropics and subtropics are defined by extreme nitrogen depletion.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="383"/>
+          <text>productivity</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="376"/>
+          <text>limits</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="367"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="486"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="495"/>
+          <text>depletion</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Decrease"/>
+          <node refid="T15" role="Theme"/>
+          <node refid="T18" role="Agent"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Decrease"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>506</offset>
+        <text>In these regions, microbial denitrification removes biologically available forms of nitrogen from the water column, producing substantial deficits relative to other nutrients.
+</text>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="62" offset="558"/>
+          <text>biologically available forms of nitrogen from the water column</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="550"/>
+          <text>removes</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="25" offset="524"/>
+          <text>microbial denitrification</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="36" offset="644"/>
+          <text>deficits relative to other nutrients</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="622"/>
+          <text>producing</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Decrease"/>
+          <node refid="T21" role="Theme"/>
+          <node refid="E14" role="Agent"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T23" role="I_Decrease"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T25" role="Increase"/>
+          <node refid="T24" role="Theme"/>
+          <node refid="E14" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>682</offset>
+        <text>Here we demonstrate that nitrogen-deficient areas of the tropical and subtropical oceans are acutely vulnerable to nitrogen pollution.
+</text>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="797"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="806"/>
+          <text>pollution</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="707"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="716"/>
+          <text>deficient</text>
+        </annotation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="Increase"/>
+          <node refid="T26" role="Theme"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T29" role="Decrease"/>
+          <node refid="T28" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>817</offset>
+        <text>Despite naturally high nutrient concentrations and productivity, nitrogen-rich agricultural runoff fuels large (54-577 km2) phytoplankton blooms in the Gulf of California.
+</text>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="840"/>
+          <text>nutrient concentrations</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="868"/>
+          <text>productivity</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="864"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="835"/>
+          <text>high</text>
+        </annotation>
+        <annotation id="T34">
+          <infon key="brat-id">T34</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="941"/>
+          <text>phytoplankton</text>
+        </annotation>
+        <annotation id="T35">
+          <infon key="brat-id">T35</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="955"/>
+          <text>blooms</text>
+        </annotation>
+        <annotation id="T36">
+          <infon key="brat-id">T36</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="916"/>
+          <text>fuels</text>
+        </annotation>
+        <annotation id="T37">
+          <infon key="brat-id">T37</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="33" offset="882"/>
+          <text>nitrogen-rich agricultural runoff</text>
+        </annotation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T32" role="And"/>
+          <node refid="T30" role="Part"/>
+          <node refid="T31" role="Part2"/>
+        </relation>
+        <relation id="E19">
+          <infon key="brat-id">E19</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T33" role="Increase"/>
+          <node refid="E18" role="Theme"/>
+        </relation>
+        <relation id="E20">
+          <infon key="brat-id">E20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T35" role="Increase"/>
+          <node refid="T34" role="Theme"/>
+        </relation>
+        <relation id="E21">
+          <infon key="brat-id">E21</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T36" role="Cause"/>
+          <node refid="E20" role="Theme"/>
+          <node refid="E22" role="Agent"/>
+        </relation>
+        <relation id="E22">
+          <infon key="brat-id">E22</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T37" role="I_Decrease"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>989</offset>
+        <text>Runoff exerts a strong and consistent influence on biological processes, in 80% of cases stimulating blooms within days of fertilization and irrigation of agricultural fields.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1165</offset>
+        <text>We project that by the year 2050, 27-59% of all nitrogen fertilizer will be applied in developing regions located upstream of nitrogen-deficient marine ecosystems.
+</text>
+        <annotation id="T38">
+          <infon key="brat-id">T38</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1291"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T39">
+          <infon key="brat-id">T39</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1300"/>
+          <text>deficient</text>
+        </annotation>
+        <relation id="E23">
+          <infon key="brat-id">E23</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T39" role="Decrease"/>
+          <node refid="T38" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">10</infon>
+        <offset>1329</offset>
+        <text>Our findings highlight the present and future vulnerability of these ecosystems to agricultural runoff.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

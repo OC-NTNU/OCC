@@ -1,0 +1,49 @@
+T1	Variable 39 44	ocean
+T2	Increase 45 58	acidification
+E1	Increase:T2 Theme:T1
+T3	Variable 164 201	ocean inorganic carbon concentrations
+T4	Increase 152 160	increase
+E2	Increase:T4 Theme:T3
+T5	Variable 229 237	water pH
+T6	Variable 242 270	calcium carbonate saturation
+T7	And 238 241	and
+E3	And:T7 Part:T5 Part2:T6
+T8	Decrease 219 228	decreased
+E4	Decrease:T8 Theme:E3
+T9	Variable 59 76	Anthropogenic CO2
+T10	Increase 77 84	emitted
+E5	Increase:T10 Theme:T9
+T11	Cause 130 137	causing
+E6	Cause:T11 
+T12	Variable 296 301	ocean
+T13	Increase 302 315	acidification
+E7	Increase:T13 Theme:T12
+T14	Variable 358 361	CO2
+T15	Increase 362 371	emissions
+E8	Increase:T15 Theme:T14
+T16	Variable 373 378	Ocean
+T17	Increase 379 392	acidification
+E9	Increase:T17 Theme:T16
+T19	I_Change 421 432	ocean biota
+E10	I_Change:T19 
+T18	Cause 414 420	affect
+E11	Cause:T18 Agent:E9 Theme:E10
+T20	Variable 794 797	CO2
+T21	Change 798 812	concentrations
+E12	Change:T21 Theme:T20
+T22	Variable 972 985	invertebrates
+T23	Decrease 966 971	lower
+E13	Decrease:T23 Theme:T22
+T24	Variable 1178 1183	ocean
+T25	Increase 1184 1197	acidification
+E14	Increase:T25 Theme:T24
+T26	Variable 1236 1265	ocean ecosystems this century
+T27	Change 1226 1232	change
+E15	Change:T27 Theme:T26
+T28	Cause 1203 1209	driver
+E16	Cause:T28 Agent:E14 Theme:E15
+T29	Cause 1279 1286	leading
+E17	Cause:T29 Agent:E15 Theme:E18
+T30	Variable 1310 1329	species composition
+T31	Change 1300 1306	shifts
+E18	Change:T31 Theme:T30

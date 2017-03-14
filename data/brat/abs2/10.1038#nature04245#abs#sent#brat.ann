@@ -1,0 +1,64 @@
+T1	Variable 8 14	mixing
+T2	Decrease 0 7	Reduced
+E1	Decrease:T2 Theme:T1
+T3	Variable 51 87	the oceanic deep chlorophyll maximum
+T6	Change 25 37	oscillations
+E4	Change:T6 Theme:T3
+T7	Cause 15 24	generates
+E5	Cause:T7 Agent:E1 Theme:E4
+#1	AnnotatorNotes E5	"oscillations" and "chaos" are both change indicator and theme of cause(generates)
+T8	Variable 198 223	chlorophyll concentration
+T9	Increase 193 197	high
+E6	Increase:T9 Theme:T8
+T10	Variable 248 261	phytoplankton
+T11	Increase 262 268	growth
+E7	Increase:T11 Theme:T10
+T12	Variable 313 318	light
+T13	Increase 319 327	supplied
+E8	Increase:T13 Theme:T12
+T14	Variable 343 352	nutrients
+T15	Increase 353 361	supplied
+E9	Increase:T15 Theme:T14
+T16	Variable 460 475	vertical mixing
+T17	Decrease 452 459	reduced
+E10	Decrease:T17 Theme:T16
+T18	Variable 515 568	phytoplankton biomass and species composition of DCMs
+T19	Change 489 501	oscillations
+E11	Change:T19 Theme:T18
+T22	Cause 480 488	generate
+E14	Cause:T22 Agent:E10 Theme:E11
+T23	Change 576 588	fluctuations
+E15	Change:T23 Theme:T24
+T24	RefExp 570 575	These
+R1	Coref Expression:T24 Antecedent:T18	
+T25	Variable 672 688	sinking plankton
+T26	Change 662 668	export
+E16	Change:T26 Theme:T25
+T27	Variable 702 711	nutrients
+T28	Decrease 690 701	withdrawing
+E17	Decrease:T28 Theme:T27
+T29	Variable 765 812	nutrients fuelling new phytoplankton production
+T30	Change 757 761	flux
+E18	Change:T30 Theme:T29
+T33	Variable 869 898	vertical mixing in the oceans
+T34	Decrease 862 868	reduce
+E21	Decrease:T34 Theme:T33 Agent:E22
+T35	I_Increase 842 856	global warming
+E22	I_Increase:T35 
+T36	Variable 933 939	mixing
+T37	Decrease 925 932	reduced
+E23	Decrease:T37 Theme:T36
+T38	Variable 974 978	DCMs
+T39	Change 959 970	variability
+E24	Change:T39 Theme:T38
+T40	Cause 945 953	generate
+E25	Cause:T40 Agent:E23 Theme:E24
+T41	Variable 998 1039	variability in oceanic primary production
+T43	Variable 1044 1084	in carbon export into the ocean interior
+T42	Increase 988 997	enhancing
+E26	Increase:T42 Theme:E27
+T44	And 1040 1043	and
+E27	And:T44 Part:T41 Part2:T43
+T45	Cause 980 987	thereby
+E28	Cause:T45 Agent:E24 Theme:E27
+#2	AnnotatorNotes T18	I lack the understanding for a more detail annotation

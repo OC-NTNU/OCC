@@ -1,0 +1,28 @@
+T1	Variable 69 85	marine particles
+T2	Change 61 68	sinking
+E1	Change:T2 Theme:T1
+T3	Variable 101 127	particulate organic matter
+T4	Change 90 97	sinking
+E2	Change:T4 Theme:T3
+T5	Variable 165 171	carbon
+T6	Change 154 164	transports
+E3	Change:T6 Theme:T5
+T7	Variable 333 339	carbon
+T8	Change 320 332	sequestering
+E4	Change:T8 Theme:T7
+T9	I_Decrease 359 400	atmospheric carbon dioxide concentrations
+E5	I_Decrease:T9 
+T10	Cause 347 358	influencing
+E6	Cause:T10 Agent:E4 Theme:E5
+T11	Variable 460 477	sinking particles
+T12	Decrease 442 456	biodegradation
+E7	Decrease:T12 Theme:T11
+T13	Variable 778 796	particulate matter
+T14	Change 770 777	sinking
+E8	Change:T14 Theme:T13
+T15	Variable 880 904	bulk organic composition
+T16	Change 863 870	changes
+E9	Change:T16 Theme:T15
+T17	Variable 1517 1526	particles
+T18	Change 1509 1516	sinking
+E10	Change:T18 Theme:T17

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ismej.2014.119#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Bentzon_Tilia_2014,
+	doi = {10.1038/ismej.2014.119},
+	url = {https://doi.org/10.1038%2Fismej.2014.119},
+	year = 2014,
+	month = {jul},
+	publisher = {Springer Nature},
+	volume = {9},
+	number = {2},
+	pages = {273--285},
+	author = {Mikkel Bentzon-Tilia and Sachia J Traving and Mustafa Mantikci and Helle Knudsen-Leerbeck and J{\o}rgen LS Hansen and Stiig Markager and Lasse Riemann},
+	title = {Significant N2 fixation by heterotrophs, photoheterotrophs and heterocystous cyanobacteria in two temperate estuaries},
+	journal = {The {ISME} Journal}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ismej.2014.119</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Significant N2 fixation by heterotrophs, photoheterotrophs and heterocystous cyanobacteria in two temperate estuaries
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="12"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="15"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="118"/>
+          <text>Nitrogen</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>118</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>118</offset>
+        <text>Nitrogen (N) fixation is fueling planktonic production in a multitude of aquatic environments.
+</text>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="131"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="143"/>
+          <text>fueling</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="60" offset="151"/>
+          <text>planktonic production in a multitude of aquatic environments</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Cause"/>
+          <node refid="E4" role="Theme"/>
+          <node refid="E2" role="Agent"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="I_Increase"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>213</offset>
+        <text>In meso- and poly-haline estuaries, however, the contribution of N by pelagic N2 fixation is believed to be insignificant due to the high input of N from land and the presumed absence of active N2-fixing organisms.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="351"/>
+          <text>input of N from land</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="346"/>
+          <text>high</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="283"/>
+          <text>pelagic N2</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="294"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="407"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="410"/>
+          <text>fixing</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Increase"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>428</offset>
+        <text>Here we report N2 fixation rates, nifH gene composition and nifH gene transcript abundance for key diazotrophic groups over 1 year in two contrasting, temperate, estuarine systems: Roskilde Fjord (RF) and the Great Belt (GB) strait.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="443"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="446"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="661"/>
+          <text>Annual pelagic N2</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>661</offset>
+        <text>Annual pelagic N2 fixation rates averaged 17 and 61 mmol N m-2 per year at the two sites, respectively.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="679"/>
+          <text>fixation</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>765</offset>
+        <text>In RF, N2 fixation was mainly accompanied by transcripts related to heterotrophic (for example, Pseudomonas sp.)
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="772"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="775"/>
+          <text>fixation</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>878</offset>
+        <text>and photoheterotrophic bacteria (for example, unicellular diazotrophic cyanobacteria group A).
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>973</offset>
+        <text>In the GB, the first of two N2 fixation peaks coincided with a similar nifH-expressing community as in RF, whereas the second peak was synchronous with increased nifH expression by an array of diazotrophs, including heterotrophic organisms as well as the heterocystous cyanobacterium Anabaena.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="1135"/>
+          <text>nifH expression</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1125"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="1001"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1004"/>
+          <text>fixation</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1267</offset>
+        <text>Thus, we show for the first time that significant planktonic N2 fixation takes place in mesohaline, temperate estuaries and that the importance of heterotrophic, photoheterotrophic and photosynthetic diazotrophs is clearly variable in space and time.
+</text>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="1317"/>
+          <text>planktonic N2</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1331"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="82" offset="1396"/>
+          <text>the importance of heterotrophic, photoheterotrophic and photosynthetic diazotrophs</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1490"/>
+          <text>variable</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Change"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Change"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

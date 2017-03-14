@@ -1,0 +1,36 @@
+T1	Variable 62 88	intertidal benthic diatoms
+T2	Increase 0 6	Growth
+E1	Increase:T2 Theme:T1
+T3	Variable 92 119	intertidal marine sediments
+T4	Change 146 157	fluctuating
+E2	Change:T4 Theme:T3
+T5	Variable 649 696	regulatory physiological photoprotective traits
+T6	Increase 644 648	fast
+E3	Increase:T6 Theme:T5
+T7	Variable 979 982	NPQ
+T8	Decrease 975 978	low
+E4	Decrease:T8 Theme:T7
+T9	Variable 896 899	NPQ
+T10	Increase 877 884	highest
+E5	Increase:T10 Theme:T9
+T11	Decrease 889 895	lowest
+E6	Decrease:T11 Theme:T9
+T12	And 885 888	and
+E7	And:T12 Part:E5 Part2:E6
+T13	Increase 1018 1023	grown
+E8	Increase:T13 Theme:T14
+T14	RefExp 1008 1012	they
+T15	Variable 965 970	TYCHO
+R1	Coref Expression:T14 Antecedent:T15	
+T16	Variable 1095 1112	light environment
+T17	Decrease 1091 1094	low
+E9	Decrease:T17 Theme:T16
+T18	Variable 1315 1341	intertidal benthic diatoms
+T19	Increase 1342 1348	growth
+E10	Increase:T19 Theme:T18
+T20	Variable 1635 1640	forms
+T21	Increase 1628 1634	growth
+E11	Increase:T21 Theme:T20
+T23	Variable 1696 1700	form
+T22	Increase 1689 1695	growth
+E12	Increase:T22 Theme:T23

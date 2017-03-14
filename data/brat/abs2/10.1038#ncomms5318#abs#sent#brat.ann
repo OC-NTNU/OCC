@@ -1,0 +1,28 @@
+T1	Variable 128 135	climate
+T2	Change 136 147	variability
+E1	Change:T2 Theme:T1
+T3	I_Change 156 192	multiple trophic levels in food webs
+E2	I_Change:T3 
+T4	Cause 148 155	affects
+E3	Cause:T4 Agent:E1 Theme:E2
+T5	Variable 819 836	winter ice extent
+T6	Variable 841 849	duration
+T7	And 837 840	and
+E4	And:T7 Part:T5 Part2:T6
+T8	Increase 809 818	increased
+E5	Increase:T8 Theme:E4
+T9	Variable 859 878	spring/summer winds
+T10	Decrease 851 858	reduced
+E6	Decrease:T10 Theme:T9
+T11	Variable 894 963	water column stability via enhanced salinity-driven density gradients
+T12	Increase 884 893	increased
+E7	Increase:T12 Theme:T11
+T13	I_Change 1249 1270	phytoplankton biomass
+E8	I_Change:T13 
+T15	Cause 1239 1245	impact
+E10	Cause:T15 Agent:E9 Theme:E8
+#1	AnnotatorNotes E10	how to annotate this?
+T14	Variable 1176 1183	climate
+T16	Change 1184 1190	change
+E9	Change:T16 Theme:T14
+A1	Negated E10

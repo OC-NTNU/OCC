@@ -1,0 +1,29 @@
+T1	Variable 70 84	carbon dioxide
+T2	Decrease 85 92	release
+E1	Decrease:T2 Theme:T1
+T3	Variable 104 149	concentrations of carbon dioxide in sea water
+T4	Increase 93 103	Increasing
+E2	Increase:T4 Theme:T3
+T5	I_Increase 164 202	progressive acidification of the ocean
+E3	I_Increase:T5 
+T6	Cause 154 161	driving
+E4	Cause:T6 Agent:E2 Theme:E3
+T7	Variable 239 289	the carbonate chemistry of surface and deep waters
+T8	Change 228 235	changes
+E5	Change:T8 Theme:T7
+T9	I_Change 311 338	marine calcifying organisms
+E6	I_Change:T9 
+T10	Cause 304 310	affect
+E7	Cause:T10 Agent:E5 Theme:E6
+T11	Variable 587 635	the biodiversity of benthic calcifying organisms
+T12	Decrease 636 645	decreased
+E8	Decrease:T12 Theme:T11
+T13	Variable 808 821	environmental
+T14	Change 822 829	changes
+E9	Change:T14 Theme:T13
+T15	Variable 905 967	an undersaturation with respect to carbonate in the deep ocean
+T16	Increase 973 980	exceeds
+E10	Increase:T16 Theme:T15
+T17	Variable 1125 1169	rates of environmental change at the surface
+T18	Increase 1118 1124	higher
+E11	Increase:T18 Theme:T17

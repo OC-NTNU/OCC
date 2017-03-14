@@ -1,0 +1,50 @@
+T4	Cause 74 83	influence
+E2	Cause:T4 Theme:E15 Agent:E1
+T5	RefExp 114 116	it
+T8	And 185 188	and
+E3	And:T8 Part:E16 Part2:E17
+T9	Cause 126 133	impacts
+E4	Cause:T9 Theme:E3 Agent:T5
+T10	Variable 596 609	phytoplankton
+T11	Increase 580 592	accumulation
+E5	Increase:T11 Theme:T10
+T12	Decrease 631 641	decreasing
+E6	Decrease:T12 Theme:T16
+T16	Variable 642 663	their division rates.
+T18	Change 696 703	changes
+E9	Change:T18 Theme:T19
+T19	Variable 707 735	phytoplankton division rates
+T20	Variable 778 785	grazing
+T21	Change 767 774	changes
+E10	Change:T21 Theme2:E11
+T22	Variable 787 799	viral attack
+T23	Variable 804 820	other loss rates
+T24	And 800 803	and
+E11	And:T24 Part:T20 Part2:T22 Part3:T23
+T25	Variable 905 926	phytoplankton biomass
+T26	Increase 964 970	blooms
+E12	Increase:T26 Theme:T25
+#1	AnnotatorNotes T16	'there' is not resolved
+T3	I_Change 84 105	global ocean plankton
+E15	I_Change:T3 
+T6	I_Change 139 184	the availability of growth-limiting resources
+E16	I_Change:T6 
+T7	I_Change 189 263	the ecological processes governing biomass distributions and annual cycles
+E17	I_Change:T7 
+T1	Variable 39 46	Climate
+T2	Change 47 53	change
+E1	Change:T2 Theme:T1
+R1	Coref Expression:T5 Antecedent:E1	
+T28	RefExp 277 281	this
+T29	Change 282 288	change
+E18	Change:T29 Theme:T28
+R2	Coref Expression:T28 Antecedent:T1	
+T13	I_Change 506 524	physical processes
+E7	I_Change:T13 
+T14	Cause 569 576	trigger
+E8	Cause:T14 Agent:E7 Theme:E19
+T17	And 616 630	simultaneously
+E19	And:T17 Part:E5 Part2:E6
+T30	Variable 1024 1064	ocean ecosystems under a warming climate
+T31	Change 1014 1020	change
+E20	Change:T31 Theme:T30

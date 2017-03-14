@@ -1,0 +1,32 @@
+T1	Variable 102 116	carbon dioxide
+T2	Increase 123 131	released
+E1	Increase:T2 Theme:T1
+T3	Decrease 191 199	absorbed
+E2	Decrease:T3 Theme:T1
+T4	Variable 544 561	oceanic carbonate
+T5	Increase 562 572	production
+E3	Increase:T5 Theme:T4
+T6	Variable 681 684	CO2
+T7	Increase 671 680	increased
+E4	Increase:T7 Theme:T6
+T8	I_Increase 638 667	coccolithophore calcification
+E5	I_Increase:T8 
+T9	Cause 626 634	response
+E6	Cause:T9 Agent:E5 Theme:E4
+T10	Variable 920 933	calcification
+T11	Decrease 909 919	decreasing
+E7	Decrease:T11 Theme:T10
+T12	Variable 950 973	partial pressure of CO2
+T13	Increase 939 949	increasing
+E8	Increase:T13 Theme:T12
+T14	And 934 938	with
+E9	And:T14 Part:E7 Part2:E8
+T15	Variable 1001 1023	concentrations of CO32
+T16	Decrease 990 1000	decreasing
+E10	Decrease:T16 Theme:T15
+T17	Variable 1200 1206	carbon
+T18	Change 1207 1212	cycle
+E11	Change:T18 Theme:T17
+T19	Variable 1419 1421	pH
+T20	Decrease 1415 1418	low
+E12	Decrease:T20 Theme:T19

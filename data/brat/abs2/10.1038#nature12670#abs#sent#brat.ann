@@ -1,0 +1,40 @@
+T1	Variable 14 34	soil nutrient cycles
+T2	Change 0 10	Decoupling
+E1	Change:T2 Theme:T1
+T3	Variable 275 296	the C, N and P cycles
+T4	Change 310 319	uncoupled
+E2	Change:T4 Theme:T3
+T5	Variable 332 339	climate
+T6	Change 340 346	change
+E3	Change:T6 Theme:T5
+T7	Cause 320 325	under
+E4	Cause:T7 Agent:E3 Theme:E2
+T8	Variable 690 697	aridity
+T9	Increase 678 686	increase
+E5	Increase:T9 Theme:T8
+T10	Variable 846 885	the availability of essential nutrients
+T11	Change 836 845	affecting
+E6	Change:T11 Theme:T10 Agent:E5
+T12	I_Change 787 819	the balance between these cycles
+E7	I_Change:T12 
+T13	Cause 778 786	threaten
+E8	Cause:T13 Theme:E7 Agent:E5
+T14	Variable 924 963	the balance between C, N and P in soils
+T15	Change 916 923	affects
+E9	Change:T15 Theme:T14 Agent:E10
+T16	I_Change 908 915	aridity
+E10	I_Change:T16 
+T17	Variable 1478 1485	aridity
+T18	Increase 1466 1474	increase
+E11	Increase:T18 Theme:T17
+T19	Variable 1491 1498	climate
+T20	Change 1499 1505	change
+E12	Change:T20 Theme:T19
+T21	And 1486 1490	with
+E13	And:T21 Part:E11 Part2:E12
+T22	Variable 1527 1575	the concentrations of N and C in global drylands
+T23	Decrease 1520 1526	reduce
+E14	Decrease:T23 Theme:T22 Agent:E13
+T24	Variable 1590 1599	that of P
+T25	Increase 1581 1589	increase
+E15	Increase:T25 Theme:T24 Agent:E13

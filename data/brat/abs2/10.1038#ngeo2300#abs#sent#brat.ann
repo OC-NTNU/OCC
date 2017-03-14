@@ -1,0 +1,35 @@
+T1	Variable 26 80	the stoichiometry of marine organic matter respiration
+T2	Change 12 22	variations
+E1	Change:T2 Theme:T1
+T3	Variable 303 386	the ratios of these essential elements removed from surface waters by phytoplankton
+T4	Change 290 299	variation
+E2	Change:T4 Theme:T3
+T5	RefExp 410 414	this
+R1	Coref Expression:T5 Antecedent:T3	
+T6	Change 415 426	variability
+E3	Change:T6 Theme:T5
+T7	Variable 506 511	ocean
+T8	Change 512 523	circulation
+E4	Change:T8 Theme:T7
+T9	Variable 670 787	latitudes in the amount of dissolved oxygen consumed per unit of phosphate released during organic matter respiration
+T10	Change 653 662	variation
+E5	Change:T10 Theme:T9
+T11	Change 855 861	modify
+E6	Change:T11 Theme:T12
+T12	Variable 862 938	the extent and distribution of low-oxygen water masses in the interior ocean
+T13	Variable 1145 1159	light exposure
+T14	Increase 1133 1141	increase
+E7	Increase:T14 Theme:T13
+T15	Variable 1176 1198	nutrient concentration
+T16	Decrease 1164 1172	decrease
+E8	Decrease:T16 Theme:T15
+T17	Cause 1205 1210	raise
+E9	Cause:T17 Agent:E11 Theme:E13
+T21	And 1160 1163	and
+E11	And:T21 Part:E7 Part2:E8
+T18	I_Increase 1211 1241	the C:P ratio of phytoplankton
+E10	I_Increase:T18 
+T19	I_Increase 1247 1307	the associated carbon storage by the ocean's biological pump
+E12	I_Increase:T19 
+T20	And 1243 1246	and
+E13	And:T20 Part:E10 Part2:E12

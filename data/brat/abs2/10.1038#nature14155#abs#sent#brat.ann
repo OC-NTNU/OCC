@@ -1,0 +1,50 @@
+T1	Variable 87 102	Atmospheric CO2
+T2	Change 103 115	fluctuations
+E1	Change:T2 Theme:T1
+T3	Variable 281 317	glacial-interglacial atmospheric CO2
+T4	Change 318 328	variations
+E2	Change:T4 Theme:T3
+T5	Variable 347 372	deep-ocean carbon storage
+T6	Change 336 343	changes
+E3	Change:T6 Theme:T5
+T8	Variable 632 647	atmospheric CO2
+T9	Increase 648 652	rise
+E5	Increase:T9 Theme:T8
+T10	Variable 727 755	surface ocean carbon content
+T11	Variable 787 811	carbon to the atmosphere
+T19	Variable 1074 1093	deglacial upwelling
+T20	Increase 1064 1073	increased
+E11	Increase:T20 Theme:T19
+T21	Variable 1633 1669	the concentration of atmospheric CO2
+T22	Increase 1674 1684	increasing
+E12	Increase:T22 Theme:T21
+T23	Variable 1691 1702	oceanic CO2
+T24	Decrease 1703 1713	outgassing
+E13	Decrease:T24 Theme:T23
+T25	Variable 1115 1144	proportion of upwelled carbon
+T26	Decrease 1153 1161	degassed
+E14	Decrease:T26 Theme:T25
+T27	Variable 1403 1414	oceanic CO2
+T28	Decrease 1415 1425	outgassing
+E15	Decrease:T28 Theme:T27
+T29	Variable 1830 1843	deglacial CO2
+T30	Increase 1844 1848	rise
+E16	Increase:T30 Theme:T29
+T31	Variable 27 49	oceanic carbon dioxide
+T32	Decrease 50 57	leakage
+E17	Decrease:T32 Theme:T31
+T7	Cause 329 335	invoke
+E4	Cause:T7 Agent:E3 Theme:E2
+T12	Change 716 723	changes
+E6	Change:T12 Theme:T10
+T13	Change 775 783	transfer
+E7	Change:T13 Theme:T11
+T14	Correlate 764 774	associated
+E8	Correlate:T14 Theme:E6 Co-theme:E7
+T15	Change 973 980	changes
+E9	Change:T15 Theme:T16
+T16	Variable 984 1001	ocean ventilation
+#1	AnnotatorNotes E14	is this a decrease trigger to the variable ?
+T17	Variable 2026 2032	carbon
+T18	Change 2014 2022	exchange
+E10	Change:T18 Theme:T17

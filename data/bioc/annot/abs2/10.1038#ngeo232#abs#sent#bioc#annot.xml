@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ngeo232#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Mather_2008,
+	doi = {10.1038/ngeo232},
+	url = {https://doi.org/10.1038%2Fngeo232},
+	year = 2008,
+	month = {jun},
+	publisher = {Springer Nature},
+	volume = {1},
+	number = {7},
+	pages = {439--443},
+	author = {Rhiannon L. Mather and Sarah E. Reynolds and George A. Wolff and Richard G. Williams and Sinhue Torres-Valdes and E. Malcolm S. Woodward and Angela Landolfi and Xi Pan and Richard Sanders and Eric P. Achterberg},
+	title = {Phosphorus cycling in the North and South Atlantic Ocean subtropical gyres},
+	journal = {Nature Geoscience}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ngeo232</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Phosphorus cycling in the North and South Atlantic Ocean subtropical gyres
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>75</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>75</offset>
+        <text>Despite similar physical properties, the Northern and Southern Atlantic subtropical gyres have different biogeochemical regimes.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>204</offset>
+        <text>The Northern subtropical gyre, which is subject to iron deposition from Saharan dust, is depleted in the nutrient phosphate, possibly as a result of iron-enhanced nitrogen fixation.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="255"/>
+          <text>iron</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="260"/>
+          <text>deposition</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="305"/>
+          <text>the nutrient phosphate</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="293"/>
+          <text>depleted</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="367"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="376"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="343"/>
+          <text>result</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Decrease"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Cause"/>
+          <node refid="E3" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>386</offset>
+        <text>Although phosphate depleted, rates of carbon fixation in the euphotic zone of the North Atlantic subtropical gyre are comparable to those of the South Atlantic subtropical gyre, which is not phosphate limited.
+</text>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="395"/>
+          <text>phosphate</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="405"/>
+          <text>depleted</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="424"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="431"/>
+          <text>fixation</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Decrease"/>
+          <node refid="T8" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Change"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>596</offset>
+        <text>Here we use the activity of the phosphorus-specific enzyme alkaline phosphatase to show potentially enhanced utilization of dissolved organic phosphorus occurring over much of the North Atlantic subtropical gyre.
+</text>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="102" offset="705"/>
+          <text>utilization of dissolved organic phosphorus occurring over much of the North Atlantic subtropical gyre</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="696"/>
+          <text>enhanced</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>809</offset>
+        <text>We find that during the boreal spring up to 30% of primary production in the North Atlantic gyre is supported by dissolved organic phosphorus.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>952</offset>
+        <text>Our diagnostics and composite map of the surface distribution of dissolved organic phosphorus in the subtropical Atlantic Ocean reveal shorter residence times in the North Atlantic gyre than the South Atlantic gyre.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1168</offset>
+        <text>We interpret the asymmetry of dissolved organic phosphorus cycling in the two gyres as a consequence of enhanced nitrogen fixation in the North Atlantic Ocean, which forces the system towards phosphorus limitation.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="28" offset="1198"/>
+          <text>dissolved organic phosphorus</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1227"/>
+          <text>cycling</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="1281"/>
+          <text>nitrogen fixation</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1272"/>
+          <text>enhanced</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Change"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Increase"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1383</offset>
+        <text>We suggest that dissolved organic phosphorus utilization may contribute to primary production in other phosphorus-limited ocean settings as well.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

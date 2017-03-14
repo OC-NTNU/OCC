@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nclimate2225#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Williamson_2014,
+	doi = {10.1038/nclimate2225},
+	url = {https://doi.org/10.1038%2Fnclimate2225},
+	year = 2014,
+	month = {may},
+	publisher = {Springer Nature},
+	volume = {4},
+	number = {6},
+	pages = {434--441},
+	author = {Craig E. Williamson and Richard G. Zepp and Robyn M. Lucas and Sasha Madronich and Amy T. Austin and Carlos L. Ballar{\'{e}} and Mary Norval and Barbara Sulzberger and Alkiviadis F. Bais and Richard L. McKenzie and Sharon A. Robinson and Donat-P. HĂ¤der and Nigel D. Paul and Janet F. Bornman},
+	title = {Solar ultraviolet radiation in a changing climate},
+	journal = {Nature Climate Change}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nclimate2225</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Solar ultraviolet radiation in a changing climate
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="42"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="33"/>
+          <text>changing</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>50</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>50</offset>
+        <text>The projected large increases in damaging ultraviolet radiation as a result of global emissions of ozone-depleting substances have been forestalled by the success of the Montreal Protocol.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="30" offset="83"/>
+          <text>damaging ultraviolet radiation</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="70"/>
+          <text>increases</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="149"/>
+          <text>ozone-depleting substances</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="136"/>
+          <text>emissions</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="119"/>
+          <text>result</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Cause"/>
+          <node refid="E3" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>239</offset>
+        <text>New challenges are now arising in relation to climate change.
+</text>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="293"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="285"/>
+          <text>climate</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>301</offset>
+        <text>We highlight the complex interactions between the drivers of climate change and those of stratospheric ozone depletion, and the positive and negative feedbacks among climate, ozone and ultraviolet radiation.
+</text>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="362"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="370"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="390"/>
+          <text>stratospheric ozone</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="410"/>
+          <text>depletion</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Change"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Decrease"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>509</offset>
+        <text>These will result in both risks and benefits of exposure to ultraviolet radiation for the environment and human welfare.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>630</offset>
+        <text>This Review synthesizes these new insights and their relevance in a world where changes in climate as well as in stratospheric ozone are altering exposure to ultraviolet radiation with largely unknown consequences for the biosphere.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="721"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="710"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="33" offset="776"/>
+          <text>exposure to ultraviolet radiation</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="767"/>
+          <text>altering</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="743"/>
+          <text>stratospheric ozone</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="729"/>
+          <text>as well as</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Change"/>
+          <node refid="E10" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Change"/>
+          <node refid="T16" role="Theme"/>
+          <node refid="E8" role="Agent"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="And"/>
+          <node refid="T14" role="Part"/>
+          <node refid="T18" role="Part2"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

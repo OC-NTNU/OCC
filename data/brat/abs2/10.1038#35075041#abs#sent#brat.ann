@@ -1,0 +1,73 @@
+T1	Variable 25 33	nitrogen
+T2	Change 34 42	fixation
+E1	Change:T2 Theme:T1
+T3	Variable 109 129	atmospheric nitrogen
+T4	Change 97 105	fixation
+E2	Change:T4 Theme:T3
+T5	Variable 253 266	phytoplankton
+T6	Cause 225 236	stimulating
+E3	Cause:T6 Agent:E2 Theme:E5
+T7	Variable 290 303	global carbon
+T8	Change 304 309	cycle
+E4	Change:T8 Theme:T7
+T9	Change 237 249	productivity
+E5	Change:T9 Theme:T5
+T10	Cause 274 285	influencing
+E6	Cause:T10 Theme:E4 Agent:E5
+T11	Variable 327 335	nitrogen
+T12	Change 336 344	fixation
+E7	Change:T12 Theme:T11
+T13	Variable 456 472	the new nitrogen
+T14	Increase 429 437	supplies
+E8	Increase:T14 Theme:T13
+T15	Variable 535 559	marine nitrogen fixation
+T16	Change 523 534	controlling
+E9	Change:T16 Theme:T15
+T17	Variable 611 619	nitrogen
+T18	Change 620 628	fixation
+E10	Change:T18 Theme:T17
+T19	I_Change 643 673	iron availability in the ocean
+E11	I_Change:T19 
+T20	Cause 632 639	limited
+E12	Cause:T20 Agent:E11 Theme:E10
+T21	Variable 707 723	iron requirement
+T22	Increase 702 706	high
+E13	Increase:T22 Theme:T21
+T23	Variable 748 773	nitrogen fixing organisms
+T24	Increase 738 744	growth
+E14	Increase:T24 Theme:T23
+T25	Variable 789 824	apparent densities of Trichodesmium
+T26	Increase 782 788	higher
+E15	Increase:T26 Theme:T25
+T27	Variable 886 894	nitrogen
+T28	Change 895 903	fixation
+E16	Change:T28 Theme:T27
+T29	Variable 1046 1054	Nitrogen
+T30	Change 1055 1063	fixation
+E17	Change:T30 Theme:T29
+T31	I_Change 1099 1138	the phosphorus content of Trichodesmium
+E18	I_Change:T31 
+T32	Variable 1166 1176	irradiance
+T33	Increase 1159 1165	higher
+E19	Increase:T33 Theme:T32
+T34	Correlate 1085 1095	correlated
+E20	Correlate:T34 Theme:E17 Co-theme:E18
+T38	Variable 1221 1296	the structural iron requirement for the growth of nitrogen-fixing organisms
+T39	Decrease 1305 1310	lower
+E23	Decrease:T39 Theme:T38
+T41	Variable 1348 1352	iron
+T42	Decrease 1353 1363	deficiency
+E25	Decrease:T42 Theme:T41
+T43	Variable 1404 1465	nitrogen-fixing organisms in regions of low iron availability
+T44	Increase 1394 1400	growth
+E26	Increase:T44 Theme:T43
+T45	Cause 1388 1393	limit
+E27	Cause:T45 Agent:E25 Theme:E26
+T46	Variable 1550 1565	marine nitrogen
+T47	Change 1566 1574	fixation
+E28	Change:T47 Theme:T46
+T48	Cause 1589 1598	regulated
+E29	Cause:T48 Agent:E30 Theme:E28
+T49	Variable 1602 1606	iron
+T50	Increase 1607 1613	supply
+E30	Increase:T50 Theme:T49

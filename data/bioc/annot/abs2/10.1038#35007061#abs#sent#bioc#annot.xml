@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#35007061#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{DiTullio_2000,
+	doi = {10.1038/35007061},
+	url = {https://doi.org/10.1038%2F35007061},
+	year = 2000,
+	month = {apr},
+	publisher = {Springer Nature},
+	volume = {404},
+	number = {6778},
+	pages = {595--598},
+	author = {G. R. DiTullio and J. M. Grebmeier and K. R. Arrigo and M. P. Lizotte and D. H. Robinson and A. Leventer and J. P. Barry and M. L. VanWoert and R. B. Dunbar},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/35007061</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Rapid and early export of Phaeocystis antarctica blooms in the Ross Sea, Antarctica
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="26"/>
+          <text>Phaeocystis antarctica blooms</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="16"/>
+          <text>export</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>84</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>84</offset>
+        <text>The Southern Ocean is very important for the potential sequestration of carbon dioxide in the oceans and is expected to be vulnerable to changes in carbon export forced by anthropogenic climate warming.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="28" offset="156"/>
+          <text>carbon dioxide in the oceans</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="139"/>
+          <text>sequestration</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="232"/>
+          <text>carbon export</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="221"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="270"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="278"/>
+          <text>warming</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="246"/>
+          <text>forced</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="49" offset="287"/>
+          <text>Annual phytoplankton blooms in seasonal ice zones</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Increase"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E3" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>287</offset>
+        <text>Annual phytoplankton blooms in seasonal ice zones are highly productive and are thought to contribute significantly to pCO2 drawdown in the Southern Ocean.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="348"/>
+          <text>productive</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="406"/>
+          <text>pCO2</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="411"/>
+          <text>drawdown</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="378"/>
+          <text>contribute</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Decrease"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Cause"/>
+          <node refid="E6" role="Agent"/>
+          <node refid="E7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>443</offset>
+        <text>Diatoms are assumed to be the most important phytoplankton class with respect to export production in the Southern Ocean; however, the colonial prymnesiophyte Phaeocystis antarctica regularly forms huge blooms in seasonal ice zones and coastal Antarctic waters.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="32" offset="531"/>
+          <text>production in the Southern Ocean</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="524"/>
+          <text>export</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>705</offset>
+        <text>There is little evidence regarding the fate of carbon produced by P. antarctica in the Southern Ocean, although remineralization in the upper water column has been proposed to be the main pathway in polar waters.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="752"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="759"/>
+          <text>produced</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>918</offset>
+        <text>Here we present evidence for early and rapid carbon export from P. antarctica blooms to deep water and sediments in the Ross Sea.
+</text>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="963"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="970"/>
+          <text>export</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1048"/>
+          <text>Carbon</text>
+        </annotation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1048</offset>
+        <text>Carbon sequestration from P. antarctica blooms may influence the carbon cycle in the Southern Ocean, especially if projected climatic changes lead to an alteration in the structure of the phytoplankton community.
+</text>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="1055"/>
+          <text>sequestration</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1113"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1120"/>
+          <text>cycle</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1099"/>
+          <text>influence</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="44" offset="1215"/>
+          <text>the structure of the phytoplankton community</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1201"/>
+          <text>alteration</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1190"/>
+          <text>lead</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="1074"/>
+          <text>P. antarctica</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1088"/>
+          <text>blooms</text>
+        </annotation>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1069"/>
+          <text>from</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="1173"/>
+          <text>climatic changes</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Change"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Change"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="Cause"/>
+          <node refid="E13" role="Agent"/>
+          <node refid="E14" role="Theme"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T31" role="Change"/>
+          <node refid="T30" role="Theme"/>
+        </relation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T32" role="Cause"/>
+          <node refid="E17" role="Theme"/>
+          <node refid="E16" role="Agent"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E19">
+          <infon key="brat-id">E19</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T33" role="Cause"/>
+          <node refid="E13" role="Theme"/>
+          <node refid="E11" role="Agent"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="I_Change"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,32 @@
+T1	Variable 140 153	phytoplankton
+T2	Increase 154 160	growth
+E1	Increase:T2 Theme:T1
+T3	Variable 263 280	affinity for iron
+T4	Increase 258 262	high
+E2	Increase:T4 Theme:T3
+T5	Variable 627 649	intracellular material
+T6	Increase 616 623	release
+E3	Increase:T6 Theme:T5
+T9	Variable 703 714	siderophore
+T10	Variable 720 761	porphyrin-complexed 55Fe by phytoplankton
+T11	And 716 719	and
+E5	And:T11 Part:T9 Part2:T10
+T12	Increase 693 699	uptake
+E6	Increase:T12 Theme:E5
+T13	Variable 1175 1179	iron
+T14	Increase 1180 1186	uptake
+E7	Increase:T14 Theme:T13
+T15	Variable 1367 1371	iron
+T16	Change 1358 1366	accesses
+E8	Change:T16 Theme:T15
+T17	Variable 1686 1692	carbon
+T18	Change 1693 1699	export
+E9	Change:T18 Theme:T17
+T21	Variable 427 463	complexes that strongly chelate iron
+T22	Increase 401 408	release
+E11	Increase:T22 Theme:T21
+T7	Variable 997 1036	iron bound to a variety of siderophores
+T8	Increase 1051 1065	more available
+E4	Increase:T8 Theme:T7
+T19	Decrease 600 611	degradation
+E10	Decrease:T19 Theme:T5

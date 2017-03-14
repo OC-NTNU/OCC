@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ismej.2013.121#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Bar_Zeev_2013,
+	doi = {10.1038/ismej.2013.121},
+	url = {https://doi.org/10.1038%2Fismej.2013.121},
+	year = 2013,
+	month = {jul},
+	publisher = {Springer Nature},
+	volume = {7},
+	number = {12},
+	pages = {2340--2348},
+	author = {Edo Bar-Zeev and Itamar Avishay and Kay D Bidle and Ilana Berman-Frank},
+	title = {Programmed cell death in the marine cyanobacterium Trichodesmium mediates carbon and nitrogen export},
+	journal = {The {ISME} Journal}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ismej.2013.121</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Programmed cell death in the marine cyanobacterium Trichodesmium mediates carbon and nitrogen export
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>101</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>101</offset>
+        <text>The extent of carbon (C) and nitrogen (N) export to the deep ocean depends upon the efficacy of the biological pump that transports primary production to depth, thereby preventing its recycling in the upper photic zone.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>321</offset>
+        <text>The dinitrogen-fixing (diazotrophic) Trichodesmium spp contributes significantly to oceanic C and N cycling by forming extensive blooms in nutrient-poor tropical and subtropical regions.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="508"/>
+          <text>These massive blooms</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="450"/>
+          <text>blooms</text>
+        </annotation>
+        <relation id="R1">
+          <infon key="brat-id">R1</infon>
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <node refid="T1" role="Expression"/>
+          <node refid="T3" role="Antecedent"/>
+        </relation>
+        <relation id="#1">
+          <infon key="brat-id">#1</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="string">We are not sure whether it is correct that a refering expression refers to a variable</infon>
+          <node refid="T1" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>508</offset>
+        <text>These massive blooms generally collapse several days after forming, but the cellular mechanism responsible, along with the magnitude of associated C and N export processes, are as yet unknown.
+</text>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="539"/>
+          <text>collapse</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>701</offset>
+        <text>Here, we used a custom-made, 2-m high water column to simulate a natural bloom and to specifically test and quantify whether the programmed cell death (PCD) of Trichodesmium mechanistically regulates increased vertical flux of C and N.
+</text>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="48" offset="826"/>
+          <text>the programmed cell death (PCD) of Trichodesmium</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="911"/>
+          <text>vertical flux of C and N</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="901"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="891"/>
+          <text>regulates</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="I_Change"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Increase"/>
+          <node refid="T6" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Cause"/>
+          <node refid="E3" role="Agent"/>
+          <node refid="E4" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>937</offset>
+        <text>Our findings demonstrate that extremely rapid development and abrupt, PCD-induced demise (within 2-3 days) of Trichodesmium blooms lead to greatly elevated excretions of transparent exopolymers and a massive downward pulse of particulate organic matter.
+</text>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="37" offset="1093"/>
+          <text>excretions of transparent exopolymers</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1084"/>
+          <text>elevated</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="1163"/>
+          <text>particulate organic matter</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1145"/>
+          <text>downward</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1131"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="1047"/>
+          <text>Trichodesmium blooms</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1019"/>
+          <text>demise</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1068"/>
+          <text>lead</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Decrease"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="And"/>
+          <node refid="E6" role="Part"/>
+          <node refid="E7" role="Part2"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Decrease"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Cause"/>
+          <node refid="E9" role="Agent"/>
+          <node refid="E8" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1191</offset>
+        <text>Our results mechanistically link autocatalytic PCD and bloom collapse to quantitative C and N export fluxes, suggesting that PCD may have an impact on the biological pump efficiency in the oceans.
+</text>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1252"/>
+          <text>collapse</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1246"/>
+          <text>bloom</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Decrease"/>
+          <node refid="T4" role="Theme2"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

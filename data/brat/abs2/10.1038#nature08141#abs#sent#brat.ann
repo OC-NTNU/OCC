@@ -1,0 +1,35 @@
+T1	Variable 0 30	Late Cretaceous seasonal ocean
+T2	Change 31 42	variability
+E1	Change:T2 Theme:T1
+T3	Variable 482 490	climates
+T4	Increase 475 481	warmer
+E2	Increase:T4 Theme:T3
+T5	Variable 144 158	global warming
+T6	Increase 131 140	amplifier
+E3	Increase:T6 Theme:T5
+T7	Variable 189 195	Arctic
+T8	Change 196 202	change
+E4	Change:T8 Theme:T7
+T11	Variable 1077 1087	CO2 levels
+T12	Increase 1067 1076	increased
+E6	Increase:T12 Theme:T11
+T13	Variable 1128 1162	stratification in the global ocean
+T16	Variable 1268 1283	seasonal diatom
+T17	Increase 1284 1294	production
+E9	Increase:T17 Theme:T16
+T18	Variable 1361 1404	terrigenous sediment within the diatom ooze
+T19	Increase 1344 1357	accumulations
+E10	Increase:T19 Theme:T18
+T20	Variable 1520 1532	temperatures
+T21	Decrease 1516 1519	low
+E11	Decrease:T21 Theme:T20
+T9	I_Increase 1092 1099	warming
+E5	I_Increase:T9 
+T10	And 1088 1091	and
+E7	And:T10 Part:E6 Part2:E5
+T14	Increase 1118 1127	increased
+E8	Increase:T14 Theme:T13
+T15	Cause 1110 1117	driving
+E12	Cause:T15 Agent:E7 Theme:E8
+T22	Change 1299 1303	flux
+E13	Change:T22 Theme:T16

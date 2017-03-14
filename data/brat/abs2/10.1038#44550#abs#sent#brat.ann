@@ -1,0 +1,43 @@
+T3	Variable 266 277	upper-ocean
+T4	Change 278 292	stratification
+E2	Change:T4 Theme:T3
+T5	Variable 498 518	polar surface waters
+T6	Change 480 494	stratification
+E3	Change:T6 Theme:T5
+T7	Variable 546 549	CO2
+T8	Change 534 542	exchange
+E4	Change:T8 Theme:T7
+T9	Cause 519 529	influences
+E5	Cause:T9 Agent:E3 Theme:E4
+T10	Variable 672 701	atmospheric CO2 concentration
+T11	Change 661 668	changes
+E6	Change:T11 Theme:T10
+T12	Variable 718 722	opal
+T13	Increase 723 735	accumulation
+E7	Increase:T13 Theme:T12
+T18	Variable 997 1061	the transport of nutrient-rich deep water into the euphotic zone
+T19	Decrease 989 996	reduced
+E10	Decrease:T19 Theme:T18 Agent:E11
+T20	I_Change 964 977	The halocline
+E11	I_Change:T20 
+T21	Variable 1088 1109	biological production
+T22	Decrease 1076 1084	decrease
+E12	Decrease:T22 Theme:T21
+T23	Variable 1129 1169	the fraction of nutrient stocks utilized
+T24	Increase 1117 1125	increase
+E13	Increase:T24 Theme:T23
+T25	And 1110 1113	but
+E14	And:T25 Part:E12 Part2:E13
+T26	Cause 1063 1070	leading
+E15	Cause:T26 Agent:E10 Theme:E14
+T27	Variable 1188 1227	the efficiency of the 'biological pump'
+T28	Increase 1176 1184	increase
+E16	Increase:T28 Theme:T27
+T29	RefExp 1171 1175	This
+R1	Coref Expression:T29 Antecedent:T23	
+T30	Variable 1247 1295	the rate of CO2 evasion from ocean to atmosphere
+T31	Decrease 1239 1246	lowered
+E17	Decrease:T31 Theme:T30 Agent:E16
+T32	Variable 1318 1424	atmospheric CO2 concentrations from the suggested higher level of the preceding mid-Pliocene warm interval
+T33	Decrease 1309 1317	reducing
+E18	Decrease:T33 Theme:T32 Agent:E17

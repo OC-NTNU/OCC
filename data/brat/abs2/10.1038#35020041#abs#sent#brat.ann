@@ -1,0 +1,37 @@
+T1	Variable 263 266	CO2
+T2	Change 253 259	efflux
+E1	Change:T2 Theme:T1
+T3	Variable 326 332	carbon
+T4	Change 320 325	fixes
+E2	Change:T4 Theme:T3
+T5	I_Change 348 376	external inputs of nutrients
+E3	I_Change:T5 
+T6	Cause 336 344	response
+E4	Cause:T6 Agent:E3 Theme:E2
+T7	Variable 452 467	the CO2 release
+T8	Change 443 451	modulate
+E5	Change:T8 Theme:T7
+T9	Variable 409 417	nutrient
+T10	Change 418 427	recycling
+E6	Change:T10 Theme:T9
+T11	Variable 724 740	higher-frequency
+T12	Change 741 751	variations
+E7	Change:T12 Theme:T11
+T14	Change 920 924	flux
+E8	Change:T14 Theme:T13
+T13	Variable 928 932	iron
+T15	Variable 959 997	upwelling rate of nutrient-rich waters
+T16	Change 948 955	changes
+E9	Change:T16 Theme:T15
+T17	Or 933 935	or
+E10	Or:T17 Part:E8 Part2:E9
+T18	Variable 1147 1164	ocean circulation
+T19	Change 1136 1143	changes
+E11	Change:T19 Theme:E14
+T20	I_Change 1088 1109	biological production
+E12	I_Change:T20 
+T21	Cause 1124 1132	governed
+E13	Cause:T21 Agent:E11 Theme:E12
+T22	Variable 1169 1211	the chemical composition of upwelled water
+T23	And 1165 1168	and
+E14	And:T23 Part:T18 Part2:T22

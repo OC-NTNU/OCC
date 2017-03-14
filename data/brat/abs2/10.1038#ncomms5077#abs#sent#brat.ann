@@ -1,0 +1,47 @@
+T1	Variable 0 17	Forests fuel fish
+T2	Increase 18 24	growth
+E1	Increase:T2 Theme:T1
+T3	Variable 186 198	these inputs
+T4	Change 179 185	change
+E2	Change:T4 Theme:T3 Agent:E3
+T5	I_Change 161 173	Disturbances
+E3	I_Change:T5 
+T6	Variable 417 460	organic matter inputs into freshwater lakes
+T7	Decrease 411 416	lower
+E4	Decrease:T7 Theme:T6
+T8	Variable 479 500	food web productivity
+T9	Decrease 470 478	reducing
+E5	Decrease:T9 Theme:T8
+T10	Variable 563 603	terrestrial-derived particulate material
+T11	Increase 607 616	deposited
+E6	Increase:T11 Theme:T10
+T12	Variable 631 652	organic matter export
+T13	Increase 653 662	increases
+E7	Increase:T13 Theme:T12
+T14	Variable 704 721	bacterial biomass
+T15	Increase 694 703	enhancing
+E8	Increase:T15 Agent:E7 Theme:T14
+T16	Variable 831 878	weights of planktivorous young-of-the-year fish
+T17	Increase 819 827	increase
+E9	Increase:T17 Theme:T16
+T18	Variable 723 744	This transfers energy
+T19	Increase 745 752	upwards
+E10	Increase:T19 Theme:T18
+T20	Cause 797 804	leading
+E11	Cause:T20 Agent:E10 Theme:E9
+T21	Variable 896 908	fish biomass
+T22	Increase 957 967	increasing
+E12	Increase:T22 Theme:T21
+T23	Increase 980 987	greater
+E13	Increase:T23 Theme:T24
+T24	Variable 988 1000	forest cover
+T25	Positive_Correlate 975 979	with
+E14	Positive_Correlate:T25 Theme:E13 Co-theme:E12
+T26	Variable 1148 1187	biomass in critical life-stages of fish
+T27	Increase 1139 1147	increase
+E15	Increase:T27 Theme:T26 Agent:E16
+T28	I_Change 1102 1138	watershed protection and restoration
+E16	I_Change:T28 
+T29	Variable 391 410	terrestrial biomass
+T30	Decrease 384 390	remove
+E17	Decrease:T30 Theme:T29

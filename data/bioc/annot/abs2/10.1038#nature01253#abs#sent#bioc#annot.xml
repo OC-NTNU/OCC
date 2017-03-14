@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nature01253#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Bates_2002,
+	doi = {10.1038/nature01253},
+	url = {https://doi.org/10.1038%2Fnature01253},
+	year = 2002,
+	month = {dec},
+	publisher = {Springer Nature},
+	volume = {420},
+	number = {6915},
+	pages = {489--493},
+	author = {Nicholas R. Bates and A. Christine Pequignet and Rodney J. Johnson and Nicolas Gruber},
+	title = {A short-term sink for atmospheric {CO}2 in subtropical mode water of the North Atlantic Ocean},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nature01253</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>A short-term sink for atmospheric CO2 in subtropical mode water of the North Atlantic Ocean
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="69" offset="22"/>
+          <text>atmospheric CO2 in subtropical mode water of the North Atlantic Ocean</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="13"/>
+          <text>sink</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>92</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>92</offset>
+        <text>Large-scale features of ocean circulation, such as deep water formation in the northern North Atlantic Ocean, are known to regulate the long-term physical uptake of CO2 from the atmosphere by moving CO2-laden surface waters into the deep ocean.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="247"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="257"/>
+          <text>CO2 from the atmosphere</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="44" offset="291"/>
+          <text>CO2-laden surface waters into the deep ocean</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="284"/>
+          <text>moving</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="57" offset="143"/>
+          <text>deep water formation in the northern North Atlantic Ocean</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="215"/>
+          <text>regulate</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="281"/>
+          <text>by</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="Increase"/>
+          <node refid="T4" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="I_Change"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E3" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Cause"/>
+          <node refid="E3" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>337</offset>
+        <text>But the importance of CO2 uptake into water masses that ventilate shallower ocean depths, such as subtropical mode waters of the subtropical gyres, are poorly quantified.
+</text>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="359"/>
+          <text>CO2</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="363"/>
+          <text>uptake</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>508</offset>
+        <text>Here we report that, between 1988 and 2001, dissolved CO2 concentrations in subtropical mode waters of the North Atlantic have increased at a rate twice that expected from these waters keeping in equilibrium with increasing atmospheric CO2.
+</text>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="77" offset="552"/>
+          <text>dissolved CO2 concentrations in subtropical mode waters of the North Atlantic</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="635"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="732"/>
+          <text>atmospheric CO2</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="721"/>
+          <text>increasing</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="704"/>
+          <text>equilibrium</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Increase"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Correlate"/>
+          <node refid="E8" role="Theme"/>
+          <node refid="E9" role="Co-theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>749</offset>
+        <text>This accounts for an extra ~0.4-2.8 Pg C (1 Pg = 1015 g) over this period (that is, about 0.03-0.24 Pg C yr-1), equivalent to ~3-10% of the current net annual ocean uptake of CO2 (ref.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="924"/>
+          <text>CO2</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="914"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="1" offset="788"/>
+          <text>C</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="770"/>
+          <text>extra</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Increase"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>934</offset>
+        <text>3).
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>938</offset>
+        <text>We suggest that the lack of strong winter mixing events, to greater than 300 m in depth, in recent decades is responsible for this accumulation, which would otherwise disturb the mode water layer and liberate accumulated CO2 back to the atmosphere.
+</text>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1064"/>
+          <text>this</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="1069"/>
+          <text>accumulation</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="1113"/>
+          <text>the mode water layer</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1105"/>
+          <text>disturb</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="1147"/>
+          <text>accumulated CO2</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1138"/>
+          <text>liberate</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1134"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Increase"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T19" role="Theme"/>
+          <node refid="E13" role="Agent"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Increase"/>
+          <node refid="T25" role="Theme"/>
+          <node refid="E13" role="Agent"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="And"/>
+          <node refid="E12" role="Part"/>
+          <node refid="E15" role="Part2"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1187</offset>
+        <text>However, future climate variability (which influences subtropical mode water formation) and changes in the North Atlantic Oscillation (leading to a return of deep winter mixing events) may reduce CO2 accumulation in subtropical mode waters.
+</text>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1203"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="1211"/>
+          <text>variability</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="32" offset="1241"/>
+          <text>subtropical mode water formation</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1230"/>
+          <text>influences</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="30" offset="1290"/>
+          <text>the North Atlantic Oscillation</text>
+        </annotation>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1279"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T34">
+          <infon key="brat-id">T34</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1275"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T35">
+          <infon key="brat-id">T35</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="43" offset="1383"/>
+          <text>CO2 accumulation in subtropical mode waters</text>
+        </annotation>
+        <annotation id="T36">
+          <infon key="brat-id">T36</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1376"/>
+          <text>reduce</text>
+        </annotation>
+        <annotation id="T37">
+          <infon key="brat-id">T37</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="1345"/>
+          <text>deep winter mixing</text>
+        </annotation>
+        <annotation id="T38">
+          <infon key="brat-id">T38</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1322"/>
+          <text>leading</text>
+        </annotation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T29" role="Change"/>
+          <node refid="T28" role="Theme"/>
+        </relation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T30" role="I_Change"/>
+        </relation>
+        <relation id="E19">
+          <infon key="brat-id">E19</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T31" role="Cause"/>
+          <node refid="E17" role="Agent"/>
+          <node refid="E18" role="Theme"/>
+        </relation>
+        <relation id="E20">
+          <infon key="brat-id">E20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T33" role="Change"/>
+          <node refid="T32" role="Theme"/>
+        </relation>
+        <relation id="E21">
+          <infon key="brat-id">E21</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T34" role="And"/>
+          <node refid="E17" role="Part"/>
+          <node refid="E20" role="Part2"/>
+        </relation>
+        <relation id="E22">
+          <infon key="brat-id">E22</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T36" role="Decrease"/>
+          <node refid="T35" role="Theme"/>
+          <node refid="E21" role="Agent"/>
+        </relation>
+        <relation id="E23">
+          <infon key="brat-id">E23</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T37" role="I_Change"/>
+        </relation>
+        <relation id="E24">
+          <infon key="brat-id">E24</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T38" role="Cause"/>
+          <node refid="E20" role="Agent"/>
+          <node refid="E23" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1428</offset>
+        <text>We therefore conclude that, although CO2 uptake by subtropical mode waters in the North Atlantic--and possibly elsewhere--does not always represent a long-term CO2 sink, the phenomenon is likely to contribute substantially to interannual variability in oceanic CO2 uptake.
+</text>
+        <annotation id="T39">
+          <infon key="brat-id">T39</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1465"/>
+          <text>CO2</text>
+        </annotation>
+        <annotation id="T40">
+          <infon key="brat-id">T40</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1469"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T41">
+          <infon key="brat-id">T41</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1588"/>
+          <text>CO2</text>
+        </annotation>
+        <annotation id="T42">
+          <infon key="brat-id">T42</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1592"/>
+          <text>sink</text>
+        </annotation>
+        <annotation id="T43">
+          <infon key="brat-id">T43</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="1681"/>
+          <text>oceanic CO2 uptake</text>
+        </annotation>
+        <annotation id="T44">
+          <infon key="brat-id">T44</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="1666"/>
+          <text>variability</text>
+        </annotation>
+        <relation id="E25">
+          <infon key="brat-id">E25</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T40" role="Increase"/>
+          <node refid="T39" role="Theme"/>
+        </relation>
+        <relation id="E26">
+          <infon key="brat-id">E26</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T42" role="Increase"/>
+          <node refid="T41" role="Theme"/>
+        </relation>
+        <relation id="E27">
+          <infon key="brat-id">E27</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T44" role="Change"/>
+          <node refid="T43" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

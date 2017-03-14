@@ -1,0 +1,40 @@
+T2	Change 580 591	variability
+E1	Change:T2 Theme:T1
+T1	Variable 595 672	the subsurface nutrient reservoir beneath the North Atlantic subtropical gyre
+T3	Variable 510 547	North Atlantic Subtropical Mode Water
+T4	Increase 482 492	production
+E2	Increase:T4 Theme:T3
+T5	Change 497 506	advection
+E3	Change:T5 Theme:T3
+T6	And 493 496	and
+E4	And:T6 Part:E2 Part2:E3
+T7	Cause 548 558	introduces
+E5	Cause:T7 Agent:E4 Theme:E1
+T8	Variable 707 716	nutrients
+T9	Decrease 721 729	depleted
+E6	Decrease:T9 Theme:T8
+T10	Variable 681 691	mode water
+T11	Increase 695 701	formed
+E7	Increase:T11 Theme:T10
+T12	Cause 674 676	As
+E8	Cause:T12 Agent:E7 Theme:E6
+T13	Variable 766 785	depleted water mass
+T14	Change 789 797	exported
+E9	Change:T14 Theme:T13
+T15	RefExp 811 813	it
+R1	Coref Expression:T15 Antecedent:T13	
+T18	Variable 1007 1038	downstream primary productivity
+T19	Decrease 998 1006	diminish
+E12	Decrease:T19 Theme:T18 Agent:E11
+T16	Increase 814 821	injects
+E10	Increase:T16 Theme:T17 Agent:T15
+T17	Variable 822 886	a wedge of low-nutrient water into the upper layers of the ocean
+T20	Change 1042 1050	altering
+E11	Change:T20 Theme:T21 Agent:E13
+T21	Variable 1051 1087	the subsurface delivery of nutrients
+T22	Increase 929 936	promote
+E13	Increase:T22 Theme:E14
+T23	Variable 937 959	deep convective mixing
+T24	Variable 964 993	vigorous mode water formation
+T25	And 960 963	and
+E14	And:T25 Part:T23 Part2:T24

@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ngeo307#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Algeo_2008,
+	doi = {10.1038/ngeo307},
+	url = {https://doi.org/10.1038%2Fngeo307},
+	year = 2008,
+	month = {sep},
+	publisher = {Springer Nature},
+	volume = {1},
+	number = {10},
+	pages = {709--714},
+	author = {Thomas Algeo and Harry Rowe and James C. Hower and Lorenz Schwark and Achim Herrmann and Phil Heckel},
+	title = {Changes in ocean denitrification during~Late Carboniferous glacial{\textendash}interglacial~cycles},
+	journal = {Nature Geoscience}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ngeo307</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Changes in ocean denitrification during Late Carboniferous glacial-interglacial cycles
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="11"/>
+          <text>ocean denitrification</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="0"/>
+          <text>Changes</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="39" offset="40"/>
+          <text>Late Carboniferous glacial-interglacial</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="80"/>
+          <text>cycles</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>87</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>87</offset>
+        <text>Denitrification (the process by which nitrate and nitrite are reduced to nitrogen gas) in the oxygen-minimum zones of modern oceans is an important part of the global nitrogen cycle.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="125"/>
+          <text>nitrate</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="137"/>
+          <text>nitrite</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="133"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="149"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="243"/>
+          <text>the global nitrogen</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="263"/>
+          <text>cycle</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="270"/>
+          <text>Variations</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="And"/>
+          <node refid="T3" role="Part"/>
+          <node refid="T4" role="Part2"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Decrease"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>270</offset>
+        <text>Variations in rates of denitrification over Quaternary glacial-interglacial timescales may have affected global climate.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="72" offset="284"/>
+          <text>rates of denitrification over Quaternary glacial-interglacial timescales</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="375"/>
+          <text>global climate</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="366"/>
+          <text>affected</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="I_Change"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Cause"/>
+          <node refid="E6" role="Agent"/>
+          <node refid="E7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>391</offset>
+        <text>Evidence of denitrification has been reported from some older marine systems, but it is unclear whether denitrification rates varied during pre-Quaternary glacial cycles.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="495"/>
+          <text>denitrification rates</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="517"/>
+          <text>varied</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="531"/>
+          <text>pre-Quaternary glacial</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="554"/>
+          <text>cycles</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>562</offset>
+        <text>Here we present ratios of organic carbon to nitrogen and nitrogen isotope data from the Upper Carboniferous black shales of the North American mid-continent.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>720</offset>
+        <text>In these cyclic deposits, we find evidence of variations in the intensity of denitrification in the eastern tropical Panthalassic Ocean associated with glacially driven sea-level changes.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="75" offset="780"/>
+          <text>the intensity of denitrification in the eastern tropical Panthalassic Ocean</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="766"/>
+          <text>variations</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="872"/>
+          <text>glacially driven sea-level</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="899"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="908"/>
+          <text>Sedimentary delta15N</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>908</offset>
+        <text>Sedimentary delta15N increases during the interval of rapid sea-level rise in each cycle, indicative of intensified denitrification, before returning to background levels as sea level stabilized during the interglacial phase.
+</text>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="929"/>
+          <text>increases</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="962"/>
+          <text>rapid sea-leve</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="978"/>
+          <text>rise</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="1024"/>
+          <text>denitrification</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="1012"/>
+          <text>intensified</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Increase"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Increase"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="Increase"/>
+          <node refid="T27" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1134</offset>
+        <text>Nearly identical patterns of denitrification have been observed in the eastern tropical Pacific during the Quaternary period.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1260</offset>
+        <text>We therefore conclude that ice ages have produced similar oceanographic conditions and nitrogen cycle dynamics in these regions over the past 300 million years.
+</text>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1347"/>
+          <text>nitrogen</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1356"/>
+          <text>cycle</text>
+        </annotation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T30" role="Change"/>
+          <node refid="T29" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

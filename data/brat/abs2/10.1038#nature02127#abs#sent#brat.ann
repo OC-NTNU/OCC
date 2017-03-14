@@ -1,0 +1,39 @@
+T1	Variable 124 133	nutrients
+T2	Decrease 117 123	strips
+E1	Decrease:T2 Agent:E2 Theme:T1
+T3	I_Change 89 116	The ocean's biological pump
+E2	I_Change:T3 
+T4	Variable 320 338	the surface waters
+T5	Decrease 312 319	deplete
+E3	Decrease:T5 Theme:E4 Agent:E5
+T6	Variable 343 366	thermocline of nutrient
+T7	And 339 342	and
+E4	And:T7 Part:T4 Part2:T6
+T8	I_Change 275 294	the biological pump
+E5	I_Change:T8 
+T9	Variable 369 400	surface biological productivity
+T10	Decrease 407 414	plummet
+E6	Decrease:T10 Theme:T9
+T11	Variable 656 679	subantarctic mode water
+T12	Increase 687 694	spreads
+E7	Increase:T12 Theme:T11
+T13	Variable 928 943	vertical mixing
+T14	Increase 919 927	enhanced
+E8	Increase:T14 Theme:T13
+T15	I_Change 963 968	tides
+E9	I_Change:T15 
+T16	Cause 953 959	driven
+E10	Cause:T16 Agent:E9 Theme:E8
+T17	Variable 977 1009	abyssal nutrients to the surface
+T18	Increase 970 976	brings
+E11	Increase:T18 Theme:T17 Agent:E8
+T19	Variable 1031 1067	the thermocline of the North Pacific
+T20	Increase 1014 1022	supplies
+E12	Increase:T20 Theme:T19 Agent:E8
+T21	Change 1254 1260	change
+E13	Change:T21 Theme:T22
+T22	Variable 1246 1253	climate
+T23	I_Change 1199 1222	biological productivity
+E14	I_Change:T23 
+T24	Cause 1231 1242	sensitivity
+E15	Cause:T24 Agent:E13 Theme:E14

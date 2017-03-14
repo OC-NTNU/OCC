@@ -1,0 +1,58 @@
+T41	Variable 249 284	About half of the current emissions
+T1	Variable 16 30	global warming
+T2	Increase 0 12	Acceleration
+E1	Increase:T2 Theme:T1
+T5	Cause 31 34	due
+E3	Cause:T5 Agent:E2 Theme:E1
+T3	I_Change 38 87	carbon-cycle feedbacks in a coupled climate model
+E2	I_Change:T3 
+T4	Variable 114 161	the atmospheric concentration of carbon dioxide
+T6	Increase 102 110	increase
+E4	Increase:T6 Theme:T4
+T7	I_Increase 169 192	anthropogenic emissions
+E5	I_Increase:T7 
+T8	Cause 162 165	due
+E6	Cause:T8 Theme:E4 Agent:E5
+T9	Variable 240 247	climate
+T10	Change 229 236	changes
+E7	Change:T10 Theme:T9
+T11	Cause 209 213	lead
+E8	Cause:T11 Theme:E7 Agent:E4
+T13	Decrease 295 303	absorbed
+E9	Decrease:T13 Theme:T41
+T16	RefExp 345 349	this
+R1	Coref Expression:T16 Antecedent:T41	
+T17	Decrease 350 360	absorption
+E11	Decrease:T17 Theme:T16
+T18	I_Change 377 384	climate
+E12	I_Change:T18 
+T21	And 385 395	as well as
+E14	And:T21 Part:E12 Part2:E10
+T22	Cause 364 373	sensitive
+E15	Cause:T22 Theme:E11 Agent:E14
+T25	Variable 640 646	carbon
+T26	Change 647 652	cycle
+E17	Change:T26 Theme:T25
+T27	Variable 680 687	climate
+T28	Change 688 694	change
+E18	Change:T28 Theme:T27
+T31	Variable 852 896	climate change over the twenty-first century
+T32	Increase 841 851	accelerate
+E20	Increase:T32 Theme:T31 Agent:E13
+T33	Variable 994 1000	carbon
+T34	Change 1001 1005	sink
+E21	Change:T34 Theme:T33
+T36	Increase 1079 1085	uptake
+E22	Increase:T36 Theme:T15
+T37	Variable 1156 1186	atmospheric CO2 concentrations
+T38	Increase 1204 1210	higher
+E23	Increase:T38 Theme:T37
+T39	I_Increase 1291 1310	global-mean warming
+E24	I_Increase:T39 
+T40	Cause 1276 1285	resulting
+E25	Cause:T40 Agent:E23 Theme:E24
+T12	I_Change 399 440	atmospheric carbon dioxide concentrations
+E10	I_Change:T12 
+T14	I_Change 798 820	carbon-cycle feedbacks
+E13	I_Change:T14 
+T15	Variable 1099 1100	C

@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#35041539#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Cox_2000,
+	doi = {10.1038/35041539},
+	url = {https://doi.org/10.1038%2F35041539},
+	year = 2000,
+	month = {nov},
+	publisher = {Springer Nature},
+	volume = {408},
+	number = {6809},
+	pages = {184--187},
+	author = {Peter M. Cox and Richard A. Betts and Chris D. Jones and Steven A. Spall and Ian J. Totterdell},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/35041539</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="16"/>
+          <text>global warming</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="0"/>
+          <text>Acceleration</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="31"/>
+          <text>due</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="49" offset="38"/>
+          <text>carbon-cycle feedbacks in a coupled climate model</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Change"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>88</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>88</offset>
+        <text>The continued increase in the atmospheric concentration of carbon dioxide due to anthropogenic emissions is predicted to lead to significant changes in climate.
+</text>
+        <annotation id="T41">
+          <infon key="brat-id">T41</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="35" offset="249"/>
+          <text>About half of the current emissions</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="47" offset="114"/>
+          <text>the atmospheric concentration of carbon dioxide</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="102"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="169"/>
+          <text>anthropogenic emissions</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="162"/>
+          <text>due</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="240"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="229"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="209"/>
+          <text>lead</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T4" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="I_Increase"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Cause"/>
+          <node refid="E4" role="Theme"/>
+          <node refid="E5" role="Agent"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Cause"/>
+          <node refid="E7" role="Theme"/>
+          <node refid="E4" role="Agent"/>
+        </relation>
+        <relation id="R1">
+          <infon key="brat-id">R1</infon>
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <node refid="T16" role="Expression"/>
+          <node refid="T41" role="Antecedent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>249</offset>
+        <text>About half of the current emissions are being absorbed by the ocean and by land ecosystems, but this absorption is sensitive to climate as well as to atmospheric carbon dioxide concentrations, creating a feedback loop.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="295"/>
+          <text>absorbed</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="345"/>
+          <text>this</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="350"/>
+          <text>absorption</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="377"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="385"/>
+          <text>as well as</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="364"/>
+          <text>sensitive</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="41" offset="399"/>
+          <text>atmospheric carbon dioxide concentrations</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Decrease"/>
+          <node refid="T41" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Decrease"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="I_Change"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T21" role="And"/>
+          <node refid="E12" role="Part"/>
+          <node refid="E10" role="Part2"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Cause"/>
+          <node refid="E11" role="Theme"/>
+          <node refid="E14" role="Agent"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="I_Change"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>468</offset>
+        <text>General circulation models have generally excluded the feedback between climate and the biosphere, using static vegetation distributions and CO2 concentrations from simple carbon-cycle models that do not include climate change.
+</text>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="640"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="647"/>
+          <text>cycle</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="680"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="688"/>
+          <text>change</text>
+        </annotation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Change"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="Change"/>
+          <node refid="T27" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>696</offset>
+        <text>Here we present results from a fully coupled, three-dimensional carbon-climate model, indicating that carbon-cycle feedbacks could significantly accelerate climate change over the twenty-first century.
+</text>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="44" offset="852"/>
+          <text>climate change over the twenty-first century</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="841"/>
+          <text>accelerate</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="798"/>
+          <text>carbon-cycle feedbacks</text>
+        </annotation>
+        <relation id="E20">
+          <infon key="brat-id">E20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T32" role="Increase"/>
+          <node refid="T31" role="Theme"/>
+          <node refid="E13" role="Agent"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="I_Change"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>898</offset>
+        <text>We find that under a 'business as usual' scenario, the terrestrial biosphere acts as an overall carbon sink until about 2050, but turns into a source thereafter.
+</text>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="994"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T34">
+          <infon key="brat-id">T34</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1001"/>
+          <text>sink</text>
+        </annotation>
+        <relation id="E21">
+          <infon key="brat-id">E21</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T34" role="Change"/>
+          <node refid="T33" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1060</offset>
+        <text>By 2100, the ocean uptake rate of 5 Gt C yr-1 is balanced by the terrestrial carbon source, and atmospheric CO2 concentrations are 250 p.p.m.v. higher in our fully coupled simulation than in uncoupled carbon models, resulting in a global-mean warming of 5.5 K, as compared to 4 K without the carbon-cycle feedback.
+</text>
+        <annotation id="T36">
+          <infon key="brat-id">T36</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1079"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T37">
+          <infon key="brat-id">T37</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="30" offset="1156"/>
+          <text>atmospheric CO2 concentrations</text>
+        </annotation>
+        <annotation id="T38">
+          <infon key="brat-id">T38</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1204"/>
+          <text>higher</text>
+        </annotation>
+        <annotation id="T39">
+          <infon key="brat-id">T39</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="1291"/>
+          <text>global-mean warming</text>
+        </annotation>
+        <annotation id="T40">
+          <infon key="brat-id">T40</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1276"/>
+          <text>resulting</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="1" offset="1099"/>
+          <text>C</text>
+        </annotation>
+        <relation id="E22">
+          <infon key="brat-id">E22</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T36" role="Increase"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E23">
+          <infon key="brat-id">E23</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T38" role="Increase"/>
+          <node refid="T37" role="Theme"/>
+        </relation>
+        <relation id="E24">
+          <infon key="brat-id">E24</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T39" role="I_Increase"/>
+        </relation>
+        <relation id="E25">
+          <infon key="brat-id">E25</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T40" role="Cause"/>
+          <node refid="E23" role="Agent"/>
+          <node refid="E24" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

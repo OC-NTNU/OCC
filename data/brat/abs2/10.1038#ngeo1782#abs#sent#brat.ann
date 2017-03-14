@@ -1,0 +1,51 @@
+T1	Variable 28 50	atmospheric CO2 levels
+T2	Change 17 24	changes
+E1	Change:T2 Theme:T1
+T3	Variable 108 112	dust
+T4	Change 113 117	flux
+E2	Change:T4 Theme:T3
+T5	Variable 80 94	carbon isotope
+T6	Change 95 103	gradient
+E3	Change:T6 Theme:T5
+T7	Variable 130 160	atmospheric CO2 concentrations
+T8	Increase 122 126	rise
+E4	Increase:T8 Theme:T7
+T9	Variable 259 303	carbon-rich deep water in the Southern Ocean
+T10	Change 246 255	upwelling
+E5	Change:T10 Theme:T9
+T11	Cause 228 238	attributed
+E6	Cause:T11 Theme:E4 Agent:E5
+T12	Variable 336 349	dissolved CO2
+T13	Increase 322 332	outgassing
+E7	Increase:T13 Theme:T12
+T14	Variable 404 429	upwelled inorganic carbon
+T15	Change 392 400	fixation
+E8	Change:T15 Theme:T14
+T16	Cause 363 373	influenced
+E9	Cause:T16 Agent:E8 Theme:E7
+T17	Variable 622 626	iron
+T18	Increase 610 618	delivery
+E10	Increase:T18 Theme:T17
+T19	I_Change 557 577	nutrient utilization
+E11	I_Change:T19 
+T20	Cause 592 602	stimulated
+E12	Cause:T20 Agent:E10 Theme:E11
+T21	Variable 669 689	nutrient utilization
+T22	Change 658 665	Changes
+E13	Change:T22 Theme:T21
+T23	I_Change 713 771	the delta13C gradient between intermediate and deep waters
+E14	I_Change:T23 
+T24	Cause 700 709	reflected
+E15	Cause:T24 Agent:E13 Theme:E14
+T25	Variable 1117 1126	dust flux
+T26	Variable 1131 1161	atmospheric CO2 concentrations
+T27	And 1127 1130	and
+E16	And:T27 Part:T25 Part2:T26
+T28	Change 1106 1113	changes
+E17	Change:T28 Theme:E16
+T29	Variable 1383 1454	the sensitivity of the biological pump to dust-borne iron fertilization
+T30	Increase 1462 1471	increased
+E18	Increase:T30 Theme:T29
+T31	Variable 1477 1501	the background dust flux
+T32	Decrease 1505 1508	low
+E19	Decrease:T32 Theme:T31

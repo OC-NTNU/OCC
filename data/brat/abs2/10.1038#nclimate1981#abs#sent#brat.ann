@@ -1,0 +1,67 @@
+T1	Variable 36 50	sulphur fluxes
+T2	Decrease 28 35	reduced
+E1	Decrease:T2 Theme:T1
+T3	I_Increase 66 85	ocean acidification
+E2	I_Increase:T3 
+T4	Cause 56 62	result
+E3	Cause:T4 Agent:E2 Theme:E1
+T5	I_Increase 0 14	Global warming
+E4	I_Increase:T5 
+T6	Cause 15 24	amplified
+E5	Cause:T6 Agent:E1 Theme:E4
+T7	Variable 86 93	Climate
+T8	Change 94 100	change
+E6	Change:T8 Theme:T7
+T9	Variable 116 127	seawater pH
+T10	Decrease 105 115	decreasing
+E7	Decrease:T10 Theme:T9
+T11	And 101 104	and
+E8	And:T11 Part:E6 Part2:E7
+T12	Variable 207 228	the anthropogenic CO2
+T13	Change 229 241	perturbation
+E9	Change:T13 Theme:T12
+T14	Variable 428 438	Marine DMS
+T15	Increase 439 448	emissions
+E10	Increase:T15 Theme:T14
+T16	Variable 518 532	their strength
+T17	Change 507 514	changes
+E11	Change:T17 Theme:T16
+T18	Variable 561 589	the Earth's radiation budget
+T19	Change 555 560	alter
+E12	Change:T19 Theme:T18
+T20	Variable 651 653	pH
+T21	Change 654 661	changes
+E13	Change:T21 Theme:T20
+T22	Variable 715 728	DMS emissions
+T23	Change 697 704	changes
+E14	Change:T23 Theme:T22
+T24	Variable 774 794	Global DMS emissions
+T25	Decrease 795 803	decrease
+E15	Decrease:T25 Theme:T24
+T26	I_Increase 905 924	ocean acidification
+E16	I_Increase:T26 
+T27	Variable 929 936	climate
+T28	Change 937 943	change
+E17	Change:T28 Theme:T27
+T29	And 925 928	and
+E18	And:T29 Part:E16 Part2:E17
+T30	Cause 871 877	result
+E19	Cause:T30 Theme:E15 Agent:E18
+T31	Variable 957 970	DMS emissions
+T32	Decrease 949 956	reduced
+E20	Decrease:T32 Theme:T31
+T33	Variable 992 1020	additional radiative forcing
+T34	Increase 971 977	induce
+E21	Increase:T34 Theme:T33 Agent:E20
+T35	I_Increase 1066 1085	ocean acidification
+E22	I_Increase:T35 
+T36	Cause 1056 1062	impact
+E23	Cause:T36 Agent:E22 Theme:E20
+T37	Variable 1240 1261	anthropogenic warming
+T38	Increase 1229 1239	exacerbate
+E24	Increase:T38 Theme:T37 Agent:E25
+T39	I_Increase 1188 1207	ocean acidification
+E25	I_Increase:T39 
+T40	Variable 1341 1348	climate
+T41	Change 1349 1355	change
+E26	Change:T41 Theme:T40

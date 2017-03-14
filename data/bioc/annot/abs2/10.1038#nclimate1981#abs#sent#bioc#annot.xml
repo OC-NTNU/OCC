@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nclimate1981#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Six_2013,
+	doi = {10.1038/nclimate1981},
+	url = {https://doi.org/10.1038%2Fnclimate1981},
+	year = 2013,
+	month = {aug},
+	publisher = {Springer Nature},
+	volume = {3},
+	number = {11},
+	pages = {975--978},
+	author = {Katharina D. Six and Silvia Kloster and Tatiana Ilyina and Stephen D. Archer and Kai Zhang and Ernst Maier-Reimer},
+	title = {Global warming amplified by reduced sulphur fluxes as a result of ocean acidification},
+	journal = {Nature Climate Change}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nclimate1981</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Global warming amplified by reduced sulphur fluxes as a result of ocean acidification
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="36"/>
+          <text>sulphur fluxes</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="28"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="66"/>
+          <text>ocean acidification</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="56"/>
+          <text>result</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="0"/>
+          <text>Global warming</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="15"/>
+          <text>amplified</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="86"/>
+          <text>Climate</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="I_Increase"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="I_Increase"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Cause"/>
+          <node refid="E1" role="Agent"/>
+          <node refid="E4" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>86</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>86</offset>
+        <text>Climate change and decreasing seawater pH (ocean acidification) have widely been considered as uncoupled consequences of the anthropogenic CO2 perturbation.
+</text>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="94"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="116"/>
+          <text>seawater pH</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="105"/>
+          <text>decreasing</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="101"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="207"/>
+          <text>the anthropogenic CO2</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="229"/>
+          <text>perturbation</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Decrease"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="And"/>
+          <node refid="E6" role="Part"/>
+          <node refid="E7" role="Part2"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Change"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>243</offset>
+        <text>Recently, experiments in seawater enclosures (mesocosms) showed that concentrations of dimethylsulphide (DMS), a biogenic sulphur compound, were markedly lower in a low-pH environment.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="428"/>
+          <text>Marine DMS</text>
+        </annotation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>428</offset>
+        <text>Marine DMS emissions are the largest natural source of atmospheric sulphur and changes in their strength have the potential to alter the Earth's radiation budget.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="439"/>
+          <text>emissions</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="518"/>
+          <text>their strength</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="507"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="28" offset="561"/>
+          <text>the Earth's radiation budget</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="555"/>
+          <text>alter</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Increase"/>
+          <node refid="T14" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Change"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="Change"/>
+          <node refid="T18" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>591</offset>
+        <text>Here we establish observational-based relationships between pH changes and DMS concentrations to estimate changes in future DMS emissions with Earth system model climate simulations.
+</text>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="651"/>
+          <text>pH</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="654"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="715"/>
+          <text>DMS emissions</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="697"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="774"/>
+          <text>Global DMS emissions</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T21" role="Change"/>
+          <node refid="T20" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T23" role="Change"/>
+          <node refid="T22" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>774</offset>
+        <text>Global DMS emissions decrease by about 18(+/-3)% in 2100 compared with pre-industrial times as a result of the combined effects of ocean acidification and climate change.
+</text>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="795"/>
+          <text>decrease</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="905"/>
+          <text>ocean acidification</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="929"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="937"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="925"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="871"/>
+          <text>result</text>
+        </annotation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T25" role="Decrease"/>
+          <node refid="T24" role="Theme"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="I_Increase"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="Change"/>
+          <node refid="T27" role="Theme"/>
+        </relation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T29" role="And"/>
+          <node refid="E16" role="Part"/>
+          <node refid="E17" role="Part2"/>
+        </relation>
+        <relation id="E19">
+          <infon key="brat-id">E19</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T30" role="Cause"/>
+          <node refid="E15" role="Theme"/>
+          <node refid="E18" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>945</offset>
+        <text>The reduced DMS emissions induce a significant additional radiative forcing, of which 83% is attributed to the impact of ocean acidification, tantamount to an equilibrium temperature response between 0.23 and 0.48 K.
+</text>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="957"/>
+          <text>DMS emissions</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="949"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="28" offset="992"/>
+          <text>additional radiative forcing</text>
+        </annotation>
+        <annotation id="T34">
+          <infon key="brat-id">T34</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="971"/>
+          <text>induce</text>
+        </annotation>
+        <annotation id="T35">
+          <infon key="brat-id">T35</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="1066"/>
+          <text>ocean acidification</text>
+        </annotation>
+        <annotation id="T36">
+          <infon key="brat-id">T36</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1056"/>
+          <text>impact</text>
+        </annotation>
+        <relation id="E20">
+          <infon key="brat-id">E20</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T32" role="Decrease"/>
+          <node refid="T31" role="Theme"/>
+        </relation>
+        <relation id="E21">
+          <infon key="brat-id">E21</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T34" role="Increase"/>
+          <node refid="T33" role="Theme"/>
+          <node refid="E20" role="Agent"/>
+        </relation>
+        <relation id="E22">
+          <infon key="brat-id">E22</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T35" role="I_Increase"/>
+        </relation>
+        <relation id="E23">
+          <infon key="brat-id">E23</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T36" role="Cause"/>
+          <node refid="E22" role="Agent"/>
+          <node refid="E20" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1162</offset>
+        <text>Our results indicate that ocean acidification has the potential to exacerbate anthropogenic warming through a mechanism that is not considered at present in projections of future climate change.
+</text>
+        <annotation id="T37">
+          <infon key="brat-id">T37</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="1240"/>
+          <text>anthropogenic warming</text>
+        </annotation>
+        <annotation id="T38">
+          <infon key="brat-id">T38</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1229"/>
+          <text>exacerbate</text>
+        </annotation>
+        <annotation id="T39">
+          <infon key="brat-id">T39</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="1188"/>
+          <text>ocean acidification</text>
+        </annotation>
+        <annotation id="T40">
+          <infon key="brat-id">T40</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1341"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T41">
+          <infon key="brat-id">T41</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1349"/>
+          <text>change</text>
+        </annotation>
+        <relation id="E24">
+          <infon key="brat-id">E24</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T38" role="Increase"/>
+          <node refid="T37" role="Theme"/>
+          <node refid="E25" role="Agent"/>
+        </relation>
+        <relation id="E25">
+          <infon key="brat-id">E25</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T39" role="I_Increase"/>
+        </relation>
+        <relation id="E26">
+          <infon key="brat-id">E26</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T41" role="Change"/>
+          <node refid="T40" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

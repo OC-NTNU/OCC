@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#srep07265#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Yuan_2014,
+	doi = {10.1038/srep07265},
+	url = {https://doi.org/10.1038%2Fsrep07265},
+	year = 2014,
+	month = {dec},
+	publisher = {Springer Nature},
+	volume = {4},
+	pages = {7265},
+	author = {Fasong Yuan and Richard Depew and Cheryl Soltis-Muth},
+	title = {Ecosystem regime change inferred from the distribution of trace metals in Lake Erie sediments},
+	journal = {Scientific Reports}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/srep07265</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Ecosystem regime change inferred from the distribution of trace metals in Lake Erie sediments
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="0"/>
+          <text>Ecosystem regime</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="17"/>
+          <text>change</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>94</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>94</offset>
+        <text>Many freshwater and coastal marine ecosystems across the world may have undergone an ecosystem regime change due to a combination of rising anthropogenic disturbances and regional climate change.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="179"/>
+          <text>ecosystem regime</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="196"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="234"/>
+          <text>anthropogenic disturbances</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="227"/>
+          <text>rising</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="265"/>
+          <text>regional climate</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="282"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="261"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="203"/>
+          <text>due</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="And"/>
+          <node refid="E3" role="Part"/>
+          <node refid="E4" role="Part2"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Cause"/>
+          <node refid="E5" role="Agent"/>
+          <node refid="E2" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>290</offset>
+        <text>Such a change in aquatic ecosystems is commonly seen as shifts in algal species.
+</text>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="297"/>
+          <text>change</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="307"/>
+          <text>aquatic ecosystems</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="356"/>
+          <text>algal species</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="346"/>
+          <text>shifts</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>371</offset>
+        <text>But considerably less detail is known about the eutrophication history in terms of changes in algal productivity, particularly for a large lake with a great deal of spatial variability.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="465"/>
+          <text>algal productivity</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="454"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="536"/>
+          <text>spatial</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="544"/>
+          <text>variability</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>557</offset>
+        <text>Here we present an analysis of trace metals (Cu, Ni, Cd, and Pb) on a sediment core recovered from Lake Erie, off the Vermilion coast of northern Ohio, USA, to reconstruct the eutrophication history of the lake over the past 210 years.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>793</offset>
+        <text>Following a slow eutrophication during European settlement, Lake Erie experienced a period of accelerated eutrophication, leading to an ecosystem regime transition into a eutrophic lake state in 1950.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="899"/>
+          <text>eutrophication</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="887"/>
+          <text>accelerated</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="926"/>
+          <text>an ecosystem regime</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="946"/>
+          <text>transition</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="915"/>
+          <text>leading</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T23" role="Cause"/>
+          <node refid="E11" role="Agent"/>
+          <node refid="E12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>994</offset>
+        <text>Our results suggested that the lake's biological productivity has ever since maintained fairly high even though a significant input reduction was realized from rigorous nutrient abatements that began as early as in 1969.
+</text>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="34" offset="1021"/>
+          <text>the lake's biological productivity</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1089"/>
+          <text>high</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1120"/>
+          <text>input</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1126"/>
+          <text>reduction</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1163"/>
+          <text>nutrient</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1172"/>
+          <text>abatements</text>
+        </annotation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T25" role="Increase"/>
+          <node refid="T24" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="Decrease"/>
+          <node refid="T26" role="Theme"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T29" role="Decrease"/>
+          <node refid="T28" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1215</offset>
+        <text>This work underscored the role of in-lake biogeochemical cycling in nutrient dynamics of this already eutrophic lake.
+</text>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1272"/>
+          <text>cycling</text>
+        </annotation>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="48" offset="1283"/>
+          <text>nutrient dynamics of this already eutrophic lake</text>
+        </annotation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T30" role="Change"/>
+          <node refid="T31" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

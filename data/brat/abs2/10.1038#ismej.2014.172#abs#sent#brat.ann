@@ -1,0 +1,32 @@
+T1	Variable 119 125	Oxygen
+T2	Decrease 126 134	depleted
+E1	Decrease:T2 Theme:T1
+T3	Variable 665 682	oxygen-rich water
+T4	Increase 654 661	inflows
+E2	Increase:T4 Theme:T3
+T5	Variable 698 758	oxygen levels in the lower water column and the benthic zone
+T6	Increase 687 697	increasing
+E3	Increase:T6 Theme:T5
+T7	And 683 686	and
+E4	And:T7 Part:E2 Part2:E3
+T8	Variable 511 571	The strong stratification of the water column of the Byfjord
+T9	Change 576 582	broken
+E5	Change:T9 Theme:T8
+T10	Cause 635 645	triggering
+E6	Cause:T10 Agent:E5 Theme:E4
+T11	Variable 835 864	bacterial community structure
+T12	Change 824 831	changes
+E7	Change:T12 Theme:T11
+T13	I_Change 880 910	the oxygenation in the Byfjord
+E8	I_Change:T13 
+T14	Cause 868 876	response
+E9	Cause:T14 Agent:E8 Theme:E7
+T15	Variable 1073 1104	bacterial community composition
+T16	Change 1064 1069	shift
+E10	Change:T16 Theme:T15
+T17	Variable 1165 1251	dominant indicator species for oxygen minimum zones such as members of the SUP05 clade
+T18	Decrease 1252 1260	declined
+E11	Decrease:T18 Theme:T17
+T19	Variable 1513 1573	the bacterial community in the formerly anoxic bottom waters
+T20	Change 1574 1581	changed
+E12	Change:T20 Theme:T19

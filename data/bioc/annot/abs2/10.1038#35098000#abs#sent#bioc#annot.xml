@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#35098000#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Scheffer_2001,
+	doi = {10.1038/35098000},
+	url = {https://doi.org/10.1038%2F35098000},
+	year = 2001,
+	month = {oct},
+	publisher = {Springer Nature},
+	volume = {413},
+	number = {6856},
+	pages = {591--596},
+	author = {Marten Scheffer and Steve Carpenter and Jonathan A. Foley and Carl Folke and Brian Walker},
+	title = {Catastrophic shifts in ecosystems},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/35098000</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Catastrophic shifts in ecosystems
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="23"/>
+          <text>ecosystems</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="13"/>
+          <text>shifts</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>34</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>34</offset>
+        <text>All ecosystems are exposed to gradual changes in climate, nutrient loading, habitat fragmentation or biotic exploitation.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="83"/>
+          <text>climate</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="72"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="92"/>
+          <text>nutrient</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="101"/>
+          <text>loading</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>156</offset>
+        <text>Nature is usually assumed to respond to gradual change in a smooth way.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>228</offset>
+        <text>However, studies on lakes, coral reefs, oceans, forests and arid lands have shown that smooth change can be interrupted by sudden drastic switches to a contrasting state.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>399</offset>
+        <text>Although diverse events can trigger such shifts, recent studies show that a loss of resilience usually paves the way for a switch to an alternative state.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="483"/>
+          <text>resilience</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="475"/>
+          <text>loss</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Decrease"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>554</offset>
+        <text>This suggests that strategies for sustainable management of such ecosystems should focus on maintaining resilience.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

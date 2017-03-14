@@ -1,0 +1,48 @@
+T1	Variable 11 43	North Atlantic nitrogen fixation
+T2	Change 0 7	Changes
+E1	Change:T2 Theme:T1
+T3	Variable 264 270	carbon
+T4	Change 256 263	exports
+E2	Change:T4 Theme:T3
+T5	Variable 316 352	the oceanic fixed nitrogen reservoir
+T6	Change 303 312	variation
+E3	Change:T6 Theme:T5
+T7	Variable 417 457	atmospheric carbon dioxide concentration
+T8	Change 406 413	changes
+E4	Change:T8 Theme:T7
+T9	Cause 376 381	cause
+E5	Cause:T9 Agent:E3 Theme:E4
+T10	Variable 459 474	Marine nitrogen
+T11	Change 475 483	fixation
+E6	Change:T11 Theme:T10
+T12	Variable 687 719	North Atlantic nitrogen fixation
+T13	Change 676 683	changes
+E7	Change:T13 Theme:T12
+T14	Variable 926 937	temperature
+T15	Change 915 922	changes
+E8	Change:T15 Theme:T14
+T16	Variable 968 972	dust
+T17	Variable 976 1004	water column denitrification
+T18	Or 973 975	or
+E9	Or:T18 Part:T16 Part2:T17
+T19	Change 943 949	supply
+E10	Change:T19 Theme:E9
+T20	Variable 1057 1065	nitrogen
+T21	Change 1066 1074	fixation
+E11	Change:T21 Theme:T20
+T22	Variable 1140 1169	equatorial Atlantic upwelling
+T23	Change 1129 1136	changes
+E12	Change:T23 Theme:T22
+T24	Variable 1329 1346	nitrogen fixation
+T25	Decrease 1351 1358	reduced
+E13	Decrease:T25 Theme:T24
+T26	Variable 1683 1691	nitrogen
+T27	Change 1692 1700	fixation
+E14	Change:T27 Theme:T26
+T28	Change 1836 1846	variations
+E15	Change:T28 Theme:T29
+T29	Variable 1854 1860	supply
+T30	I_Change 1914 1978	the response of regional ocean circulation to the orbital cycles
+E16	I_Change:T30 
+T31	Cause 1901 1910	dominated
+E17	Cause:T31 Agent:E16 Theme:E15

@@ -1,0 +1,60 @@
+T1	Variable 14 18	iron
+T2	Increase 19 24	input
+E1	Increase:T2 Theme:T1
+T3	Variable 29 33	opal
+T4	Change 34 44	deposition
+E2	Change:T4 Theme:T3
+T5	Variable 102 137	overall marine primary productivity
+T6	Increase 89 98	Increases
+E3	Increase:T6 Theme:T5
+T7	Increase 142 148	export
+E4	Increase:T7 Theme:T8
+T8	Variable 149 214	production in high-nutrient, low-chlorophyll regions of the ocean
+T9	And 138 141	and
+E5	And:T9 Part:E3 Part2:E4
+T10	Variable 319 335	delivery of iron
+T11	Increase 310 318	enhanced
+E6	Increase:T11 Theme:T10
+T13	Variable 402 410	nutrient
+T12	Increase 397 401	high
+E7	Increase:T12 Theme:T13
+T14	Decrease 412 415	low
+E8	Decrease:T14 Theme:T15
+T15	Variable 416 427	chlorophyll
+T16	Decrease 461 466	lower
+E9	Decrease:T16 Theme:T17
+T17	Variable 467 475	nutrient
+T18	Increase 589 593	high
+E10	Increase:T18 Theme:T19
+T19	Variable 594 602	nutrient
+T20	Decrease 604 607	low
+E11	Decrease:T20 Theme:T21
+T21	Variable 608 619	chlorophyll
+T22	Variable 717 721	iron
+T23	Increase 722 727	input
+E12	Increase:T23 Theme:T22
+T24	Variable 754 769	biogenic silica
+T25	Increase 733 739	export
+E13	Increase:T25 Theme:T24
+T26	Variable 794 804	production
+T27	Change 787 793	export
+E14	Change:T27 Theme:T26
+T28	Variable 832 836	iron
+T29	Increase 837 849	accumulation
+E15	Increase:T29 Theme:T28
+T30	Variable 895 899	opal
+T31	Increase 879 891	accumulation
+E16	Increase:T31 Theme:T30
+T32	Correlate 867 871	tied
+E17	Correlate:T32 Theme:E15 Co-theme:E16
+T33	Variable 945 955	iron input
+T34	Increase 940 944	high
+E18	Increase:T34 Theme:T33
+T35	Increase 986 995	increased
+E19	Increase:T35 Theme:T36
+T36	Variable 996 1014	opal sedimentation
+T37	Correlate 956 966	associated
+E20	Correlate:T37 Theme:E18 Co-theme:E19
+T38	Variable 1313 1317	iron
+T39	Change 1318 1326	delivery
+E21	Change:T39 Theme:T38

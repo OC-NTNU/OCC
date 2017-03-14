@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#35012507#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Elderfield_2000,
+	doi = {10.1038/35012507},
+	url = {https://doi.org/10.1038%2F35012507},
+	year = 2000,
+	month = {may},
+	publisher = {Springer Nature},
+	volume = {405},
+	number = {6784},
+	pages = {305--310},
+	author = {H. Elderfield and R. E. M. Rickaby},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/35012507</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Oceanic Cd/P ratio and nutrient utilization in the glacial Southern Ocean
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>74</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>74</offset>
+        <text>During glacial periods, low atmospheric carbon dioxide concentration has been associated with increased oceanic carbon uptake, particularly in the southern oceans.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="40" offset="102"/>
+          <text>atmospheric carbon dioxide concentration</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="98"/>
+          <text>low</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="178"/>
+          <text>oceanic carbon uptake</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="168"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="152"/>
+          <text>associated</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Correlate</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Correlate"/>
+          <node refid="E1" role="Theme"/>
+          <node refid="E2" role="Co-theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>238</offset>
+        <text>The mechanism involved remains unclear.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>278</offset>
+        <text>Because ocean productivity is strongly influenced by nutrient levels, palaeo-oceanographic proxies have been applied to investigate nutrient utilization in surface water across glacial transitions.
+</text>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="286"/>
+          <text>ocean</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="292"/>
+          <text>productivity</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="331"/>
+          <text>nutrient levels</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="317"/>
+          <text>influenced</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Increase"/>
+          <node refid="T6" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="I_Change"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E5" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>476</offset>
+        <text>Here we show that present-day cadmium and phosphorus concentrations in the global oceans can be explained by a chemical fractionation during particle formation, whereby uptake of cadmium occurs in preference to uptake of phosphorus.
+</text>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="655"/>
+          <text>cadmium</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="645"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="697"/>
+          <text>phosphorus</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="687"/>
+          <text>uptake</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="617"/>
+          <text>particle</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="626"/>
+          <text>formation</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Increase"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>709</offset>
+        <text>This allows the reconstruction of past surface water phosphate concentrations from the cadmium/calcium ratio of planktonic foraminifera.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>846</offset>
+        <text>Results from the Last Glacial Maximum show similar phosphate utilization in the subantarctic to that of today, but much smaller utilization in the polar Southern Ocean, in a model that is consistent with the expansion of glacial sea ice and which can reconcile all proxy records of polar nutrient utilization.
+</text>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1054"/>
+          <text>expansion</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="15" offset="1067"/>
+          <text>glacial sea ice</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Increase"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1156</offset>
+        <text>By restricting communication between the ocean and atmosphere, sea ice expansion also provides a mechanism for reduced CO2 release by the Southern Ocean and lower glacial atmospheric CO2.
+</text>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1219"/>
+          <text>sea ice</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1227"/>
+          <text>expansion</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="33" offset="1275"/>
+          <text>CO2 release by the Southern Ocean</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1267"/>
+          <text>reduced</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="1319"/>
+          <text>glacial atmospheric CO2</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1313"/>
+          <text>lower</text>
+        </annotation>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1309"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1242"/>
+          <text>provides</text>
+        </annotation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Increase"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Decrease"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Decrease"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="And"/>
+          <node refid="E14" role="Part"/>
+          <node refid="E15" role="Part2"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T28" role="Cause"/>
+          <node refid="E13" role="Agent"/>
+          <node refid="E16" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

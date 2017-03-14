@@ -1,0 +1,65 @@
+T1	Variable 9 20	carbon pump
+T2	Increase 0 8	Enhanced
+E1	Increase:T2 Theme:T1
+T3	Variable 49 89	nutrient limitation in the glacial ocean
+T4	Decrease 35 45	relaxation
+E2	Decrease:T4 Theme:T3
+T5	Variable 329 343	organic carbon
+T6	Change 344 350	export
+E3	Change:T6 Theme:T5
+T7	Variable 415 429	carbon dioxide
+T8	Decrease 401 411	outgassing
+E4	Decrease:T8 Theme:T7
+T9	Variable 463 474	deep waters
+T10	Change 450 459	upwelling
+E5	Change:T10 Theme:T9
+T11	Variable 577 597	primary productivity
+T12	Increase 567 576	increased
+E6	Increase:T12 Theme:T11 Agent:E9
+T13	Variable 611 633	deep-sea carbon export
+T14	Increase 602 610	enhanced
+E7	Increase:T14 Theme:T13 Agent:E9
+T15	And 598 601	and
+E8	And:T15 Part:E6 Part2:E7
+T16	Variable 519 555	dust-borne iron to the glacial ocean
+T17	Increase 507 515	delivery
+E9	Increase:T17 Theme:T16
+T19	Variable 659 723	atmospheric carbon dioxide concentrations during glacial periods
+T20	Decrease 650 658	lowering
+E11	Decrease:T20 Theme:T19 Agent:E8
+T21	Variable 772 842	organic carbon burial rates documented in underlying glacial sediments
+T22	Increase 765 771	higher
+E12	Increase:T22 Theme:T21
+T23	Variable 854 877	opal accumulation rates
+T24	Decrease 848 853	lower
+E13	Decrease:T24 Theme:T23
+T25	Variable 956 978	glacial carbon dioxide
+T26	Decrease 979 987	drawdown
+E14	Decrease:T26 Theme:T25
+T27	Variable 1075 1116	opal accumulation rate in the glacial EEP
+T28	Decrease 1064 1071	decline
+E15	Decrease:T28 Theme:T27
+T29	Variable 1144 1262	the silicon to carbon uptake ratio of diatoms under conditions of increased iron availability from enhanced dust input
+T30	Decrease 1132 1140	decrease
+E16	Decrease:T30 Theme:T29
+T31	Cause 1117 1124	results
+E17	Cause:T31 Agent:E16 Theme:E15
+T32	Variable 1417 1439	glacial carbon dioxide
+T33	Decrease 1440 1448	drawdown
+E18	Decrease:T33 Theme:T32
+T34	Increase 1312 1323	invigorated
+E19	Increase:T34 Theme:T35
+T35	Variable 1324 1378	biological pump in this region during the last glacial
+T36	Cause 1402 1413	contributed
+E20	Cause:T36 Agent:E19 Theme:E18
+T37	Variable 1496 1512	nitrogen isotope
+T38	Change 1513 1520	changes
+E21	Change:T38 Theme:T37
+T39	Variable 1748 1778	biological carbon dioxide pump
+T40	Increase 1736 1747	invigorated
+E22	Increase:T40 Theme:T39
+T41	Variable 1807 1817	phosphorus
+T42	Decrease 1818 1828	limitation
+E23	Decrease:T42 Theme:T41
+T43	Cause 1779 1790	constrained
+E24	Cause:T43 Agent:E23 Theme:E22

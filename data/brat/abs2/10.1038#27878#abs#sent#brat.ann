@@ -1,0 +1,30 @@
+T3	Variable 698 723	net carbon fixation rates
+T4	Decrease 728 731	low
+E2	Decrease:T4 Theme:T3
+T5	Variable 733 744	respiration
+T6	Increase 745 752	exceeds
+E3	Increase:T6 Theme:T5
+T7	Variable 806 820	organic carbon
+T8	Decrease 821 828	deficit
+E4	Decrease:T8 Theme:T7
+T9	Variable 1186 1207	biological production
+T10	Increase 1218 1225	exceeds
+E5	Increase:T10 Theme:T9
+T11	Variable 1276 1300	estimated organic-matter
+T12	Change 1301 1307	export
+E6	Change:T12 Theme:T11
+T13	Variable 1525 1533	regional
+T14	Change 1534 1544	imbalances
+E7	Change:T14 Theme:T13
+T1	Variable 290 306	organic material
+T2	Change 280 286	export
+E1	Change:T2 Theme:T1
+T15	Change 270 276	import
+E8	Change:T15 Theme:T1
+T16	Variable 998 1012	organic-matter
+T17	Change 1013 1019	import
+E9	Change:T17 Theme:T16
+T18	RefExp 1239 1250	This excess
+R1	Coref Expression:T18 Antecedent:E5	
+T19	Cause 1268 1275	sustain
+E10	Cause:T19 Agent:T18 Theme:E6

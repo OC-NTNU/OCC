@@ -1,0 +1,24 @@
+T1	Variable 62 106	The carbonate chemistry of the surface ocean
+T2	Change 118 126	changing
+E1	Change:T2 Theme:T1
+T3	Increase 138 151	acidification
+E2	Increase:T3 Theme:T4
+T4	Variable 132 137	ocean
+T5	Correlate 127 131	with
+E3	Correlate:T5 Theme:E1 Co-theme:E2
+T6	Variable 750 760	deep water
+T7	Change 741 749	upwelled
+E4	Change:T7 Theme:T6
+T8	Variable 974 979	shell
+T9	Decrease 980 991	dissolution
+E5	Decrease:T9 Theme:T8
+T10	Variable 1242 1262	deep-water upwelling
+T11	Variable 1267 1299	CO2 absorption by surface waters
+T12	And 1263 1266	and
+E6	And:T12 Part:T10 Part2:T11
+T13	Increase 1313 1321	increase
+E7	Increase:T13 Theme:E6
+T14	I_Change 1337 1353	human activities
+E8	I_Change:T14 
+T15	Cause 1327 1333	result
+E9	Cause:T15 Agent:E8 Theme:E6

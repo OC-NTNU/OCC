@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#35057247#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Hedges_2001,
+	doi = {10.1038/35057247},
+	url = {https://doi.org/10.1038%2F35057247},
+	year = 2001,
+	month = {feb},
+	publisher = {Springer Nature},
+	volume = {409},
+	number = {6822},
+	pages = {801--804},
+	author = {John I. Hedges and Jeffrey A. Baldock and Yves G{\'{e}}linas and Cindy Lee and Michael Peterson and Stuart G. Wakeham},
+	title = {Evidence for non-selective preservation of organic matter in sinking marine particles},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/35057247</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Evidence for non-selective preservation of organic matter in sinking marine particles
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="69"/>
+          <text>marine particles</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="61"/>
+          <text>sinking</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>86</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>86</offset>
+        <text>The sinking of particulate organic matter from ocean surface waters transports carbon to the ocean interior, where almost all is then recycled.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="26" offset="101"/>
+          <text>particulate organic matter</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="90"/>
+          <text>sinking</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="165"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="154"/>
+          <text>transports</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Change"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>230</offset>
+        <text>The unrecycled fraction of this organic matter can become buried in ocean sediments, thus sequestering carbon and so influencing atmospheric carbon dioxide concentrations.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="333"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="320"/>
+          <text>sequestering</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="41" offset="359"/>
+          <text>atmospheric carbon dioxide concentrations</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="347"/>
+          <text>influencing</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="I_Decrease"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E5" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>402</offset>
+        <text>The processes controlling the extensive biodegradation of sinking particles remain unclear, partly because of the difficulty in resolving the composition of the residual organic matter at depth with existing chromatographic techniques.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="460"/>
+          <text>sinking particles</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="442"/>
+          <text>biodegradation</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Decrease"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>638</offset>
+        <text>Here, using solid-state 13C NMR spectroscopy, we characterize the chemical structure of organic carbon in both surface plankton and sinking particulate matter from the Pacific Ocean and the Arabian Sea.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="778"/>
+          <text>particulate matter</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="770"/>
+          <text>sinking</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>841</offset>
+        <text>We found that minimal changes occur in bulk organic composition, despite extensive (&gt;98%) biodegradation, and that amino-acid-like material predominates throughout the water column in both regions.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="880"/>
+          <text>bulk organic composition</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="863"/>
+          <text>changes</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1039</offset>
+        <text>The compositional similarity between phytoplankton biomass and the small remnant of organic matter reaching the ocean interior indicates that the formation of unusual biochemicals, either by chemical recombination or microbial biosynthesis, is not the main process controlling the preservation of particulate organic carbon within the water column at these two sites.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1407</offset>
+        <text>We suggest instead that organic matter might be protected from degradation by the inorganic matrix of sinking particles.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1517"/>
+          <text>particles</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1509"/>
+          <text>sinking</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

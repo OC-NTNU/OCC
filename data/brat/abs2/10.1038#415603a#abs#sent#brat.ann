@@ -1,0 +1,37 @@
+T1	Variable 86 97	temperature
+T2	Change 98 110	fluctuations
+E1	Change:T2 Theme:T1
+T3	I_Change 161 178	marine ecosystems
+E2	I_Change:T3 
+T4	I_Change 183 211	the climate of North America
+E3	I_Change:T4 
+T5	And 179 182	and
+E4	And:T5 Part:E2 Part2:E3
+T6	Cause 151 157	effect
+E5	Cause:T6 Agent:E1 Theme:E4
+T7	RefExp 253 258	these
+R1	Coref Expression:T7 Antecedent:T1	
+T8	Change 259 271	fluctuations
+E6	Change:T8 Theme:T7
+T9	Variable 497 520	overturning circulation
+T10	Decrease 530 537	slowing
+E7	Decrease:T10 Theme:T9
+T11	Variable 582 661	upwelling of about 25% in an equatorial strip between 9degrees N and 9degrees S
+T12	Decrease 570 578	decrease
+E8	Decrease:T12 Theme:T11
+T13	Cause 560 567	causing
+E9	Cause:T13 Agent:E7 Theme:E8
+T14	Variable 681 726	equatorial upwelling of relatively cool water
+T15	Decrease 668 677	reduction
+E10	Decrease:T15 Theme:T14
+T16	Increase 784 788	rise
+E11	Increase:T16 Theme:T17
+T17	Variable 792 849	equatorial sea surface temperatures of about 0.8 degreesC
+T18	Variable 881 892	circulation
+T19	Decrease 873 880	slowing
+E12	Decrease:T19 Theme:T18
+T20	Decrease 898 907	reduction
+E13	Decrease:T20 Theme:T21
+T21	Variable 911 966	the outgassing of CO2 from the equatorial Pacific Ocean
+T22	Cause 859 864	effec
+E14	Cause:T22 Agent:E12 Theme:E13

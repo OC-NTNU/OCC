@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#27878#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{le_B_Williams_1998,
+	doi = {10.1038/27878},
+	url = {https://doi.org/10.1038%2F27878},
+	year = 1998,
+	month = {jul},
+	publisher = {Springer Nature},
+	volume = {394},
+	number = {6688},
+	pages = {55--57},
+	author = {P. J. le B. Williams},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/27878</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>The balance of plankton respiration and photosynthesis in the open oceans
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>74</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>74</offset>
+        <text>Approximately half of plant production occurs in the oceans.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>135</offset>
+        <text>As oceans are open systems, a degree of imbalance between biological production and consumption can, in principle, be sustained by the import or export of organic material.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="290"/>
+          <text>organic material</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="280"/>
+          <text>export</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="270"/>
+          <text>import</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T15" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>308</offset>
+        <text>Deficits in the overall oceanic budget of organic matter must be made up by import from terrestrial, freshwater and estuarine ecosystems, mainly as river-borne material.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>478</offset>
+        <text>As these inputs occur at the periphery of the ocean, their contribution is largely restricted to continental-shelf waters.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>601</offset>
+        <text>But it has been calculated -- using discrete in vitro observations -- that in environments where net carbon fixation rates are low, respiration exceeds photosynthesis, therefore leaving the system with an organic carbon deficit.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="25" offset="698"/>
+          <text>net carbon fixation rates</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="728"/>
+          <text>low</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="733"/>
+          <text>respiration</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="745"/>
+          <text>exceeds</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="806"/>
+          <text>organic carbon</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="821"/>
+          <text>deficit</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Decrease"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Decrease"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>830</offset>
+        <text>Such areas would include the central oligotrophic parts of the oceans, and it is difficult to envisage that such imbalances in these remote areas could be sustained by organic-matter import.
+</text>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="998"/>
+          <text>organic-matter</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1013"/>
+          <text>import</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T17" role="Change"/>
+          <node refid="T16" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1021</offset>
+        <text>Here I use an analysis of depth-integrated measures of production and respiration from five open-ocean regions to show that, in the upper 100 m of the water column, biological production generally exceeds consumption.
+</text>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="21" offset="1186"/>
+          <text>biological production</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1218"/>
+          <text>exceeds</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="1239"/>
+          <text>This excess</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Increase"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="R1">
+          <infon key="brat-id">R1</infon>
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <node refid="T18" role="Expression"/>
+          <node refid="E5" role="Antecedent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1239</offset>
+        <text>This excess is sufficient to sustain estimated organic-matter export out of these surface waters, consistent with the conclusion from simple mass-balance calculations that the open oceans as a whole are not substantially out of organic carbon balance.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="1276"/>
+          <text>estimated organic-matter</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1301"/>
+          <text>export</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1268"/>
+          <text>sustain</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Change"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="Cause"/>
+          <node refid="T18" role="Agent"/>
+          <node refid="E6" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">10</infon>
+        <offset>1491</offset>
+        <text>There is no evidence of the large regional imbalances observed previously.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1525"/>
+          <text>regional</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1534"/>
+          <text>imbalances</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">11</infon>
+        <offset>1566</offset>
+        <text>I conclude that the form of data analysis is critical.
+</text>
+      </sentence>
+    </passage>
+  </document>
+</collection>

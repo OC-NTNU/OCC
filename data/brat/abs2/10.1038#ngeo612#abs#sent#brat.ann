@@ -1,0 +1,55 @@
+T1	Variable 233 247	sinking carbon
+T2	Decrease 251 260	converted
+E1	Decrease:T2 Theme:T1
+T3	Decrease 395 400	decay
+E2	Decrease:T3 Theme:T5
+T4	Variable 585 594	particles
+T7	Change 577 584	sinking
+E4	Change:T7 Theme:T4
+T8	Variable 695 717	remineralization depth
+T9	Change 685 691	change
+E5	Change:T9 Theme:T8
+T10	I_Change 751 792	atmospheric carbon dioxide concentrations
+E6	I_Change:T10 
+T11	Cause 741 747	impact
+E7	Cause:T11 Agent:E5 Theme:E6
+T12	Variable 812 864	the depth at which 63% of sinking carbon is respired
+T13	Increase 865 874	increases
+E8	Increase:T13 Theme:T12
+T14	Variable 893 934	atmospheric carbon dioxide concentrations
+T15	Decrease 935 939	fall
+E9	Decrease:T15 Theme:T14 Agent:E8
+T16	RefExp 954 958	This
+R1	Coref Expression:T16 Antecedent:T14	
+T17	Decrease 959 968	reduction
+E10	Decrease:T17 Theme:T18
+T18	Variable 972 1012	atmospheric carbon dioxide concentration
+T20	Cause 1013 1020	results
+E12	Cause:T20 Theme:E10 Agent:E3
+T21	Variable 1144 1198	concentration of respired carbon in upper ocean waters
+T22	Decrease 1136 1143	reduced
+E13	Decrease:T22 Theme:T21
+T23	Variable 1200 1226	atmospheric carbon dioxide
+T24	Increase 1245 1251	stored
+E14	Increase:T24 Theme:T23
+T25	Cause 1117 1128	consequence
+E15	Cause:T25 Agent:E13 Theme:E14
+T27	Change 1391 1398	changes
+E16	Change:T27 Theme:T28
+T26	I_Change 1311 1352	atmospheric carbon dioxide concentrations
+E17	I_Change:T26 
+T29	Cause 1364 1373	sensitive
+E18	Cause:T29 Agent:E16 Theme:E17
+T30	Variable 154 168	carbon dioxide
+T31	Increase 173 181	released
+E19	Increase:T31 Theme:T30
+T5	Variable 353 361	particle
+T6	Change 1030 1044	redistribution
+E3	Change:T6 Theme:T19
+T19	Variable 1048 1068	remineralized carbon
+T28	Variable 1402 1424	remineralization depth
+T32	Variable 1447 1454	climate
+T33	Change 1455 1461	change
+E11	Change:T33 Theme:T32
+T34	Cause 1437 1443	caused
+E20	Cause:T34 Agent:E11 Theme:E16

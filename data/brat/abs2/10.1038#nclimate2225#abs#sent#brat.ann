@@ -1,0 +1,29 @@
+T1	Variable 42 49	climate
+T2	Change 33 41	changing
+E1	Change:T2 Theme:T1
+T3	Variable 83 113	damaging ultraviolet radiation
+T4	Increase 70 79	increases
+E2	Increase:T4 Theme:T3
+T5	Variable 149 175	ozone-depleting substances
+T6	Increase 136 145	emissions
+E3	Increase:T6 Theme:T5
+T7	Cause 119 125	result
+E4	Cause:T7 Agent:E3 Theme:E2
+T8	Change 293 299	change
+E5	Change:T8 Theme:T9
+T9	Variable 285 292	climate
+T10	Variable 362 369	climate
+T11	Change 370 376	change
+E6	Change:T11 Theme:T10
+T12	Variable 390 409	stratospheric ozone
+T13	Decrease 410 419	depletion
+E7	Decrease:T13 Theme:T12
+T14	Variable 721 728	climate
+T15	Change 710 717	changes
+E8	Change:T15 Theme:E10
+T16	Variable 776 809	exposure to ultraviolet radiation
+T17	Change 767 775	altering
+E9	Change:T17 Theme:T16 Agent:E8
+T18	Variable 743 762	stratospheric ozone
+T19	And 729 739	as well as
+E10	And:T19 Part:T14 Part2:T18

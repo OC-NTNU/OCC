@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nature03969#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Palter_2005,
+	doi = {10.1038/nature03969},
+	url = {https://doi.org/10.1038%2Fnature03969},
+	year = 2005,
+	month = {sep},
+	publisher = {Springer Nature},
+	volume = {437},
+	number = {7059},
+	pages = {687--692},
+	author = {Jaime B. Palter and M. Susan Lozier and Richard T. Barber},
+	title = {The effect of advection on the nutrient reservoir in the North Atlantic subtropical gyre},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nature03969</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>The effect of advection on the nutrient reservoir in the North Atlantic subtropical gyre
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>89</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>89</offset>
+        <text>Though critically important in sustaining the ocean's biological pump, the cycling of nutrients in the subtropical gyres is poorly understood.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>232</offset>
+        <text>The supply of nutrients to the sunlit surface layer of the ocean has traditionally been attributed solely to vertical processes.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>361</offset>
+        <text>However, horizontal advection may also be important in establishing the availability of nutrients.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>460</offset>
+        <text>Here we show that the production and advection of North Atlantic Subtropical Mode Water introduces spatial and temporal variability in the subsurface nutrient reservoir beneath the North Atlantic subtropical gyre.
+</text>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="11" offset="580"/>
+          <text>variability</text>
+        </annotation>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="77" offset="595"/>
+          <text>the subsurface nutrient reservoir beneath the North Atlantic subtropical gyre</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="37" offset="510"/>
+          <text>North Atlantic Subtropical Mode Water</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="482"/>
+          <text>production</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="497"/>
+          <text>advection</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="493"/>
+          <text>and</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="548"/>
+          <text>introduces</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="674"/>
+          <text>As</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Change"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Change"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="And"/>
+          <node refid="E2" role="Part"/>
+          <node refid="E3" role="Part2"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Cause"/>
+          <node refid="E4" role="Agent"/>
+          <node refid="E1" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Cause"/>
+          <node refid="E7" role="Agent"/>
+          <node refid="E6" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>674</offset>
+        <text>As the mode water is formed, its nutrients are depleted by biological utilization.
+</text>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="707"/>
+          <text>nutrients</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="721"/>
+          <text>depleted</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="681"/>
+          <text>mode water</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="695"/>
+          <text>formed</text>
+        </annotation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Decrease"/>
+          <node refid="T8" role="Theme"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>757</offset>
+        <text>When the depleted water mass is exported to the gyre, it injects a wedge of low-nutrient water into the upper layers of the ocean.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="19" offset="766"/>
+          <text>depleted water mass</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="789"/>
+          <text>exported</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">RefExp</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="811"/>
+          <text>it</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="814"/>
+          <text>injects</text>
+        </annotation>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="64" offset="822"/>
+          <text>a wedge of low-nutrient water into the upper layers of the ocean</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+        <relation id="R1">
+          <infon key="brat-id">R1</infon>
+          <infon key="type">Coref</infon>
+          <infon key="brat-type">relation</infon>
+          <node refid="T15" role="Expression"/>
+          <node refid="T13" role="Antecedent"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Increase"/>
+          <node refid="T17" role="Theme"/>
+          <node refid="T15" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>888</offset>
+        <text>Contrary to intuition, cold winters that promote deep convective mixing and vigorous mode water formation may diminish downstream primary productivity by altering the subsurface delivery of nutrients.
+</text>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="31" offset="1007"/>
+          <text>downstream primary productivity</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="998"/>
+          <text>diminish</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1042"/>
+          <text>altering</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="36" offset="1051"/>
+          <text>the subsurface delivery of nutrients</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="929"/>
+          <text>promote</text>
+        </annotation>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="937"/>
+          <text>deep convective mixing</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="964"/>
+          <text>vigorous mode water formation</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="960"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T19" role="Decrease"/>
+          <node refid="T18" role="Theme"/>
+          <node refid="E11" role="Agent"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Change"/>
+          <node refid="T21" role="Theme"/>
+          <node refid="E13" role="Agent"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Increase"/>
+          <node refid="E14" role="Theme"/>
+        </relation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T25" role="And"/>
+          <node refid="T23" role="Part"/>
+          <node refid="T24" role="Part2"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

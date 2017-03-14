@@ -1,0 +1,29 @@
+T5	I_Change 826 874	the programmed cell death (PCD) of Trichodesmium
+E3	I_Change:T5 
+T6	Variable 911 935	vertical flux of C and N
+T7	Increase 901 910	increased
+E4	Increase:T7 Theme:T6
+T8	Cause 891 900	regulates
+E5	Cause:T8 Agent:E3 Theme:E4
+T9	Variable 1093 1130	excretions of transparent exopolymers
+T10	Increase 1084 1092	elevated
+E6	Increase:T10 Theme:T9
+T11	Variable 1163 1189	particulate organic matter
+T12	Decrease 1145 1153	downward
+E7	Decrease:T12 Theme:T11
+T13	And 1131 1134	and
+E8	And:T13 Part:E6 Part2:E7
+T14	Variable 1047 1067	Trichodesmium blooms
+T15	Decrease 1019 1025	demise
+E9	Decrease:T15 Theme:T14
+T16	Cause 1068 1072	lead
+E10	Cause:T16 Agent:E9 Theme:E8
+T18	Decrease 1252 1260	collapse
+E11	Decrease:T18 Theme2:T4
+T1	RefExp 508 528	These massive blooms
+T2	Decrease 539 547	collapse
+E1	Decrease:T2 Theme:T1
+T3	Variable 450 456	blooms
+R1	Coref Expression:T1 Antecedent:T3	
+#1	AnnotatorNotes T1	We are not sure whether it is correct that a refering expression refers to a variable 
+T4	Variable 1246 1251	bloom

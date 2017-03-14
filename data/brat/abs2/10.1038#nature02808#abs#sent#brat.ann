@@ -1,0 +1,44 @@
+T1	Variable 10 17	climate
+T2	Change 18 24	change
+E1	Change:T2 Theme:T1
+T3	Variable 232 239	climate
+T4	Change 240 246	change
+E2	Change:T4 Theme:T3
+T5	Variable 259 268	phenology
+T6	Change 248 255	Changes
+E3	Change:T6 Theme:T5
+T7	Variable 316 355	the level of response to climate change
+T8	Change 360 364	vary
+E4	Change:T8 Theme:T7
+T9	Variable 533 552	food-web structures
+T10	Change 524 532	altering
+E5	Change:T10 Theme:T9 Agent:E6
+T11	I_Change 419 463	The decoupling of phenological relationships
+E6	I_Change:T11 
+T12	Variable 568 592	eventual ecosystem-level
+T13	Change 593 600	changes
+E7	Change:T13 Theme:T12
+T14	Cause 557 564	leading
+E8	Cause:T14 Agent:E6 Theme:E7
+T15	And 553 556	and
+E9	And:T15 Part:E5 Part2:E7
+T16	Change 672 679	changes
+E10	Change:T16 Theme:T17
+T17	RefExp 666 671	these
+R1	Coref Expression:T17 Antecedent:T12	
+T18	Variable 722 736	trophic levels
+T19	Increase 715 721	higher
+E11	Increase:T19 Theme:T18
+T20	Variable 781 798	pulsed planktonic
+T21	Increase 799 809	production
+E12	Increase:T21 Theme:T20
+T22	Variable 913 936	climate warming signals
+T23	Increase 941 949	emergent
+E13	Increase:T23 Theme:T22
+T24	Variable 1103 1110	climate
+T25	Change 1111 1118	changes
+E14	Change:T25 Theme:T24
+T26	I_Change 1060 1088	the marine pelagic community
+E15	I_Change:T26 
+T27	Cause 1089 1099	responding
+E16	Cause:T27 Agent:E14 Theme:E15

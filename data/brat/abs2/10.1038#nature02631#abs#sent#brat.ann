@@ -1,0 +1,54 @@
+T1	Variable 73 118	deposition of atmospheric dust into the ocean
+T2	Change 123 129	varied
+E1	Change:T2 Theme:T1
+T3	Variable 262 275	phytoplankton
+T4	Increase 276 282	growth
+E2	Increase:T4 Theme:T3
+T5	Cause 256 261	limit
+E3	Cause:T5 Agent:E4 Theme:E2
+T6	I_Change 173 215	some of the trace metals contained in dust
+E4	I_Change:T6 
+T7	Variable 347 379	dust supply to the surface ocean
+T8	Change 333 343	variations
+E5	Change:T8 Theme:T7
+T9	I_Change 396 414	primary production
+E6	I_Change:T9 
+T10	Cause 386 395	influence
+E7	Cause:T10 Agent:E5 Theme:E6
+T11	Variable 614 640	particulate organic carbon
+T12	Variable 645 662	calcium carbonate
+T13	And 641 644	and
+E8	And:T13 Part:T11 Part2:T12
+T14	Increase 595 605	production
+E9	Increase:T14 Theme:E8
+T15	I_Change 678 712	the ocean's biological carbon pump
+E10	I_Change:T15 
+T16	Cause 671 677	drives
+E11	Cause:T16 Agent:E8 Theme:E10
+T17	Variable 1056 1062	growth
+T18	Variable 1067 1080	calcification
+T19	And 1063 1066	and
+E12	And:T19 Part:T17 Part2:T18
+T20	Decrease 1093 1100	reduced
+E13	Decrease:T20 Theme:E12
+T21	Variable 1036 1055	iron concentrations
+T22	Decrease 1032 1035	low
+E14	Decrease:T22 Theme:T21
+T23	Variable 1106 1125	zinc concentrations
+T24	Decrease 1102 1105	low
+E15	Decrease:T24 Theme:T23
+T25	Variable 1153 1170	the two processes
+T26	Change 1138 1149	de-coupling
+E16	Change:T26 Theme:T25
+T27	Cause 1126 1132	result
+E17	Cause:T27 Agent:E15 Theme:E16
+T28	Variable 1192 1225	growth rate of zinc-limited cells
+T29	Decrease 1184 1191	reduced
+E18	Decrease:T29 Theme:T28
+T30	Variable 1356 1371	dust deposition
+T31	Change 1345 1352	changes
+E19	Change:T31 Theme:T30
+T32	I_Increase 1383 1464	biogenic calcification in oceanic regions characterized by trace metal limitation
+E20	I_Increase:T32 
+T33	Cause 1376 1382	affect
+E21	Cause:T33 Agent:E19 Theme:E20

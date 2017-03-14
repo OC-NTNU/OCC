@@ -1,0 +1,50 @@
+T1	Variable 0 10	Life-cycle
+T2	Change 11 23	modification
+E1	Change:T2 Theme:T1
+T4	Change 59 70	variability
+E2	Change:T4 Theme:T3
+T3	Variable 52 58	genome
+T5	Cause 39 47	accounts
+E3	Cause:T5 Agent:E1 Theme:E2
+T6	Variable 210 216	genome
+T7	Change 217 228	variability
+E4	Change:T7 Theme:T6
+T8	Variable 265 271	sexual
+T9	Change 272 283	alternation
+E5	Change:T9 Theme:T8
+T10	Variable 349 388	genome content variability in Emiliania
+T11	Increase 344 348	high
+E6	Increase:T11 Theme:T10
+T12	Variable 441 478	the ability to form flagellated cells
+T13	Decrease 433 437	loss
+E7	Decrease:T13 Theme:T12
+T14	Variable 411 428	1N-specific genes
+T15	Decrease 400 407	erosion
+E8	Decrease:T15 Theme:T14
+T16	And 429 432	and
+E9	And:T16 Part:E8 Part2:E7
+T17	Variable 564 678	flagella occurred independently in lineages inhabiting oligotrophic open oceans over short evolutionary timescales
+T18	Decrease 556 560	loss
+E10	Decrease:T18 Theme:T17
+T19	Change 722 728	change
+E11	Change:T19 Theme:T20
+T20	RefExp 680 684	This
+#1	AnnotatorNotes T20	the reference should be resolved
+T21	Variable 822 837	biotic pressure
+T22	Decrease 818 821	low
+E12	Decrease:T22 Theme:T21
+T23	Variable 846 868	ecological variability
+T24	Decrease 842 845	low
+E13	Decrease:T24 Theme:T23
+T25	And 838 841	and
+E14	And:T25 Part:E12 Part2:E13
+T26	Variable 870 874	Gene
+T27	Decrease 875 879	loss
+E15	Decrease:T27 Theme:T26
+T28	Change 1013 1026	modifications
+E16	Change:T28 Theme:T29
+T29	Variable 1002 1012	Life-cycle
+T30	Cause 1059 1064	cause
+E17	Cause:T30 Agent:E16 Theme:E18
+T31	I_Change 1065 1093	major functional variability
+E18	I_Change:T31 

@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ngeo755#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Ridgwell_2010,
+	doi = {10.1038/ngeo755},
+	url = {https://doi.org/10.1038%2Fngeo755},
+	year = 2010,
+	month = {feb},
+	publisher = {Springer Nature},
+	volume = {3},
+	number = {3},
+	pages = {196--200},
+	author = {Andy Ridgwell and Daniela N. Schmidt},
+	title = {Past constraints on the vulnerability of marine calcifiers to massive carbon dioxide release},
+	journal = {Nature Geoscience}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ngeo755</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Past constraints on the vulnerability of marine calcifiers to massive carbon dioxide release
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="70"/>
+          <text>carbon dioxide</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="85"/>
+          <text>release</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="93"/>
+          <text>Increasing</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>93</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>93</offset>
+        <text>Increasing concentrations of carbon dioxide in sea water are driving a progressive acidification of the ocean.
+</text>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="45" offset="104"/>
+          <text>concentrations of carbon dioxide in sea water</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="38" offset="164"/>
+          <text>progressive acidification of the ocean</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="154"/>
+          <text>driving</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="I_Increase"/>
+        </relation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Cause"/>
+          <node refid="E2" role="Agent"/>
+          <node refid="E3" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>204</offset>
+        <text>Although the associated changes in the carbonate chemistry of surface and deep waters may adversely affect marine calcifying organisms, current experiments do not always produce consistent results for a given species.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="50" offset="239"/>
+          <text>the carbonate chemistry of surface and deep waters</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="228"/>
+          <text>changes</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="27" offset="311"/>
+          <text>marine calcifying organisms</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="304"/>
+          <text>affect</text>
+        </annotation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">I_Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="I_Change"/>
+        </relation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Cause"/>
+          <node refid="E5" role="Agent"/>
+          <node refid="E6" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>422</offset>
+        <text>Ocean sediments record past biological responses to transient greenhouse warming and ocean acidification.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>528</offset>
+        <text>During the Palaeocene-Eocene thermal maximum, for example, the biodiversity of benthic calcifying organisms decreased markedly, whereas extinctions of surface dwellers were very limited.
+</text>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="48" offset="587"/>
+          <text>the biodiversity of benthic calcifying organisms</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="636"/>
+          <text>decreased</text>
+        </annotation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T12" role="Decrease"/>
+          <node refid="T11" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>715</offset>
+        <text>Here we use the Earth system model GENIE-1 to simulate and compare directly past and present environmental changes in the marine realm.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="808"/>
+          <text>environmental</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="822"/>
+          <text>changes</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>851</offset>
+        <text>In our simulation of future ocean conditions, we find an undersaturation with respect to carbonate in the deep ocean that exceeds that experienced during the Palaeocene-Eocene thermal maximum and could endanger calcifying organisms.
+</text>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="62" offset="905"/>
+          <text>an undersaturation with respect to carbonate in the deep ocean</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="973"/>
+          <text>exceeds</text>
+        </annotation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Increase"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1084</offset>
+        <text>Furthermore, our simulations show higher rates of environmental change at the surface for the future than the Palaeocene-Eocene thermal maximum, which could potentially challenge the ability of plankton to adapt.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="44" offset="1125"/>
+          <text>rates of environmental change at the surface</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1118"/>
+          <text>higher</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Increase"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

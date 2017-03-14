@@ -1,0 +1,22 @@
+T1	Variable 447 455	nitrogen
+T2	Change 456 464	fixation
+E1	Change:T2 Theme:T1
+T3	Variable 896 905	N:P ratio
+T4	Increase 889 895	higher
+E2	Increase:T4 Theme:T3
+T5	Variable 821 872	allocation to P-poor resource-acquisition machinery
+T6	Increase 813 820	greater
+E3	Increase:T6 Theme:T5
+T7	Variable 942 981	allocation to P-rich assembly machinery
+T8	Increase 934 941	greater
+E4	Increase:T8 Theme:T7
+T9	Variable 1004 1013	N:P ratio
+T10	Decrease 998 1003	lower
+E5	Decrease:T10 Theme:T9
+T11	Cause 877 886	therefore
+E6	Cause:T11 Agent:E3 Theme:E2
+T12	Cause 986 995	therefore
+E7	Cause:T12 Agent:E4 Theme:E5
+T13	Variable 1152 1170	optimal N:P ratios
+T14	Change 1176 1180	vary
+E8	Change:T14 Theme:T13

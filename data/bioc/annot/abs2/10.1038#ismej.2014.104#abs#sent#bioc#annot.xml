@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#ismej.2014.104#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Garcia_2014,
+	doi = {10.1038/ismej.2014.104},
+	url = {https://doi.org/10.1038%2Fismej.2014.104},
+	year = 2014,
+	month = {jun},
+	publisher = {Springer Nature},
+	volume = {9},
+	number = {1},
+	pages = {238--245},
+	author = {Nathan S Garcia and Feixue Fu and Peter N Sedwick and David A Hutchins},
+	title = {Iron deficiency increases growth and nitrogen-fixation rates of phosphorus-deficient marine cyanobacteria},
+	journal = {The {ISME} Journal}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/ismej.2014.104</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Iron deficiency increases growth and nitrogen-fixation rates of phosphorus-deficient marine cyanobacteria
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="0"/>
+          <text>Iron</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="5"/>
+          <text>deficiency</text>
+        </annotation>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="16"/>
+          <text>increases</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="79" offset="26"/>
+          <text>growth and nitrogen-fixation rates of phosphorus-deficient marine cyanobacteria</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T4" role="Increase"/>
+          <node refid="T3" role="Theme"/>
+          <node refid="E1" role="Agent"/>
+        </relation>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>106</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>106</offset>
+        <text>Marine dinitrogen (N2)-fixing cyanobacteria have large impacts on global biogeochemistry as they fix carbon dioxide (CO2) and fertilize oligotrophic ocean waters with new nitrogen.
+</text>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="113"/>
+          <text>dinitrogen</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="129"/>
+          <text>fixing</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="207"/>
+          <text>carbon dioxide</text>
+        </annotation>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="203"/>
+          <text>fix</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="232"/>
+          <text>fertilize</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="12" offset="273"/>
+          <text>new nitrogen</text>
+        </annotation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="Change"/>
+          <node refid="T7" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T10" role="Change"/>
+          <node refid="T9" role="Theme"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>287</offset>
+        <text>Iron (Fe) and phosphorus (P) are the two most important limiting nutrients for marine biological N2 fixation, and their availabilities vary between major ocean basins and regions.
+</text>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="384"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="387"/>
+          <text>fixation</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="20" offset="401"/>
+          <text>their availabilities</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="422"/>
+          <text>vary</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="Change"/>
+          <node refid="T13" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Change"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>467</offset>
+        <text>A long-standing question concerns the ability of two globally dominant N2-fixing cyanobacteria, unicellular Crocosphaera and filamentous Trichodesmium, to maintain relatively high N2-fixation rates in these regimes where both Fe and P are typically scarce.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="538"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="541"/>
+          <text>fixing</text>
+        </annotation>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="647"/>
+          <text>N2-fixation rates</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="642"/>
+          <text>high</text>
+        </annotation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Increase"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>724</offset>
+        <text>We show that under P-deficient conditions, cultures of these two cyanobacteria are able to grow and fix N2 faster when Fe deficient than when Fe replete.
+</text>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="779"/>
+          <text>these two cyanobacteria</text>
+        </annotation>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="815"/>
+          <text>grow</text>
+        </annotation>
+        <annotation id="T21">
+          <infon key="brat-id">T21</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="828"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T22">
+          <infon key="brat-id">T22</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="824"/>
+          <text>fix</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T6" role="Increase"/>
+          <node refid="T5" role="Theme"/>
+        </relation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T22" role="Change"/>
+          <node refid="T21" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>878</offset>
+        <text>In addition, growth affinities relative to P increase while minimum concentrations of P that support growth decrease at low Fe concentrations.
+</text>
+        <annotation id="T23">
+          <infon key="brat-id">T23</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="31" offset="891"/>
+          <text>growth affinities relative to P</text>
+        </annotation>
+        <annotation id="T24">
+          <infon key="brat-id">T24</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="923"/>
+          <text>increase</text>
+        </annotation>
+        <annotation id="T25">
+          <infon key="brat-id">T25</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="47" offset="938"/>
+          <text>minimum concentrations of P that support growth</text>
+        </annotation>
+        <annotation id="T26">
+          <infon key="brat-id">T26</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="986"/>
+          <text>decrease</text>
+        </annotation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T24" role="Increase"/>
+          <node refid="T23" role="Theme"/>
+        </relation>
+        <relation id="E13">
+          <infon key="brat-id">E13</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T26" role="Decrease"/>
+          <node refid="T25" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1021</offset>
+        <text>In Crocosphaera, this effect is accompanied by a reduction in cell sizes and elemental quotas.
+</text>
+        <annotation id="T27">
+          <infon key="brat-id">T27</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1070"/>
+          <text>reduction</text>
+        </annotation>
+        <annotation id="T28">
+          <infon key="brat-id">T28</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="1083"/>
+          <text>cell sizes</text>
+        </annotation>
+        <annotation id="T29">
+          <infon key="brat-id">T29</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="16" offset="1098"/>
+          <text>elemental quotas</text>
+        </annotation>
+        <annotation id="T30">
+          <infon key="brat-id">T30</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1094"/>
+          <text>and</text>
+        </annotation>
+        <relation id="E14">
+          <infon key="brat-id">E14</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T27" role="Decrease"/>
+          <node refid="E15" role="Theme"/>
+        </relation>
+        <relation id="E15">
+          <infon key="brat-id">E15</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T30" role="And"/>
+          <node refid="T28" role="Part"/>
+          <node refid="T29" role="Part2"/>
+        </relation>
+        <relation id="#1">
+          <infon key="brat-id">#1</infon>
+          <infon key="type">AnnotatorNotes</infon>
+          <infon key="brat-type">note</infon>
+          <infon key="string">there may have a correnation signaled by "accompanied"</infon>
+          <node refid="E14" role="Annotation"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1116</offset>
+        <text>Relatively high growth rates of these two biogeochemically critical cyanobacteria in low-P, low-Fe environments such as those that characterize much of the oligotrophic ocean challenge the common assumption that low Fe levels can have only negative effects on marine primary producers.
+</text>
+        <annotation id="T31">
+          <infon key="brat-id">T31</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="95" offset="1132"/>
+          <text>growth rates of these two biogeochemically critical cyanobacteria in low-P, low-Fe environments</text>
+        </annotation>
+        <annotation id="T32">
+          <infon key="brat-id">T32</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="1127"/>
+          <text>high</text>
+        </annotation>
+        <annotation id="T33">
+          <infon key="brat-id">T33</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="1332"/>
+          <text>Fe levels</text>
+        </annotation>
+        <annotation id="T34">
+          <infon key="brat-id">T34</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1328"/>
+          <text>low</text>
+        </annotation>
+        <annotation id="T36">
+          <infon key="brat-id">T36</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="1356"/>
+          <text>negative</text>
+        </annotation>
+        <annotation id="T35">
+          <infon key="brat-id">T35</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="24" offset="1376"/>
+          <text>marine primary producers</text>
+        </annotation>
+        <annotation id="T37">
+          <infon key="brat-id">T37</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="7" offset="1365"/>
+          <text>effects</text>
+        </annotation>
+        <relation id="E16">
+          <infon key="brat-id">E16</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T32" role="Increase"/>
+          <node refid="T31" role="Theme"/>
+        </relation>
+        <relation id="E17">
+          <infon key="brat-id">E17</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T34" role="Decrease"/>
+          <node refid="T33" role="Theme"/>
+        </relation>
+        <relation id="E19">
+          <infon key="brat-id">E19</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T36" role="Decrease"/>
+          <node refid="T35" role="Theme"/>
+        </relation>
+        <relation id="E18">
+          <infon key="brat-id">E18</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T37" role="Cause"/>
+          <node refid="E19" role="Theme"/>
+          <node refid="E17" role="Agent"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1402</offset>
+        <text>The closely interdependent influence of Fe and P on N2-fixing cyanobacteria suggests that even subtle shifts in their supply ratio in the past, present and future oceans could have large consequences for global carbon and nitrogen cycles.
+</text>
+        <annotation id="T38">
+          <infon key="brat-id">T38</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="1454"/>
+          <text>N2</text>
+        </annotation>
+        <annotation id="T39">
+          <infon key="brat-id">T39</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1457"/>
+          <text>fixing</text>
+        </annotation>
+        <annotation id="T40">
+          <infon key="brat-id">T40</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="18" offset="1514"/>
+          <text>their supply ratio</text>
+        </annotation>
+        <annotation id="T41">
+          <infon key="brat-id">T41</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1504"/>
+          <text>shifts</text>
+        </annotation>
+        <relation id="E20">
+          <infon key="brat-id">E20</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T39" role="Change"/>
+          <node refid="T38" role="Theme"/>
+        </relation>
+        <relation id="E21">
+          <infon key="brat-id">E21</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T41" role="Change"/>
+          <node refid="T40" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,30 @@
+T1	Variable 70 118	dissolved organic carbon in freshwater food webs
+T2	Change 58 66	transfer
+E1	Change:T2 Theme:T1
+T3	Variable 505 522	tritiated leucine
+T4	Increase 495 501	uptake
+E2	Increase:T4 Theme:T3
+T5	Variable 773 786	Microbial DOC
+T6	Increase 787 793	uptake
+E3	Increase:T6 Theme:T5
+T7	Variable 949 959	DOC supply
+T8	Increase 944 948	high
+E4	Increase:T8 Theme:T7
+T9	Variable 1298 1346	bacteria related to Limnohabitans on Daphnia spp
+T10	Increase 1288 1294	growth
+E5	Increase:T10 Theme:T9
+T11	Variable 1429 1432	DOC
+T12	Change 1433 1437	flux
+E6	Change:T12 Theme:T11
+T13	I_Change 1493 1515	the crustacean biomass
+E7	I_Change:T13 
+T14	Correlate 1477 1487	associated
+E8	Correlate:T14 Theme:E6 Co-theme:E7
+A1	Negated E8
+T15	I_Change 1532 1556	its epibiotic microflora
+E9	I_Change:T15 
+T16	Correlate 1527 1531	with
+E10	Correlate:T16 Co-theme:E9 Theme:E6
+T17	Variable 1773 1786	microbial DOC
+T18	Increase 1787 1793	uptake
+E11	Increase:T18 Theme:T17

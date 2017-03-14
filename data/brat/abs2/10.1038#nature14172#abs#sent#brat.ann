@@ -1,0 +1,89 @@
+T1	Variable 12 52	CO2 efflux from northern hardwater lakes
+T2	Decrease 0 8	Decrease
+E1	Decrease:T2 Theme:T1
+T3	Variable 69 88	atmospheric warming
+T4	Increase 58 68	increasing
+E2	Increase:T4 Theme:T3
+T6	Variable 141 154	carbon fluxes
+T7	Change 135 140	alter
+E4	Change:T7 Theme:T6
+T8	Variable 367 391	~1.4 petagrams of carbon
+T9	Decrease 359 366	release
+E5	Decrease:T9 Theme:T8
+T10	Variable 429 442	carbon efflux
+T11	Increase 447 455	increase
+E6	Increase:T11 Theme:T10
+T12	Variable 494 506	temperatures
+T13	Increase 485 493	elevated
+E7	Increase:T13 Theme:T12
+T14	Increase 511 520	increased
+E8	Increase:T14 Theme:T15
+T15	Variable 521 593	hydrological delivery of mineralizable dissolved organic matter to lakes
+T16	Cause 473 481	response
+E9	Cause:T16 Agent:E10 Theme:E6
+T17	And 507 510	and
+E10	And:T17 Part:E7 Part2:E8
+T18	Variable 645 652	climate
+T19	Change 653 660	changes
+E11	Change:T19 Theme:T18
+T20	Variable 664 670	carbon
+T21	Change 671 677	fluxes
+E12	Change:T21 Theme:T20
+T22	I_Increase 808 827	atmospheric warming
+E13	I_Increase:T22 
+T25	Change 1003 1013	variations
+E16	Change:T25 Theme:T26
+T26	Variable 1017 1019	pH
+T27	I_Change 1024 1096	carbon exchange in hydrologically diverse lakes of central North America
+E17	I_Change:T27 
+T28	And 1020 1023	and
+E18	And:T28 Part:E17 Part2:E16
+T29	I_Change 979 992	the processes
+E19	I_Change:T29 
+T30	Cause 993 1002	affecting
+E20	Cause:T30 Agent:E19 Theme:E18
+T31	Variable 1255 1269	annual mean pH
+T32	Increase 1243 1251	increase
+E21	Increase:T32 Theme:T31
+T33	Variable 1308 1310	pH
+T34	Variable 1315 1325	CO2 uptake
+T35	And 1311 1314	and
+E22	And:T35 Part:T33 Part2:T34
+T36	Change 1297 1304	changes
+E23	Change:T36 Theme:E22
+T37	Variable 1371 1390	ice cover in spring
+T38	Decrease 1360 1367	decline
+E24	Decrease:T38 Theme:T37
+T39	Variable 1406 1432	CO2 accumulation under ice
+T40	Decrease 1396 1405	decreases
+E25	Decrease:T40 Theme:T39 Agent:E24
+T41	Variable 1444 1464	spring and summer pH
+T42	Increase 1434 1443	increases
+E26	Increase:T42 Theme:T41
+T43	Variable 1479 1524	the chemical uptake of CO2 in hardwater lakes
+T44	Increase 1470 1478	enhances
+E27	Increase:T44 Theme:T43
+T45	And 1466 1469	and
+E28	And:T45 Part:E27 Part2:E26 Part3:E25
+T46	Variable 1557 1569	temperatures
+T47	Increase 1550 1556	rising
+E29	Increase:T47 Theme:T46
+T48	Increase 1588 1596	increase
+E30	Increase:T48 Theme:T49 Agent:E29
+T49	Variable 1597 1634	CO2 emissions from aquatic ecosystems
+T5	Correlate 53 57	with
+E3	Correlate:T5 Theme:E1 Co-theme:E2
+T50	Cause 634 641	effects
+E31	Cause:T50 Agent:E11 Theme:E12
+T23	Variable 839 873	CO2 emissions from hardwater lakes
+T24	Decrease 832 838	reduce
+E14	Decrease:T24 Theme:T23 Agent:E13
+T51	Variable 933 936	CO2
+T52	Change 937 943	fluxes
+E15	Change:T52 Theme:T51
+T53	Variable 1111 1120	the lakes
+T54	Change 1126 1133	shifted
+E32	Change:T54 Theme:T53
+T55	Correlate 1229 1233	with
+E33	Correlate:T55 Theme:E32 Co-theme:E21
+A1	Negated E30

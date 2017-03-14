@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<collection>
+  <source>Ocean-Certain Corpus</source>
+  <date>2017-03-14</date>
+  <key></key>
+  <infon key="part">abs2</infon>
+  <document>
+    <id>10.1038#nature10295#abs#sent#bioc#annot</id>
+    <infon key="bibtex">
+@article{Beaufort_2011,
+	doi = {10.1038/nature10295},
+	url = {https://doi.org/10.1038%2Fnature10295},
+	year = 2011,
+	month = {aug},
+	publisher = {Springer Nature},
+	volume = {476},
+	number = {7358},
+	pages = {80--83},
+	author = {L. Beaufort and I. Probert and T. de Garidel-Thoron and E. M. Bendif and D. Ruiz-Pino and N. Metzl and C. Goyet and N. Buchet and P. Coupel and M. Grelaud and B. Rost and R. E. M. Rickaby and C. de Vargas},
+	title = {Sensitivity of coccolithophores to carbonate chemistry and ocean acidification},
+	journal = {Nature}
+}</infon>
+    <infon key="source">http://dx.doi.org/data/brat/abs2/10.1038/nature10295</infon>
+    <passage>
+      <offset>0</offset>
+      <infon key="type">title</infon>
+      <sentence>
+        <infon key="n">1</infon>
+        <offset>0</offset>
+        <text>Sensitivity of coccolithophores to carbonate chemistry and ocean acidification
+</text>
+      </sentence>
+    </passage>
+    <passage>
+      <offset>79</offset>
+      <infon key="type">body</infon>
+      <sentence>
+        <infon key="n">2</infon>
+        <offset>79</offset>
+        <text>About one-third of the carbon dioxide (CO2) released into the atmosphere as a result of human activity has been absorbed by the oceans, where it partitions into the constituent ions of carbonic acid.
+</text>
+        <annotation id="T1">
+          <infon key="brat-id">T1</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="14" offset="102"/>
+          <text>carbon dioxide</text>
+        </annotation>
+        <annotation id="T2">
+          <infon key="brat-id">T2</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="123"/>
+          <text>released</text>
+        </annotation>
+        <annotation id="T3">
+          <infon key="brat-id">T3</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="191"/>
+          <text>absorbed</text>
+        </annotation>
+        <relation id="E1">
+          <infon key="brat-id">E1</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T2" role="Increase"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+        <relation id="E2">
+          <infon key="brat-id">E2</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T3" role="Decrease"/>
+          <node refid="T1" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">3</infon>
+        <offset>279</offset>
+        <text>This leads to ocean acidification, one of the major threats to marine ecosystems and particularly to calcifying organisms such as corals, foraminifera and coccolithophores.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">4</infon>
+        <offset>452</offset>
+        <text>Coccolithophores are abundant phytoplankton that are responsible for a large part of modern oceanic carbonate production.
+</text>
+        <annotation id="T4">
+          <infon key="brat-id">T4</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="17" offset="544"/>
+          <text>oceanic carbonate</text>
+        </annotation>
+        <annotation id="T5">
+          <infon key="brat-id">T5</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="562"/>
+          <text>production</text>
+        </annotation>
+        <relation id="E3">
+          <infon key="brat-id">E3</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T5" role="Increase"/>
+          <node refid="T4" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">5</infon>
+        <offset>574</offset>
+        <text>Culture experiments investigating the physiological response of coccolithophore calcification to increased CO2 have yielded contradictory results between and even within species.
+</text>
+        <annotation id="T6">
+          <infon key="brat-id">T6</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="681"/>
+          <text>CO2</text>
+        </annotation>
+        <annotation id="T7">
+          <infon key="brat-id">T7</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="9" offset="671"/>
+          <text>increased</text>
+        </annotation>
+        <annotation id="T8">
+          <infon key="brat-id">T8</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="29" offset="638"/>
+          <text>coccolithophore calcification</text>
+        </annotation>
+        <annotation id="T9">
+          <infon key="brat-id">T9</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="8" offset="626"/>
+          <text>response</text>
+        </annotation>
+        <relation id="E4">
+          <infon key="brat-id">E4</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T7" role="Increase"/>
+          <node refid="T6" role="Theme"/>
+        </relation>
+        <relation id="E5">
+          <infon key="brat-id">E5</infon>
+          <infon key="type">I_Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T8" role="I_Increase"/>
+        </relation>
+        <relation id="E6">
+          <infon key="brat-id">E6</infon>
+          <infon key="type">Cause</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T9" role="Cause"/>
+          <node refid="E5" role="Agent"/>
+          <node refid="E4" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">6</infon>
+        <offset>753</offset>
+        <text>Here we quantified the calcite mass of dominant coccolithophores in the present ocean and over the past forty thousand years, and found a marked pattern of decreasing calcification with increasing partial pressure of CO2 and concomitant decreasing concentrations of CO32-.
+</text>
+        <annotation id="T10">
+          <infon key="brat-id">T10</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="13" offset="920"/>
+          <text>calcification</text>
+        </annotation>
+        <annotation id="T11">
+          <infon key="brat-id">T11</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="909"/>
+          <text>decreasing</text>
+        </annotation>
+        <annotation id="T12">
+          <infon key="brat-id">T12</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="23" offset="950"/>
+          <text>partial pressure of CO2</text>
+        </annotation>
+        <annotation id="T13">
+          <infon key="brat-id">T13</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="939"/>
+          <text>increasing</text>
+        </annotation>
+        <annotation id="T14">
+          <infon key="brat-id">T14</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="4" offset="934"/>
+          <text>with</text>
+        </annotation>
+        <annotation id="T15">
+          <infon key="brat-id">T15</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="22" offset="1001"/>
+          <text>concentrations of CO32</text>
+        </annotation>
+        <annotation id="T16">
+          <infon key="brat-id">T16</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="10" offset="990"/>
+          <text>decreasing</text>
+        </annotation>
+        <relation id="E7">
+          <infon key="brat-id">E7</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T11" role="Decrease"/>
+          <node refid="T10" role="Theme"/>
+        </relation>
+        <relation id="E8">
+          <infon key="brat-id">E8</infon>
+          <infon key="type">Increase</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T13" role="Increase"/>
+          <node refid="T12" role="Theme"/>
+        </relation>
+        <relation id="E9">
+          <infon key="brat-id">E9</infon>
+          <infon key="type">And</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T14" role="And"/>
+          <node refid="E7" role="Part"/>
+          <node refid="E8" role="Part2"/>
+        </relation>
+        <relation id="E10">
+          <infon key="brat-id">E10</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T16" role="Decrease"/>
+          <node refid="T15" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">7</infon>
+        <offset>1026</offset>
+        <text>Our analyses revealed that differentially calcified species and morphotypes are distributed in the ocean according to carbonate chemistry.
+</text>
+      </sentence>
+      <sentence>
+        <infon key="n">8</infon>
+        <offset>1165</offset>
+        <text>A substantial impact on the marine carbon cycle might be expected upon extrapolation of this correlation to predicted ocean acidification in the future.
+</text>
+        <annotation id="T17">
+          <infon key="brat-id">T17</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="6" offset="1200"/>
+          <text>carbon</text>
+        </annotation>
+        <annotation id="T18">
+          <infon key="brat-id">T18</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="5" offset="1207"/>
+          <text>cycle</text>
+        </annotation>
+        <relation id="E11">
+          <infon key="brat-id">E11</infon>
+          <infon key="type">Change</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T18" role="Change"/>
+          <node refid="T17" role="Theme"/>
+        </relation>
+      </sentence>
+      <sentence>
+        <infon key="n">9</infon>
+        <offset>1318</offset>
+        <text>However, our discovery of a heavily calcified Emiliania huxleyi morphotype in modern waters with low pH highlights the complexity of assemblage-level responses to environmental forcing factors.
+</text>
+        <annotation id="T19">
+          <infon key="brat-id">T19</infon>
+          <infon key="type">Variable</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="2" offset="1419"/>
+          <text>pH</text>
+        </annotation>
+        <annotation id="T20">
+          <infon key="brat-id">T20</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">text-bound</infon>
+          <location length="3" offset="1415"/>
+          <text>low</text>
+        </annotation>
+        <relation id="E12">
+          <infon key="brat-id">E12</infon>
+          <infon key="type">Decrease</infon>
+          <infon key="brat-type">event</infon>
+          <node refid="T20" role="Decrease"/>
+          <node refid="T19" role="Theme"/>
+        </relation>
+      </sentence>
+    </passage>
+  </document>
+</collection>

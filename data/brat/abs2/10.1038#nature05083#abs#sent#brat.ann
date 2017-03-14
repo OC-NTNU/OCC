@@ -1,0 +1,45 @@
+T1	Variable 154 175	bloom-forming diatoms
+T2	Increase 144 150	growth
+E1	Increase:T2 Theme:T1
+T3	Variable 194 201	nitrate
+T4	Increase 189 193	high
+E2	Increase:T4 Theme:T3
+T5	Variable 206 217	chlorophyll
+T6	Decrease 202 205	low
+E3	Decrease:T6 Theme:T5
+T7	Variable 477 489	rare species
+T8	Increase 460 473	proliferation
+E4	Increase:T8 Theme:T7
+T9	Increase 506 512	growth
+E5	Increase:T9 Theme:T10
+T10	Variable 516 546	naturally dominant populations
+T11	Variable 732 745	phytoplankton
+T12	Increase 746 752	growth
+E6	Increase:T12 Theme:T11
+T13	Variable 998 1011	phytoplankton
+T14	Increase 1012 1018	growth
+E7	Increase:T14 Theme:T13
+T15	I_Increase 960 964	iron
+E8	I_Increase:T15 
+T16	Cause 987 997	regulating
+E9	Cause:T16 Agent:E8 Theme:E7
+T17	Variable 1171 1178	biomass
+T18	Increase 1179 1189	production
+E10	Increase:T18 Theme:T17
+T19	Variable 1100 1108	nitrogen
+T20	Variable 1113 1124	zooplankton
+T21	And 1109 1112	and
+E11	And:T21 Part:T19 Part2:T20
+T22	Change 1125 1132	grazing
+E12	Change:T22 Theme:E11
+T23	Cause 1162 1170	regulate
+E13	Cause:T23 Theme:E10 Agent:E11
+T24	Variable 1297 1339	productivity in the tropical Pacific basin
+T25	Decrease 1365 1370	lower
+E14	Decrease:T25 Theme:T24
+T26	Variable 1467 1483	ocean production
+T27	Change 1457 1463	change
+E15	Change:T27 Theme:T26
+T28	Variable 1501 1531	the largest El Nino to La Nina
+T29	Change 1532 1542	transition
+E16	Change:T29 Theme:T28

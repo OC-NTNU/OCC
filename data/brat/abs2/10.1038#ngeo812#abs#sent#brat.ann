@@ -1,0 +1,41 @@
+T1	Variable 118 132	the atmosphere
+T2	Variable 137 142	ocean
+T3	And 133 136	and
+E1	And:T3 Part:T1 Part2:T2
+T4	Change 97 109	Interactions
+E2	Change:T4 Theme:E1
+T5	Variable 298 315	mixed-layer depth
+T6	Change 284 294	Variations
+E3	Change:T6 Theme:T5
+T7	Variable 505 518	phytoplankton
+T8	Increase 495 501	growth
+E4	Increase:T8 Theme:T7
+T9	Variable 590 604	the atmosphere
+T10	Change 579 586	changes
+E5	Change:T10 Theme:T9
+T11	Variable 1053 1057	heat
+T12	Change 1058 1062	flux
+E6	Change:T12 Theme:T11
+T13	Variable 1114 1131	mixed-layer depth
+T14	Variable 1136 1159	sea surface temperature
+T15	And 1132 1135	and
+E7	And:T15 Part:T14 Part2:T13
+T16	Change 1103 1110	changes
+E8	Change:T16 Theme:E7
+T17	Variable 1197 1204	the SAM
+T18	Change 1186 1193	changes
+E9	Change:T18 Theme:T17
+T19	Variable 1294 1326	Southern Ocean mixed-layer depth
+T20	Change 1280 1290	variations
+E10	Change:T20 Theme:T19
+T21	Cause 1274 1279	drive
+E11	Cause:T21 Agent:E9 Theme:E10
+T22	Variable 1350 1357	air-sea
+T23	Change 1358 1366	exchange
+E12	Change:T23 Theme:T22
+T24	Variable 1391 1395	heat
+T25	Variable 1400 1406	carbon
+T26	And 1396 1399	and
+E13	And:T26 Part:T25 Part2:T24
+T27	Change 1374 1387	sequestration
+E14	Change:T27 Theme:E13
