@@ -11,7 +11,7 @@ Sirin Öztürk
 
 Norwegian University of Science and Technology (NTNU)
 Dept. of Computer and Information Science
-http://www.idi.ntnu.no/
+http://www.ntnu.edu/idi/
 
 Copyright: Norwegian University of Science and Technology, 2014-2016
 
@@ -54,26 +54,25 @@ Filename tags denote:
 
     #full         = full article text
     #abs          = article abstract
-    #sent         = selected sentences (one per line) extracted from xml source  
-    #brat         = annotated with Brat
-    #scnlp_vX.Y.Z = annotated with Stanford CoreNLP, version X.Y.Z 
-
+    #sent         = selected sentences (one per line) extracted from xml source
+    #bioc         = BioC XML format
+    #brat         = annotated in Brat format
+    #annot        = annotated in BioC format
 
 File extensions denote:
 
-    .txt = plain text, UTF-8 character encoding
-    .xml = XML markup for publication source or linguistic annotation (CoreNLP or BioC)
-    .soa = stand-off annotation (labeled text spans)
+    .txt = plain text, UTF-8 character encoding, for sentences or Brat text files
     .ann = Brat stand-off annotation
+    .xml = XML markup for publication source or linguistic annotation in BioC format
+    .soa = stand-off annotation (labeled text spans)
     .bib = citation info in Bibtex format
 
 So for example
 
-    10.1371#journal.pone.0079890#full#sent#scnlp_v3.4.1.xml
+    10.1371#journal.pone.0079890#full#sent#bioc#annot.xml
     
-is the Stanford CoreNLP (version 3.4.1) annotation for selected
-sentences from the full text of the article with DOI
-10.1371/journal.pone.0079890.
+is the annotation in BioC format for selected sentences from the full text of the
+article with DOI 10.1371/journal.pone.0079890.
 
 ------------------------------------------------------------------------------
 Directory structure
@@ -83,18 +82,18 @@ The data directory has the follwowing subdirs:
 
     data/xml          = XML source
     data/soa          = stand-off annotation and corresponding text
-    data/sent         = text from soa as one sentence per line
+    data/sent         = (selected) text from soa as one sentence per line
     data/brat         = Brat text and annotation
     data/bioc/collect = text as collection in BioC format
     data/bioc/annot   = text plus annotations as collection in BioC format
-    data/scnlp        = Stanford CoreNLP annotation
-    data/bib          = Bibtex files
+    data/bib          = references in BibTex format
 
-With the brat and bioc dirs, subdirs are used for different parts of the
-corpus:
+In the brat and bioc dirs, subdirs are used for different parts of the corpus:
 
-	pilot  = texts used for developing the initial annotation scheme
-	abs1   = abstracts of articles
+	pilot  = abstracts used for developing the initial annotation scheme
+	abs1   = first batch of article abstracts
+	abs2   = second batch of articles abstracts
+	iaa1   = abstracts used for pilot on inter-annotator agreement (adjucated)
 	full1  = full text articles
 
 ------------------------------------------------------------------------------
@@ -112,7 +111,7 @@ Notes
   nxml2txt script.
 
 - Sentence splitting for the other abstracts and full texts was done
-  with Stanford CoreNLP.
+  with Stanford CoreNLP, followed by manual correction.
 
 - Some abstracts lack any Brat annotation. This is not an error. It simply
   means no relevant events are present.
